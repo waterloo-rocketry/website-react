@@ -18,10 +18,11 @@
         "react"
     ],
     "rules": {
-        "no-unused-vars": "warn",
+        "no-unused-vars": 1,
         "react/prop-types": 0,
         "linebreak-style": 0,
-        "func-style": "off",
-        "allowArrowFunctions": true
+        "func-style": 0,
+        "arrow-body-style": 0,
+        "react/function-component-definition": 0
     }
 }
