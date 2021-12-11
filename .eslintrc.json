@@ -11,7 +11,7 @@
         "ecmaFeatures": {
             "jsx": true
         },
-        "ecmaVersion": 13,
+        "ecmaVersion": 12,
         "sourceType": "module"
     },
     "plugins": [
@@ -19,6 +19,9 @@
     ],
     "rules": {
         "no-unused-vars": "warn",
-        "react/prop-types": 0
+        "react/prop-types": 0,
+        "linebreak-style": 0,
+        "func-style": "off",
+        "allowArrowFunctions": true
     }
 }
