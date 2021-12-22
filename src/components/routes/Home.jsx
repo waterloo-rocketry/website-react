@@ -2,6 +2,8 @@ import { React } from 'react';
 
 import { Col, Container, Row } from 'react-bootstrap';
 
+import './Home.css';
+
 import CoverPhoto from '../CoverPhoto';
 import Content from './Content';
 import ImageLink from '../ImageLink';
@@ -16,9 +18,9 @@ const Home = () => {
     <>
       <CoverPhoto image={coverPhotoImage} />
       <Container fluid>
-        <Row>
+        <Row className="content-row">
           <Col md={6}>
-            <Content title="ABOUT US">
+            <Content className="content" title="ABOUT US">
               Waterloo Rocketry is a student design team from the University of Waterloo in Waterloo,
               Ontario. We currently have around 50 members, primarily undergraduate students in
               engineering, science, and mathematics. We design, build, and launch rockets to a target
@@ -39,7 +41,7 @@ const Home = () => {
             </Content>
           </Col>
         </Row>
-        <Row style={{ backgroundColor: '#f7f7f7' }}>
+        <Row className="image-link-row">
           <Col md={4}>
             <ImageLink title="ROCKETS" image={rocketsCoverImage} link="rockets">Take a look at what we&apos;ve worked on in the past.</ImageLink>
           </Col>

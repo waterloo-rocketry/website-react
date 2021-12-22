@@ -1,0 +1,14 @@
+.content-title {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.content-text {
+    text-align: left;
+    line-height: 135%;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+}

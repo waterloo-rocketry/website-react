@@ -1,0 +1,19 @@
+.footer {
+	height: 5rem;
+	text-align: center;
+	padding-top: 2.3rem;
+	background: #2b2b2b;
+	background-color: rgba(0, 0, 0, 0.90);
+}
+
+.footer a img {
+	height: 1.7rem;
+}
+
+.footer-col {
+	display: inline-block;
+}
+
+.footer-link {
+	margin: auto 2px;
+}
