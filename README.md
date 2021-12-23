@@ -9,14 +9,14 @@ Additionally, it is recommended that you use [Visual Studio Code](https://code.v
 
 ### Local Development
 ```sh 
-    # Clone the repo 
-    git clone https://github.com/waterloo-rocketry/website-react
-    cd website-react
-    # Install npm dependencies
-    npm install 
-    # Spin up the development server and start making changes. 
-    # You can have a live preview of the React app at http://localhost:3000/
-    npm start
+# Clone the repo 
+git clone https://github.com/waterloo-rocketry/website-react
+cd website-react
+# Install npm dependencies
+npm install 
+# Spin up the development server and start making changes. 
+# You can have a live preview of the React app at http://localhost:3000/
+npm start
 ```
 
 ### Deployment
