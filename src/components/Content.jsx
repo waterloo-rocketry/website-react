@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Content.css';
 
+// Text content with a title at the top
 const Content = ({ title, children }) => {
   return (
     <div>

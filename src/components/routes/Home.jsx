@@ -1,12 +1,11 @@
 import { React } from 'react';
-
 import { Col, Container, Row } from 'react-bootstrap';
 
-import './Home.css';
-
 import CoverPhoto from '../CoverPhoto';
-import Content from './Content';
+import Content from '../Content';
 import ImageLink from '../ImageLink';
+
+import './Home.css';
 
 import coverPhotoImage from '../../img/cover_photo.jpg';
 import rocketsCoverImage from '../../img/rockets_cover.jpg';
@@ -21,19 +20,20 @@ const Home = () => {
         <Row className="content-row">
           <Col md={6}>
             <Content className="content" title="ABOUT US">
-              Waterloo Rocketry is a student design team from the University of Waterloo in Waterloo,
-              Ontario. We currently have around 50 members, primarily undergraduate students in
-              engineering, science, and mathematics. We design, build, and launch rockets to a target
-              altitude of 30,000&apos; at the Intercollegiate Rocket Engineering Competition each June
-              at Spaceport America, New Mexico. Our team&apos;s primary objective is to provide students
+              Waterloo Rocketry is a student design team from the University of Waterloo in
+              Waterloo, Ontario. We currently have around 50 members, primarily
+              undergraduate students in engineering, science, and mathematics. We design,
+              build, and launch rockets to a target altitude of 30,000&apos; at the
+              Intercollegiate Rocket Engineering Competition each June at Spaceport America,
+              New Mexico. Our team&apos;s primary objective is to provide students
               with hands-on learning opportunities in research, design, analysis, fabrication, and
               testing throughout the entire engineering design cycle.
             </Content>
           </Col>
           <Col md={6}>
             <Content title="JOIN US">
-              We are dedicated to learning aerospace engineering in a competitive hands-on environment
-              through the Intercollegiate Rocket Engineering Competition.
+              We are dedicated to learning aerospace engineering in a competitive hands-on
+              environment through the Intercollegiate Rocket Engineering Competition.
               Our team is open to all, with no experience required to join. For more information,
               {' '}
               <a href="join">visit&nbsp;our&nbsp;Join&nbsp;page</a>

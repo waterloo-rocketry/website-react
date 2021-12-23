@@ -1,13 +1,14 @@
 import React from 'react';
+import { Col, Container, Image } from 'react-bootstrap';
 
 import './Footer.css';
 
-import { Col, Container, Image } from 'react-bootstrap';
 import facebookIcon from '../img/icon_fb.png';
 import flickrIcon from '../img/icon_flickr.png';
 import mailIcon from '../img/icon_mail.png';
 import youtubeIcon from '../img/icon_youtube.png';
 
+// Footer for all pages, containing links to social media
 const Footer = () => {
   return (
     <Container className="footer" fluid>

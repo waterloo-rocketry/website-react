@@ -3,15 +3,8 @@ a {
   text-decoration: none;  
 }
 
-.cover-photo {
-  	height: 39rem;
-	background-repeat: no-repeat;
-	background-position: 50% 60%;
-	background-size: cover;
-}
-
 .content-row {
-	margin: 2rem 0;
+	padding: 2rem
 }
 
 .image-link-row {

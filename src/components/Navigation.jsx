@@ -2,20 +2,22 @@ import React from 'react';
 import {
   Navbar, Container, Nav, Image,
 } from 'react-bootstrap';
-import bannerLogo from '../img/banner_logo.png';
 
 import routes from './routes';
 
 import './Navigation.css';
 
+import bannerLogo from '../img/banner_logo.png';
+
+// The navbar at the top of each page
 const Navigation = () => {
   return (
     <Navbar variant="dark" fixed="top" className="navbar">
-      <Container className="mx-2 navbar-container" fluid>
+      <Container className="navbar-container" fluid>
         <Navbar.Brand href="/">
           <Image
             src={bannerLogo}
-            alt="Waterloo Rocketry Banner Logo"
+            alt="Waterloo Rocketry Logo"
             className="banner-logo"
           />
         </Navbar.Brand>

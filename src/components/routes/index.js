@@ -1,3 +1,4 @@
+// A list of routes and their names to be used by components that require them
 const routes = [
   {
     href: 'join',

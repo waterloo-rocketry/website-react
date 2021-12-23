@@ -1,3 +1,9 @@
+.image-link-image {
+    display:block;
+    width: 90%;
+    margin: auto;
+}
+
 .image-link-title {
     text-align: center;
     font-family: 'Open Sans', Helvetica, sans-serif;

@@ -3,13 +3,14 @@ import { Image } from 'react-bootstrap';
 
 import './ImageLink.css';
 
+// A link consisting of an image, with a title below it, and a description
 const ImageLink = ({
   image, link, title, children,
 }) => {
   return (
     <>
       <a href={link}>
-        <Image src={image} alt={`Link: ${title}`} style={{ display: 'block', width: '90%', margin: 'auto' }} />
+        <Image className="image-link-image" src={image} alt={`Link: ${title}`} />
       </a>
       <h1 className="image-link-title">
         <a href={image}>{title}</a>
