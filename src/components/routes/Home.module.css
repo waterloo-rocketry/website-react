@@ -1,9 +1,8 @@
 .contentRow {
-	padding: 2rem
+	padding: 2rem 6rem;
 }
 
 .imageLinkRow {
 	background-color: #f7f7f7;
-	padding-top: 2rem;
-	padding-bottom: 1rem;
+	padding: 2rem 4rem 1rem;
 }
