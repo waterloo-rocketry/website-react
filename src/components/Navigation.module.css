@@ -1,4 +1,4 @@
-.banner-logo {
+.bannerLogo {
 	height: 2.3rem;
 }
 
@@ -6,11 +6,11 @@
   background: rgba(0, 0, 0, 0.85)
 }
 
-.navbar-container {
+.navbarContainer {
   margin: 0.25rem 0.5rem 0 0.5rem;
 }
 
-.navbar-link {
+.navbarLink {
   font-weight: 300;
   font-size: 1.1rem;
   display: inline-block;

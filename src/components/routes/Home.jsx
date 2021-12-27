@@ -5,7 +5,7 @@ import CoverPhoto from '../CoverPhoto';
 import Content from '../Content';
 import ImageLink from '../ImageLink';
 
-import './Home.css';
+import styles from './Home.module.css';
 
 import coverPhotoImage from '../../img/cover_photo.jpg';
 import rocketsCoverImage from '../../img/rockets_cover.jpg';
@@ -17,9 +17,9 @@ const Home = () => {
     <>
       <CoverPhoto image={coverPhotoImage} />
       <Container fluid>
-        <Row className="content-row">
+        <Row className={styles.contentRow}>
           <Col md={6}>
-            <Content className="content" title="ABOUT US">
+            <Content title="ABOUT US">
               Waterloo Rocketry is a student design team from the University of Waterloo in
               Waterloo, Ontario. We currently have around 50 members, primarily
               undergraduate students in engineering, science, and mathematics. We design,
@@ -41,7 +41,7 @@ const Home = () => {
             </Content>
           </Col>
         </Row>
-        <Row className="image-link-row">
+        <Row className={styles.imageLinkRow}>
           <Col md={4}>
             <ImageLink title="ROCKETS" image={rocketsCoverImage} link="rockets">Take a look at what we&apos;ve worked on in the past.</ImageLink>
           </Col>

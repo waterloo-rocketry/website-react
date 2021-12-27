@@ -5,25 +5,32 @@ import {
 
 import routes from './routes';
 
-import './Navigation.css';
+import styles from './Navigation.module.css';
 
-import bannerLogo from '../img/banner_logo.png';
+import bannerLogoImage from '../img/banner_logo.png';
 
 // The navbar at the top of each page
 const Navigation = () => {
   return (
-    <Navbar variant="dark" fixed="top" className="navbar">
-      <Container className="navbar-container" fluid>
+    <Navbar variant="dark" fixed="top" className={styles.navbar}>
+      <Container className={styles.navbarContainer} fluid>
         <Navbar.Brand href="/">
           <Image
-            src={bannerLogo}
+            src={bannerLogoImage}
             alt="Waterloo Rocketry Logo"
-            className="banner-logo"
+            className={styles.bannerLogo}
           />
         </Navbar.Brand>
         <Nav>
           {routes.map((route) => {
-            return (<Nav.Link className="navbar-link" href={route.href}>{route.title.toUpperCase()}</Nav.Link>);
+            return (
+              <Nav.Link
+                className={styles.navbarLink}
+                href={route.href}
+              >
+                {route.title.toUpperCase()}
+              </Nav.Link>
+            );
           })}
         </Nav>
       </Container>

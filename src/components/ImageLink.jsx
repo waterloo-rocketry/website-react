@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
 
-import './ImageLink.css';
+import styles from './ImageLink.module.css';
 
 // A link consisting of an image, with a title below it, and a description
 const ImageLink = ({
@@ -10,12 +10,12 @@ const ImageLink = ({
   return (
     <>
       <a href={link}>
-        <Image className="image-link-image" src={image} alt={`Link: ${title}`} />
+        <Image className={styles.imageLinkImage} src={image} alt={`Link: ${title}`} />
       </a>
-      <h1 className="image-link-title">
-        <a href={image}>{title}</a>
+      <h1 className={styles.imageLinkTitle}>
+        <a href={link}>{title}</a>
       </h1>
-      <p className="image-link-text">{children}</p>
+      <p className={styles.imageLinkText}>{children}</p>
     </>
   );
 };
