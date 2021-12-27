@@ -3,8 +3,6 @@ import {
   Navbar, Container, Nav, Image,
 } from 'react-bootstrap';
 
-import routes from './routes';
-
 import styles from './Navigation.module.css';
 
 import bannerLogoImage from '../img/banner_logo.png';
@@ -22,16 +20,33 @@ const Navigation = () => {
           />
         </Navbar.Brand>
         <Nav>
-          {routes.map((route) => {
-            return (
-              <Nav.Link
-                className={styles.navbarLink}
-                href={route.href}
-              >
-                {route.title.toUpperCase()}
-              </Nav.Link>
-            );
-          })}
+          <Nav.Link className={styles.navbarLink} href="join">
+            JOIN
+          </Nav.Link>
+          <Nav.Link className={styles.navbarLink} href="competition">
+            COMPETITION
+          </Nav.Link>
+          <Nav.Link className={styles.navbarLink} href="sponsors">
+            SPONSORS
+          </Nav.Link>
+          <Nav.Link className={styles.navbarLink} href="rockets">
+            ROCKETS
+          </Nav.Link>
+          <Nav.Link className={styles.navbarLink} href="subsystems">
+            SUBSYSTEMS
+          </Nav.Link>
+          <Nav.Link className={styles.navbarLink} href="team">
+            TEAM
+          </Nav.Link>
+          <Nav.Link className={styles.navbarLink} href="awards">
+            AWARDS
+          </Nav.Link>
+          <Nav.Link className={styles.navbarLink} href="outreach">
+            OUTREACH
+          </Nav.Link>
+          <Nav.Link className={styles.navbarLink} href="contact">
+            CONTACT
+          </Nav.Link>
         </Nav>
       </Container>
     </Navbar>
