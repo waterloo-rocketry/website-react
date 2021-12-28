@@ -41,7 +41,7 @@ const Home = () => {
             </Content>
           </Col>
         </Row>
-        <Row className={`${styles.imageLinkRow} px-5 py-4`}>
+        <Row className={`${styles.imageLinkRow} px-md-5 py-4`}>
           <Col md={4}>
             <ImageLink title="ROCKETS" image={rocketsCoverImage} link="rockets">Take a look at what we&apos;ve worked on in the past.</ImageLink>
           </Col>
