@@ -18,7 +18,7 @@ const Home = () => {
       <CoverPhoto image={coverPhotoImage} />
       <Container fluid>
         <Row className={`${styles.contentRow}`}>
-          <Col md={5}>
+          <Col lg={{ span: 4, offset: 1 }}>
             <Content title="ABOUT US">
               Waterloo Rocketry is a student design team from the University of Waterloo in
               Waterloo, Ontario. We currently have around 50 members, primarily
@@ -30,7 +30,7 @@ const Home = () => {
               testing throughout the entire engineering design cycle.
             </Content>
           </Col>
-          <Col md={{ span: 5, offset: 2 }}>
+          <Col lg={{ span: 4, offset: 2 }}>
             <Content title="JOIN US">
               We are dedicated to learning aerospace engineering in a competitive hands-on
               environment through the Intercollegiate Rocket Engineering Competition.
