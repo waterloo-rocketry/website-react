@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <CoverPhoto image={coverPhotoImage} />
       <Container fluid>
-        <Row className={`${styles.contentRow}`}>
+        <Row className="my-4 mx-2">
           <Col lg={{ span: 4, offset: 1 }}>
             <Content title="ABOUT US">
               Waterloo Rocketry is a student design team from the University of Waterloo in
@@ -41,7 +41,7 @@ const Home = () => {
             </Content>
           </Col>
         </Row>
-        <Row className={styles.imageLinkRow}>
+        <Row className={`${styles.imageLinkRow} px-5 py-4`}>
           <Col md={4}>
             <ImageLink title="ROCKETS" image={rocketsCoverImage} link="rockets">Take a look at what we&apos;ve worked on in the past.</ImageLink>
           </Col>

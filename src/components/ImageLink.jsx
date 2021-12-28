@@ -12,7 +12,7 @@ const ImageLink = ({
       <a href={link}>
         <Image className={styles.imageLinkImage} src={image} alt={`Link: ${title}`} />
       </a>
-      <h1 className={styles.imageLinkTitle}>
+      <h1 className={`${styles.imageLinkTitle} pt-3`}>
         <a href={link}>{title}</a>
       </h1>
       <p className={styles.imageLinkText}>{children}</p>
