@@ -6,6 +6,10 @@
   background: rgba(0, 0, 0, 0.85)
 }
 
+.nav {
+  width: 100%;
+}
+
 .navbarContainer {
   margin: 0.25rem 0.5rem 0 0.5rem;
 }

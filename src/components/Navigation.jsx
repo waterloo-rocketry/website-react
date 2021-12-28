@@ -10,7 +10,7 @@ import bannerLogoImage from '../img/banner_logo.png';
 // The navbar at the top of each page
 const Navigation = () => {
   return (
-    <Navbar variant="dark" fixed="top" className={styles.navbar}>
+    <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className={styles.navbar}>
       <Container className={styles.navbarContainer} fluid>
         <Navbar.Brand href="/">
           <Image
@@ -19,35 +19,38 @@ const Navigation = () => {
             className={styles.bannerLogo}
           />
         </Navbar.Brand>
-        <Nav>
-          <Nav.Link className={styles.navbarLink} href="join">
-            JOIN
-          </Nav.Link>
-          <Nav.Link className={styles.navbarLink} href="competition">
-            COMPETITION
-          </Nav.Link>
-          <Nav.Link className={styles.navbarLink} href="sponsors">
-            SPONSORS
-          </Nav.Link>
-          <Nav.Link className={styles.navbarLink} href="rockets">
-            ROCKETS
-          </Nav.Link>
-          <Nav.Link className={styles.navbarLink} href="subsystems">
-            SUBSYSTEMS
-          </Nav.Link>
-          <Nav.Link className={styles.navbarLink} href="team">
-            TEAM
-          </Nav.Link>
-          <Nav.Link className={styles.navbarLink} href="awards">
-            AWARDS
-          </Nav.Link>
-          <Nav.Link className={styles.navbarLink} href="outreach">
-            OUTREACH
-          </Nav.Link>
-          <Nav.Link className={styles.navbarLink} href="contact">
-            CONTACT
-          </Nav.Link>
-        </Nav>
+        <Navbar.Toggle />
+        <Navbar.Collapse>
+          <Nav className={`${styles.nav} justify-content-end`}>
+            <Nav.Link className={styles.navbarLink} href="join">
+              JOIN
+            </Nav.Link>
+            <Nav.Link className={styles.navbarLink} href="competition">
+              COMPETITION
+            </Nav.Link>
+            <Nav.Link className={styles.navbarLink} href="sponsors">
+              SPONSORS
+            </Nav.Link>
+            <Nav.Link className={styles.navbarLink} href="rockets">
+              ROCKETS
+            </Nav.Link>
+            <Nav.Link className={styles.navbarLink} href="subsystems">
+              SUBSYSTEMS
+            </Nav.Link>
+            <Nav.Link className={styles.navbarLink} href="team">
+              TEAM
+            </Nav.Link>
+            <Nav.Link className={styles.navbarLink} href="awards">
+              AWARDS
+            </Nav.Link>
+            <Nav.Link className={styles.navbarLink} href="outreach">
+              OUTREACH
+            </Nav.Link>
+            <Nav.Link className={styles.navbarLink} href="contact">
+              CONTACT
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
