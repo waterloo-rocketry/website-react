@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.a617e044.chunk.css",
-    "main.js": "/static/js/main.392b9ae2.chunk.js",
-    "main.js.map": "/static/js/main.392b9ae2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.53002e26.js",
-    "runtime-main.js.map": "/static/js/runtime-main.53002e26.js.map",
-    "static/js/2.96458219.chunk.js": "/static/js/2.96458219.chunk.js",
-    "static/js/2.96458219.chunk.js.map": "/static/js/2.96458219.chunk.js.map",
-    "static/js/3.ff91092c.chunk.js": "/static/js/3.ff91092c.chunk.js",
-    "static/js/3.ff91092c.chunk.js.map": "/static/js/3.ff91092c.chunk.js.map",
+    "main.css": "/static/css/main.b7039c9f.chunk.css",
+    "main.js": "/static/js/main.8ab322ad.chunk.js",
+    "main.js.map": "/static/js/main.8ab322ad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d545b193.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d545b193.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.e7ebe619.chunk.js": "/static/js/2.e7ebe619.chunk.js",
+    "static/js/2.e7ebe619.chunk.js.map": "/static/js/2.e7ebe619.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.96458219.chunk.js.LICENSE.txt": "/static/js/2.96458219.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.b7039c9f.chunk.css.map": "/static/css/main.b7039c9f.chunk.css.map",
+    "static/js/2.e7ebe619.chunk.js.LICENSE.txt": "/static/js/2.e7ebe619.chunk.js.LICENSE.txt",
+    "static/media/banner_logo.b84c5f4c.png": "/static/media/banner_logo.b84c5f4c.png",
+    "static/media/cover_photo.ce7f0f33.jpg": "/static/media/cover_photo.ce7f0f33.jpg",
+    "static/media/gallery_cover.fbe56044.jpg": "/static/media/gallery_cover.fbe56044.jpg",
+    "static/media/rockets_cover.a8ca2303.jpg": "/static/media/rockets_cover.a8ca2303.jpg",
+    "static/media/sponsors_cover.997c7545.jpg": "/static/media/sponsors_cover.997c7545.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.53002e26.js",
-    "static/js/2.96458219.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.392b9ae2.chunk.js"
+    "static/js/runtime-main.d545b193.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.e7ebe619.chunk.js",
+    "static/css/main.b7039c9f.chunk.css",
+    "static/js/main.8ab322ad.chunk.js"
   ]
 }
