@@ -5,24 +5,34 @@
 }
 
 .imageLinkTitle {
-  text-align: center;
   font-weight: 500;
   font-size: 1.5rem;
-}
-.imageLinkTitle > a {
-  color: black;
   margin: 1rem;
-  transition: color 0.3s ease-in;
 }
 
 .imageLinkText {
-  text-align: center;
   line-height: 135%;
   font-weight: 400;
   font-size: 0.9rem;
 }
 
-.imageLinkText > a:hover {
-  color: grey
+.imageLinkContainer {
+  transition: transform 0.3s ease;
 }
+
+.imageLinkContainer:hover {
+  transform: scale(1.005);
+}
+
+.imageLinkContainer a {
+  color: black;
+  text-align: center;
+  transition: color 0.3s ease-in;
+}
+
+.imageLinkContainer:hover a {
+  color: grey;
+}
+
+
 
