@@ -1,0 +1,22 @@
+.bannerLogo {
+  height: 2.3rem;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.85)
+}
+
+.nav {
+  width: 100%;
+}
+
+.navbarContainer {
+  margin: 0.25rem 0.5rem 0 0.5rem;
+}
+
+.navbarLink {
+  font-weight: 300;
+  font-size: 1.1rem;
+  display: inline-block;
+  padding-bottom: 0.8rem;
+}

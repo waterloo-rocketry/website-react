@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Waterloo Rocketry Website - React Revamp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React rebuild of the Waterloo Rocketry website - see the [repo for the standard site](https://github.com/waterloo-rocketry/website) for more info. 
 
-## Available Scripts
+### Requirements
+[Node 16](https://nodejs.org/en/download/) is required.
 
-In the project directory, you can run:
+Additionally, it is recommended that you use [Visual Studio Code](https://code.visualstudio.com/download) with the [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for development, as it will take care of code formatting and enforcing code style for you.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Local Development
+```sh 
+# Clone the repo 
+git clone https://github.com/waterloo-rocketry/website-react
+cd website-react
+# Install npm dependencies
+npm install 
+# Spin up the development server and start making changes. 
+# You can have a live preview of the React app at http://localhost:3000/
+npm start
+```
 
 ### Deployment
+The React application is deployed to GitHub Pages whenever a commit is made to `master` no extra work is required on your end.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Style Guide (from original repo)
+We generally try to use British/Canadian spellings over American ones. A non-exhaustive list of relevant words this impacts:
+* Aluminium, not aluminum
+* Mould, not mold
+* Fibre(glass), not fiber(glass)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Consistency matters more than strictly going the Canadian way - if you're unsure, try `grepping` it (or ask one of us). :)
