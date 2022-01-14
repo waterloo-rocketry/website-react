@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {
-  Route, HashRouter, Routes as Switch,
+  Route, BrowserRouter, Routes,
 } from 'react-router-dom';
 
 import Navigation from './components/Navigation';
@@ -14,17 +14,17 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowserRouter basename="/website-react">
       <Navigation />
-      <Switch>
+      <Routes>
         <Route
           exact
           path="/"
           element={<Page title="Home"><Home /></Page>}
         />
-      </Switch>
+      </Routes>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>,
 
   document.getElementById('root'),
