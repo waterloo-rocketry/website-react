@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {
-  Route, BrowserRouter, Routes as Switch,
+  Route, HashRouter, Routes as Switch,
 } from 'react-router-dom';
 
 import Navigation from './components/Navigation';
@@ -13,16 +13,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Navigation />
-    <Switch>
-      <Route
-        path="/"
-        element={<Page title="Home"><Home /></Page>}
-      />
-    </Switch>
-    <Footer />
-  </BrowserRouter>,
+  <React.StrictMode>
+    <HashRouter>
+      <Navigation />
+      <Switch>
+        <Route
+          exact
+          path="/"
+          element={<Page title="Home"><Home /></Page>}
+        />
+      </Switch>
+      <Footer />
+    </HashRouter>
+  </React.StrictMode>,
 
   document.getElementById('root'),
 );
