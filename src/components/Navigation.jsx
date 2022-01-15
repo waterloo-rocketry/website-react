@@ -3,6 +3,8 @@ import {
   Navbar, Container, Nav, Image,
 } from 'react-bootstrap';
 
+import { Link } from 'react-router-dom';
+
 import styles from './Navigation.module.css';
 
 import bannerLogoImage from '../img/banner_logo.png';
@@ -12,7 +14,7 @@ const Navigation = () => {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className={styles.navbar}>
       <Container className={styles.navbarContainer} fluid>
-        <Navbar.Brand href="/">
+        <Navbar.Brand as={Link} to="/">
           <Image
             src={bannerLogoImage}
             alt="Waterloo Rocketry Logo"
@@ -22,31 +24,31 @@ const Navigation = () => {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className={`${styles.nav} justify-content-end`}>
-            <Nav.Link className={styles.navbarLink} href="join">
+            <Nav.Link as={Link} className={styles.navbarLink} to="join">
               JOIN
             </Nav.Link>
-            <Nav.Link className={styles.navbarLink} href="competition">
+            <Nav.Link as={Link} className={styles.navbarLink} to="competition">
               COMPETITION
             </Nav.Link>
-            <Nav.Link className={styles.navbarLink} href="sponsors">
+            <Nav.Link as={Link} className={styles.navbarLink} to="sponsors">
               SPONSORS
             </Nav.Link>
-            <Nav.Link className={styles.navbarLink} href="rockets">
+            <Nav.Link as={Link} className={styles.navbarLink} to="rockets">
               ROCKETS
             </Nav.Link>
-            <Nav.Link className={styles.navbarLink} href="subsystems">
+            <Nav.Link as={Link} className={styles.navbarLink} to="subsystems">
               SUBSYSTEMS
             </Nav.Link>
-            <Nav.Link className={styles.navbarLink} href="team">
+            <Nav.Link as={Link} className={styles.navbarLink} to="team">
               TEAM
             </Nav.Link>
-            <Nav.Link className={styles.navbarLink} href="awards">
+            <Nav.Link as={Link} className={styles.navbarLink} to="awards">
               AWARDS
             </Nav.Link>
-            <Nav.Link className={styles.navbarLink} href="outreach">
+            <Nav.Link as={Link} className={styles.navbarLink} to="outreach">
               OUTREACH
             </Nav.Link>
-            <Nav.Link className={styles.navbarLink} href="contact">
+            <Nav.Link as={Link} className={styles.navbarLink} to="contact">
               CONTACT
             </Nav.Link>
           </Nav>

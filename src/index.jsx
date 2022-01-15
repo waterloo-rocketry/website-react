@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {
-  Route, BrowserRouter, Routes as Switch,
+  Route, BrowserRouter, Routes,
 } from 'react-router-dom';
 
 import Navigation from './components/Navigation';
@@ -13,16 +13,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Navigation />
-    <Switch>
-      <Route
-        path="/"
-        element={<Page title="Home"><Home /></Page>}
-      />
-    </Switch>
-    <Footer />
-  </BrowserRouter>,
+  <React.StrictMode>
+    <BrowserRouter basename="/website-react">
+      <Navigation />
+      <Routes>
+        <Route
+          exact
+          path="/"
+          element={<Page title="Home"><Home /></Page>}
+        />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  </React.StrictMode>,
 
   document.getElementById('root'),
 );
