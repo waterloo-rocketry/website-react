@@ -7,6 +7,7 @@ import {
 import Navigation from './components/Navigation';
 import Page from './components/Page';
 import Home from './components/routes/Home';
+import Awards from './components/routes/Awards';
 import Footer from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,6 +20,10 @@ ReactDOM.render(
       <Route
         path="/"
         element={<Page title="Home"><Home /></Page>}
+      />
+      <Route
+        path="awards"
+        element={<Page title="Awards"><Awards /></Page>}
       />
     </Switch>
     <Footer />
