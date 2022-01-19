@@ -7,6 +7,7 @@ import {
 import Navigation from './components/Navigation';
 import Page from './components/Page';
 import Home from './components/routes/Home';
+import Competition from './components/routes/competition';
 import Footer from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,8 +24,9 @@ ReactDOM.render(
           element={<Page title="Home"><Home /></Page>}
         />
         <Route
+          exact
           path="/competition"
-          element={<Page title="Competition"><Home /></Page>}
+          element={<Page title="Competition"><Competition /></Page>}
         />
       </Routes>
       <Footer />
