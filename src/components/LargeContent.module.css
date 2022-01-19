@@ -1,0 +1,11 @@
+.largecontentTitle {
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+  
+  .largecontentText {
+    text-align: left;
+    line-height: 135%;
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
