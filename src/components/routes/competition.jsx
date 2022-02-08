@@ -5,7 +5,7 @@ import CoverPhoto from '../CoverPhoto';
 import Content from '../LargeContent';
 import ImageLink from '../ImageLink';
 
-import styles from './Home.module.css';
+import styles from './Competition.module.css';
 
 import compPhotoImage from '../../img/comp_photo.jpg';
 import spacegroupCoverImage from '../../img/spaceport_group.jpg';

@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './LargeContent.module.css';
 
 // Text content with a title at the top
-const Content = ({ title, children }) => {
+const LargeContent = ({ title, children }) => {
   return (
     <div>
       <h1 className={styles.largecontentTitle}>{title}</h1>
@@ -15,4 +15,4 @@ const Content = ({ title, children }) => {
   );
 };
 
-export default Content;
+export default LargeContent;
