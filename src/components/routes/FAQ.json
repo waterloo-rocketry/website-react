@@ -1,0 +1,44 @@
+[
+    {
+        "question": "Who can join the team? What requirements or prerequisites are there? How do I apply?",
+        "answer": "The only requirement to join the team is to be a student at the University of Waterloo. No prior experience is required, and there is no application process. The team is open and welcome to everyone, not just engineering students.",
+        "bullets": []
+    },
+    {
+        "question": "What time commitment is required of team members?",
+        "answer": "There is no \"time commitment\" that a team member needs to meet. Of course, if you take on work for a project, then it is expected that you communicate with the subteam to ensure it is finished in a reasonable time period. In terms of \"hours per week\" etc, however, you can put as much or as little in as you wish.",
+        "bullets": []
+    },
+    {
+        "question": "What do the team's day to day operations look like?",
+        "answer": "The team is split up into different subteams - for example - electrical, recovery, propulsion, etc. Each subteam has regular meetings, usually once a week, while the entire team gathers for a weekly general meeting. Each subteam is responsible for a different part of the rocket and supporting equipment. A subteam lead supervises the operation of each subteam. You are not restricted to any one subteam; you can be apart of as many as you want. Communication is done primarily through a Slack workspace.",
+        "bullets": []
+    },
+    {
+        "question": "What will I be able to do as a new member?",
+        "answer": "What you start off with will depend on what stage our projects are at, as well as your own preference and comfort level. There is usually a variety of ongoing tasks to choose from. Some examples of past projects that first-years have worked on are:",
+        "bullets": [
+            "Designing a test operations procedures simulator in Python", 
+            "Sourcing and obtaining sponsorship for components of our data acquisition system", 
+            "Designing part of a scientific experiment measuring radiation throughout flight", 
+            "Machining an aluminium bulkhead for the recovery system", 
+            "Representing the team at high school and university outreach events"
+        ]
+    },
+    {
+        "question": "Can I join Waterloo Rocketry if I am in a different student design team?",
+        "answer": "Sure! We don't mind if you're on another design team, but there's no guarantee our meeting times won't overlap.",
+        "bullets": []
+    },
+    {
+        "question": "How can I learn more about the team in general?",
+        "answer": "",
+        "bullets": [
+            "To learn about the annual competition we compete in, see our competition page.", 
+            "To learn about all the subteams our team is comprised of, see our subsystems page.",
+            "To learn about the rockets we build each year, see our rockets page.",
+            "To learn about our team members, see our team page.",
+            "To learn about our past successes, see our awards page."
+        ]
+    }
+]
