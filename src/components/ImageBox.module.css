@@ -1,0 +1,24 @@
+.imageBoxImage {
+  display: block;
+  width: 40rem;
+  margin: auto;
+  margin-bottom: '3rem';
+}
+
+.imageBoxContainer {
+  transition: transform 0.3s ease;
+}
+
+.imageBoxContainer:hover {
+  transform: scale(1.005);
+}
+
+.imageBoxContainer a {
+  color: black;
+  text-align: center;
+  transition: color 0.3s ease-in;
+}
+
+.imageBoxContainer:hover a {
+  color: grey;
+}

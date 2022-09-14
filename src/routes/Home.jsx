@@ -1,21 +1,21 @@
 import { React } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
-import CoverPhoto from '../CoverPhoto';
-import Content from '../Content';
-import ImageLink from '../ImageLink';
+import CoverPhoto from '../components/CoverPhoto';
+import Content from '../components/Content';
+import ImageLink from '../components/ImageLink';
 
-import styles from './Home.module.css';
+import styles from './css/Home.module.css';
 
-import coverPhotoImage from '../../img/cover_photo.jpg';
-import rocketsCoverImage from '../../img/rockets_cover.jpg';
-import sponsorsCoverImage from '../../img/sponsors_cover.jpg';
-import galleryCoverImage from '../../img/gallery_cover.jpg';
+import coverPhotoImage from '../img/home/cover_home.jpg';
+import rocketsCoverImage from '../img/home/cover_rockets.jpg';
+import sponsorsCoverImage from '../img/home/cover_sponsors.jpg';
+import galleryCoverImage from '../img/home/cover_gallery.jpg';
 
 const Home = () => {
   return (
     <>
-      <CoverPhoto image={coverPhotoImage} />
+      <CoverPhoto image={coverPhotoImage} height="39rem" position="50% 60%" />
       <Container fluid>
         <Row className="my-4 mx-2 gx-5 justify-content-center">
           <Col lg={{ span: 4 }}>

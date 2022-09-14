@@ -6,7 +6,12 @@ import {
 
 import Navigation from './components/Navigation';
 import Page from './components/Page';
-import Home from './components/routes/Home';
+
+// pages
+import Home from './routes/Home';
+import Competition from './routes/Competition';
+import Join from './routes/Join';
+
 import Footer from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -21,6 +26,20 @@ ReactDOM.render(
           exact
           path="/"
           element={<Page title="Home"><Home /></Page>}
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/competition"
+          element={<Page title="Competition"><Competition /></Page>}
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/join"
+          element={<Page title="Join Us"><Join /></Page>}
         />
       </Routes>
       <Footer />
