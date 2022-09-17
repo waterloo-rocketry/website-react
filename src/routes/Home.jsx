@@ -1,9 +1,9 @@
 import { React } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
-import CoverPhoto from '../components/CoverPhoto';
-import Content from '../components/Content';
-import ImageLink from '../components/ImageLink';
+import CoverPhoto from '../components/CoverPhoto/CoverPhoto';
+import Content from '../components/Content/Content';
+import ImageLink from '../components/ImageLink/ImageLink';
 
 import styles from './css/Home.module.css';
 

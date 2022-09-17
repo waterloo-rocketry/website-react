@@ -3,9 +3,9 @@ import {
   Col, Container, Row,
 } from 'react-bootstrap';
 
-import CoverPhoto from '../components/CoverPhoto';
-import Content from '../components/Content';
-import ImageBox from '../components/ImageBox';
+import CoverPhoto from '../components/CoverPhoto/CoverPhoto';
+import Content from '../components/Content/Content';
+import ImageBox from '../components/ImageBox/ImageBox';
 
 import compCoverImage from '../img/competition/cover_comp.jpg';
 import SpaceportImage from '../img/competition/spaceport_group.jpg';
@@ -36,7 +36,7 @@ const Competition = () => {
               <p>
                 Visit the official competition page
                 {' '}
-                <a href="join">here</a>
+                <a href="https://www.soundingrocket.org/">here</a>
                 .
               </p>
             </Content>

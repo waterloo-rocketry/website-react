@@ -1,10 +1,10 @@
 import { React } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
-import CoverPhoto from '../components/CoverPhoto';
-import Content from '../components/Content';
-import DividerLine from '../components/DividerLine';
-import SubsectionTitle from '../components/SubsectionTitle';
+import CoverPhoto from '../components/CoverPhoto/CoverPhoto';
+import Content from '../components/Content/Content';
+import DividerLine from '../components/DividerLine/DividerLine';
+import SubsectionTitle from '../components/SubsectionTitle/SubsectionTitle';
 
 import styles from './css/Join.module.css';
 
