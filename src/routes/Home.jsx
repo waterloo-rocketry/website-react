@@ -8,9 +8,9 @@ import ImageLink from '../components/ImageLink/ImageLink';
 import styles from './css/Home.module.css';
 
 import coverPhotoImage from '../img/home/cover_home.jpg';
-import rocketsCoverImage from '../img/home/cover_rockets.jpg';
-import sponsorsCoverImage from '../img/home/cover_sponsors.jpg';
-import galleryCoverImage from '../img/home/cover_gallery.jpg';
+import rocketsCoverImage from '../img/home/link_to_rockets.jpg';
+import sponsorsCoverImage from '../img/home/link_to_sponsors.jpg';
+import galleryCoverImage from '../img/home/link_to_gallery.jpg';
 
 const Home = () => {
   return (
