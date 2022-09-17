@@ -1,5 +1,5 @@
 import { React } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 import CoverPhoto from '../components/CoverPhoto/CoverPhoto';
 import Content from '../components/Content/Content';
@@ -49,9 +49,6 @@ const Join = () => {
 
         <DividerLine />
 
-        <Row className="my-4 mx-2 gx-5 justify-content-center">
-          <SubsectionTitle title="FREQUENTLY ASKED QUESTIONS" />
-        </Row>
         <Row className={`my-0 ${styles.faqContainer}`}>
           <SubsectionTitle title="FREQUENTLY ASKED QUESTIONS" />
         </Row>
