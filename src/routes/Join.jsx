@@ -4,9 +4,9 @@ import { Container, Row } from 'react-bootstrap';
 import CoverPhoto from '../components/CoverPhoto/CoverPhoto';
 import Content from '../components/Content/Content';
 import DividerLine from '../components/DividerLine/DividerLine';
-import SubsectionTitle from '../components/SubsectionTitle/SubsectionTitle';
+// import SubsectionTitle from '../components/SubsectionTitle/SubsectionTitle';
 
-import styles from './css/Join.module.css';
+// import styles from './css/Join.module.css';
 
 import joinCoverPhoto from '../img/join/cover_join.jpg';
 
@@ -49,9 +49,9 @@ const Join = () => {
 
         <DividerLine />
 
-        <Row className={`my-0 ${styles.faqContainer}`}>
+        {/* <Row className={`my-0 ${styles.faqContainer}`}>
           <SubsectionTitle title="FREQUENTLY ASKED QUESTIONS" />
-        </Row>
+        </Row> */}
 
       </Container>
     </>
