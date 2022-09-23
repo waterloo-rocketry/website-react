@@ -11,7 +11,7 @@ import Page from './components/Page';
 import Home from './routes/Home';
 import Competition from './routes/Competition';
 import Join from './routes/Join';
-import Rockets from './routes/Rockets';
+// import Rockets from './routes/Rockets';
 
 import Footer from './components/Footer/Footer';
 
@@ -43,13 +43,13 @@ ReactDOM.render(
           element={<Page title="Join Us"><Join /></Page>}
         />
       </Routes>
-      <Routes>
+      {/* <Routes>
         <Route
           exact
           path="/rockets"
           element={<Page title="Rockets"><Rockets /></Page>}
         />
-      </Routes>
+      </Routes> */}
       <Footer />
     </BrowserRouter>
   </React.StrictMode>,
