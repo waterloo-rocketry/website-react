@@ -13,7 +13,7 @@ import joinCoverPhoto from '../img/join/cover_join.jpg';
 const Join = () => {
   return (
     <>
-      <CoverPhoto style={{ backgroundImage: joinCoverPhoto, height: '28rem', backgroundPosition: 'center bottom' }} />
+      <CoverPhoto image={joinCoverPhoto} style={{ height: '28rem', backgroundPosition: 'center bottom' }} />
       <Container fluid>
         <Row className="my-4 mx-2 gx-5 justify-content-center">
           <Content title="WHY JOIN US?">
