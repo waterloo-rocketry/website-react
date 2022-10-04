@@ -15,7 +15,7 @@ import galleryCoverImage from '../img/home/link_to_gallery.jpg';
 const Home = () => {
   return (
     <>
-      <CoverPhoto image={coverPhotoImage} height="39rem" position="50% 60%" />
+      <CoverPhoto image={coverPhotoImage} style={{ height: '39rem', backgroundPosition: '50% 60%' }} />
       <Container fluid>
         <Row className="my-4 mx-2 gx-5 justify-content-center">
           <Col lg={{ span: 4 }}>
@@ -36,7 +36,7 @@ const Home = () => {
               environment through the Intercollegiate Rocket Engineering Competition.
               Our team is open to all, with no experience required to join. For more information,
               {' '}
-              <a href="join">visit&nbsp;our&nbsp;Join&nbsp;page</a>
+              <a href="join">visit our Join page</a>
               .
             </Content>
           </Col>

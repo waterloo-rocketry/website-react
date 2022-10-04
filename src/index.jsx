@@ -11,6 +11,7 @@ import Page from './components/Page';
 import Home from './routes/Home';
 import Competition from './routes/Competition';
 import Join from './routes/Join';
+
 import Rockets from './routes/Rockets';
 // eslint-disable-next-line import/no-named-as-default
 import Sponsors from './routes/Sponsors';
