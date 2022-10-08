@@ -20,9 +20,7 @@ const FAQComponent = ({ children, questionText, index }) => {
       <Collapse in={isExpanded}>
         <div>
           <div className={`mx-auto ${styles.answer}`} id={`FAQ${index}`}>
-            <div className={`${styles.answerText}`}>
-              { children }
-            </div>
+            { children }
           </div>
         </div>
       </Collapse>
