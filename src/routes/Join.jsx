@@ -12,33 +12,6 @@ import styles from './css/Join.module.css';
 import joinCoverPhoto from '../img/join/cover_join.jpg';
 
 const Join = () => {
-  const TextOnlyQuestions = [
-    {
-      q: 'Who can join the team? What requirements or prerequisites are there? How do I apply?',
-      a: `The only requirement to join the team is to be a student at the University of Waterloo.
-        No prior experience is required, and there is no application process. The team is open and
-        welcome to everyone, not just engineering students.`,
-    },
-    {
-      q: 'What time commitment is required of team members?',
-      a: `There is no "time commitment" that a team member needs to meet. Of course, if you take on work for a project,
-      then it is expected that you communicate with the subteam to ensure it is finished in a reasonable time period.
-      In terms of "hours per week" etc, however, you can put as much or as little in as you wish.`,
-    },
-    {
-      q: 'What do the team\'s day to day operations look like?',
-      a: `The team is split up into different subteams - for example - electrical, recovery, propulsion, etc. Each
-      subteam has regular meetings, usually once a week, while the entire team gathers for a weekly general meeting.
-      Each subteam is responsible for a different part of the rocket and supporting equipment.
-      A subteam lead supervises the operation of each subteam. You are not restricted to any one subteam; you can be apart of as 
-      many as you want. Communication is done primarily through a Slack workspace.`,
-    },
-    {
-      q: 'Can I join Waterloo Rocketry if I am in a different student design team?',
-      a: 'Sure! We don\'t mind if you\'re on another design team, but there\'s no guarantee our meeting times won\'t overlap.',
-    },
-  ];
-
   return (
     <>
       <CoverPhoto image={joinCoverPhoto} style={{ height: '28rem', backgroundPosition: 'center bottom' }} />
@@ -89,6 +62,45 @@ const Join = () => {
             },
           ) }
 
+          <FAQComponent questionText="Who can join the team? What requirements or prerequisites are there? How do I apply?" index={0}>
+            <div>
+              The only requirement to join the team is to be a student at the University of
+              Waterloo. No prior experience is required, and there is no application process. The
+              team is open and welcome to everyone, not just engineering students.
+            </div>
+          </FAQComponent>
+
+          <FAQComponent questionText="What time commitment is required of team members?" index={1}>
+            <div>
+              There is no &quot;time commitment&quot; that a team member needs to meet. Of course,
+              if you take on work for a project,
+              then it is expected that you communicate with the subteam to ensure it is finished in
+              a reasonable time period.
+              In terms of &quot;hours per week&quot; etc, however, you can put as much or as little
+              in as you wish.
+            </div>
+          </FAQComponent>
+
+          <FAQComponent questionText="What do the team's day to day operations look like?" index={2}>
+            <div>
+              The team is split up into different subteams - for example - electrical, recovery,
+              propulsion, etc. Each subteam has regular meetings, usually once a week, while the
+              entire team gathers for a weekly general meeting.
+              Each subteam is responsible for a different part of the rocket and supporting
+              equipment.
+              A subteam lead supervises the operation of each subteam. You are not restricted to
+              any one subteam; you can be a part of as many as you want. Communication is done
+              primarily through a Slack workspace.
+            </div>
+          </FAQComponent>
+
+          <FAQComponent questionText="Can I join Waterloo Rocketry if I am in a different student design team?" index={3}>
+            <div>
+              Sure! We don&apos;t mind if you&apos;re on another design team, but there&apos;s no
+              guarantee our meeting times won&apos;t overlap.
+            </div>
+          </FAQComponent>
+
           <FAQComponent questionText="What will I be able to do as a new member?" index={4}>
             <div>
               What you start off with will depend on what stage our projects are at, as well as your
@@ -116,6 +128,7 @@ const Join = () => {
               section that can provide a better glimpse of available work.
             </div>
           </FAQComponent>
+
           <FAQComponent questionText="How can I learn more about the team in general?" index={5}>
             <div>
               To learn about the annual competition we compete in, see our
