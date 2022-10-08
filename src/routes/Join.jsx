@@ -52,16 +52,6 @@ const Join = () => {
 
         <Row className={`${styles.faqContainer}`}>
           <SubsectionTitle title="FREQUENTLY ASKED QUESTIONS" />
-          { TextOnlyQuestions.map(
-            (question, index) => {
-              return (
-                <FAQComponent questionText={question.q} index={index}>
-                  <div>{question.a}</div>
-                </FAQComponent>
-              );
-            },
-          ) }
-
           <FAQComponent questionText="Who can join the team? What requirements or prerequisites are there? How do I apply?" index={0}>
             <div>
               The only requirement to join the team is to be a student at the University of
