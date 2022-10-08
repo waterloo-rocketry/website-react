@@ -18,9 +18,11 @@ const FAQComponent = ({ children, questionText, index }) => {
         { questionText }
       </Button>
       <Collapse in={isExpanded}>
-        <div className={`mx-auto ${styles.answer}`} id={`FAQ${index}`}>
-          <div className={`${styles.answerText}`}>
-            { children }
+        <div>
+          <div className={`mx-auto ${styles.answer}`} id={`FAQ${index}`}>
+            <div className={`${styles.answerText}`}>
+              { children }
+            </div>
           </div>
         </div>
       </Collapse>
