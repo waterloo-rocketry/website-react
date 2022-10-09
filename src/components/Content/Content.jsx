@@ -10,7 +10,6 @@ const Content = ({ title, children }) => {
       <p className={styles.contentText}>
         {children}
       </p>
-
     </div>
   );
 };
