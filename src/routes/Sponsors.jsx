@@ -9,7 +9,7 @@ import sponsorCoverImage from '../img/sponsorship/cover_sponsors.jpg';
 const Sponsors = () => {
   return (
     <>
-      <CoverPhoto image={sponsorCoverImage} height="35rem" position="50% 90%" />
+      <CoverPhoto image={sponsorCoverImage} style={{ height: '35rem', position: '50% 90%' }} />
       <Container fluid>
         <Row className="my-4 mx-2 gx-4 justify-content-centre">
           <Col lg={{ span: 6 }}>
@@ -19,7 +19,6 @@ const Sponsors = () => {
                 sponsorship package here and please email us at
                 <a href="mailto:contact@waterloorocketry.com"> contact@waterloorocketry.com</a>
               </p>
-              <div> </div>
             </Content>
           </Col>
         </Row>
