@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/website-react/static/css/main.ba81cca2.chunk.css",
-    "main.js": "/website-react/static/js/main.8b88c863.chunk.js",
-    "main.js.map": "/website-react/static/js/main.8b88c863.chunk.js.map",
+    "main.js": "/website-react/static/js/main.19dbf7ee.chunk.js",
+    "main.js.map": "/website-react/static/js/main.19dbf7ee.chunk.js.map",
     "runtime-main.js": "/website-react/static/js/runtime-main.cd8da4bb.js",
     "runtime-main.js.map": "/website-react/static/js/runtime-main.cd8da4bb.js.map",
     "static/css/2.0a9ec390.chunk.css": "/website-react/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.1f7fc495.chunk.js": "/website-react/static/js/2.1f7fc495.chunk.js",
-    "static/js/2.1f7fc495.chunk.js.map": "/website-react/static/js/2.1f7fc495.chunk.js.map",
+    "static/js/2.da376f5d.chunk.js": "/website-react/static/js/2.da376f5d.chunk.js",
+    "static/js/2.da376f5d.chunk.js.map": "/website-react/static/js/2.da376f5d.chunk.js.map",
     "index.html": "/website-react/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/website-react/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.ba81cca2.chunk.css.map": "/website-react/static/css/main.ba81cca2.chunk.css.map",
-    "static/js/2.1f7fc495.chunk.js.LICENSE.txt": "/website-react/static/js/2.1f7fc495.chunk.js.LICENSE.txt",
+    "static/js/2.da376f5d.chunk.js.LICENSE.txt": "/website-react/static/js/2.da376f5d.chunk.js.LICENSE.txt",
     "static/media/banner_logo.b84c5f4c.png": "/website-react/static/media/banner_logo.b84c5f4c.png",
     "static/media/cover_comp.53a89bb2.jpg": "/website-react/static/media/cover_comp.53a89bb2.jpg",
     "static/media/cover_home.ce7f0f33.jpg": "/website-react/static/media/cover_home.ce7f0f33.jpg",
     "static/media/cover_join.2c8fd7a5.jpg": "/website-react/static/media/cover_join.2c8fd7a5.jpg",
+    "static/media/cover_sponsors.ae23aaa3.jpg": "/website-react/static/media/cover_sponsors.ae23aaa3.jpg",
     "static/media/link_to_gallery.fbe56044.jpg": "/website-react/static/media/link_to_gallery.fbe56044.jpg",
     "static/media/link_to_rockets.a8ca2303.jpg": "/website-react/static/media/link_to_rockets.a8ca2303.jpg",
     "static/media/link_to_sponsors.997c7545.jpg": "/website-react/static/media/link_to_sponsors.997c7545.jpg",
@@ -24,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.cd8da4bb.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.1f7fc495.chunk.js",
+    "static/js/2.da376f5d.chunk.js",
     "static/css/main.ba81cca2.chunk.css",
-    "static/js/main.8b88c863.chunk.js"
+    "static/js/main.19dbf7ee.chunk.js"
   ]
 }
