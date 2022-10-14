@@ -1,6 +1,6 @@
 import { React } from 'react';
 
-const Rockets = () => {
+const SharkOfTheSky = () => {
   return (
     <>
       <p>Hello world</p>
@@ -9,4 +9,4 @@ const Rockets = () => {
   );
 };
 
-export default Rockets;
+export default SharkOfTheSky;
