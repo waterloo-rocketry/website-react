@@ -1,11 +1,15 @@
 import { React } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+
+import sotsUpright from '../../img/rocketPhotos/sots_upright.png';
 
 const SharkOfTheSky = () => {
   return (
-    <>
-      <p>Hello world</p>
-      <p>Hello world</p>
-    </>
+    <Container fluid>
+      <Col>
+        {/*<img src={sotsUpright}/>*/}
+      </Col>
+    </Container>
   );
 };
 
