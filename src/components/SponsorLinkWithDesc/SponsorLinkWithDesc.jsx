@@ -6,16 +6,16 @@ import styles from './SponsorLinkWithDesc.module.css';
 const SponsorLinkWithDesc = ({
   image, link, children, logoTier,
 }) => {
-  let [imageStyle, containerStyle] = [styles.imgPrevious, styles.logoContainerPrevious];
+  let [imageStyle, containerStyle] = [styles.imgPrevious, styles.logoContainer];
 
   if (logoTier === 'platinum') {
     [imageStyle, containerStyle] = [styles.imgPlatinum, styles.logoContainerPlatinum];
   } else if (logoTier === 'gold') {
-    [imageStyle, containerStyle] = [styles.imgGold, styles.logoContainerGold];
+    [imageStyle, containerStyle] = [styles.imgGold, styles.logoContainer];
   } else if (logoTier === 'silver') {
-    [imageStyle, containerStyle] = [styles.imgSilver, styles.logoContainerSilver];
+    [imageStyle, containerStyle] = [styles.imgSilver, styles.logoContainer];
   } else if (logoTier === 'bronze') {
-    [imageStyle, containerStyle] = [styles.imgBronze, styles.logoContainerBronze];
+    [imageStyle, containerStyle] = [styles.imgBronze, styles.logoContainer];
   }
 
   return (

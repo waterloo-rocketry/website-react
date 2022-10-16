@@ -45,6 +45,39 @@ import triumph from '../img/sponsorship/4_bronze_sponsors/triumph-logo.png';
 import waterlooElectroplating from '../img/sponsorship/4_bronze_sponsors/Waterloo-Electroplating.png';
 
 // PREVIOUS
+import aircraftSpruce from '../img/sponsorship/5_previous_sponsors/Aircraft_Spruce_Logo.png';
+import airtech from '../img/sponsorship/5_previous_sponsors/Airtech.png';
+import Aversan from '../img/sponsorship/5_previous_sponsors/AversanLogo.jpg';
+import bayAreaCircuits from '../img/sponsorship/5_previous_sponsors/bay_area_circuits.png';
+import BGF from '../img/sponsorship/5_previous_sponsors/BGF.png';
+import BJ from '../img/sponsorship/5_previous_sponsors/bj_photo.png';
+import Bombardier from '../img/sponsorship/5_previous_sponsors/Bombardier-Aerospace.jpg';
+import chemroy from '../img/sponsorship/5_previous_sponsors/chemroy.gif';
+import cimetrix from '../img/sponsorship/5_previous_sponsors/Cimetrix-Logo.jpg';
+import digi from '../img/sponsorship/5_previous_sponsors/digi_logo.png';
+import duttonLainson from '../img/sponsorship/5_previous_sponsors/dutton_lainson.png';
+import ferrotec from '../img/sponsorship/5_previous_sponsors/ferrotec.png';
+import firecam from '../img/sponsorship/5_previous_sponsors/firecam_logo.png';
+import futureElectronics from '../img/sponsorship/5_previous_sponsors/future-electronics.gif';
+import fxWorks from '../img/sponsorship/5_previous_sponsors/fx_works.png';
+import hatch from '../img/sponsorship/5_previous_sponsors/Hatch-logo.png';
+import hickoryHill from '../img/sponsorship/5_previous_sponsors/hickory_hill_logo.png';
+import kerbalSpaceProgram from '../img/sponsorship/5_previous_sponsors/Kerbal_Space_Program_High_Res_Logo.png';
+import misumi from '../img/sponsorship/5_previous_sponsors/misumi.png';
+import mitutoyo from '../img/sponsorship/5_previous_sponsors/Mitutoyo_Logo.png';
+import msam from '../img/sponsorship/5_previous_sponsors/msam_logo.png';
+import nationalInstruments from '../img/sponsorship/5_previous_sponsors/ni_logo.JPG';
+import prattAndWhitney from '../img/sponsorship/5_previous_sponsors/Pratt-and-Whitney.png';
+import princessAuto from '../img/sponsorship/5_previous_sponsors/Princess_Auto_Logo.png';
+import proto3000 from '../img/sponsorship/5_previous_sponsors/proto3000.png';
+import qnx from '../img/sponsorship/5_previous_sponsors/qnx-logo-black-medium.png';
+import richardDudgeon from '../img/sponsorship/5_previous_sponsors/richard_dudgeon_logo.png';
+import searlesSurveying from '../img/sponsorship/5_previous_sponsors/Searles_Surveying_Logo.png';
+import shelterlogic from '../img/sponsorship/5_previous_sponsors/shelterlogic_logo.png';
+import stratasys from '../img/sponsorship/5_previous_sponsors/Stratasys-3.png';
+import textreme from '../img/sponsorship/5_previous_sponsors/textreme.png';
+import ublox from '../img/sponsorship/5_previous_sponsors/u-blox_logo_rgb.jpg';
+import waterlooEngMechanical from '../img/sponsorship/5_previous_sponsors/Waterloo_ENG_Mechanical_Logo_rgb.png';
 
 const Sponsors = () => {
   return (
@@ -209,22 +242,53 @@ const Sponsors = () => {
           <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
               <SponsorLinkWithDesc logoTier="gold" image={keysight} link="https://www.keysight.com/us/en/home.html">
-                <p>Some Text</p>
+                <p className="content-text">
+                  At Keysight Technologies, our Mission is simple: You dream and we test.
+                  At Keysight, we are driven to deliver breakthrough solutions and trusted
+                  insight in electronic design, test, manufacture, and optimization to help
+                  customers accelerate the innovations that connect and secure the world.
+                  Our solutions help our customers innovate in 5G, automotive, Internet of Things,
+                  network security, and more.
+                </p>
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={liftwerx} link="https://www.keysight.com/us/en/home.html">
-                <p>Some Text</p>
+              <SponsorLinkWithDesc logoTier="gold" image={liftwerx} link="https://liftwerx.com/">
+                <p className="content-text">
+                  LiftWerx is a specialized wind energy contractor, solely focused on large
+                  corrective repairs. LiftWerx offers alternative lifting services to exchange
+                  and repair gearboxes, generators, blades, and fully-assembled rotors using a
+                  variety of specialized up-tower lifting devices. We do our work with the right
+                  people, tools, and crane-less technology to deliver the best possible service at
+                  the highest quality, while minimizing cost and disruption which is often
+                  associated with crane work.
+                </p>
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={olin} link="https://www.keysight.com/us/en/home.html">
-                <p>Some Text</p>
+              <SponsorLinkWithDesc logoTier="gold" image={olin} link="https://olin.com/">
+                <p className="content-text">
+                  Olin Corporation began in 1892 as a small blasting powder supplier
+                  in East Alton, Illinois. Following a few decades of success, along
+                  with some fruitful acquisitions, Olin has grown and expanded to
+                  encompass several complementary business units, among them—Olin
+                  Chlor Alkali Products and Vinyls and Olin Epoxy. Collectively,
+                  these business segments employ 8,000 professionals in more than 20
+                  countries with customers in nearly 100 countries across the globe.
+                </p>
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={demtool} link="https://www.keysight.com/us/en/home.html">
-                <p>Some Text</p>
+              <SponsorLinkWithDesc logoTier="gold" image={demtool} link="https://demtool.com/">
+                <p className="content-text">
+                  Demtool provides various services and expertise for customers in an array of
+                  industries. We specialize in machining, sheet metal fabrication, and
+                  powder-coating.
+                  The machine shop provides expert custom and production machining while
+                  fabrication provides industry leading custom and production sheet metal
+                  and other light fabrications. The powder-coating division applies the
+                  highest quality coatings to nearly any product.
+                </p>
               </SponsorLinkWithDesc>
             </Col>
           </Row>
@@ -234,37 +298,37 @@ const Sponsors = () => {
           </Content>
 
           <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
-            <Col style={{ float: 'center' }}>
+            <Col md="auto" style={{ float: 'center' }}>
               <SponsorLinkWithDesc logoTier="silver" image={mef} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col style={{ float: 'center' }}>
+            <Col md="auto" style={{ float: 'center' }}>
               <SponsorLinkWithDesc logoTier="silver" image={swagelok} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col style={{ float: 'center' }}>
+            <Col md="auto" style={{ float: 'center' }}>
               <SponsorLinkWithDesc logoTier="silver" image={engsoc} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col style={{ float: 'center' }}>
+            <Col md="auto" style={{ float: 'center' }}>
               <SponsorLinkWithDesc logoTier="silver" image={linde} link="https://www.keysight.com/us/en/home.html" />
             </Col>
           </Row>
 
           <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
-            <Col>
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={customClothes} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col style={{ float: 'center' }}>
+            <Col md="auto" style={{ float: 'center' }}>
               <SponsorLinkWithDesc logoTier="silver" image={sff} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={harwin} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={AandP} link="https://www.keysight.com/us/en/home.html" />
             </Col>
           </Row>
 
           <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
-            <Col style={{ float: 'center', marginBottom: '2rem' }}>
+            <Col md="auto" style={{ float: 'center', marginBottom: '2rem' }}>
               <SponsorLinkWithDesc logoTier="silver" image={mrc} link="https://www.keysight.com/us/en/home.html" />
             </Col>
           </Row>
@@ -273,31 +337,31 @@ const Sponsors = () => {
             <DividerLine />
           </Content>
           <Row className="my-4 mx-2 gx-4 col-md-12 justify-content-center text-center" style={{ display: 'float' }}>
-            <Col>
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={triumph} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={broadcom} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={ereztech} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={robotshop} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={waterlooElectroplating} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={acornFireSafety} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={ariss} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={bigredbee} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={eljen} link="https://www.keysight.com/us/en/home.html" />
             </Col>
           </Row>
@@ -306,101 +370,106 @@ const Sponsors = () => {
             <DividerLine />
           </Content>
           <Row className="my-4 mx-2 gx-4 col-md-12 justify-content-center text-center">
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={nationalInstruments} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={stratasys} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={cimetrix} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={Bombardier} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={BJ} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={qnx} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={futureElectronics} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={kerbalSpaceProgram} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={Aversan} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={prattAndWhitney} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={shelterlogic} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={richardDudgeon} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+
+            <Col md="auto">
+              <SponsorLinkWithDesc image={princessAuto} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={waterlooEngMechanical} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={bayAreaCircuits} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={chemroy} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={ublox} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={proto3000} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={fxWorks} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={duttonLainson} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={digi} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={ferrotec} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={hatch} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={BGF} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+
+            <Col md="auto">
+              <SponsorLinkWithDesc image={aircraftSpruce} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={hickoryHill} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={mitutoyo} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={textreme} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={misumi} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={searlesSurveying} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={firecam} link="https://www.keysight.com/us/en/home.html" />
             </Col>
-            <Col>
-              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            <Col md="auto">
+              <SponsorLinkWithDesc image={airtech} link="https://www.keysight.com/us/en/home.html" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={msam} link="https://www.keysight.com/us/en/home.html" />
             </Col>
           </Row>
         </Row>

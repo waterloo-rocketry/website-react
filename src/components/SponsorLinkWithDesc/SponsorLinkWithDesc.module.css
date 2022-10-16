@@ -1,8 +1,8 @@
 .imgPlatinum {
   max-height: 9rem;
   max-width: 100%;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
   transition: transform 0.3s ease;
 }
 
@@ -20,7 +20,7 @@
 .imgSilver {
 	width: auto;
 	height: auto;
-	max-width: 95%;
+	max-width: 22rem;
 	max-height: 6rem;
 	vertical-align: middle;
   transition: transform 0.3s ease;
@@ -36,12 +36,18 @@
 .imgPrevious {
 	height: 1.5rem;
 	width: auto;
-	margin: 0.75rem;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
 }
 
 .logoContainerPlatinum {
-	padding: 3rem;
+	padding: 1rem;
 	padding-top: 0rem;
+	text-align: center;
+	display: inline-block;
+	background: white;
+}
+.logoContainer {
 	text-align: center;
 	display: inline-block;
 	background: white;
@@ -54,5 +60,5 @@
 }
 
 .imgPlatinum:hover, .imgGold:hover, .imgSilver:hover {
-  transform: scale(1.005);
+  transform: scale(1.02);
 }
