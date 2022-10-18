@@ -340,31 +340,31 @@ const Sponsors = () => {
           </Content>
           <Row className="my-4 mx-2 gx-4 col-md-12 justify-content-center text-center" style={{ display: 'float' }}>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={triumph} link="#" />
+              <SponsorLinkWithDesc logoTier="bronze" image={triumph} link="https://www.triumphtool.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={broadcom} link="#" />
+              <SponsorLinkWithDesc logoTier="bronze" image={broadcom} link="https://www.broadcom.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={ereztech} link="#" />
+              <SponsorLinkWithDesc logoTier="bronze" image={ereztech} link="https://ereztech.com/ereztech-custom-synthesis/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={robotshop} link="#" />
+              <SponsorLinkWithDesc logoTier="bronze" image={robotshop} link="https://www.robotshop.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={waterlooElectroplating} link="#" />
+              <SponsorLinkWithDesc logoTier="bronze" image={waterlooElectroplating} link="https://www.google.com/maps/place/Waterloo+Electroplating+%26+Metal+Finishing+Inc/@43.5017069,-80.5494139,15z/data=!4m2!3m1!1s0x0:0x91bf0e1ff7c624cf?sa=X&ved=2ahUKEwiv5PTJ5NT5AhUEFFkFHd5bAH4Q_BJ6BAg6EAU" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={acornFireSafety} link="#" />
+              <SponsorLinkWithDesc logoTier="bronze" image={acornFireSafety} link="https://www.acornfire.ca/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={ariss} link="#" />
+              <SponsorLinkWithDesc logoTier="bronze" image={ariss} link="https://arissbrospropane.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={bigredbee} link="#" />
+              <SponsorLinkWithDesc logoTier="bronze" image={bigredbee} link="https://shop.bigredbee.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={eljen} link="#" />
+              <SponsorLinkWithDesc logoTier="bronze" image={eljen} link="https://eljentechnology.com/" />
             </Col>
           </Row>
 
@@ -375,107 +375,107 @@ const Sponsors = () => {
           <Row className="my-4 mx-2 gx-4 col-md-12 justify-content-center text-center">
             {/* ROW 1 BEGINS HERE */}
             <Col md="auto">
-              <SponsorLinkWithDesc image={nationalInstruments} link="#" />
+              <SponsorLinkWithDesc image={nationalInstruments} link="http://www.ni.com/en-us.html" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={stratasys} link="#" />
+              <SponsorLinkWithDesc image={stratasys} link="http://www.stratasys.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={cimetrix} link="#" />
+              <SponsorLinkWithDesc image={cimetrix} link="http://www.cimetrixsolutions.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={Bombardier} link="#" />
+              <SponsorLinkWithDesc image={Bombardier} link="http://www.bombardier.com/en/aerospace.html" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={BJ} link="#" />
+              <SponsorLinkWithDesc image={BJ} link="https://bjphoto.net/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={qnx} link="#" />
+              <SponsorLinkWithDesc image={qnx} link="http://www.qnx.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={futureElectronics} link="#" />
+              <SponsorLinkWithDesc image={futureElectronics} link="http://www.futureelectronics.com/en/company-information/about-future-electronics/FutureConnectivitySolutions/Pages/FutureConnectivitySolutions.aspx" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={kerbalSpaceProgram} link="#" />
+              <SponsorLinkWithDesc image={kerbalSpaceProgram} link="https://kerbalspaceprogram.com/en/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={Aversan} link="#" />
+              <SponsorLinkWithDesc image={Aversan} link="http://www.aversan.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={prattAndWhitney} link="#" />
+              <SponsorLinkWithDesc image={prattAndWhitney} link="http://www.pwc.ca/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={shelterlogic} link="#" />
+              <SponsorLinkWithDesc image={shelterlogic} link="https://shelterlogic.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={richardDudgeon} link="#" />
+              <SponsorLinkWithDesc image={richardDudgeon} link="https://dudgeonjacks.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={princessAuto} link="#" />
+              <SponsorLinkWithDesc image={princessAuto} link="http://www.princessauto.com/" />
             </Col>
 
             {/* ROW 2 BEGINS HERE */}
             <Col md="auto">
-              <SponsorLinkWithDesc image={waterlooEngMechanical} link="#" />
+              <SponsorLinkWithDesc image={waterlooEngMechanical} link="uwaterloo.ca/mechanical-mechatronics-engineering/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={bayAreaCircuits} link="#" />
+              <SponsorLinkWithDesc image={bayAreaCircuits} link="https://bayareacircuits.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={chemroy} link="#" />
+              <SponsorLinkWithDesc image={chemroy} link="http://chemroy.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={ublox} link="#" />
+              <SponsorLinkWithDesc image={ublox} link="https://www.u-blox.com/en" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={proto3000} link="#" />
+              <SponsorLinkWithDesc image={proto3000} link="http://proto3000.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={fxWorks} link="#" />
+              <SponsorLinkWithDesc image={fxWorks} link="http://www.fxworxinc.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={duttonLainson} link="#" />
+              <SponsorLinkWithDesc image={duttonLainson} link="https://www.dutton-lainson.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={digi} link="#" />
+              <SponsorLinkWithDesc image={digi} link="https://www.digi.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={ferrotec} link="#" />
+              <SponsorLinkWithDesc image={ferrotec} link="https://www.ferrotec.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={hatch} link="#" />
+              <SponsorLinkWithDesc image={hatch} link="https://www.hatch.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={BGF} link="#" />
+              <SponsorLinkWithDesc image={BGF} link="http://www.bgf.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={aircraftSpruce} link="#" />
+              <SponsorLinkWithDesc image={aircraftSpruce} link="https://www.aircraftspruce.ca/" />
             </Col>
 
             {/* ROW 3 BEGINS HERE */}
             <Col md="auto">
-              <SponsorLinkWithDesc image={hickoryHill} link="#" />
+              <SponsorLinkWithDesc image={hickoryHill} link="https://www.hickory-hills.ca/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={mitutoyo} link="#" />
+              <SponsorLinkWithDesc image={mitutoyo} link="https://www.mitutoyo.ca/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={textreme} link="#" />
+              <SponsorLinkWithDesc image={textreme} link="http://www.textreme.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={misumi} link="#" />
+              <SponsorLinkWithDesc image={misumi} link="https://us.misumi-ec.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={searlesSurveying} link="#" />
+              <SponsorLinkWithDesc image={searlesSurveying} link="https://searlessurveying.ca/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={firecam} link="#" />
+              <SponsorLinkWithDesc image={firecam} link="https://firecam.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={airtech} link="#" />
+              <SponsorLinkWithDesc image={airtech} link="https://www.airtechintl.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={msam} link="#" />
+              <SponsorLinkWithDesc image={msam} link="https://msam-uwaterloo.ca" />
             </Col>
           </Row>
         </Row>
