@@ -358,13 +358,13 @@ const Sponsors = () => {
               <SponsorLinkWithDesc logoTier="bronze" image={acornFireSafety} link="https://www.acornfire.ca/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={ariss} link="https://arissbrospropane.com/" />
+              <SponsorLinkWithDesc logoTier="bronze" image={eljen} link="https://eljentechnology.com/" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={bigredbee} link="https://shop.bigredbee.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={eljen} link="https://eljentechnology.com/" />
+              <SponsorLinkWithDesc logoTier="bronze" image={ariss} link="https://arissbrospropane.com/" />
             </Col>
           </Row>
 
