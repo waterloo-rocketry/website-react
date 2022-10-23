@@ -10,8 +10,10 @@ import sotsUpright from '../../img/rocketPhotos/sots_upright.png';
 const SharkOfTheSky = () => {
   return (
     <Container fluid className={styles.description}>
-      <img className={styles.rocket} src={sotsUpright} alt="Shark of the sky drawing" />
       <Row>
+        <Col className={`${styles.rocketDiv} col-2`}>
+          <img className={styles.rocket} src={sotsUpright} alt="Shark of the sky drawing" />
+        </Col>
         <Col>
           <h1>SHARK OF THE SKY</h1>
           <DividerLine />

@@ -1,7 +1,10 @@
 .rocket {
-	border: 2px solid black;
+	width: 5rem;
+	display: block;
+	margin: auto;
 }
 
-.description {
-	border:  2px solid black;
+.rocketDiv {
+	display: flex;
+	align-content: center;
 }
