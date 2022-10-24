@@ -9,58 +9,60 @@ import sotsUpright from '../../img/rocketPhotos/sots_upright.png';
 
 const SharkOfTheSky = () => {
   return (
-    <Container fluid className={styles.description}>
-      <Row>
+    <Container fluid className={styles.globalContainer}>
+      <Row style={{ width: '95%' }}>
         <Col className={`${styles.rocketDiv} col-2`}>
           <img className={styles.rocket} src={sotsUpright} alt="Shark of the sky drawing" />
         </Col>
-        <Col>
+        <Col className={styles.description}>
           <h1>SHARK OF THE SKY</h1>
           <DividerLine />
-          <h2>Overview</h2>
-          <p>
-            {`Shark of the Sky (SotS) is a hybrid rocket developed for participation in the 2019 Spaceport America Cup (SAC), 
-            30000 ft SRAD (Student Researched And Designed) liquid/hybrid engine category. Building on the success of last 
-            year's rocket (UXO), design of SotS focused on mass reduction and engine improvements. 
-            SotS is powered by the Kismet hybrid SRAD engine, and achieved successful launch at the 2019 SAC.`}
-          </p>
-          <h2>Specs</h2>
-          <Row>
-            <Col>
-              <p>
-                Diameter: 6&quot;
-                <br />
-                Length: 217&quot;
-                <br />
-              </p>
-              <p>
-                Motor Classification: O
-                <br />
-                Wet Mass: 171 lbs
-              </p>
-            </Col>
-            <Col>
-              <p>
-                Fuel: Hydroxyl-Terminated Polybutadiene
-                <br />
-                Oxidizer: Nitrous Oxide
-                <br />
-              </p>
-              <p>
-                Drogue Chute Diameter: 55&quot;
-                <br />
-                Main Chute Diameter: 149.5&quot;
-                <br />
-              </p>
-              <p>
-                Apogee: 15,586 ft AGL
-              </p>
-            </Col>
-          </Row>
+          <Content title="Overview">
+            Shark of the Sky (SotS) is a hybrid rocket developed for participation in the 2019
+            Spaceport America Cup (SAC), 30000 ft SRAD (Student Researched And Designed)
+            liquid/hybrid engine category. Building on the success of last year&apos;s rocket
+            (UXO), design of SotS focused on mass reduction and engine improvements.
+            SotS is powered by the Kismet hybrid SRAD engine, and achieved successful
+            launch at the 2019 SAC.
+          </Content>
+          <Content title="Specs">
+            <Row>
+              <Col>
+                <p>
+                  Diameter: 6&quot;
+                  <br />
+                  Length: 217&quot;
+                  <br />
+                </p>
+                <p>
+                  Motor Classification: O
+                  <br />
+                  Wet Mass: 171 lbs
+                </p>
+              </Col>
+              <Col>
+                <p>
+                  Fuel: Hydroxyl-Terminated Polybutadiene
+                  <br />
+                  Oxidizer: Nitrous Oxide
+                  <br />
+                </p>
+                <p>
+                  Drogue Chute Diameter: 55&quot;
+                  <br />
+                  Main Chute Diameter: 149.5&quot;
+                  <br />
+                </p>
+                <p>
+                  Apogee: 15,586 ft AGL
+                </p>
+              </Col>
+            </Row>
+          </Content>
           <DividerLine />
           <h2>Details</h2>
-          <Row>
-            <Col>
+          <Row className={styles.textContainer}>
+            <Col className={styles.leftColumn}>
               <Content title="PAYLOAD">
                 The team developed a payload this year that assessed the properties of 3D printed
                 parts with varying infills and materials such as PLA and PET-G during the flight
@@ -102,7 +104,7 @@ const SharkOfTheSky = () => {
                 protect against the hot desert temperatures.
               </Content>
             </Col>
-            <Col>
+            <Col className={styles.rightColumn}>
               <Content title="RUN TANK">
                 SotS&apos;s oxidizer tank is built from 6061-T6 aluminium alloy and is 80&quot;
                 long, with a 6&quot;outer diameter and 3/16&quot; wall thickness. Twenty-four

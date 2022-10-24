@@ -5,6 +5,32 @@
 }
 
 .rocketDiv {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.textContainer {
 	display: flex;
-	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+ 
+.leftColumn {
+	min-width: 300px;
+}
+
+.rightColumn {
+	min-width: 300px;
+}
+
+
+.globalContainer {
+	display: flex;
+	margin-top: 6em;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.description {
+	min-width: 500px;
 }
