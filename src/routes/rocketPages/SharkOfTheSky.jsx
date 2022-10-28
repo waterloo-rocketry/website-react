@@ -1,11 +1,10 @@
 import { React } from 'react';
-import { Col, Row } from 'react-bootstrap';
 
 import Content from '../../components/Content/Content';
-import styles from './SharkOfTheSky.module.css';
 import DividerLine from '../../components/DividerLine/DividerLine';
 import RocketPageOutline from '../../components/RocketPageOutline/RocketPageOutline';
 import SpecsComponent from '../../components/SpecsComponent/SpecsComponent';
+import TwoColumns from '../../components/TwoColumns/TwoColumns';
 
 import sotsUpright from '../../img/rocketPhotos/sots_upright.png';
 
@@ -28,9 +27,8 @@ const SharkOfTheSky = () => {
       }
       />
       <DividerLine />
-      <h2>Details</h2>
-      <Row className={styles.textContainer}>
-        <Col className={styles.leftColumn}>
+      <TwoColumns title="DETAILS">
+        <>
           <Content title="PAYLOAD">
             The team developed a payload this year that assessed the properties of 3D printed
             parts with varying infills and materials such as PLA and PET-G during the flight
@@ -71,8 +69,8 @@ const SharkOfTheSky = () => {
             complete nosecone shape. The nosecone was post-cured at 50 °C for 6 hours, to
             protect against the hot desert temperatures.
           </Content>
-        </Col>
-        <Col className={styles.rightColumn}>
+        </>
+        <>
           <Content title="RUN TANK">
             SotS&apos;s oxidizer tank is built from 6061-T6 aluminium alloy and is 80&quot;
             long, with a 6&quot;outer diameter and 3/16&quot; wall thickness. Twenty-four
@@ -104,8 +102,8 @@ const SharkOfTheSky = () => {
             set of assembly and launch procedures for SotS can be downloaded&nbsp;
             <a href="https://www.waterloorocketry.com/pdfs/2019_project_report.pdf">here.</a>
           </Content>
-        </Col>
-      </Row>
+        </>
+      </TwoColumns>
     </RocketPageOutline>
   );
 };
