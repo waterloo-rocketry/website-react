@@ -25,6 +25,7 @@
         "arrow-body-style": 0,
         "react/function-component-definition": 0,
         "max-len": 1,
-        "indent": ["error", 2]
+        "indent": ["error", 2],
+        "max-classes-per-file": 0
     }
 }

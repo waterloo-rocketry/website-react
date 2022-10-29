@@ -7,9 +7,9 @@ const Content = ({ title, children }) => {
   return (
     <div>
       <h1 className={styles.contentTitle}>{title}</h1>
-      <p className={styles.contentText}>
+      <div className={styles.contentText}>
         {children}
-      </p>
+      </div>
     </div>
   );
 };

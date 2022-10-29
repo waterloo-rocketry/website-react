@@ -51,20 +51,19 @@ const SpecsComponent = ({ specs }) => {
 
       Object.keys(group).forEach((key) => {
         groupElems.push(
-          <>
-            {`${key}: ${group[key]}`}
-            <br />
-          </>,
+          `${key}: ${group[key]}\n`,
         );
       });
 
+      const finalString = groupElems.reduce((a, b) => a + b, '');
+
       return (
-        <p key={groupInd.toString()}>{groupElems}</p>
+        <p key={`${groupInd.toString()} ${colInd.toString()} group`}>{finalString}</p>
       );
     });
 
     return (
-      <Col key={colInd.toString()}>{colElems}</Col>
+      <Col key={`${colInd.toString()} col`}>{colElems}</Col>
     );
   });
   return (
