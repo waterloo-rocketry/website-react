@@ -3,16 +3,15 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 import Content from '../Content/Content';
 import DividerLine from '../DividerLine/DividerLine';
+import styles from './Gallery.module.css';
 
 const MoreButton = ({ link }) => {
   return (
-    <div>
-      <a href={link}>
-        <div>
-          <h1>MORE</h1>
-        </div>
-      </a>
-    </div>
+    <a href={link}>
+      <div className={styles.morebutton}>
+        <h1>MORE</h1>
+      </div>
+    </a>
   );
 };
 
@@ -72,13 +71,13 @@ const Gallery = ({ title, morelink, children }) => {
     );
   });
   return (
-    <Container fluid>
+    <Container fluid className={styles.container}>
       <Content title={title}>
         <Row>
-          <Col>
+          <Col className={styles.dividerLine}>
             <DividerLine />
           </Col>
-          <Col>
+          <Col md={1}>
             <MoreButton link={morelink} />
           </Col>
         </Row>

@@ -107,7 +107,7 @@ const SharkOfTheSky = () => {
           </>
         </TwoColumns>
       </RocketPageOutline>
-      <p>Hi</p>
+      <Gallery title="Photo Gallery" morelink="https://www.google.com/" />
     </>
   );
 };
