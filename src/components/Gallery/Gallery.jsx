@@ -24,8 +24,8 @@ const Photo = ({ link, altText }) => {
 
 const Video = ({ link, title }) => {
   return (
-    <div className="col-md-4 embed-responsive embed-responsive-16by9">
-      <iframe title={title} className="embed-responsive-item" src={link} />
+    <div className="embed-responsive embed-responsive-16by9">
+      <iframe title={title} className={`${styles.video} embed-responsive-item`} src={link} />
     </div>
   );
 };
@@ -43,11 +43,11 @@ const Gallery = ({ title, morelink, children }) => {
     <Container fluid className={styles.container}>
       <div className={styles.content}>
         <h2 className={styles.galleryTitle}>{title}</h2>
-        <Row>
+        <Row className={styles.upperPart}>
           <Col className={styles.dividerLine}>
             <DividerLine />
           </Col>
-          <Col md={1}>
+          <Col md={1} xs={3}>
             <MoreButton link={morelink} />
           </Col>
         </Row>

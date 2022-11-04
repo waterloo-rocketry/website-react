@@ -5,7 +5,7 @@ import DividerLine from '../../components/DividerLine/DividerLine';
 import RocketPageOutline from '../../components/RocketPageOutline/RocketPageOutline';
 import SpecsComponent from '../../components/SpecsComponent/SpecsComponent';
 import TwoColumns from '../../components/TwoColumns/TwoColumns';
-import { Gallery, Photo } from '../../components/Gallery/Gallery';
+import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
 import sotsUpright from '../../img/rocketPhotos/sots_upright.png';
 
@@ -107,10 +107,15 @@ const SharkOfTheSky = () => {
           </>
         </TwoColumns>
       </RocketPageOutline>
-      <Gallery title="PHOTO GALLERY" morelink="https://www.google.com/">
-        <Photo link="https://live.staticflickr.com/65535/48233696886_3aca369788_o.jpg" altText="text" />
-        <Photo link="https://live.staticflickr.com/65535/48185148906_e84893c610_o.jpg" altText="text" />
-        <Photo link="https://live.staticflickr.com/65535/48185152571_08b4deaaaa_o.jpg" altText="text" />
+      <Gallery title="PHOTO GALLERY" morelink="https://www.flickr.com/photos/uwrocketry/albums/72157709395272762">
+        <Photo link="https://live.staticflickr.com/65535/48233696886_3aca369788_o.jpg" altText="Shark of the sky on the launch rail" />
+        <Photo link="https://live.staticflickr.com/65535/48185148906_e84893c610_o.jpg" altText="Shark of the sky launching" />
+        <Photo link="https://live.staticflickr.com/65535/48185152571_08b4deaaaa_o.jpg" altText="The team members setting up SOTS" />
+      </Gallery>
+      <Gallery title="VIDEO GALLERY" morelink="https://www.youtube.com/user/uwrocketry">
+        <Video link="https://www.youtube.com/embed/eyrOPgDnM9o" title="Cold flow #3" />
+        <Video link="https://www.youtube.com/embed/mo3JZF83jas" altText="Static Fire 4" />
+        <Video link="https://www.youtube.com/embed/xN5xajUccOE" altText="Shark of the Sky IREC launch" />
       </Gallery>
     </>
   );

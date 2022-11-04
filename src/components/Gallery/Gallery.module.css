@@ -1,10 +1,17 @@
 .container {
 	display: flex;
 	justify-content: center;
+	padding: 10px;
+}
+
+.upperPart {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 }
 
 .content {
-	width: 99%;
+	width: 100%;
 }
 
 .dividerLine {
@@ -16,7 +23,7 @@
 	text-align: center;
 	border-radius: 0.5rem;
 	height: 2rem;
-    width: 6rem;
+    max-width: 6rem;
     padding: 0.4rem;
     /* transitions */
     -webkit-transition: background-color 0.3s linear;
@@ -43,6 +50,11 @@
 	flex-wrap: wrap;
 }
 
+.galleryTitle {
+	font-weight: 500;
+  	font-size: 1.5rem;
+}
+
 .photo {
 	width: 100%;
 	min-width: 270px;
@@ -50,7 +62,10 @@
 	padding-bottom: 15px;
 }
 
-.galleryTitle {
-	font-weight: 500;
-  	font-size: 1.5rem;
+.video {
+	width: 100%;
+	min-width: 270px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: auto;
 }
