@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
-import Content from '../Content/Content';
 import DividerLine from '../DividerLine/DividerLine';
 import styles from './Gallery.module.css';
 
@@ -15,64 +14,35 @@ const MoreButton = ({ link }) => {
   );
 };
 
-class GalleryItem extends React.Component {
-  constructor(key) {
-    super();
-    this.galleryKey = key;
-    // the linter incorrectly claims
-    // that getKey is never used, to
-    // appease it, I use it here
-    this.getKey();
-  }
+const Photo = ({ link, altText }) => {
+  return (
+    <div>
+      <img src={link} alt={altText} className={styles.photo} />
+    </div>
+  );
+};
 
-  getKey() {
-    return this.galleryKey;
-  }
-}
-
-class Photo extends GalleryItem {
-  constructor(link, altText) {
-    super(link);
-    this.link = link;
-    this.altText = altText;
-  }
-
-  render() {
-    return (
-      <div className="col-md-1">
-        <img src={this.link} alt={this.altText} />
-      </div>
-    );
-  }
-}
-
-class Video extends GalleryItem {
-  constructor(link, title) {
-    super(link);
-    this.link = link;
-    this.title = title;
-  }
-
-  render() {
-    return (
-      <div className="col-md-4 embed-responsive embed-responsive-16by9">
-        <iframe title={this.title} className="embed-responsive-item" src={this.link} />
-      </div>
-    );
-  }
-}
+const Video = ({ link, title }) => {
+  return (
+    <div className="col-md-4 embed-responsive embed-responsive-16by9">
+      <iframe title={title} className="embed-responsive-item" src={link} />
+    </div>
+  );
+};
 
 const Gallery = ({ title, morelink, children }) => {
-  const items = React.Children.toArray(children).map((item) => {
+  const taggedItems = React.Children.toArray(children).map((item, ind) => [item, ind]);
+  const items = taggedItems.map((item) => {
     return (
-      <Col key={item.getKey()}>
-        item
+      <Col key={item[1]}>
+        {item[0]}
       </Col>
     );
   });
   return (
     <Container fluid className={styles.container}>
-      <Content title={title}>
+      <div className={styles.content}>
+        <h2 className={styles.galleryTitle}>{title}</h2>
         <Row>
           <Col className={styles.dividerLine}>
             <DividerLine />
@@ -81,8 +51,8 @@ const Gallery = ({ title, morelink, children }) => {
             <MoreButton link={morelink} />
           </Col>
         </Row>
-        <Row>{items}</Row>
-      </Content>
+        <Row className={styles.galleryContainer}>{items}</Row>
+      </div>
     </Container>
   );
 };

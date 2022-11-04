@@ -1,5 +1,10 @@
 .container {
-	width:  95%;
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+	width: 99%;
 }
 
 .dividerLine {
@@ -12,7 +17,17 @@
 	border-radius: 0.5rem;
 	height: 2rem;
     width: 6rem;
-    padding: 0.5rem;
+    padding: 0.4rem;
+    /* transitions */
+    -webkit-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+    -ms-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+
+.morebutton:hover  {
+    background-color: #620423;
 }
 
 .morebutton h1 {
@@ -20,4 +35,22 @@
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 600;
     font-size: 1rem;
+}
+
+.galleryContainer {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.photo {
+	width: 100%;
+	min-width: 270px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.galleryTitle {
+	font-weight: 500;
+  	font-size: 1.5rem;
 }
