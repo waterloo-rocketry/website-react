@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Ratio from 'react-bootstrap/Ratio';
 
 import DividerLine from '../DividerLine/DividerLine';
 import styles from './Gallery.module.css';
@@ -24,8 +25,10 @@ const Photo = ({ link, altText }) => {
 
 const Video = ({ link, title }) => {
   return (
-    <div className="embed-responsive embed-responsive-16by9">
-      <iframe title={title} className={`${styles.video} embed-responsive-item`} src={link} />
+    <div className={styles.video}>
+      <Ratio aspectRatio="16x9">
+        <iframe title={title} src={link} />
+      </Ratio>
     </div>
   );
 };
