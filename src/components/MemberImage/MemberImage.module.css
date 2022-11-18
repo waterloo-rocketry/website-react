@@ -1,0 +1,93 @@
+.box_outer {
+	background-image: url('../../img/teams/missing-min.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 15rem;
+	height:	15rem;
+	text-align: left;
+	padding-left: 0rem;
+	padding-right: 2rem;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.box_outer:hover .box_inner{
+	transition: 0.3s;
+	visibility: visible;
+	opacity: 1;
+}
+
+.box_inner {
+	background: linear-gradient(to top, rgba(0,0,0,1), rgba(255,255,255,0));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 15rem;
+	height:	15rem;
+	text-align: left;
+	padding-left: 1rem;
+	transition: 0.3s;
+	visibility: hidden;
+	opacity: 0;
+  position: relative;
+}
+
+
+/* member name */
+.box_inner_h1 { 
+	color: white;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 800;
+	margin-bottom: 0.3rem;
+	position: center bottom;
+}
+
+/* member title */
+.box_inner_h2 {
+	color: white;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 600;
+	position: center bottom;
+}
+
+.text_holder {
+	position: absolute;
+	bottom: 5%;
+}
+
+
+.box_outer_alum {
+	background-image: url('../../img/teams/missing-min.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 10rem;
+	height:	10rem;
+	text-align: left;
+	padding-left: 0rem;
+	padding-right: 2rem;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.box_outer_alum:hover .box_inner_alum {
+	transition: 0.3s;
+	visibility: visible;
+	opacity: 1;
+}
+
+.box_inner_alum {
+	background: linear-gradient(to top, rgba(0,0,0,1), rgba(255,255,255,0));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 10rem;
+	height:	10rem;
+	text-align: left;
+	padding-left: 0.8rem;
+	transition: 0.3s;
+	visibility: hidden;
+	opacity: 0;
+  position: relative;
+}
