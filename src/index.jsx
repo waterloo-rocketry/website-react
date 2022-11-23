@@ -11,10 +11,9 @@ import Page from './components/Page';
 import Home from './routes/Home';
 import Competition from './routes/Competition';
 import Join from './routes/Join';
-
 import Rockets from './routes/Rockets';
-// eslint-disable-next-line import/no-named-as-default
 import Sponsors from './routes/Sponsors';
+import Subsystems from './routes/Subsystems';
 
 import Footer from './components/Footer/Footer';
 
@@ -58,6 +57,13 @@ ReactDOM.render(
           exact
           path="/sponsors"
           element={<Page title="Sponsors"><Sponsors /></Page>}
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/subsystems"
+          element={<Page title="Subsystems"><Subsystems /></Page>}
         />
       </Routes>
       <Footer />

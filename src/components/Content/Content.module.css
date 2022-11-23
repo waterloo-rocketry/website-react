@@ -3,10 +3,15 @@
   font-size: 1.5rem;
 }
 
+.contentTitleHr {
+  margin: 0.5rem 0;
+}
+
 .contentText {
   text-align: left;
   line-height: 135%;
   font-weight: 400;
   font-size: 0.9rem;
 }
+
 

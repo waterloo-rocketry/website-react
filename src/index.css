@@ -27,3 +27,6 @@ code {
     monospace;
 }
 
+
+
+.nav-pills .nav-link.active { background-color: red; }
