@@ -16,6 +16,8 @@ import Rockets from './routes/Rockets';
 // eslint-disable-next-line import/no-named-as-default
 import Sponsors from './routes/Sponsors';
 
+import Outreach from './routes/Outreach';
+
 import Footer from './components/Footer/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -58,6 +60,13 @@ ReactDOM.render(
           exact
           path="/sponsors"
           element={<Page title="Sponsors"><Sponsors /></Page>}
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/outreach"
+          element={<Page title="Outreach"><Outreach /></Page>}
         />
       </Routes>
       <Footer />
