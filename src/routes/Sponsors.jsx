@@ -297,7 +297,6 @@ const Sponsors = () => {
           <Content title="SILVER SPONSORS">
             <DividerLine />
           </Content>
-
           <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
             <Col md="auto" style={{ float: 'center' }}>
               <SponsorLinkWithDesc logoTier="silver" image={mef} link="https://uwaterloo.ca/math-endowment-fund/" />
@@ -313,7 +312,6 @@ const Sponsors = () => {
             </Col>
           </Row>
 
-          {/* Bronze Sponsors */}
           <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={customClothes} link="https://customclothes.ca/" />
@@ -335,6 +333,7 @@ const Sponsors = () => {
             </Col>
           </Row>
 
+          {/* Bronze Sponsors */}
           <Content title="BRONZE SPONSORS">
             <DividerLine />
           </Content>
