@@ -54,7 +54,6 @@ const Subsystems = () => {
         <Row className="my-4 mx-2 gx-5 justify-content-center">
           <img src={rocketImg} alt="Rocket Diagram" />
         </Row>
-        {/* <Row className="col-10 col-md-8 col-lg-7 px-0 mx-auto"> */}
         <Row className="justify-content-md-center mb-4">
           <Col sm={10} md={8} lg={7}>
             <Tabs
