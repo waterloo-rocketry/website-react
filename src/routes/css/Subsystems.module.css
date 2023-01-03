@@ -22,7 +22,7 @@
 }
 
 .subsystemTab table, th, td {
-	border: 1px solid darkgray !important;
+	border: 1px solid darkgray;
 	border-width: 1px;
 }
 
