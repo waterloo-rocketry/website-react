@@ -1,7 +1,6 @@
 import { React, useState } from 'react';
 import {
-  Col,
-  Container, Row, Tab, Tabs,
+  Col, Container, Row, Tab, Tabs, Image,
 } from 'react-bootstrap';
 
 import CoverPhoto from '../components/CoverPhoto/CoverPhoto';
@@ -51,11 +50,9 @@ const Subsystems = () => {
             </p>
           </Content>
         </Row>
-        <Row className="my-4 mx-2 gx-5 justify-content-center">
-          <img src={rocketImg} alt="Rocket Diagram" />
-        </Row>
         <Row className="justify-content-md-center mb-4">
           <Col sm={10} md={8} lg={7}>
+            <Image fluid src={rocketImg} alt="Rocket Diagram" />
             <Tabs
               defaultActiveKey="airframe"
               transition={false}
