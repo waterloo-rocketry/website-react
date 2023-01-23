@@ -3,8 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../index.css';
 import styles from './AwardItem.module.css';
 
-// Component to add title and horizontal line
-// Year: Number of year (Int)
+/**
+* Component to add title and horizontal line
+* @param {Int} Year Number of year (Int)
+*/
 const AwardYear = ({ Year }) => {
   return (
     <div>
@@ -17,14 +19,16 @@ AwardYear.defaultProps = {
   Year: 9999,
 };
 
-// Component to add a singular award
-// RocketName: Name of Rocket (Str)
-// AwardName: Name of Award (Str)
-// AwardDescription: Description of Award (Str)
-// ImageAddress: Address of Image relative to Award.jsx file (Image)
-// ImageName: Name of Image for alt tag (Str)
+/**
+* To add a singular award
+* @param  {string} RocketName Name of Rocket (Str)
+* @param {string} AwardName Name of Award (Str)
+* @param {string} AwardDescription Description of Award (Str)
+* @param {string} ImageAddress Address of Image relative to Award.jsx file (Image)
+* @param {string} ImageName Name of Image for alt tag (Str)
+*/
 const AwardItem = ({
-  RocketName, AwardName, AwardDescription, ImageAddress, ImageName,
+  RocketName, AwardName, children, ImageAddress, ImageName,
 }) => {
   return (
     <div className={styles.award__wrapper}>
@@ -36,7 +40,7 @@ const AwardItem = ({
         <div className={styles.line} />
         <div className={styles.content_text}>
           <p>
-            {AwardDescription}
+            {children}
           </p>
         </div>
       </div>
@@ -49,7 +53,7 @@ const AwardItem = ({
 AwardItem.defaultProps = {
   RocketName: 'RocketName',
   AwardName: 'AwardName',
-  AwardDescription: 'AwardDescription',
+  children: <span>Award Description</span>,
   ImageAddress: 'AwardName',
   ImageName: 'AwardDescription',
 };

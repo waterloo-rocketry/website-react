@@ -19,36 +19,66 @@ const Awards = () => {
           <AwardItem
             RocketName="SotS"
             AwardName="SECOND PLACE - 30K LIQUID/HYBRID SRAD"
-            AwardDescription="The Category Second Place Awards recognize the teams with the second highest overall scores in each of the six competition categories, with this category representing Student Researched and Developed (SRAD) Hybrid/Liquid engines targeting an apogee of 30000 feet, moving us a division up from last year. Teams are scored on the project technical report, competency of design, quality of construction, degree of student development, flight performance, and operating procedures. Our team received this award for finishing second in our category at the 2019 IREC, with the debut flight of SOTS."
             ImageAddress={SRAD19Image}
             ImageName="Second Place - 30k Liquid/Hybrid Srad"
-          />
+          >
+            The Category Second Place Awards recognize the teams with the second highest overall
+            scores in each of the six competition categories, with this category representing
+            Student Researched and Developed (SRAD) Hybrid/Liquid engines targeting an apogee of
+            30000 feet, moving us a division up from last year. Teams are scored on the project
+            technical report, competency of design, quality of construction, degree of student
+            development, flight performance, and operating procedures. Our team received this
+            award for finishing second in our category at the 2019 IREC, with the debut flight
+            of SOTS.
+          </AwardItem>
 
           <AwardYear Year={2018} />
           <AwardItem
             RocketName="UXO"
             AwardName="FIRST PLACE - 10K LIQUID/HYBRID SRAD"
-            AwardDescription="The Category First Place Awards recognize the teams with the highest overall scores in each of the six competition categories, with this category representing Student Researched and Developed (SRAD) Hybrid/Liquid engines targeting an apogee of 10,000 feet. Teams are scored on the project technical report, competency of design, quality of construction, degree of student development, flight performance, and operating procedures. Our team received this award for finishing first in our category at the 2018 IREC, with the debut flight of UXO."
             ImageAddress={SRAD18Image}
             ImageName="First Place - 10k Liquid/Hybrid Srad"
-          />
+          >
+            The Category First Place Awards recognize the teams with the highest overall scores in
+            each of the six competition categories, with this category representing Student
+            Researched and Developed (SRAD) Hybrid/Liquid engines targeting an apogee of 10,000
+            feet. Teams are scored on the project technical report, competency of design, quality
+            of construction, degree of student development, flight performance, and operating
+            procedures. Our team received this award for finishing first in our category at the
+            2018 IREC, with the debut flight of UXO.
+
+          </AwardItem>
 
           <AwardYear Year={2017} />
           <AwardItem
             RocketName="VIDAR III"
             AwardName="JIM FURFARO AWARD FOR TECHNICAL EXCELLENCE"
-            AwardDescription="The Jim Furfaro Award for Technical Excellence recognizes a team which demonstrates exceptional engineering discipline and technical skill through their analyses and conclusions, project or program planning and execution, operational procedure, manufacturing processes, iterative improvement, systems engineering methodology, and robust design. Our team was presented with this award after our successful launch and recovery of Vidar III at the 2017 IREC, based on our iterative design on the Vidar system over the previous four years."
             ImageAddress={TechincalExcellenceImage}
             ImageName="Jim Furfaro Award for Technical Excellence"
-          />
+          >
+            The Jim Furfaro Award for Technical Excellence recognizes a team which demonstrates
+            exceptional engineering discipline and technical skill through their analyses and
+            conclusions, project or program planning and execution, operational procedure,
+            manufacturing processes, iterative improvement, systems engineering methodology, and
+            robust design. Our team was presented with this award after our successful launch and
+            recovery of Vidar III at the 2017 IREC, based on our iterative design on the Vidar
+            system over the previous four years.
+          </AwardItem>
 
           <AwardItem
             RocketName="VIDAR III"
             AwardName="FIRST PLACE - 10K LIQUID/HYBRID SRAD"
-            AwardDescription="The Category First Place Awards recognize the teams with the highest overall scores in each of the six competition categories, with this category representing Student Researched and Developed (SRAD) Hybrid/Liquid engines targeting an apogee of 10,000 feet. Teams are scored on the project technical report, competency of design, quality of construction, degree of student development, flight performance, and operating procedures. Our team received this award for finishing first in our category at the 2017 IREC."
             ImageAddress={SRAD17Image}
             ImageName="First Place - 10k Liquid/Hybrid Srad"
-          />
+          >
+            The Category First Place Awards recognize the teams with the highest overall scores
+            in each of the six competition categories, with this category representing Student
+            Researched and Developed (SRAD) Hybrid/Liquid engines targeting an apogee of 10,000
+            feet. Teams are scored on the project technical report, competency of design, quality
+            of construction, degree of student development, flight performance, and operating
+            procedures. Our team received this award for finishing first in our category at
+            the 2017 IREC.
+          </AwardItem>
         </Row>
       </Container>
     </>
