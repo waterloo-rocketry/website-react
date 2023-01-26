@@ -5,7 +5,7 @@ import styles from './AwardItem.module.css';
 
 /**
 * Component to add title and horizontal line
-* @param {Int} Year Number of year (Int)
+* @param {Int} Year Number of year
 */
 const AwardYear = ({ Year }) => {
   return (
@@ -21,11 +21,11 @@ AwardYear.defaultProps = {
 
 /**
 * To add a singular award
-* @param  {string} RocketName Name of Rocket (Str)
-* @param {string} AwardName Name of Award (Str)
-* @param {string} AwardDescription Description of Award (Str)
-* @param {string} ImageAddress Address of Image relative to Award.jsx file (Image)
-* @param {string} ImageName Name of Image for alt tag (Str)
+* @param  {string} RocketName Name of Rocket
+* @param {string} AwardName Name of Award
+* @param {string} AwardDescription Description of Award
+* @param {string} ImageAddress Address of Image relative to Award.jsx file
+* @param {string} ImageName Name of Image for alt tag
 */
 const AwardItem = ({
   RocketName, AwardName, children, ImageAddress, ImageName,
