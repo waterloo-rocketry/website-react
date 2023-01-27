@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/website-react/static/css/main.9e1b48c8.chunk.css",
-    "main.js": "/website-react/static/js/main.485f5951.chunk.js",
-    "main.js.map": "/website-react/static/js/main.485f5951.chunk.js.map",
+    "main.css": "/website-react/static/css/main.abb84c54.chunk.css",
+    "main.js": "/website-react/static/js/main.89813c46.chunk.js",
+    "main.js.map": "/website-react/static/js/main.89813c46.chunk.js.map",
     "runtime-main.js": "/website-react/static/js/runtime-main.cd8da4bb.js",
     "runtime-main.js.map": "/website-react/static/js/runtime-main.cd8da4bb.js.map",
     "static/css/2.0a9ec390.chunk.css": "/website-react/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.3565f287.chunk.js": "/website-react/static/js/2.3565f287.chunk.js",
-    "static/js/2.3565f287.chunk.js.map": "/website-react/static/js/2.3565f287.chunk.js.map",
+    "static/js/2.c59314e0.chunk.js": "/website-react/static/js/2.c59314e0.chunk.js",
+    "static/js/2.c59314e0.chunk.js.map": "/website-react/static/js/2.c59314e0.chunk.js.map",
     "index.html": "/website-react/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/website-react/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.9e1b48c8.chunk.css.map": "/website-react/static/css/main.9e1b48c8.chunk.css.map",
-    "static/js/2.3565f287.chunk.js.LICENSE.txt": "/website-react/static/js/2.3565f287.chunk.js.LICENSE.txt",
+    "static/css/main.abb84c54.chunk.css.map": "/website-react/static/css/main.abb84c54.chunk.css.map",
+    "static/js/2.c59314e0.chunk.js.LICENSE.txt": "/website-react/static/js/2.c59314e0.chunk.js.LICENSE.txt",
+    "static/media/10k_SRAD17.e4f92816.png": "/website-react/static/media/10k_SRAD17.e4f92816.png",
+    "static/media/10k_SRAD18.03ef9abb.png": "/website-react/static/media/10k_SRAD18.03ef9abb.png",
+    "static/media/30k_SRAD19.e9d4756a.png": "/website-react/static/media/30k_SRAD19.e9d4756a.png",
     "static/media/A&P_Logo.1e9be9b8.png": "/website-react/static/media/A&P_Logo.1e9be9b8.png",
     "static/media/ANSYS_Logo.994fca66.png": "/website-react/static/media/ANSYS_Logo.994fca66.png",
     "static/media/Aircraft_Spruce_Logo.afb27e1a.png": "/website-react/static/media/Aircraft_Spruce_Logo.afb27e1a.png",
@@ -37,6 +40,7 @@
     "static/media/Waterloo_ENG_Faculty_Logo_rgb.c10daf54.png": "/website-react/static/media/Waterloo_ENG_Faculty_Logo_rgb.c10daf54.png",
     "static/media/Waterloo_ENG_Mechanical_Logo_rgb.f2362011.png": "/website-react/static/media/Waterloo_ENG_Mechanical_Logo_rgb.f2362011.png",
     "static/media/ariss.1bfb25a0.png": "/website-react/static/media/ariss.1bfb25a0.png",
+    "static/media/awards_cover.56afe088.jpg": "/website-react/static/media/awards_cover.56afe088.jpg",
     "static/media/banner_logo.b84c5f4c.png": "/website-react/static/media/banner_logo.b84c5f4c.png",
     "static/media/bay_area_circuits.2b400e43.png": "/website-react/static/media/bay_area_circuits.2b400e43.png",
     "static/media/bigredbee_logo.7a4b277b.png": "/website-react/static/media/bigredbee_logo.7a4b277b.png",
@@ -71,6 +75,7 @@
     "static/media/solidworks_logo.a81da2bb.png": "/website-react/static/media/solidworks_logo.a81da2bb.png",
     "static/media/spaceport_group.f9775d9a.jpg": "/website-react/static/media/spaceport_group.f9775d9a.jpg",
     "static/media/stein_logo.5bfb2c64.png": "/website-react/static/media/stein_logo.5bfb2c64.png",
+    "static/media/technical_excellence.acff53d9.png": "/website-react/static/media/technical_excellence.acff53d9.png",
     "static/media/textreme.1cce65d8.png": "/website-react/static/media/textreme.1cce65d8.png",
     "static/media/triumph-logo.ee3b9705.png": "/website-react/static/media/triumph-logo.ee3b9705.png",
     "static/media/u-blox_logo_rgb.be2f2dd1.jpg": "/website-react/static/media/u-blox_logo_rgb.be2f2dd1.jpg"
@@ -78,8 +83,8 @@
   "entrypoints": [
     "static/js/runtime-main.cd8da4bb.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.3565f287.chunk.js",
-    "static/css/main.9e1b48c8.chunk.css",
-    "static/js/main.485f5951.chunk.js"
+    "static/js/2.c59314e0.chunk.js",
+    "static/css/main.abb84c54.chunk.css",
+    "static/js/main.89813c46.chunk.js"
   ]
 }
