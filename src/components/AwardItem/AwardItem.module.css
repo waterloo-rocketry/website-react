@@ -1,0 +1,87 @@
+.award__wrapper {
+	width: 600px;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+	margin: 2rem;
+	margin-top: 1rem;
+	white-space: nowrap;
+}
+
+.content_text {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+	line-height: 135%;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.h3__year {
+	display: block;
+	clear: both;
+	margin-left: 2rem;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 2rem;
+}
+
+.content_rocket_tag {
+	background-color: #8c0733;
+	padding: 0.5rem;
+	text-align: center;
+	height: 2rem;
+	width: 6rem;
+	border-radius: 0.5rem;	
+	float: left;
+	/* transitions */
+	-webkit-transition: background-color 0.3s linear;
+	-moz-transition: background-color 0.3s linear;
+	-o-transition: background-color 0.3s linear;
+	-ms-transition: background-color 0.3s linear;
+	transition: background-color 0.3s linear;
+}
+
+.content_rocket_tag h1 {
+	color: #ffffff;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+.award__wrapper h2 {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 200;
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.award__wrapper p {
+	margin-top: 1rem;
+}
+
+.award_body {
+	float: left;
+	width: 300px;
+	margin-left: 2rem;
+	white-space: normal;
+}
+
+.poster { 
+	margin-left: 10%;
+	width: 8rem;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.line {
+	height: 0;
+	border-bottom: 1px solid #b9b9b9;
+}
+
+hr { 
+    display: block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-style: inset;
+    border-width: 1px;	
+}
+
