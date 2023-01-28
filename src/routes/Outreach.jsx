@@ -40,7 +40,7 @@ const Outreach = () => {
         </Row>
         <DividerLine />
         <Row className="my-4 mx-2 gx-5 justify-content-left">
-          <Col className="" lg={{ span: 7 }}>
+          <Col className="" sm={{ span: 8 }}>
             <Content title="AVIATION FUN DAY">
               <p className="content-text">
                 Aviation Fun Day is an annual event held by the Region of Waterloo
@@ -73,16 +73,17 @@ const Outreach = () => {
               </p>
             </Content>
           </Col>
-          <Col lg={{ span: 4 }}>
+          <Col sm={{ span: 4 }}>
             <ImageBox
               image={afdPhoto}
-              width="40 rem"
+              width="85%"
+              height="auto"
             />
           </Col>
         </Row>
         <DividerLine />
         <Row className="my-4 mx-2 gx-5 justify-content-left">
-          <Col className="" lg={{ span: 7 }}>
+          <Col className="" sm={{ span: 8 }}>
             <Content title="MODEL ROCKET COMPETITION">
               <p>
                 The Model Rocket Competition is an annual event by Waterloo Rocketry.
@@ -123,16 +124,17 @@ const Outreach = () => {
               </p>
             </Content>
           </Col>
-          <Col lg={{ span: 3 }}>
+          <Col sm={{ span: 4 }}>
             <ImageBox
               image={rdrPhoto}
-              width="20 rem"
+              width="85%"
+              height="auto"
             />
           </Col>
         </Row>
         <DividerLine />
         <Row className="my-4 mx-2 gx-5 justify-content-left">
-          <Col className="" lg={{ span: 7 }}>
+          <Col className="" sm={{ span: 8 }}>
             <Content title="ROCKETRY EDUCATION SESSION">
               <p>
                 The ESQ (Engineering Science Quest) day camp for children is
@@ -157,10 +159,11 @@ const Outreach = () => {
               </p>
             </Content>
           </Col>
-          <Col lg={{ span: 3 }}>
+          <Col sm={{ span: 4 }}>
             <ImageBox
               image={edPhoto}
-              width="20 rem"
+              width="85%"
+              height="auto"
             />
           </Col>
         </Row>
