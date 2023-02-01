@@ -7,11 +7,17 @@
     margin-bottom: 0.3rem;
 }
 
+.box {
+    height: 17rem;
+    padding: 0.5rem;
+}
+
 .box__inner {
+    display: block;
     height: 15rem;
-    width: 29.5rem;
+    min-width: 22rem;
     background-image: url('https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg');
-    background-size: 30rem;
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 6rem;
