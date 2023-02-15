@@ -297,44 +297,43 @@ const Sponsors = () => {
           <Content title="SILVER SPONSORS">
             <DividerLine />
           </Content>
-
           <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
             <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={mef} link="#" />
+              <SponsorLinkWithDesc logoTier="silver" image={mef} link="https://uwaterloo.ca/math-endowment-fund/" />
             </Col>
             <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={swagelok} link="#" />
+              <SponsorLinkWithDesc logoTier="silver" image={swagelok} link="http://www.swagelok.com/en" />
             </Col>
             <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={engsoc} link="#" />
+              <SponsorLinkWithDesc logoTier="silver" image={engsoc} link="https://www.engsoc.uwaterloo.ca/" />
             </Col>
             <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={linde} link="#" />
+              <SponsorLinkWithDesc logoTier="silver" image={linde} link="http://www.linde.com/" />
             </Col>
           </Row>
 
-          {/* Bronze Sponsors */}
           <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={customClothes} link="#" />
+              <SponsorLinkWithDesc logoTier="silver" image={customClothes} link="https://customclothes.ca/" />
             </Col>
             <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={sff} link="#" />
+              <SponsorLinkWithDesc logoTier="silver" image={sff} link="https://uwaterloo.ca/sandford-fleming-foundation/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={harwin} link="#" />
+              <SponsorLinkWithDesc logoTier="silver" image={harwin} link="http://www.harwin.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={AandP} link="#" />
+              <SponsorLinkWithDesc logoTier="silver" image={AandP} link="http://www.braider.com/" />
             </Col>
           </Row>
 
           <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
             <Col md="auto" style={{ float: 'center', marginBottom: '2rem' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={mrc} link="#" />
+              <SponsorLinkWithDesc logoTier="silver" image={mrc} link="https://www.mrcwireless.com/" />
             </Col>
           </Row>
 
+          {/* Bronze Sponsors */}
           <Content title="BRONZE SPONSORS">
             <DividerLine />
           </Content>
