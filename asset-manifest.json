@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/website-react/static/css/main.b4d00330.chunk.css",
-    "main.js": "/website-react/static/js/main.ff9ee67b.chunk.js",
-    "main.js.map": "/website-react/static/js/main.ff9ee67b.chunk.js.map",
+    "main.js": "/website-react/static/js/main.8d6ae98c.chunk.js",
+    "main.js.map": "/website-react/static/js/main.8d6ae98c.chunk.js.map",
     "runtime-main.js": "/website-react/static/js/runtime-main.cd8da4bb.js",
     "runtime-main.js.map": "/website-react/static/js/runtime-main.cd8da4bb.js.map",
     "static/css/2.0a9ec390.chunk.css": "/website-react/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.56d559fe.chunk.js": "/website-react/static/js/2.56d559fe.chunk.js",
-    "static/js/2.56d559fe.chunk.js.map": "/website-react/static/js/2.56d559fe.chunk.js.map",
+    "static/js/2.a99b8e56.chunk.js": "/website-react/static/js/2.a99b8e56.chunk.js",
+    "static/js/2.a99b8e56.chunk.js.map": "/website-react/static/js/2.a99b8e56.chunk.js.map",
     "index.html": "/website-react/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/website-react/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.b4d00330.chunk.css.map": "/website-react/static/css/main.b4d00330.chunk.css.map",
-    "static/js/2.56d559fe.chunk.js.LICENSE.txt": "/website-react/static/js/2.56d559fe.chunk.js.LICENSE.txt",
+    "static/js/2.a99b8e56.chunk.js.LICENSE.txt": "/website-react/static/js/2.a99b8e56.chunk.js.LICENSE.txt",
     "static/media/10k_SRAD17.e4f92816.png": "/website-react/static/media/10k_SRAD17.e4f92816.png",
     "static/media/10k_SRAD18.03ef9abb.png": "/website-react/static/media/10k_SRAD18.03ef9abb.png",
     "static/media/30k_SRAD19.e9d4756a.png": "/website-react/static/media/30k_SRAD19.e9d4756a.png",
@@ -41,6 +41,7 @@
     "static/media/Waterloo-Electroplating.6346e4ed.png": "/website-react/static/media/Waterloo-Electroplating.6346e4ed.png",
     "static/media/Waterloo_ENG_Faculty_Logo_rgb.c10daf54.png": "/website-react/static/media/Waterloo_ENG_Faculty_Logo_rgb.c10daf54.png",
     "static/media/Waterloo_ENG_Mechanical_Logo_rgb.f2362011.png": "/website-react/static/media/Waterloo_ENG_Mechanical_Logo_rgb.f2362011.png",
+    "static/media/afd_logo.d50d1269.jpg": "/website-react/static/media/afd_logo.d50d1269.jpg",
     "static/media/ariss.1bfb25a0.png": "/website-react/static/media/ariss.1bfb25a0.png",
     "static/media/awards_cover.56afe088.jpg": "/website-react/static/media/awards_cover.56afe088.jpg",
     "static/media/banner_logo.b84c5f4c.png": "/website-react/static/media/banner_logo.b84c5f4c.png",
@@ -50,10 +51,12 @@
     "static/media/cover_comp.53a89bb2.jpg": "/website-react/static/media/cover_comp.53a89bb2.jpg",
     "static/media/cover_home.ce7f0f33.jpg": "/website-react/static/media/cover_home.ce7f0f33.jpg",
     "static/media/cover_join.2c8fd7a5.jpg": "/website-react/static/media/cover_join.2c8fd7a5.jpg",
+    "static/media/cover_outreach.a88d8022.jpg": "/website-react/static/media/cover_outreach.a88d8022.jpg",
     "static/media/cover_sponsors.ae23aaa3.jpg": "/website-react/static/media/cover_sponsors.ae23aaa3.jpg",
     "static/media/custom_clothes_canada.fcde5e79.png": "/website-react/static/media/custom_clothes_canada.fcde5e79.png",
     "static/media/demtool.15a552eb.png": "/website-react/static/media/demtool.15a552eb.png",
     "static/media/digi_logo.c425885a.png": "/website-react/static/media/digi_logo.c425885a.png",
+    "static/media/ed_session.1356516a.jpg": "/website-react/static/media/ed_session.1356516a.jpg",
     "static/media/engsoc_logo.c0196dcb.png": "/website-react/static/media/engsoc_logo.c0196dcb.png",
     "static/media/ereztech-logo.a2c8b9e1.png": "/website-react/static/media/ereztech-logo.a2c8b9e1.png",
     "static/media/eridani-2012.21e8af92.jpg": "/website-react/static/media/eridani-2012.21e8af92.jpg",
@@ -75,6 +78,7 @@
     "static/media/qnx-logo-black-medium.c12e324f.png": "/website-react/static/media/qnx-logo-black-medium.c12e324f.png",
     "static/media/richard_dudgeon_logo.40bd6eef.png": "/website-react/static/media/richard_dudgeon_logo.40bd6eef.png",
     "static/media/robotshop.c6487ca0.png": "/website-react/static/media/robotshop.c6487ca0.png",
+    "static/media/rocket_drag_race_2019.e3229ff7.jpg": "/website-react/static/media/rocket_drag_race_2019.e3229ff7.jpg",
     "static/media/shark-of-the-sky.c8d283fe.jpg": "/website-react/static/media/shark-of-the-sky.c8d283fe.jpg",
     "static/media/silver-brant.b7df01a2.jpg": "/website-react/static/media/silver-brant.b7df01a2.jpg",
     "static/media/solidworks_logo.a81da2bb.png": "/website-react/static/media/solidworks_logo.a81da2bb.png",
@@ -91,8 +95,8 @@
   "entrypoints": [
     "static/js/runtime-main.cd8da4bb.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.56d559fe.chunk.js",
+    "static/js/2.a99b8e56.chunk.js",
     "static/css/main.b4d00330.chunk.css",
-    "static/js/main.ff9ee67b.chunk.js"
+    "static/js/main.8d6ae98c.chunk.js"
   ]
 }
