@@ -11,9 +11,13 @@ import Page from './components/Page';
 import Home from './routes/Home';
 import Competition from './routes/Competition';
 import Join from './routes/Join';
+import Awards from './routes/Awards';
+
 import Rockets from './routes/Rockets';
 import Sponsors from './routes/Sponsors';
 import Subsystems from './routes/Subsystems';
+
+import Outreach from './routes/Outreach';
 
 import Footer from './components/Footer/Footer';
 
@@ -30,40 +34,40 @@ ReactDOM.render(
           path="/"
           element={<Page title="Home"><Home /></Page>}
         />
-      </Routes>
-      <Routes>
         <Route
           exact
           path="/competition"
           element={<Page title="Competition"><Competition /></Page>}
         />
-      </Routes>
-      <Routes>
         <Route
           exact
           path="/join"
           element={<Page title="Join Us"><Join /></Page>}
         />
-      </Routes>
-      <Routes>
         <Route
           exact
           path="/rockets"
           element={<Page title="Rockets"><Rockets /></Page>}
         />
-      </Routes>
-      <Routes>
         <Route
           exact
           path="/sponsors"
           element={<Page title="Sponsors"><Sponsors /></Page>}
         />
-      </Routes>
-      <Routes>
         <Route
           exact
           path="/subsystems"
           element={<Page title="Subsystems"><Subsystems /></Page>}
+        />
+        <Route
+          exact
+          path="/awards"
+          element={<Page title="Awards"><Awards /></Page>}
+        />
+        <Route
+          exact
+          path="/outreach"
+          element={<Page title="Outreach"><Outreach /></Page>}
         />
       </Routes>
       <Footer />
