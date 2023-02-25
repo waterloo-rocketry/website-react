@@ -14,8 +14,8 @@ import Join from './routes/Join';
 import Awards from './routes/Awards';
 
 import Rockets from './routes/Rockets';
-// eslint-disable-next-line import/no-named-as-default
 import Sponsors from './routes/Sponsors';
+import Subsystems from './routes/Subsystems';
 
 import Outreach from './routes/Outreach';
 
@@ -34,43 +34,36 @@ ReactDOM.render(
           path="/"
           element={<Page title="Home"><Home /></Page>}
         />
-      </Routes>
-      <Routes>
         <Route
           exact
           path="/competition"
           element={<Page title="Competition"><Competition /></Page>}
         />
-      </Routes>
-      <Routes>
         <Route
           exact
           path="/join"
           element={<Page title="Join Us"><Join /></Page>}
         />
-      </Routes>
-      <Routes>
         <Route
           exact
           path="/rockets"
           element={<Page title="Rockets"><Rockets /></Page>}
         />
-      </Routes>
-      <Routes>
         <Route
           exact
           path="/sponsors"
           element={<Page title="Sponsors"><Sponsors /></Page>}
         />
-      </Routes>
-      <Routes>
+        <Route
+          exact
+          path="/subsystems"
+          element={<Page title="Subsystems"><Subsystems /></Page>}
+        />
         <Route
           exact
           path="/awards"
           element={<Page title="Awards"><Awards /></Page>}
         />
-      </Routes>
-      <Routes>
         <Route
           exact
           path="/outreach"
