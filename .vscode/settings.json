@@ -3,5 +3,8 @@
         "source.fixAll.eslint": true
     },
     "eslint.validate": ["javascript"],
-    "editor.rulers": [100]
+    "editor.rulers": [
+        100
+    ],
+    "git.ignoreLimitWarning": true
 }

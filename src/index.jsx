@@ -11,10 +11,13 @@ import Page from './components/Page';
 import Home from './routes/Home';
 import Competition from './routes/Competition';
 import Join from './routes/Join';
+import Awards from './routes/Awards';
 
 import SharkOfTheSky from './routes/rocketPages/SharkOfTheSky';
 // eslint-disable-next-line import/no-named-as-default
 import Sponsors from './routes/Sponsors';
+
+import Outreach from './routes/Outreach';
 
 import Footer from './components/Footer/Footer';
 
@@ -50,6 +53,20 @@ ReactDOM.render(
           exact
           path="/sots"
           element={<Page title="Shark of the Sky"><SharkOfTheSky /></Page>}
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/awards"
+          element={<Page title="Awards"><Awards /></Page>}
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/outreach"
+          element={<Page title="Outreach"><Outreach /></Page>}
         />
       </Routes>
       <Footer />
