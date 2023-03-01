@@ -13,13 +13,15 @@ import Competition from './routes/Competition';
 import Join from './routes/Join';
 import Awards from './routes/Awards';
 
-import SharkOfTheSky from './routes/rocketPages/SharkOfTheSky';
+import Rockets from './routes/Rockets';
 // eslint-disable-next-line import/no-named-as-default
 import Sponsors from './routes/Sponsors';
 
 import Outreach from './routes/Outreach';
 
 import Footer from './components/Footer/Footer';
+
+import SharkOfTheSky from './routes/rocketPages/SharkOfTheSky';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -34,25 +36,38 @@ ReactDOM.render(
           path="/"
           element={<Page title="Home"><Home /></Page>}
         />
+      </Routes>
+      <Routes>
         <Route
           exact
           path="/competition"
           element={<Page title="Competition"><Competition /></Page>}
         />
+      </Routes>
+      <Routes>
         <Route
           exact
           path="/join"
           element={<Page title="Join Us"><Join /></Page>}
         />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/rockets"
+          element={<Page title="Rockets"><Rockets /></Page>}
+        />
+        <Route
+          exact
+          path="/rockets/sots"
+          element={<Page title="Shark Of The Sky"><SharkOfTheSky /></Page>}
+        />
+      </Routes>
+      <Routes>
         <Route
           exact
           path="/sponsors"
           element={<Page title="Sponsors"><Sponsors /></Page>}
-        />
-        <Route
-          exact
-          path="/sots"
-          element={<Page title="Shark of the Sky"><SharkOfTheSky /></Page>}
         />
       </Routes>
       <Routes>

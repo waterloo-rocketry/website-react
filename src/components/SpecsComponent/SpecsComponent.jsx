@@ -1,6 +1,8 @@
 import { React } from 'react';
 import { Col, Row } from 'react-bootstrap';
 
+import styles from './SpecsComponent.module.css';
+
 import Content from '../Content/Content';
 
 /* eslint-disable */
@@ -51,14 +53,17 @@ const SpecsComponent = ({ specs }) => {
 
       Object.keys(group).forEach((key) => {
         groupElems.push(
-          `${key}: ${group[key]}\n`,
+          `${key}: ${group[key]}`,
         );
       });
 
-      const finalString = groupElems.reduce((a, b) => a + b, '');
-
+      const finalString = groupElems[0];
+      const finalString2 = groupElems[1];
       return (
-        <p key={`${groupInd.toString()} ${colInd.toString()} group`}>{finalString}</p>
+        <div className={styles.group}>
+          <p className={styles.string} key={`${groupInd.toString()} ${colInd.toString()} group`}>{finalString}</p>
+          <p className={styles.string} key={`${groupInd.toString()} ${colInd.toString()} group`}>{finalString2}</p>
+        </div>
       );
     });
 
@@ -68,7 +73,7 @@ const SpecsComponent = ({ specs }) => {
   });
   return (
     <Content title="Specs">
-      <Row>
+      <Row className={styles.body}>
         {specElems}
       </Row>
     </Content>

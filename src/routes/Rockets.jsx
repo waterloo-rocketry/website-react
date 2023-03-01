@@ -18,7 +18,7 @@ const Rockets = () => {
         <Row xl={3} md={2} sm={1}>
           <Col>
             <RocketCard
-              url="/website-react/sots"
+              url="/website-react/rockets/sots"
               title="SHARK OF THE SKY"
               date="2019"
               image={rocketSharkOfTheSky}
@@ -27,7 +27,7 @@ const Rockets = () => {
           </Col>
           <Col>
             <RocketCard
-              url="/website-react/uxo"
+              url="/website-react/rockets/uxo"
               title="UNEXPLODED ORDNANCE"
               date="2018"
               image={rocketUnexplodedOrdnance}
@@ -36,7 +36,7 @@ const Rockets = () => {
           </Col>
           <Col>
             <RocketCard
-              url="/website-react/vidar3"
+              url="/website-react/rockets/vidar3"
               title="VIDAR III"
               date="2016/2017"
               image={rocketVidar3}
@@ -45,7 +45,7 @@ const Rockets = () => {
           </Col>
           <Col>
             <RocketCard
-              url="/website-react/vidar2"
+              url="/website-react/rockets/vidar2"
               title="VIDAR II"
               date="2015"
               image={rocketVidar2}
@@ -54,7 +54,7 @@ const Rockets = () => {
           </Col>
           <Col>
             <RocketCard
-              url="/website-react/vidar"
+              url="/website-react/rockets/vidar"
               title="VIDAR"
               date="2014"
               image={rocketVidar}
@@ -63,7 +63,7 @@ const Rockets = () => {
           </Col>
           <Col>
             <RocketCard
-              url="/website-react/silverbrant"
+              url="/website-react/rockets/silverbrant"
               title="SILVER BRANT"
               date="2013"
               image={rocketSilverBrant}
@@ -72,7 +72,7 @@ const Rockets = () => {
           </Col>
           <Col>
             <RocketCard
-              url="/website-react/eridani"
+              url="/website-react/rockets/eridani"
               title="ERIDANI"
               date="2012"
               image={rocketEridani}
@@ -81,7 +81,7 @@ const Rockets = () => {
           </Col>
           <Col>
             <RocketCard
-              url="/website-react/wrt1"
+              url="/website-react/rockets/wrt1"
               title="WRT 1"
               date="2011"
               image={rocketWRT1}

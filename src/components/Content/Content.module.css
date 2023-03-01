@@ -1,6 +1,7 @@
 .contentTitle {
   font-weight: 500;
   font-size: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 .contentText {
@@ -10,3 +11,11 @@
   font-size: 0.9rem;
 }
 
+/*
+For mobile devices
+*/
+@media (max-width: 550px) {
+  .contentText {
+    max-width: 70%;
+  }
+}
