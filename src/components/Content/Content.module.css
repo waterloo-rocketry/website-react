@@ -5,6 +5,10 @@
   margin-bottom: 0.25rem;
 }
 
+.contentTitleHr {
+  margin: 0.5rem 0;
+}
+
 .contentText {
   text-align: left;
   line-height: 135%;
@@ -20,3 +24,4 @@ For mobile devices
     max-width: 70%;
   }
 }
+
