@@ -1,0 +1,17 @@
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+ 
+.leftColumn {
+	min-width: 300px;
+}
+
+.rightColumn {
+	min-width: 300px;
+}
+
+.title{
+	margin-bottom: 0%;
+}

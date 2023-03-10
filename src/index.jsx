@@ -21,6 +21,8 @@ import Outreach from './routes/Outreach';
 
 import Footer from './components/Footer/Footer';
 
+import SharkOfTheSky from './routes/rocketPages/SharkOfTheSky';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
@@ -48,6 +50,11 @@ ReactDOM.render(
           exact
           path="/rockets"
           element={<Page title="Rockets"><Rockets /></Page>}
+        />
+        <Route
+          exact
+          path="/rockets/sots"
+          element={<Page title="Shark Of The Sky"><SharkOfTheSky /></Page>}
         />
         <Route
           exact
