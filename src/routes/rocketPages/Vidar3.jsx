@@ -88,9 +88,9 @@ const Vidar3 = () => {
         <Photo link="https://c2.staticflickr.com/8/7523/26411950113_92b0737317_b.jpg" altText="Machining VIDAR III parts" />
       </Gallery>
       <Gallery title="VIDEO GALLERY" morelink="https://www.youtube.com/user/uwrocketry">
-        <Video link="https://youtu.be/bWtbes6lPNQ" title="Pyrovalve Test" />
-        <Video link="https://youtu.be/aBGdopZXZPM" altText="Static Fire #7" />
-        <Video link="https://youtu.be/zb4q3UH-TVQ" altText="VIDAR III IREC launch" />
+        <Video link="https://www.youtube.com/embed/bWtbes6lPNQ" title="Pyrovalve Test" />
+        <Video link="https://www.youtube.com/embed/aBGdopZXZPM" altText="Static Fire #7" />
+        <Video link="https://www.youtube.com/embed/zb4q3UH-TVQ" altText="VIDAR III IREC launch" />
       </Gallery>
     </>
   );

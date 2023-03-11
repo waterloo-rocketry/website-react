@@ -23,10 +23,12 @@ import Footer from './components/Footer/Footer';
 
 import SharkOfTheSky from './routes/rocketPages/SharkOfTheSky';
 import UnexplodedOrdnance from './routes/rocketPages/UnexplodedOrdnance';
+import Vidar3 from './routes/rocketPages/Vidar3';
+import Vidar2 from './routes/rocketPages/Vidar2';
+import Vidar from './routes/rocketPages/Vidar';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import Vidar3 from './routes/rocketPages/Vidar3';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -66,7 +68,17 @@ ReactDOM.render(
         <Route
           exact
           path="/rockets/vidar3"
-          element={<Page title="Vidar 3"><Vidar3 /></Page>}
+          element={<Page title="Vidar III"><Vidar3 /></Page>}
+        />
+        <Route
+          exact
+          path="/rockets/vidar2"
+          element={<Page title="Vidar II"><Vidar2 /></Page>}
+        />
+        <Route
+          exact
+          path="/rockets/vidar"
+          element={<Page title="Vidar"><Vidar /></Page>}
         />
         <Route
           exact
