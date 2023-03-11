@@ -26,6 +26,7 @@ import UnexplodedOrdnance from './routes/rocketPages/UnexplodedOrdnance';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+import Vidar3 from './routes/rocketPages/Vidar3';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -61,6 +62,11 @@ ReactDOM.render(
           exact
           path="/rockets/uxo"
           element={<Page title="Unexploded Ordnance"><UnexplodedOrdnance /></Page>}
+        />
+        <Route
+          exact
+          path="/rockets/vidar3"
+          element={<Page title="Vidar 3"><Vidar3 /></Page>}
         />
         <Route
           exact
