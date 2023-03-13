@@ -29,6 +29,7 @@ import Vidar from './routes/rocketPages/Vidar';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+import SilverBrant from './routes/rocketPages/SilverBrant';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -79,6 +80,11 @@ ReactDOM.render(
           exact
           path="/rockets/vidar"
           element={<Page title="Vidar"><Vidar /></Page>}
+        />
+        <Route
+          exact
+          path="/rockets/silverbrant"
+          element={<Page title="Silver Brant"><SilverBrant /></Page>}
         />
         <Route
           exact
