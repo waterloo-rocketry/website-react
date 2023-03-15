@@ -11,7 +11,7 @@ import vidarUpright from '../../img/rocketPhotos/vidar_upright.png';
 const Vidar = () => {
   return (
     <>
-      <RocketPageOutline title="VIDAR" img={vidarUpright} altText="VIDAR II Drawing">
+      <RocketPageOutline title="VIDAR" img={vidarUpright} altText="VIDAR Drawing">
         <Content title="Overview">
           Vidar is our team&apos;s fourth submission to I.R.E.C, and was the next
           iteration of the Silver Brant, its predecessor. Named after the Norse

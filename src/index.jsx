@@ -26,10 +26,12 @@ import UnexplodedOrdnance from './routes/rocketPages/UnexplodedOrdnance';
 import Vidar3 from './routes/rocketPages/Vidar3';
 import Vidar2 from './routes/rocketPages/Vidar2';
 import Vidar from './routes/rocketPages/Vidar';
+import SilverBrant from './routes/rocketPages/SilverBrant';
+import Eridani from './routes/rocketPages/Eridani';
+import WRT1 from './routes/rocketPages/WRT1';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import SilverBrant from './routes/rocketPages/SilverBrant';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -85,6 +87,16 @@ ReactDOM.render(
           exact
           path="/rockets/silverbrant"
           element={<Page title="Silver Brant"><SilverBrant /></Page>}
+        />
+        <Route
+          exact
+          path="/rockets/eridani"
+          element={<Page title="Eridani"><Eridani /></Page>}
+        />
+        <Route
+          exact
+          path="/rockets/wrt1"
+          element={<Page title="WRT1"><WRT1 /></Page>}
         />
         <Route
           exact

@@ -12,7 +12,7 @@ import uxoUpright from '../../img/rocketPhotos/uxo_upright.png';
 const UnexplodedOrdnance = () => {
   return (
     <>
-      <RocketPageOutline title="Unexploded Ordnance" img={uxoUpright} altText="Shark of the sky drawing">
+      <RocketPageOutline title="Unexploded Ordnance" img={uxoUpright} altText="Unexploded Ordnance drawing">
         <Content title="Overview">
           Unexploded Ordnance (UXO) is a hybrid rocket developed by Waterloo Rocketry for entry in
           the 10000 ft apogee with a SRAD (Student Researched and Designed) hybrid/liquid propulsion

@@ -11,7 +11,7 @@ import silverbrantUpright from '../../img/rocketPhotos/silverbrant_upright.png';
 const SilverBrant = () => {
   return (
     <>
-      <RocketPageOutline title="Silver Brant" img={silverbrantUpright} altText="VIDAR II Drawing">
+      <RocketPageOutline title="Silver Brant" img={silverbrantUpright} altText="SilverBrant Drawing">
         <Content title="Overview">
           Silver Brant is a monotubular hybrid rocket. The most notable feature of Silver
           Brant is its aluminium body. The decision indeed seems odd at first glance,
