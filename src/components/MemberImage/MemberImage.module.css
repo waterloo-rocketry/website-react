@@ -9,7 +9,8 @@
 	padding-left: 0rem;
 	padding-right: 2rem;
 	margin-bottom: 1rem;
-	margin-right: 1rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .box_outer:hover .box_inner{
@@ -68,7 +69,8 @@
 	padding-left: 0rem;
 	padding-right: 2rem;
 	margin-bottom: 1rem;
-	margin-right: 1rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .box_outer_alum:hover .box_inner_alum {
