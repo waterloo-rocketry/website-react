@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
 import RocketCard from '../components/RocketCard/RocketCard';
 import styles from './css/rocket.module.css';
@@ -14,6 +15,7 @@ import rocketWRT1 from '../img/rocket/wrt1.jpg';
 const Rockets = () => {
   return (
     <Container fluid>
+      <Outlet />
       <div className={styles.flex__wrapper}>
         <Row xl={3} md={2} sm={1}>
           <Col>

@@ -26,7 +26,11 @@ const Vidar2 = () => {
         <SpecsComponent specs={
           [
             [{ 'Wet Mass': '70 lbs', 'Dry Mass': '55 lbs' }, { Diameter: '4"', Length: '72"' }, { Fuel: 'Aluminized HTPB', Oxidizer: 'Nitrous Oxide' }],
-            [{ 'Peak Thrust': '430 lbf', 'Average Thrust': '330 lbf' }, { 'Burn Time': '9 s', 'Motor Classification': 'N' }, { 'Drogue Chute': 'Drone', 'Drogue Chute Diameter': '5ft' }, { 'Main Chute Diameter': '8ft' }],
+            [{
+              'Peak Thrust': '430 lbf', 'Average Thrust': '330 lbf', 'Burn Time': '9 s', 'Motor Classification': 'N',
+            }, {
+              'Drogue Chute': 'Drone', 'Drogue Chute Diameter': '5ft', 'Main Chute': 'Toroidal', 'Main Chute Diameter': '8ft',
+            }],
           ]
         }
         />
