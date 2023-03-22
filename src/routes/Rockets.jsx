@@ -3,6 +3,8 @@ import { Outlet } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
 import RocketCard from '../components/RocketCard/RocketCard';
 import styles from './css/rocket.module.css';
+
+import rocketKrakenOfTheSky from '../img/rocket/kraken-of-the-sky.jpg';
 import rocketSharkOfTheSky from '../img/rocket/shark-of-the-sky.jpg';
 import rocketUnexplodedOrdnance from '../img/rocket/unexploded-ordnance-2018.jpg';
 import rocketVidar3 from '../img/rocket/Vidar3.jpg';
@@ -15,9 +17,17 @@ import rocketWRT1 from '../img/rocket/wrt1.jpg';
 const Rockets = () => {
   return (
     <Container fluid>
-      <Outlet />
       <div className={styles.flex__wrapper}>
         <Row xl={3} md={2} sm={1}>
+          <Col>
+            <RocketCard
+              url="/website-react/rockets/kots"
+              title="KRAKEN OF THE SKY"
+              date="2021-2022"
+              image={rocketKrakenOfTheSky}
+              imagePosition="20% 60%"
+            />
+          </Col>
           <Col>
             <RocketCard
               url="/website-react/rockets/sots"
