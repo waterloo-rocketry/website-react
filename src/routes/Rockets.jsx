@@ -1,5 +1,4 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
 import RocketCard from '../components/RocketCard/RocketCard';
 import styles from './css/rocket.module.css';
