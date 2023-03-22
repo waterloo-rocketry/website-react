@@ -57,12 +57,11 @@ const SpecsComponent = ({ specs }) => {
         );
       });
 
-      const finalString = groupElems[0];
-      const finalString2 = groupElems[1];
       return (
         <div className={styles.group}>
-          <p className={styles.string} key={`${groupInd.toString()} ${colInd.toString()} group`}>{finalString}</p>
-          <p className={styles.string} key={`${groupInd.toString()} ${colInd.toString()} group`}>{finalString2}</p>
+          {groupElems.map((finalString) => (
+            <p className={styles.string} key={`${groupInd.toString()} ${colInd.toString()} group`}>{finalString}</p>
+          ))}
         </div>
       );
     });
