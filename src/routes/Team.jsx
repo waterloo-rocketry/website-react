@@ -8,40 +8,56 @@ import MemberImage from '../components/MemberImage/MemberImage';
 // Members
 import teamCoverImage from '../img/teams/team-win-min.jpg';
 import AaronL from '../img/teams/aaronl-min.jpg';
-import ABMH from '../img/teams/abm-min.jpg';
+import ABMH from '../img/teams/abm.JPG';
 import AdamL from '../img/teams/adaml-min.jpg';
+import Anastasia from '../img/teams/anastasia.jpg';
 import Andre from '../img/teams/andre-min.jpg';
 import Artem from '../img/teams/artem-min.jpg';
+import Casey from '../img/teams/casey.jpg';
 import ChamathW from '../img/teams/chamath-min.jpg';
 import Charlie from '../img/teams/charlie-min.jpg';
 import ChrisSankey from '../img/teams/chriss-min.jpg';
+import Davis from '../img/teams/davis.jpg';
 import Dawson from '../img/teams/dawson-min.jpg';
 import DelaneyD from '../img/teams/delaney-min.jpg';
-import Denis from '../img/teams/denis-min.jpg';
+import Elias from '../img/teams/elias.jpg';
+import Evan from '../img/teams/evan.jpg';
 import FrancisY from '../img/teams/francis-min.jpg';
 import Gavin from '../img/teams/gavin-min.jpg';
-import JackC from '../img/teams/jack-min.jpg';
+import JackC from '../img/teams/jack.jpg';
 import Jared from '../img/teams/jared-min.jpg';
+import Jason from '../img/teams/jason.jpg';
+import Jerry from '../img/teams/jerry.jpg';
+import Joe from '../img/teams/joe.jpg';
 import JoelG from '../img/teams/joel-min.jpg';
-import Joseph from '../img/teams/joseph-min.jpg';
+import Kasia from '../img/teams/kasia.jpg';
 import KaveeshanT from '../img/teams/kaveeshan-min.jpg';
 import KavinS from '../img/teams/kavin-min.jpg';
 import KimiL from '../img/teams/kimi-min.jpg';
 import KyleT from '../img/teams/kyle-min.jpg';
 import LanaT from '../img/teams/lana-min.jpg';
+import Mabel from '../img/teams/mabel.jpg';
+import Makis from '../img/teams/makis.jpg';
+import Matthew from '../img/teams/matthew.jpg';
 import Matti from '../img/teams/matti-min.jpg';
 import Michael from '../img/teams/michael-min.jpg';
+import Nahvid from '../img/teams/nahvid.jpg';
+import Owen from '../img/teams/owen.jpg';
+import Ozayr from '../img/teams/ozayr.jpg';
+import Randy from '../img/teams/randy.jpg';
+import Rida from '../img/teams/rida.jpg';
 import RioL from '../img/teams/rio-min.jpg';
 import RobertC from '../img/teams/robert-min.jpg';
-import RomanK from '../img/teams/roman-min.jpg';
-import Saduni from '../img/teams/saduni-min.jpg';
-import Sophie from '../img/teams/sophie-min.jpg';
-import StefanA from '../img/teams/stefana-min.jpg';
+import RomanK from '../img/teams/roman.jpg';
+import StefanA from '../img/teams/stefana.jpg';
 import TeresaT from '../img/teams/teresa-min.jpg';
+import Tessa from '../img/teams/tessa.jpg';
+import ThomasF from '../img/teams/thomasf.jpg';
+import ThomasM from '../img/teams/thomasm.jpg';
 import TomC from '../img/teams/tom-min.jpg';
-import WendiY from '../img/teams/wendi-min.jpg';
+import Xavier from '../img/teams/xavier.jpg';
 import ZachariahM from '../img/teams/zach-min.jpg';
-import ZhenboB from '../img/teams/zhenbo-min.jpg';
+import ZhenboB from '../img/teams/zhenbo.jpg';
 
 // Alumni
 import AaronM from '../img/teams/aaron-min.jpg';
@@ -93,44 +109,64 @@ const Team = () => {
 
         <Container className={styles.containerFluid} fluid>
           <MemberImage image={RomanK} name="Roman Kobets" descriptor="Team Co-Lead" />
-          <MemberImage image={ZachariahM} name="Zachariah Mears" descriptor="Team Co-Lead" />
-          <MemberImage image={DelaneyD} name="Delaney Dyment" descriptor="Operations Lead/Team Co-Lead" />
-          <MemberImage image={ABMH} name="ABM Hussein" descriptor="Safety Captain/Propulsion Co-Lead" />
-          <MemberImage image={TomC} name="Tom Cojocar" descriptor="Propulsion" />
-          <MemberImage image={AaronL} name="Aaron Leszkowiat" descriptor="Propulsion" />
-          <MemberImage image={KyleT} name="Kyle Tam" descriptor="Payload Co-Lead" />
+          <MemberImage image={JackC} name="Jack Christensen" descriptor="Team Co-Lead" />
+          <MemberImage image={Matthew} name="Matthew Gordan" descriptor="Safety Captain/Propulsion" />
+          <MemberImage image={Rida} name="Rida Sayed" descriptor="Safety Captain" />
+          <MemberImage image={TomC} name="Tom Cojocar" descriptor="Senior Member" />
+          <MemberImage image={DelaneyD} name="Delaney Dyment" descriptor="Senior Member" />
+          <MemberImage image={AaronL} name="Aaron Leszkowiat" descriptor="Hybrid Propulsion Lead" />
+          <MemberImage image={KyleT} name="Kyle Tam" descriptor="Senior Member" />
+          <MemberImage image={ZachariahM} name="Zachariah Mears" descriptor="Senior Member" />
+          <MemberImage image={Matti} name="Matti Gencher" descriptor="Senior Member" />
 
-          <MemberImage image={Matti} name="Matti Gencher" descriptor="Propulsion/Electrical" />
-          <MemberImage image={TeresaT} name="Teresa Tang" descriptor="Painting/Propulsion" />
-          <MemberImage image={Dawson} name="Dawson Kletke" descriptor="Electrical/Software/Recovery" />
-          <MemberImage image={ZhenboB} name="Zhen Bo Bian" descriptor="Propulsion Co-Lead" />
+          <MemberImage image={TeresaT} name="Teresa Tang" descriptor="Senior Member" />
+          <MemberImage image={Dawson} name="Dawson Kletke" descriptor="Senior Member" />
+          <MemberImage image={ZhenboB} name="Zhen Bo Bian" descriptor="Propulsion" />
           <MemberImage image={KaveeshanT} name="Kaveeshan Thurairajah" descriptor="Rogallo Researcher" />
+          <MemberImage image={ABMH} name="ABM Hussein" descriptor="Liquid Propulsion Lead" />
           <MemberImage image={Jared} name="Jared Watson" descriptor="Electrical" />
-          <MemberImage image={LanaT} name="Lana Tomlin" descriptor="Payload Co-Lead" />
+          <MemberImage image={LanaT} name="Lana Tomlin" descriptor="Payload/Electrical" />
 
-          <MemberImage image={Sophie} name="Sophie Hillcoat" descriptor="Propulsion" />
-          <MemberImage image={FrancisY} name="Francis Yao" descriptor="Airframe Lead/Payload" />
+          <MemberImage image={FrancisY} name="Francis Yao" descriptor="Airframe Lead/Payload/Launch Tower" />
           <MemberImage image={ChamathW} name="Chamath Wijesekera" descriptor="Software/Electrical" />
-          <MemberImage image={WendiY} name="Wendi Yu" descriptor="Software Lead" />
           <MemberImage image={ChrisSankey} name="Chris Sankey" descriptor="Recovery Lead" />
-          <MemberImage image={Saduni} name="Saduni Sumithrarachchige" descriptor="Payload" />
-          <MemberImage image={KavinS} name="Kavin Satheeskumar" descriptor="Software/Payload" />
-
-          <MemberImage image={Michael} name="Michael Zhou" descriptor="Infrastructure Lead/Propulsion" />
-          <MemberImage image={JackC} name="Jack Christensen" descriptor="Electrical Lead/Software" />
+          <MemberImage image={KavinS} name="Kavin Satheeskumar" descriptor="Software Lead" />
+          <MemberImage image={Michael} name="Michael Zhou" descriptor="Propulsion Fluid Systems" />
           <MemberImage image={Gavin} name="Gavin Liu" descriptor="Airframe" />
+
           <MemberImage image={RobertC} name="Robert Cai" descriptor="Software/Payload" />
           <MemberImage image={RioL} name="Rio Liu" descriptor="Electrical" />
+          <MemberImage image={Jerry} name="Jerry Lu" descriptor="Propulsion" />
           <MemberImage image={Artem} name="Artem Sotnikov" descriptor="Recovery" />
+          <MemberImage image={Randy} name="Randy Dakhil" descriptor="Payload/Electrical" />
           <MemberImage image={JoelG} name="Joel Godard" descriptor="Airframe" />
 
           <MemberImage image={KimiL} name="Kimi Liang" descriptor="Airframe" />
-          <MemberImage image={Denis} name="Denis Tyan" descriptor="Finance/Infrastructure" />
+          <MemberImage image={Nahvid} name="Nahvid Zolfaghari" descriptor="Infrastructure Lead/Airframe" />
+          <MemberImage image={Joe} name="Joe Dolina" descriptor="Payload Lead" />
+          <MemberImage image={Xavier} name="Xavier Rayes" descriptor="Propulsion/Infrastructure" />
           <MemberImage image={StefanA} name="Stefan Arroyo-Cottier" descriptor="Recovery" />
           <MemberImage image={Andre} name="Andre Arroyo-Cottier" descriptor="Propulsion" />
+
           <MemberImage image={AdamL} name="Adam Lastovka" descriptor="Propulsion" />
           <MemberImage image={Charlie} name="Charlie Bell" descriptor="Propulsion" />
-          <MemberImage image={Joseph} name="Joseph Ma" descriptor="Member" />
+          <MemberImage image={Tessa} name="Tessa Pugh" descriptor="Integration/Mechanical" />
+          <MemberImage image={Elias} name="Elias Kountouris" descriptor="Electrical Co-Lead" />
+          <MemberImage image={Owen} name="Owen Henry" descriptor="Payload" />
+          <MemberImage image={ThomasF} name="Thomas Fairhead" descriptor="Propulsion/Infrastructure" />
+
+          <MemberImage image={Ozayr} name="Ozayr Raazi" descriptor="Software/Electrical" />
+          <MemberImage image={Evan} name="Evan Cheung" descriptor="Software" />
+          <MemberImage image={Casey} name="Casey Tsujita" descriptor="Finance Lead" />
+          <MemberImage image={ThomasM} name="Thomas Martinez" descriptor="Mechanical/Infrastructure Co-op" />
+          <MemberImage image={Anastasia} name="Anastasia Vassos" descriptor="Electrical Co-op" />
+
+          <MemberImage image={Mabel} name="Mabel Aung" descriptor="Propulsion/Infrastructure" />
+          <MemberImage image={Davis} name="Davis Liu" descriptor="Electrical" />
+          <MemberImage image={Jason} name="Jason Xu" descriptor="Electrical/Software" />
+          <MemberImage image={Kasia} name="Kasia-Alexei Delpeche" descriptor="Airframe" />
+          <MemberImage image={Makis} name="Makis Lam" descriptor="Airframe" />
+
         </Container>
 
         <Row className="my-4 mx-2 gx-4 justify-content-center">

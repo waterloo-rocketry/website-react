@@ -1,6 +1,12 @@
 .contentTitle {
   font-weight: 500;
   font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.contentTitleHr {
+  margin: 0.5rem 0;
 }
 
 .contentText {
@@ -8,5 +14,14 @@
   line-height: 135%;
   font-weight: 400;
   font-size: 0.9rem;
+}
+
+/*
+For mobile devices
+*/
+@media (max-width: 550px) {
+  .contentText {
+    max-width: 70%;
+  }
 }
 

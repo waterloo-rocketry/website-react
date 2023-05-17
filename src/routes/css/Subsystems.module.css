@@ -1,0 +1,35 @@
+.subsystemTab {
+	vertical-align: top;
+	border: 1px solid #dee2e6;
+    border-top: none;
+	display: none;
+	padding: 1.5rem;
+	box-sizing: border-box;
+    
+}
+
+.subsystemTab h3 {
+	padding-top: 1rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.2rem;
+}
+
+.subsystemTab hr {
+	margin: 0.5rem 0;
+	display: block;
+    border-style: inset;
+    border-width: 1px;	
+}
+
+.subsystemTab table, th, td {
+	border: 1px solid darkgray;
+	border-width: 1px;
+}
+
+.subsystemTab th, td {
+	padding: 0.5rem;
+}
+
+.subsystemTabButton {
+	color: rgb(51, 51, 51) !important; 
+}
