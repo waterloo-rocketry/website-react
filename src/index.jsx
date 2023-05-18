@@ -16,7 +16,7 @@ import Awards from './routes/Awards';
 import Rockets from './routes/Rockets';
 import Sponsors from './routes/Sponsors';
 import Subsystems from './routes/Subsystems';
-
+import Team from './routes/Team';
 import Outreach from './routes/Outreach';
 
 import Footer from './components/Footer/Footer';
@@ -108,6 +108,11 @@ ReactDOM.render(
           exact
           path="sponsors"
           element={<Page title="Sponsors"><Sponsors /></Page>}
+        />
+        <Route
+          exact
+          path="team"
+          element={<Page title="Team"><Team /></Page>}
         />
         <Route
           exact
