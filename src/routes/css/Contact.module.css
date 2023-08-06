@@ -1,0 +1,21 @@
+.email {
+  font-size: x-large;
+}
+.fb{
+    width: 20rem;
+}
+.ig{
+    width: 20rem;
+}
+.fk{
+    width: 15rem;
+}
+.yt{
+    width: 20rem;
+}
+
+@media only screen and (max-width: 460px) {
+  .email {
+    font-size: larger;
+  }
+}

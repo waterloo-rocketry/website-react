@@ -18,6 +18,7 @@ import Sponsors from './routes/Sponsors';
 import Subsystems from './routes/Subsystems';
 import Team from './routes/Team';
 import Outreach from './routes/Outreach';
+import Contact from './routes/Contact';
 
 import Footer from './components/Footer/Footer';
 
@@ -128,6 +129,11 @@ ReactDOM.render(
           exact
           path="outreach"
           element={<Page title="Outreach"><Outreach /></Page>}
+        />
+        <Route
+          exact
+          path="contact"
+          element={<Page title="Contact"><Contact /></Page>}
         />
       </Routes>
       <Footer />
