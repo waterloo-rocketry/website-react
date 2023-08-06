@@ -23,7 +23,7 @@ const Contact = () => {
       <Container fluid>
         <Row lg={2} md={2} sm={1} xs={1}>
           <Col className="my-5 mx-md-0 mx-sm-2 text-center" style={{ maxWidth: '40rem' }}>
-            <div className={styles.iframe} style={{ maxWidth: '30rem', margin: '0 auto' }}>
+            <div className={styles.iframe} style={{ margin: '0 auto' }}>
               <iframe
                 title="Location"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1447.7052036526507!2d-80.53989328187978!3d43.472904841579165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf4011c244c4f%3A0xb10643898bf7c87!2sEngineering+5!5e0!3m2!1sen!2sca!4v1391451986334"
@@ -39,7 +39,7 @@ const Contact = () => {
               {' '}
               <a href="mailto:contact@waterloorocketry.com">contact@waterloorocketry.com</a>
             </h1>
-            <div style={{ maxWidth: '30rem' }}>
+            <div style={{ maxWidth: '31rem' }}>
               <DividerLine />
             </div>
             <Content title="ADDRESS">
