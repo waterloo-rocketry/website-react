@@ -3,7 +3,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 import CoverPhoto from '../components/CoverPhoto/CoverPhoto';
 import Content from '../components/Content/Content';
-import ImageBox from '../components/ImageBox/ImageBox';
 
 import DividerLine from '../components/DividerLine/DividerLine';
 
