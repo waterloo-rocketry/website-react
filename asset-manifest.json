@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/website-react/static/css/main.caaf91fa.chunk.css",
-    "main.js": "/website-react/static/js/main.e2211192.chunk.js",
-    "main.js.map": "/website-react/static/js/main.e2211192.chunk.js.map",
+    "main.css": "/website-react/static/css/main.0f37b1a5.chunk.css",
+    "main.js": "/website-react/static/js/main.fb188adf.chunk.js",
+    "main.js.map": "/website-react/static/js/main.fb188adf.chunk.js.map",
     "runtime-main.js": "/website-react/static/js/runtime-main.cd8da4bb.js",
     "runtime-main.js.map": "/website-react/static/js/runtime-main.cd8da4bb.js.map",
     "static/css/2.0a9ec390.chunk.css": "/website-react/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.64331cc1.chunk.js": "/website-react/static/js/2.64331cc1.chunk.js",
-    "static/js/2.64331cc1.chunk.js.map": "/website-react/static/js/2.64331cc1.chunk.js.map",
+    "static/js/2.e8435bfc.chunk.js": "/website-react/static/js/2.e8435bfc.chunk.js",
+    "static/js/2.e8435bfc.chunk.js.map": "/website-react/static/js/2.e8435bfc.chunk.js.map",
     "index.html": "/website-react/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/website-react/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.caaf91fa.chunk.css.map": "/website-react/static/css/main.caaf91fa.chunk.css.map",
-    "static/js/2.64331cc1.chunk.js.LICENSE.txt": "/website-react/static/js/2.64331cc1.chunk.js.LICENSE.txt",
+    "static/css/main.0f37b1a5.chunk.css.map": "/website-react/static/css/main.0f37b1a5.chunk.css.map",
+    "static/js/2.e8435bfc.chunk.js.LICENSE.txt": "/website-react/static/js/2.e8435bfc.chunk.js.LICENSE.txt",
     "static/media/10k_SRAD17.e4f92816.png": "/website-react/static/media/10k_SRAD17.e4f92816.png",
     "static/media/10k_SRAD18.03ef9abb.png": "/website-react/static/media/10k_SRAD18.03ef9abb.png",
     "static/media/30k_SRAD19.e9d4756a.png": "/website-react/static/media/30k_SRAD19.e9d4756a.png",
@@ -63,6 +63,7 @@
     "static/media/charlie-min.eee5974d.jpg": "/website-react/static/media/charlie-min.eee5974d.jpg",
     "static/media/chris-min.1fd8a479.jpg": "/website-react/static/media/chris-min.1fd8a479.jpg",
     "static/media/chriss-min.7fcbb420.jpg": "/website-react/static/media/chriss-min.7fcbb420.jpg",
+    "static/media/contact.20b89ce3.jpg": "/website-react/static/media/contact.20b89ce3.jpg",
     "static/media/cover_comp.53a89bb2.jpg": "/website-react/static/media/cover_comp.53a89bb2.jpg",
     "static/media/cover_home.ce7f0f33.jpg": "/website-react/static/media/cover_home.ce7f0f33.jpg",
     "static/media/cover_join.2c8fd7a5.jpg": "/website-react/static/media/cover_join.2c8fd7a5.jpg",
@@ -95,6 +96,7 @@
     "static/media/hickory_hill_logo.ddf56d73.png": "/website-react/static/media/hickory_hill_logo.ddf56d73.png",
     "static/media/hilbert-min.71d22099.jpg": "/website-react/static/media/hilbert-min.71d22099.jpg",
     "static/media/hussein-min.0af70f01.jpg": "/website-react/static/media/hussein-min.0af70f01.jpg",
+    "static/media/instagram-logo.d0b1a721.png": "/website-react/static/media/instagram-logo.d0b1a721.png",
     "static/media/ivan-min.99659c0f.jpg": "/website-react/static/media/ivan-min.99659c0f.jpg",
     "static/media/jack.3bf7d810.jpg": "/website-react/static/media/jack.3bf7d810.jpg",
     "static/media/jacob-min.0d3a0b17.jpg": "/website-react/static/media/jacob-min.0d3a0b17.jpg",
@@ -187,8 +189,8 @@
   "entrypoints": [
     "static/js/runtime-main.cd8da4bb.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.64331cc1.chunk.js",
-    "static/css/main.caaf91fa.chunk.css",
-    "static/js/main.e2211192.chunk.js"
+    "static/js/2.e8435bfc.chunk.js",
+    "static/css/main.0f37b1a5.chunk.css",
+    "static/js/main.fb188adf.chunk.js"
   ]
 }
