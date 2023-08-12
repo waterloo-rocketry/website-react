@@ -1,0 +1,33 @@
+.email {
+  font-size: x-large;
+}
+.fb {
+  width: 20rem;
+}
+.ig {
+  width: 20rem;
+}
+.fk {
+  width: 15rem;
+}
+.yt {
+  width: 20rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .email {
+    font-size: large;
+  }
+  .fb {
+    width: 16rem;
+  }
+  .ig {
+    width: 17rem;
+  }
+  .fk {
+    width: 12rem;
+  }
+  .yt {
+    width: 15rem;
+  }
+}
