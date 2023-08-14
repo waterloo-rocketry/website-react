@@ -37,7 +37,7 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/website-react">
+    <BrowserRouter>
       <Navigation />
       <Routes>
         <Route
