@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './RocketCard.module.css';
 
 /**
@@ -14,7 +15,7 @@ const RocketCard = ({
 }) => {
   return (
     <div className={styles.box}>
-      <a href={url}>
+      <Link to={url}>
         <div
           className={styles.box__inner}
           style={{
@@ -25,7 +26,7 @@ const RocketCard = ({
           <h1 className={styles.title}>{title}</h1>
           <h1 className={styles.title}>{date}</h1>
         </div>
-      </a>
+      </Link>
     </div>
   );
 };
