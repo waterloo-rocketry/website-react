@@ -112,17 +112,9 @@ const Team = () => {
           <MemberImage image={JackC} name="Jack Christensen" descriptor="Team Co-Lead" />
           <MemberImage image={Matthew} name="Matthew Gordan" descriptor="Safety Captain/Propulsion" />
           <MemberImage image={Rida} name="Rida Sayed" descriptor="Safety Captain" />
-          <MemberImage image={TomC} name="Tom Cojocar" descriptor="Senior Member" />
-          <MemberImage image={DelaneyD} name="Delaney Dyment" descriptor="Senior Member" />
           <MemberImage image={AaronL} name="Aaron Leszkowiat" descriptor="Hybrid Propulsion Lead" />
-          <MemberImage image={KyleT} name="Kyle Tam" descriptor="Senior Member" />
           <MemberImage image={ZachariahM} name="Zachariah Mears" descriptor="Senior Member" />
-          <MemberImage image={Matti} name="Matti Gencher" descriptor="Senior Member" />
 
-          <MemberImage image={TeresaT} name="Teresa Tang" descriptor="Senior Member" />
-          <MemberImage image={Dawson} name="Dawson Kletke" descriptor="Senior Member" />
-          <MemberImage image={ZhenboB} name="Zhen Bo Bian" descriptor="Propulsion" />
-          <MemberImage image={KaveeshanT} name="Kaveeshan Thurairajah" descriptor="Rogallo Researcher" />
           <MemberImage image={ABMH} name="ABM Hussein" descriptor="Liquid Propulsion Lead" />
           <MemberImage image={Jared} name="Jared Watson" descriptor="Electrical" />
           <MemberImage image={LanaT} name="Lana Tomlin" descriptor="Payload/Electrical" />
@@ -183,6 +175,15 @@ const Team = () => {
         </Row>
 
         <Container className={styles.containerFluid} fluid>
+          <MemberImage status="alum" image={KaveeshanT} name="Kaveeshan Thurairajah" descriptor="Mechanical Eng '23" />
+          <MemberImage status="alum" image={ZhenboB} name="Zhen Bo Bian" descriptor="Mechanical Eng '23" />
+          <MemberImage status="alum" image={Dawson} name="Dawson Kletke" descriptor="Mechatronics Eng '23" />
+          <MemberImage status="alum" image={TeresaT} name="Teresa Tang" descriptor="Nanotechnology Eng '23" />
+          <MemberImage status="alum" image={Matti} name="Matti Gencher" descriptor="Mechatronics Eng '23" />
+          <MemberImage status="alum" image={KyleT} name="Kyle Tam" descriptor="Mechatronics Eng '23" />
+          <MemberImage status="alum" image={DelaneyD} name="Delaney Dyment" descriptor="Physics '23" />
+          <MemberImage status="alum" image={TomC} name="Tom Cojocar" descriptor="Mechanical Eng '23" />
+
           <MemberImage status="alum" image={ZacharyT} name="Zachary Teper" descriptor="Electrical Eng '22" />
           <MemberImage status="alum" image={HamzaA} name="Hamza Abuabah" descriptor="Mechanical Eng '22" />
           <MemberImage status="alum" image={EdwardY} name="Edward Yang" descriptor="Mechatronics Eng '22" />
