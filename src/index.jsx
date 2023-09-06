@@ -6,6 +6,7 @@ import {
 
 import Navigation from './components/Navigation/Navigation';
 import Page from './components/Page';
+import Redirect from './components/Redirect/Redirect';
 
 // pages
 import Home from './routes/Home';
@@ -44,6 +45,11 @@ ReactDOM.render(
           exact
           path="/"
           element={<Page title="Home"><Home /></Page>}
+        />
+        <Route
+          exact
+          path="sponsorship"
+          element={<Redirect url={`${window.location.origin}/pdfs/sponsorship_package.pdf`} />}
         />
         <Route
           exact
