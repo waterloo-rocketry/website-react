@@ -52,6 +52,7 @@
 	font-weight: 200;
 	font-size: 1.5rem;
 	margin-bottom: 0.5rem;
+	text-transform:  uppercase;
 }
 
 .award__wrapper p {

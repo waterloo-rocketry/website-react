@@ -6,10 +6,11 @@ import CoverPhoto from '../components/CoverPhoto/CoverPhoto';
 import awardsCoverImage from '../img/awards/awards_cover.jpg';
 import MOORE21Image from '../img/awards/DrGilMoore21.png';
 import CANRGXImage from '../img/awards/CANRGXOutreach19.png';
+import SRAD23Image from '../img/awards/30k_SRAD23.png';
 import SRAD19Image from '../img/awards/30k_SRAD19.png';
 import SRAD18Image from '../img/awards/10k_SRAD18.png';
 import SRAD17Image from '../img/awards/10k_SRAD17.png';
-import TechincalExcellenceImage from '../img/awards/technical_excellence.png';
+import TechnicalExcellenceImage from '../img/awards/technical_excellence.png';
 
 const Awards = () => {
   return (
@@ -17,10 +18,26 @@ const Awards = () => {
       <CoverPhoto image={awardsCoverImage} style={{ height: '35rem', backgroundPosition: '50% 40%' }} />
       <Container fluid>
         <Row className="my-4 mx-2 gx-5 justify-content-right">
+          <AwardYear Year={2023} />
+          <AwardItem
+            RocketName="LotS"
+            AwardName="SECOND PLACE - 30K LIQUID/HYBRID SRAD"
+            ImageAddress={SRAD23Image}
+            ImageName="Second Place - 30k Liquid/Hybrid Srad"
+          >
+            The Category Second Place Awards recognize the teams with the second highest overall
+            scores in each of the six competition categories, with this category representing
+            Student Researched and Developed (SRAD) Hybrid/Liquid engines targeting an apogee of
+            30000 feet. Teams are scored on the project technical report, competency of design,
+            quality of construction, degree of student development, flight performance, and
+            operating procedures. Our team received this award for finishing second in our category
+            at the 2023 IREC, with the debut flight of LOTS which reached the closest altitude
+            to 30,000 ft ever achieved by an SRAD hybrid rocket at the Spaceport America Cup.
+          </AwardItem>
           <AwardYear Year="2020 - 2021" />
           <AwardItem
             RocketName="KotS"
-            AwardName="DR. GIL MOORE AWARD FOR INNOVATION"
+            AwardName="Dr. Gil Moore Award For Innovation"
             ImageAddress={MOORE21Image}
             ImageName="DR. GIL MOORE AWARD FOR INNOVATION"
           >
@@ -85,7 +102,7 @@ const Awards = () => {
           <AwardItem
             RocketName="VIDAR III"
             AwardName="JIM FURFARO AWARD FOR TECHNICAL EXCELLENCE"
-            ImageAddress={TechincalExcellenceImage}
+            ImageAddress={TechnicalExcellenceImage}
             ImageName="Jim Furfaro Award for Technical Excellence"
           >
             The Jim Furfaro Award for Technical Excellence recognizes a team which demonstrates
