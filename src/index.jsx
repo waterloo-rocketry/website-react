@@ -32,6 +32,7 @@ import Vidar from './routes/rocketPages/Vidar';
 import SilverBrant from './routes/rocketPages/SilverBrant';
 import Eridani from './routes/rocketPages/Eridani';
 import WRT1 from './routes/rocketPages/WRT1';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -39,6 +40,7 @@ import './index.css';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
+      <ScrollToTop />
       <Navigation />
       <Routes>
         <Route
