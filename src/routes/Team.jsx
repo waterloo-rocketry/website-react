@@ -10,7 +10,7 @@ import teamCoverImage from '../img/teams/team-win-min.jpg';
 
 // Members
 import AaronL from '../img/teams/aaronL.jpg';
-import ABMH from '../img/teams/abmH.JPG';
+import ABMH from '../img/teams/abmH.jpg';
 import AdamL from '../img/teams/adamL.jpg';
 import AnastasiaV from '../img/teams/anastasiaV.jpg';
 import AndreA from '../img/teams/andreA.jpg';
@@ -33,6 +33,7 @@ import JoeD from '../img/teams/joeD.jpg';
 import JoelG from '../img/teams/joelG.jpg';
 import KasiaA from '../img/teams/kasiaA.jpg';
 import KavinS from '../img/teams/kavinS.jpg';
+import KeeganT from '../img/teams/keeganT.jpg';
 import KimiL from '../img/teams/kimiL.jpg';
 import LanaT from '../img/teams/lanaT.jpg';
 import MabelA from '../img/teams/mabelA.jpg';
@@ -52,41 +53,41 @@ import StefanA from '../img/teams/stefanA.jpg';
 import TessaP from '../img/teams/tessaP.jpg';
 import ThomasF from '../img/teams/thomasf.jpg';
 import ThomasM from '../img/teams/thomasm.jpg';
-import TomC from '../img/teams/tom-min.jpg';
-import XavierR from '../img/teams/xavier.jpg';
-import ZachariahM from '../img/teams/zach-min.jpg';
-import ZhenboB from '../img/teams/zhenbo.jpg';
+import TomC from '../img/teams/tomC.jpg';
+import XavierR from '../img/teams/xavierR.jpg';
+import ZachariahM from '../img/teams/zachM.jpg';
+import ZhenboB from '../img/teams/zhenboB.jpg';
 
 // Alumni
-import AaronM from '../img/teams/aaron-min.jpg';
-import AdamP from '../img/teams/adam-min.jpg';
-import AlexM from '../img/teams/alex-min.jpg';
-import ChrisV from '../img/teams/chris-min.jpg';
-import DavidN from '../img/teams/david-min.jpg';
-import DawsonK from '../img/teams/dawson-min.jpg';
+import AaronM from '../img/teams/aaronM.jpg';
+import AdamP from '../img/teams/adamP.jpg';
+import AlexM from '../img/teams/alexM.jpg';
+import ChrisV from '../img/teams/chrisV.jpg';
+import DavidN from '../img/teams/davidN.jpg';
+import DawsonK from '../img/teams/dawsonK.jpg';
 import DelaneyD from '../img/teams/delaneyD.jpg';
-import DorisJ from '../img/teams/doris-min.jpg';
-import EdwardY from '../img/teams/edward-min.jpg';
-import HamzaA from '../img/teams/hamza-min.jpg';
-import HilbertL from '../img/teams/hilbert-min.jpg';
-import HusseinS from '../img/teams/hussein-min.jpg';
-import IvanB from '../img/teams/ivan-min.jpg';
-import JacobD from '../img/teams/jacob-min.jpg';
-import JustinR from '../img/teams/justin-min.jpg';
-import KaveeshanT from '../img/teams/kaveeshan-min.jpg';
-import KyleT from '../img/teams/kyle-min.jpg';
-import MattiG from '../img/teams/matti-min.jpg';
-import MirandaD from '../img/teams/miranda-min.jpg';
-import NickC from '../img/teams/nick-min.jpg';
-import NinaK from '../img/teams/nina-min.jpg';
-import RobinL from '../img/teams/robin-min.jpg';
-import ShirleyK from '../img/teams/shirley-min.jpg';
-import StefanM from '../img/teams/stefan-min.jpg';
+import DorisJ from '../img/teams/dorisJ.jpg';
+import EdwardY from '../img/teams/edwardY.jpg';
+import HamzaA from '../img/teams/hamzaA.jpg';
+import HilbertL from '../img/teams/hilbertL.jpg';
+import HusseinS from '../img/teams/husseinS.jpg';
+import IvanB from '../img/teams/ivanB.jpg';
+import JacobD from '../img/teams/jacobD.jpg';
+import JustinR from '../img/teams/justinR.jpg';
+import KaveeshanT from '../img/teams/kaveeshanT.jpg';
+import KyleT from '../img/teams/kyleT.jpg';
+import MattiG from '../img/teams/mattiG.jpg';
+import MirandaD from '../img/teams/mirandaD.jpg';
+import NickC from '../img/teams/nickC.jpg';
+import NinaK from '../img/teams/ninaK.jpg';
+import RobinL from '../img/teams/robinL.jpg';
+import ShirleyK from '../img/teams/shirleyK.jpg';
+import StefanM from '../img/teams/stefanM.jpg';
 import TeresaT from '../img/teams/teresaT.jpg';
-import VithusanR from '../img/teams/vithusan-min.jpg';
-import YashS from '../img/teams/yash-min.jpg';
-import YiqingW from '../img/teams/yiqing-min.jpg';
-import ZacharyT from '../img/teams/zachary-min.jpg';
+import VithusanR from '../img/teams/vithusanR.jpg';
+import YashS from '../img/teams/yashS.jpg';
+import YiqingW from '../img/teams/yiqingW.jpg';
+import ZacharyT from '../img/teams/zacharyT.jpg';
 
 import styles from './css/Team.module.css';
 
@@ -143,12 +144,13 @@ const Team = () => {
           <MemberImage image={OwenH} name="Owen Henry" title="Payload" />
           <MemberImage image={ThomasF} name="Thomas Fairhead" title="Propulsion Lead" />
           <MemberImage image={OzayrR} name="Ozayr Raazi" title="Software Lead" />
-          {/* <MemberImage image={KeeganT} name="Keegan Tripp" title="Media Lead" /> */}
+          <MemberImage image={KeeganT} name="Keegan Tripp" title="Media Lead" />
           <MemberImage image={EvanC} name="Evan Cheung" title="Software" />
           <MemberImage image={CaseyT} name="Casey Tsujita" title="Finance Lead" />
           <MemberImage image={ThomasM} name="Thomas Martinez" title="Infrastructure/Electrical" />
           <MemberImage image={AnastasiaV} name="Anastasia Vassos" title="Electrical Co-op" />
           <MemberImage image={MabelA} name="Mabel Aung" title="Propulsion/Infrastructure" />
+          <MemberImage image={RyanL} name="Ryan Lau" title="Flight Dynamics" />
           <MemberImage image={DavisL} name="Davis Liu" title="Electrical" />
           <MemberImage image={JasonX} name="Jason Xu" title="Electrical Co-Lead" />
           <MemberImage image={KasiaA} name="Kasia-Alexei Delpeche" title="Airframe" />
@@ -157,7 +159,6 @@ const Team = () => {
           <MemberImage image={RichardD} name="Richard Ding" title="Controls" />
           <MemberImage image={AnthonyC} name="Anthony Chen" title="Software" />
           <MemberImage image={ElizabethX} name="Xiaotong Elizabeth Xiong" title="Controls/Software" />
-          {/* <MemberImage image={RyanL} name="Ryan Lau" title="???" /> */}
         </Container>
 
         <Row className="my-4 mx-2 gx-4 justify-content-center">
