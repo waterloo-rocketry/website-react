@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
 /* General */
 
-html, body {
+html, body, #root {
 	height: 100%;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
 }
 
 body {
