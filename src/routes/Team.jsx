@@ -12,7 +12,6 @@ import teamCoverImage from '../img/teams/team-win-min.jpg';
 import AaronL from '../img/teams/aaronL.jpg';
 import ABMH from '../img/teams/abmH.jpg';
 import AdamL from '../img/teams/adamL.jpg';
-import AnastasiaV from '../img/teams/anastasiaV.jpg';
 import AndreA from '../img/teams/andreA.jpg';
 import AnthonyC from '../img/teams/anthonyC.jpg';
 import ArtemS from '../img/teams/artemS.jpg';
@@ -53,10 +52,8 @@ import StefanA from '../img/teams/stefanA.jpg';
 import TessaP from '../img/teams/tessaP.jpg';
 import ThomasF from '../img/teams/thomasf.jpg';
 import ThomasM from '../img/teams/thomasm.jpg';
-import TomC from '../img/teams/tomC.jpg';
 import XavierR from '../img/teams/xavierR.jpg';
 import ZachariahM from '../img/teams/zachM.jpg';
-import ZhenboB from '../img/teams/zhenboB.jpg';
 
 // Alumni
 import AaronM from '../img/teams/aaronM.jpg';
@@ -84,10 +81,12 @@ import RobinL from '../img/teams/robinL.jpg';
 import ShirleyK from '../img/teams/shirleyK.jpg';
 import StefanM from '../img/teams/stefanM.jpg';
 import TeresaT from '../img/teams/teresaT.jpg';
+import TomC from '../img/teams/tomC.jpg';
 import VithusanR from '../img/teams/vithusanR.jpg';
 import YashS from '../img/teams/yashS.jpg';
 import YiqingW from '../img/teams/yiqingW.jpg';
 import ZacharyT from '../img/teams/zacharyT.jpg';
+import ZhenboB from '../img/teams/zhenboB.jpg';
 
 import styles from './css/Team.module.css';
 
@@ -124,7 +123,7 @@ const Team = () => {
           <MemberImage image={LanaT} name="Lana Tomlin" title="Payload/Electrical" />
           <MemberImage image={FrancisY} name="Francis Yao" title="Airframe Lead/Launch Tower" />
           <MemberImage image={ChamathW} name="Chamath Wijesekera" title="Software/Electrical" />
-          <MemberImage image={ChrisS} name="Chris Sankey" title="Recovery Lead" />
+          <MemberImage image={ChrisS} name="Chris Sankey" title="Recovery" />
           <MemberImage image={KavinS} name="Kavin Satheeskumar" title="Software/Electrical/Controls" />
           <MemberImage image={MichaelZ} name="Michael Zhou" title="Propulsion Fluid Systems" />
           <MemberImage image={RobertC} name="Robert Cai" title="Software/Flight Dynamics/Controls" />
@@ -148,7 +147,6 @@ const Team = () => {
           <MemberImage image={EvanC} name="Evan Cheung" title="Software" />
           <MemberImage image={CaseyT} name="Casey Tsujita" title="Finance Lead" />
           <MemberImage image={ThomasM} name="Thomas Martinez" title="Infrastructure/Electrical" />
-          <MemberImage image={AnastasiaV} name="Anastasia Vassos" title="Electrical Co-op" />
           <MemberImage image={MabelA} name="Mabel Aung" title="Propulsion/Infrastructure" />
           <MemberImage image={RyanL} name="Ryan Lau" title="Flight Dynamics" />
           <MemberImage image={DavisL} name="Davis Liu" title="Electrical" />
