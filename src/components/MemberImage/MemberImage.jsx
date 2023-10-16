@@ -4,7 +4,7 @@ import styles from './MemberImage.module.css';
 
 // A link consisting of an image, with a title below it, and a description
 const MemberImage = ({
-  image, name, descriptor, status = 'current',
+  image, name, title, status = 'current',
 }) => {
   let [boxOuterStyle, boxInnerStyle] = [styles.box_outer, styles.box_inner];
   if (status === 'alum' || status === 'alumni') {
@@ -16,7 +16,7 @@ const MemberImage = ({
       <div className={boxInnerStyle}>
         <div className={styles.text_holder}>
           <h1 className={styles.box_inner_h1} style={status === 'alum' ? { fontSize: '0.9rem' } : { fontSize: '1.3rem' }}>{name}</h1>
-          <h2 className={styles.box_inner_h2} style={status === 'alum' ? { fontSize: '0.7rem' } : { fontSize: '1.0rem' }}>{descriptor}</h2>
+          <h2 className={styles.box_inner_h2} style={status === 'alum' ? { fontSize: '0.7rem' } : { fontSize: '1.0rem' }}>{title}</h2>
         </div>
       </div>
     </div>
