@@ -12,7 +12,7 @@ import bannerLogoImage from '../../img/banner_logo.png';
 // The navbar at the top of each page
 const Navigation = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" className={styles.navbar}>
+    <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className={styles.navbar}>
       <Container className={styles.navbarContainer} fluid>
         <Navbar.Brand as={Link} to="/">
           <Image

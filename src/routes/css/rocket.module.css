@@ -1,6 +1,7 @@
 .flex__wrapper {
-    display: block;
-    padding-top: 5.2rem;
+    justify-content: center;
+    padding-top: 2.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: 2.5rem;
 }
