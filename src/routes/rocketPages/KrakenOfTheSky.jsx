@@ -108,7 +108,7 @@ const KrakenOfTheSky = () => {
             <Content title="PROJECT REPORT">
               A complete report of this project, including descriptions of onboard and ground
               support systems, engineering drawings of all rocket components, and a complete
-              set of assembly and launch procedures for SotS can be downloaded&nbsp;
+              set of assembly and launch procedures for KotS can be downloaded&nbsp;
               <a href="https://www.waterloorocketry.com/pdfs/2022_project_report.pdf">here.</a>
             </Content>
           </>
