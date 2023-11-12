@@ -89,8 +89,14 @@ const Sponsors = () => {
             <Content title="WANT TO BECOME A SPONSOR?">
               <p>
                 If you would like to contact us about sponsorship opportunities, check out our
-                sponsorship package here and please email us at
-                <a href="mailto:contact@waterloorocketry.com"> contact@waterloorocketry.com.</a>
+                sponsorship package
+                {' '}
+                <a href="sponsorship">here</a>
+                {' '}
+                and please email us at
+                {' '}
+                <a href="mailto:contact@waterloorocketry.com">contact@waterloorocketry.com</a>
+                .
               </p>
             </Content>
           </Col>
