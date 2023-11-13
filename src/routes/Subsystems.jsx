@@ -38,7 +38,7 @@ const Subsystems = () => {
 
   return (
     <>
-      <CoverPhoto image={subsystemsCoverImage} style={{ height: '35rem', backgroundPosition: '50% 90%' }} />
+      <CoverPhoto image={subsystemsCoverImage} style={{ backgroundPosition: '50% 90%' }} />
       <Container fluid>
         <Row className="my-4 mx-2 gx-5 justify-content-center">
           <Content title="SUBSYSTEMS">

@@ -16,7 +16,7 @@ const Contact = () => {
     <>
       <CoverPhoto
         image={contactCoverPhoto}
-        style={{ height: '22rem', backgroundPosition: '50% 100%' }}
+        style={{ backgroundPosition: '50% 100%' }}
       />
       <Container fluid>
         <Row lg={2} md={2} sm={1} xs={1}>

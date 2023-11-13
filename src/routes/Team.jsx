@@ -93,7 +93,7 @@ import styles from './css/Team.module.css';
 const Team = () => {
   return (
     <>
-      <CoverPhoto image={teamCoverImage} style={{ height: '35rem', position: 'center bottom' }} />
+      <CoverPhoto image={teamCoverImage} style={{ position: 'center bottom' }} />
       <Container fluid>
         <Row className="my-4 mx-2 gx-4 justify-content-center">
           <Col>
