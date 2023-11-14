@@ -82,7 +82,7 @@ import waterlooEngMechanical from '../img/sponsorship/5_previous_sponsors/Waterl
 const Sponsors = () => {
   return (
     <>
-      <CoverPhoto image={sponsorCoverImage} style={{ height: '35rem', position: '50% 90%' }} />
+      <CoverPhoto image={sponsorCoverImage} style={{ position: '50% 90%' }} />
       <Container fluid>
         <Row className="my-4 mx-2 gx-4 justify-content-center">
           <Col lg={{ span: 10 }}>

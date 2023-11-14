@@ -13,7 +13,7 @@ import SpaceportImage from '../img/competition/spaceport_group.jpg';
 const Competition = () => {
   return (
     <>
-      <CoverPhoto image={compCoverImage} style={{ height: '35rem', backgroundPosition: '50% 90%' }} />
+      <CoverPhoto image={compCoverImage} style={{ backgroundPosition: '50% 90%' }} />
       <Container fluid>
         <Row className="my-4 mx-0 gx-5 justify-content-left">
           <Col className="" lg={{ span: 6 }}>
