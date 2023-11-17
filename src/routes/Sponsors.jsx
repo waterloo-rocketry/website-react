@@ -41,16 +41,19 @@ import inteliheat from '../img/sponsorship/3_silver_sponsors/inteliheat_logo.jpg
 
 // BRONZE
 import acornFireSafety from '../img/sponsorship/4_bronze_sponsors/acorn_fire_and_safety.png';
-import ariss from '../img/sponsorship/4_bronze_sponsors/ariss.png';
-import bigredbee from '../img/sponsorship/4_bronze_sponsors/bigredbee_logo.png';
-import broadcom from '../img/sponsorship/4_bronze_sponsors/Broadcom_Logo.png';
-import eljen from '../img/sponsorship/4_bronze_sponsors/eljen_logo.png';
-import ereztech from '../img/sponsorship/4_bronze_sponsors/ereztech-logo.png';
-import robotshop from '../img/sponsorship/4_bronze_sponsors/robotshop.png';
-import triumph from '../img/sponsorship/4_bronze_sponsors/triumph-logo.png';
 import waterlooElectroplating from '../img/sponsorship/4_bronze_sponsors/Waterloo-Electroplating.png';
+import kwsewingmachine from '../img/sponsorship/4_bronze_sponsors/KW_sewing_machine_logo.png';
+import ceno360 from '../img/sponsorship/4_bronze_sponsors/ceno_360_logo.png';
+import rutland from '../img/sponsorship/4_bronze_sponsors/rutland_logo.jpg';
 
 // PREVIOUS
+import ariss from '../img/sponsorship/5_previous_sponsors/ariss.png';
+import bigredbee from '../img/sponsorship/5_previous_sponsors/bigredbee_logo.png';
+import broadcom from '../img/sponsorship/5_previous_sponsors/Broadcom_Logo.png';
+import eljen from '../img/sponsorship/5_previous_sponsors/eljen_logo.png';
+import ereztech from '../img/sponsorship/5_previous_sponsors/ereztech-logo.png';
+import robotshop from '../img/sponsorship/5_previous_sponsors/robotshop.png';
+import triumph from '../img/sponsorship/5_previous_sponsors/triumph-logo.png';
 import mrc from '../img/sponsorship/5_previous_sponsors/MRC.png';
 import sff from '../img/sponsorship/5_previous_sponsors/SFF_Logo.png';
 import engsoc from '../img/sponsorship/5_previous_sponsors/engsoc_logo.png';
@@ -402,31 +405,19 @@ const Sponsors = () => {
           </Content>
           <Row className="my-4 mx-2 gx-4 col-md-12 justify-content-center text-center" style={{ display: 'float' }}>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={triumph} link="https://www.triumphtool.com/" />
+              <SponsorLinkWithDesc logoTier="bronze" image={ceno360} link="https://www.ceno360.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={broadcom} link="https://www.broadcom.com/" />
+              <SponsorLinkWithDesc logoTier="bronze" image={kwsewingmachine} link="https://www.kwsewingmachines.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={ereztech} link="https://ereztech.com/ereztech-custom-synthesis/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={robotshop} link="https://www.robotshop.com/" />
+              <SponsorLinkWithDesc logoTier="bronze" image={rutland} link="https://rutland.com/" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={waterlooElectroplating} link="https://www.google.com/maps/place/Waterloo+Electroplating+%26+Metal+Finishing+Inc/@43.5017069,-80.5494139,15z/data=!4m2!3m1!1s0x0:0x91bf0e1ff7c624cf?sa=X&ved=2ahUKEwiv5PTJ5NT5AhUEFFkFHd5bAH4Q_BJ6BAg6EAU" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={acornFireSafety} link="https://www.acornfire.ca/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={eljen} link="https://eljentechnology.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={bigredbee} link="https://shop.bigredbee.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={ariss} link="https://arissbrospropane.com/" />
             </Col>
           </Row>
 
@@ -538,6 +529,44 @@ const Sponsors = () => {
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc image={msam} link="https://msam-uwaterloo.ca" />
+            </Col>
+
+            {/* ROW 4 BEGINS HERE */}
+            <Col md="auto">
+              <SponsorLinkWithDesc image={ariss} link="uwaterloo.ca/mechanical-mechatronics-engineering/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={bigredbee} link="https://bayareacircuits.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={broadcom} link="http://chemroy.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={eljen} link="https://www.u-blox.com/en" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={ereztech} link="http://proto3000.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={robotshop} link="http://www.fxworxinc.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={triumph} link="https://www.dutton-lainson.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={mrc} link="https://www.digi.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={sff} link="https://www.ferrotec.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={engsoc} link="https://www.hatch.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={AandP} link="http://www.bgf.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={olin} link="https://www.aircraftspruce.ca/" />
             </Col>
           </Row>
         </Row>
