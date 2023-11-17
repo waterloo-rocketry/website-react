@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { React } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
@@ -22,7 +23,7 @@ import ansys from '../img/sponsorship/2_gold_sponsors/ANSYS_Logo.png';
 import keysight from '../img/sponsorship/2_gold_sponsors/Keysight.png';
 import liftwerx from '../img/sponsorship/2_gold_sponsors/liftwerx_logo.png';
 import linde from '../img/sponsorship/2_gold_sponsors/Linde.jpg';
-// import dxengineering from '../img/sponsorship/2_gold_sponsors/DX_Engineering.jpg';
+import dxengineering from '../img/sponsorship/2_gold_sponsors/DX_Engineering_logo.jpg';
 
 // SILVER
 import AandP from '../img/sponsorship/3_silver_sponsors/A&P_Logo.png';
@@ -300,28 +301,40 @@ const Sponsors = () => {
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={olin} link="https://olin.com/">
+              <SponsorLinkWithDesc logoTier="gold" image={ansys} link="https://www.ansys.com/">
                 <p className="content-text">
-                  Olin Corporation began in 1892 as a small blasting powder supplier
-                  in East Alton, Illinois. Following a few decades of success, along
-                  with some fruitful acquisitions, Olin has grown and expanded to
-                  encompass several complementary business units, among them—Olin
-                  Chlor Alkali Products and Vinyls and Olin Epoxy. Collectively,
-                  these business segments employ 8,000 professionals in more than 20
-                  countries with customers in nearly 100 countries across the globe.
+                  Founded in 1970, ANSYS specializes in engineering simulation with a team of
+                  nearly 4,000 skilled professionals. Our experts, including M.S. and Ph.D.-level
+                  engineers, focus on finite element analysis, computational fluid dynamics,
+                  electronics, semiconductors, embedded software, and design optimization.
+                  Recognized as one of the world' most innovative companies, ANSYS has been
+                  dedicated to engineering simulation for over 45 years. We develop and support
+                  simulation software for predicting product designs' real-world behavior.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={demtool} link="https://demtool.com/">
+              <SponsorLinkWithDesc logoTier="gold" image={dxengineering} link="https://www.dxengineering.com/">
                 <p className="content-text">
-                  Demtool provides various services and expertise for customers in an array of
-                  industries. We specialize in machining, sheet metal fabrication, and
-                  powder-coating.
-                  The machine shop provides expert custom and production machining while
-                  fabrication provides industry leading custom and production sheet metal
-                  and other light fabrications. The powder-coating division applies the
-                  highest quality coatings to nearly any product.
+                  At DX Engineering, Amateur Radio is what we know. We understand your every need
+                  for top-performing and reliable products, and It's impossible to overstate the
+                  importance of filling those needs. Whether it's DXing, Contesting or just plain
+                  everyday operating, we strive to develop products that fill a specific need,
+                  products that are reliable, fully tested, and represent the best value for your
+                  money. Anything we design and build offers you proven, measurable benefits.
+                </p>
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc logoTier="gold" image={linde} link="https://www.linde.com/">
+                <p className="content-text">
+                  Linde is a leading global industrial gases and engineering company with 2022
+                  sales of $33 billion. We live our mission of making our world more productive
+                  every day by providing high-quality solutions, technologies and services which
+                  are making our customers more successful and helping to sustain, decarbonize and
+                  protect our planet. Our company serves a variety of end markets such as
+                  chemicals & energy, food & beverage, electronics, healthcare, manufacturing,
+                  metals and mining.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
