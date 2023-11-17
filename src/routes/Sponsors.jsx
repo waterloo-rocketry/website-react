@@ -55,7 +55,6 @@ import ereztech from '../img/sponsorship/5_previous_sponsors/ereztech-logo.png';
 import robotshop from '../img/sponsorship/5_previous_sponsors/robotshop.png';
 import triumph from '../img/sponsorship/5_previous_sponsors/triumph-logo.png';
 import mrc from '../img/sponsorship/5_previous_sponsors/MRC.png';
-import sff from '../img/sponsorship/5_previous_sponsors/SFF_Logo.png';
 import engsoc from '../img/sponsorship/5_previous_sponsors/engsoc_logo.png';
 import AandP from '../img/sponsorship/5_previous_sponsors/A&P_Logo.png';
 import olin from '../img/sponsorship/5_previous_sponsors/olin-corporation.png';
@@ -533,40 +532,37 @@ const Sponsors = () => {
 
             {/* ROW 4 BEGINS HERE */}
             <Col md="auto">
-              <SponsorLinkWithDesc image={ariss} link="uwaterloo.ca/mechanical-mechatronics-engineering/" />
+              <SponsorLinkWithDesc image={ariss} link="https://arissbrospropane.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={bigredbee} link="https://bayareacircuits.com/" />
+              <SponsorLinkWithDesc image={bigredbee} link="https://shop.bigredbee.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={broadcom} link="http://chemroy.com/" />
+              <SponsorLinkWithDesc image={broadcom} link="https://www.broadcom.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={eljen} link="https://www.u-blox.com/en" />
+              <SponsorLinkWithDesc image={eljen} link="https://eljentechnology.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={ereztech} link="http://proto3000.com/" />
+              <SponsorLinkWithDesc image={ereztech} link="https://ereztech.com/ereztech-custom-synthesis/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={robotshop} link="http://www.fxworxinc.com/" />
+              <SponsorLinkWithDesc image={robotshop} link="https://www.robotshop.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={triumph} link="https://www.dutton-lainson.com/" />
+              <SponsorLinkWithDesc image={triumph} link="https://www.triumphtool.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={mrc} link="https://www.digi.com/" />
+              <SponsorLinkWithDesc image={mrc} link="https://www.mrcwireless.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={sff} link="https://www.ferrotec.com/" />
+              <SponsorLinkWithDesc image={engsoc} link="https://www.engsoc.uwaterloo.ca/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={engsoc} link="https://www.hatch.com/" />
+              <SponsorLinkWithDesc image={AandP} link="http://www.braider.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={AandP} link="http://www.bgf.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={olin} link="https://www.aircraftspruce.ca/" />
+              <SponsorLinkWithDesc image={olin} link="https://olin.com/" />
             </Col>
           </Row>
         </Row>
