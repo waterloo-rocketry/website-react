@@ -10,24 +10,24 @@ import sponsorCoverImage from '../img/sponsorship/cover_sponsors.jpg';
 
 // all sponsor images...
 // PLATINUM
-import ansys from '../img/sponsorship/1_platinum_sponsors/ANSYS_Logo.png';
 import solidworks from '../img/sponsorship/1_platinum_sponsors/solidworks_logo.png';
 import stein from '../img/sponsorship/1_platinum_sponsors/stein_logo.png';
 import waterlooEngFaculty from '../img/sponsorship/1_platinum_sponsors/Waterloo_ENG_Faculty_Logo_rgb.png';
 import WEEF from '../img/sponsorship/1_platinum_sponsors/WEEF_Logo_yellow.png';
+import demtool from '../img/sponsorship/1_platinum_sponsors/demtool.png';
+import harwin from '../img/sponsorship/1_platinum_sponsors/harwin_logo.png';
 
 // GOLD
+import ansys from '../img/sponsorship/2_gold_sponsors/ANSYS_Logo.png';
 import keysight from '../img/sponsorship/2_gold_sponsors/Keysight.png';
-import demtool from '../img/sponsorship/2_gold_sponsors/demtool.png';
 import liftwerx from '../img/sponsorship/2_gold_sponsors/liftwerx_logo.png';
-import olin from '../img/sponsorship/2_gold_sponsors/olin-corporation.png';
+import linde from '../img/sponsorship/2_gold_sponsors/Linde.jpg';
+// import dxengineering from '../img/sponsorship/2_gold_sponsors/DX_Engineering.jpg';
 
 // SILVER
 import AandP from '../img/sponsorship/3_silver_sponsors/A&P_Logo.png';
 import customClothes from '../img/sponsorship/3_silver_sponsors/custom_clothes_canada.png';
 import engsoc from '../img/sponsorship/3_silver_sponsors/engsoc_logo.png';
-import harwin from '../img/sponsorship/3_silver_sponsors/harwin_logo.png';
-import linde from '../img/sponsorship/3_silver_sponsors/Linde.jpg';
 import mef from '../img/sponsorship/3_silver_sponsors/mef_logo.png';
 import mrc from '../img/sponsorship/3_silver_sponsors/MRC.png';
 import sff from '../img/sponsorship/3_silver_sponsors/SFF_Logo.png';
@@ -78,6 +78,7 @@ import stratasys from '../img/sponsorship/5_previous_sponsors/Stratasys-3.png';
 import textreme from '../img/sponsorship/5_previous_sponsors/textreme.png';
 import ublox from '../img/sponsorship/5_previous_sponsors/u-blox_logo_rgb.jpg';
 import waterlooEngMechanical from '../img/sponsorship/5_previous_sponsors/Waterloo_ENG_Mechanical_Logo_rgb.png';
+import olin from '../img/sponsorship/5_previous_sponsors/olin-corporation.png';
 
 const Sponsors = () => {
   return (
@@ -107,7 +108,7 @@ const Sponsors = () => {
             <DividerLine />
           </Content>
           <Row className="my-4 mx-2 gx-4 justify-content-center">
-            <Col lg={{ span: 6 }}>
+            <Col lg={{ span: 5 }}>
               <SponsorLinkWithDesc logoTier="platinum" image={stein} link="https://steinindustriesinc.com/">
                 <p className="content-text">
                   Stein Industries Inc. was founded in 1992 by company president Dan Steinhaur along
@@ -129,6 +130,31 @@ const Sponsors = () => {
                   developing by addressing the needs of our customers and making investments in
                   research and development to innovate existing products and creating
                   cutting-edge solutions for the future.
+                </p>
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc logoTier="platinum" image={demtool} link="https://demtool.com/">
+                <p className="content-text">
+                  Established in 2004 by Jim and Derrick Demerling in Petersburg, Ontario, Demtool
+                  is a family-led enterprise. With the addition of their brother Matt, the trio
+                  leads a team of over 50 talented individuals, including professional
+                  administrators, engineers, skilled laborers, and tradesmen. Committed to
+                  continuous improvement, Demtool strives to exceed customer expectations,
+                  providing an exceptional customer experience and delivering top-notch end
+                  products.
+                </p>
+                <p className="content-text">
+                  Operating on the principles of Quality and Integrity, Demtool fosters a culture
+                  of innovation, welcoming new ideas from every team member. The company maintains
+                  a clean and safe working environment, with a team that takes immense pride in
+                  their work. As industry leaders, we invest in cutting-edge technologies,
+                  software, machinery, and training to equip employees with the best tools
+                  available. Wel also actively support and sponsors numerous programs that promote
+                  Science, Technology, Engineering, and Math (STEM), recognizing the importance of
+                  inspiring the next generation. Demtool is deeply engaged in the local community,
+                  participating in and contributing to fundraisers and charitable events,
+                  reflecting its dedication to making a positive impact on the world around them.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
@@ -188,26 +214,26 @@ const Sponsors = () => {
 
           <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="platinum" image={ansys} link="https://www.ansys.com/">
+              <SponsorLinkWithDesc logoTier="platinum" image={harwin} link="https://www.harwin.com/">
                 <p className="content-text">
-                  Founded in 1970, ANSYS employs nearly 4,000 professionals,
-                  many of whom are expert M.S. and Ph.D.-level engineers
-                  in finite element analysis, computational fluid dynamics,
-                  electronics, semiconductors, embedded software and design
-                  optimization. Our exceptional staff is passionate about
-                  pushing the limits of world-class simulation technology so our
-                  customers can turn their design concepts into successful, innovative
-                  products faster and at lower cost. As a measure of our success in
-                  attaining these goals, ANSYS has been recognized as one of the world&apos;s
-                  most innovative companies by prestigious publications such as Bloomberg
-                  Businessweek and FORTUNE magazines.
+                  Since 1952, the de Laszlo family has led Harwin, evolving from a turning facility
+                  to a global leader in interconnects. Through innovation, advanced technologies,
+                  and exemplary service, Harwin addresses the most demanding connectivity
+                  challenges,empowering customers to gain a competitive edge. Our vision is clear:
+                  to be the first-choice supplier of mission-critical and high-performance
+                  connectivity solutions.
                 </p>
                 <p className="content-text">
-                  Engineering simulation is our sole focus. For more than 45 years,
-                  we have consistently advanced this technology to meet evolving
-                  customer needs. ANSYS develops, markets and supports engineering
-                  simulation software used to predict how product designs will
-                  behave in real-world environments.
+                  Integral to our ongoing success is our strategic investment in human capital.
+                  Harwin is deeply committed to cultivating a competent, efficient, and
+                  team-oriented workforce. Our comprehensive apprenticeship program not only equips
+                  students with internationally recognized engineering qualifications but also
+                  provides valuable hands-on experience at our Portsmouth headquarters.
+                  As a responsible employer, we also prioritize the welfare of our employees and
+                  the broader community, actively operating with a strong commitment to social
+                  responsibility and striving to minimize our impact on the planet. Harwin navigates
+                  the future with a focus on quality, innovation, and corporate responsibility,
+                  ensuring a seamless transition toward a brighter and more connected tomorrow.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
