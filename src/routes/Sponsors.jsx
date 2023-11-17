@@ -109,6 +109,7 @@ const Sponsors = () => {
           </Content>
           <Row className="my-4 mx-2 gx-4 justify-content-center">
             <Col lg={{ span: 5 }}>
+              <p> </p>
               <SponsorLinkWithDesc logoTier="platinum" image={stein} link="https://steinindustriesinc.com/">
                 <p className="content-text">
                   Stein Industries Inc. was founded in 1992 by company president Dan Steinhaur along
@@ -214,6 +215,7 @@ const Sponsors = () => {
 
           <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
+              <p> </p>
               <SponsorLinkWithDesc logoTier="platinum" image={harwin} link="https://www.harwin.com/">
                 <p className="content-text">
                   Since 1952, the de Laszlo family has led Harwin, evolving from a turning facility
