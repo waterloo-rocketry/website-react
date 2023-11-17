@@ -33,7 +33,7 @@ import swagelok from '../img/sponsorship/3_silver_sponsors/swagelok_logo.png';
 import moderncrane from '../img/sponsorship/3_silver_sponsors/modern_crane_logo.jpg';
 import pelican from '../img/sponsorship/3_silver_sponsors/pelican_logo.png';
 import rdx from '../img/sponsorship/3_silver_sponsors/RDX_logo.png';
-import standfordfleming from '../img/sponsorship/3_silver_sponsors/standford_fleming_foundation_logo.jpg';
+import standfordfleming from '../img/sponsorship/3_silver_sponsors/SFF_Logo.png';
 import teamgantt from '../img/sponsorship/3_silver_sponsors/team_gantt_logo.png';
 import jr from '../img/sponsorship/3_silver_sponsors/JR_security_solutions_logo.png';
 import bomist from '../img/sponsorship/3_silver_sponsors/bomist_logo.png';
