@@ -26,13 +26,18 @@ import linde from '../img/sponsorship/2_gold_sponsors/Linde.jpg';
 import dxengineering from '../img/sponsorship/2_gold_sponsors/DX_Engineering_logo.jpg';
 
 // SILVER
-import AandP from '../img/sponsorship/3_silver_sponsors/A&P_Logo.png';
 import customClothes from '../img/sponsorship/3_silver_sponsors/custom_clothes_canada.png';
-import engsoc from '../img/sponsorship/3_silver_sponsors/engsoc_logo.png';
+import ieee from '../img/sponsorship/3_silver_sponsors/IEEE-Logo.jpg';
 import mef from '../img/sponsorship/3_silver_sponsors/mef_logo.png';
-import mrc from '../img/sponsorship/3_silver_sponsors/MRC.png';
-import sff from '../img/sponsorship/3_silver_sponsors/SFF_Logo.png';
 import swagelok from '../img/sponsorship/3_silver_sponsors/swagelok_logo.png';
+import moderncrane from '../img/sponsorship/3_silver_sponsors/modern_crane_logo.jpg';
+import pelican from '../img/sponsorship/3_silver_sponsors/pelican_logo.png';
+import rdx from '../img/sponsorship/3_silver_sponsors/RDX_logo.png';
+import standfordfleming from '../img/sponsorship/3_silver_sponsors/standford_fleming_foundation_logo.jpg';
+import teamgantt from '../img/sponsorship/3_silver_sponsors/team_gantt_logo.png';
+import jr from '../img/sponsorship/3_silver_sponsors/JR_security_solutions_logo.png';
+import bomist from '../img/sponsorship/3_silver_sponsors/bomist_logo.png';
+import inteliheat from '../img/sponsorship/3_silver_sponsors/inteliheat_logo.jpg';
 
 // BRONZE
 import acornFireSafety from '../img/sponsorship/4_bronze_sponsors/acorn_fire_and_safety.png';
@@ -46,6 +51,11 @@ import triumph from '../img/sponsorship/4_bronze_sponsors/triumph-logo.png';
 import waterlooElectroplating from '../img/sponsorship/4_bronze_sponsors/Waterloo-Electroplating.png';
 
 // PREVIOUS
+import mrc from '../img/sponsorship/5_previous_sponsors/MRC.png';
+import sff from '../img/sponsorship/5_previous_sponsors/SFF_Logo.png';
+import engsoc from '../img/sponsorship/5_previous_sponsors/engsoc_logo.png';
+import AandP from '../img/sponsorship/5_previous_sponsors/A&P_Logo.png';
+import olin from '../img/sponsorship/5_previous_sponsors/olin-corporation.png';
 import aircraftSpruce from '../img/sponsorship/5_previous_sponsors/Aircraft_Spruce_Logo.png';
 import airtech from '../img/sponsorship/5_previous_sponsors/Airtech.png';
 import Aversan from '../img/sponsorship/5_previous_sponsors/AversanLogo.jpg';
@@ -79,7 +89,6 @@ import stratasys from '../img/sponsorship/5_previous_sponsors/Stratasys-3.png';
 import textreme from '../img/sponsorship/5_previous_sponsors/textreme.png';
 import ublox from '../img/sponsorship/5_previous_sponsors/u-blox_logo_rgb.jpg';
 import waterlooEngMechanical from '../img/sponsorship/5_previous_sponsors/Waterloo_ENG_Mechanical_Logo_rgb.png';
-import olin from '../img/sponsorship/5_previous_sponsors/olin-corporation.png';
 
 const Sponsors = () => {
   return (
@@ -352,10 +361,16 @@ const Sponsors = () => {
               <SponsorLinkWithDesc logoTier="silver" image={swagelok} link="http://www.swagelok.com/en" />
             </Col>
             <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={engsoc} link="https://www.engsoc.uwaterloo.ca/" />
+              <SponsorLinkWithDesc logoTier="silver" image={ieee} link="https://www.ieee.org/" />
             </Col>
             <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={linde} link="http://www.linde.com/" />
+              <SponsorLinkWithDesc logoTier="silver" image={moderncrane} link="https://moderncrane.ca/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" image={bomist} link="https://bomist.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" image={inteliheat} link="https://www.inteliheat.com/" />
             </Col>
           </Row>
 
@@ -364,23 +379,24 @@ const Sponsors = () => {
               <SponsorLinkWithDesc logoTier="silver" image={customClothes} link="https://customclothes.ca/" />
             </Col>
             <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={sff} link="https://uwaterloo.ca/sandford-fleming-foundation/" />
+              <SponsorLinkWithDesc logoTier="silver" image={pelican} link="https://www.pelican.com/ca/en/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={harwin} link="http://www.harwin.com/" />
+              <SponsorLinkWithDesc logoTier="silver" image={rdx} link="https://www.reactiondynamics.space/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={AandP} link="http://www.braider.com/" />
+              <SponsorLinkWithDesc logoTier="silver" image={standfordfleming} link="https://uwaterloo.ca/sandford-fleming-foundation/" />
             </Col>
-          </Row>
-
-          <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
-            <Col md="auto" style={{ float: 'center', marginBottom: '2rem' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={mrc} link="https://www.mrcwireless.com/" />
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" image={teamgantt} link="https://www.teamgantt.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" image={jr} link="https://jrsecurity.ca/" />
             </Col>
           </Row>
 
           {/* Bronze Sponsors */}
+          <p> </p>
           <Content title="BRONZE SPONSORS">
             <DividerLine />
           </Content>
