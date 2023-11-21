@@ -152,7 +152,7 @@ const Sponsors = () => {
                   Established in 2004 by Jim and Derrick Demerling in Petersburg, Ontario, Demtool
                   is a family-led enterprise. With the addition of their brother Matt, the trio
                   leads a team of over 50 talented individuals, including professional
-                  administrators, engineers, skilled laborers, and tradesmen. Committed to
+                  administrators, engineers, skilled labourers, and tradesmen. Committed to
                   continuous improvement, Demtool strives to exceed customer expectations,
                   providing an exceptional customer experience and delivering top-notch end
                   products.
@@ -163,7 +163,7 @@ const Sponsors = () => {
                   a clean and safe working environment, with a team that takes immense pride in
                   their work. As industry leaders, we invest in cutting-edge technologies,
                   software, machinery, and training to equip employees with the best tools
-                  available. Wel also actively support and sponsors numerous programs that promote
+                  available. We also actively support and sponsors numerous programs that promote
                   Science, Technology, Engineering, and Math (STEM), recognizing the importance of
                   inspiring the next generation. Demtool is deeply engaged in the local community,
                   participating in and contributing to fundraisers and charitable events,
@@ -233,7 +233,7 @@ const Sponsors = () => {
                   Since 1952, the de Laszlo family has led Harwin, evolving from a turning facility
                   to a global leader in interconnects. Through innovation, advanced technologies,
                   and exemplary service, Harwin addresses the most demanding connectivity
-                  challenges,empowering customers to gain a competitive edge. Our vision is clear:
+                  challenges, empowering customers to gain a competitive edge. Our vision is clear:
                   to be the first-choice supplier of mission-critical and high-performance
                   connectivity solutions.
                 </p>
@@ -320,7 +320,7 @@ const Sponsors = () => {
                   electronics, semiconductors, embedded software, and design optimization.
                   Recognized as one of the world' most innovative companies, ANSYS has been
                   dedicated to engineering simulation for over 45 years. We develop and support
-                  simulation software for predicting product designs' real-world behavior.
+                  simulation software for predicting product designs' real-world behaviour.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
