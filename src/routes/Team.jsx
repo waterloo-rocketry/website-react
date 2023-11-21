@@ -42,6 +42,7 @@ import MichaelZ from '../img/teams/michaelZ.jpg';
 import NahvidZ from '../img/teams/nahvidZ.jpg';
 import OwenH from '../img/teams/owenH.jpg';
 import OzayrR from '../img/teams/ozayrR.jpg';
+import PatrickG from '../img/teams/patrickG.jpg';
 import RichardD from '../img/teams/richardD.jpg';
 import RidaS from '../img/teams/ridaS.jpg';
 import RioL from '../img/teams/rioL.jpg';
@@ -157,6 +158,7 @@ const Team = () => {
           <MemberImage image={RichardD} name="Richard Ding" title="Controls" />
           <MemberImage image={AnthonyC} name="Anthony Chen" title="Software" />
           <MemberImage image={ElizabethX} name="Xiaotong Elizabeth Xiong" title="Controls/Software" />
+          <MemberImage image={PatrickG} name="Patrick Gu" title="Controls/Flight Dynamics" />
         </Container>
 
         <Row className="my-4 mx-2 gx-4 justify-content-center">
