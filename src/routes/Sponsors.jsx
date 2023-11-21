@@ -327,7 +327,7 @@ const Sponsors = () => {
             <Col lg={{ span: 5 }}>
               <SponsorLinkWithDesc logoTier="gold" image={dxengineering} link="https://www.dxengineering.com/">
                 <p className="content-text">
-                  At DX Engineering, Amateur Radio is what we know. We understand your every need
+                  At DX Engineering, amateur radio is what we know. We understand your every need
                   for top-performing and reliable products, and It's impossible to overstate the
                   importance of filling those needs. Whether it's DXing, Contesting or just plain
                   everyday operating, we strive to develop products that fill a specific need,
