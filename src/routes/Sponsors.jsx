@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import { React } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
@@ -11,53 +10,41 @@ import sponsorCoverImage from '../img/sponsorship/cover_sponsors.jpg';
 
 // all sponsor images...
 // PLATINUM
+import ansys from '../img/sponsorship/1_platinum_sponsors/ANSYS_Logo.png';
 import solidworks from '../img/sponsorship/1_platinum_sponsors/solidworks_logo.png';
 import stein from '../img/sponsorship/1_platinum_sponsors/stein_logo.png';
 import waterlooEngFaculty from '../img/sponsorship/1_platinum_sponsors/Waterloo_ENG_Faculty_Logo_rgb.png';
 import WEEF from '../img/sponsorship/1_platinum_sponsors/WEEF_Logo_yellow.png';
-import demtool from '../img/sponsorship/1_platinum_sponsors/demtool.png';
-import harwin from '../img/sponsorship/1_platinum_sponsors/harwin_logo.png';
 
 // GOLD
-import ansys from '../img/sponsorship/2_gold_sponsors/ANSYS_Logo.png';
 import keysight from '../img/sponsorship/2_gold_sponsors/Keysight.png';
+import demtool from '../img/sponsorship/2_gold_sponsors/demtool.png';
 import liftwerx from '../img/sponsorship/2_gold_sponsors/liftwerx_logo.png';
-import linde from '../img/sponsorship/2_gold_sponsors/Linde.jpg';
-import dxengineering from '../img/sponsorship/2_gold_sponsors/DX_Engineering_logo.jpg';
+import olin from '../img/sponsorship/2_gold_sponsors/olin-corporation.png';
 
 // SILVER
+import AandP from '../img/sponsorship/3_silver_sponsors/A&P_Logo.png';
 import customClothes from '../img/sponsorship/3_silver_sponsors/custom_clothes_canada.png';
-import ieee from '../img/sponsorship/3_silver_sponsors/IEEE-Logo.jpg';
+import engsoc from '../img/sponsorship/3_silver_sponsors/engsoc_logo.png';
+import harwin from '../img/sponsorship/3_silver_sponsors/harwin_logo.png';
+import linde from '../img/sponsorship/3_silver_sponsors/Linde.jpg';
 import mef from '../img/sponsorship/3_silver_sponsors/mef_logo.png';
+import mrc from '../img/sponsorship/3_silver_sponsors/MRC.png';
+import sff from '../img/sponsorship/3_silver_sponsors/SFF_Logo.png';
 import swagelok from '../img/sponsorship/3_silver_sponsors/swagelok_logo.png';
-import moderncrane from '../img/sponsorship/3_silver_sponsors/modern_crane_logo.jpg';
-import pelican from '../img/sponsorship/3_silver_sponsors/pelican_logo.png';
-import rdx from '../img/sponsorship/3_silver_sponsors/RDX_logo.png';
-import standfordfleming from '../img/sponsorship/3_silver_sponsors/SFF_Logo.png';
-import teamgantt from '../img/sponsorship/3_silver_sponsors/team_gantt_logo.png';
-import jr from '../img/sponsorship/3_silver_sponsors/JR_security_solutions_logo.png';
-import bomist from '../img/sponsorship/3_silver_sponsors/bomist_logo.png';
-import inteliheat from '../img/sponsorship/3_silver_sponsors/inteliheat_logo.jpg';
 
 // BRONZE
 import acornFireSafety from '../img/sponsorship/4_bronze_sponsors/acorn_fire_and_safety.png';
+import ariss from '../img/sponsorship/4_bronze_sponsors/ariss.png';
+import bigredbee from '../img/sponsorship/4_bronze_sponsors/bigredbee_logo.png';
+import broadcom from '../img/sponsorship/4_bronze_sponsors/Broadcom_Logo.png';
+import eljen from '../img/sponsorship/4_bronze_sponsors/eljen_logo.png';
+import ereztech from '../img/sponsorship/4_bronze_sponsors/ereztech-logo.png';
+import robotshop from '../img/sponsorship/4_bronze_sponsors/robotshop.png';
+import triumph from '../img/sponsorship/4_bronze_sponsors/triumph-logo.png';
 import waterlooElectroplating from '../img/sponsorship/4_bronze_sponsors/Waterloo-Electroplating.png';
-import kwsewingmachine from '../img/sponsorship/4_bronze_sponsors/KW_sewing_machine_logo.png';
-import ceno360 from '../img/sponsorship/4_bronze_sponsors/ceno_360_logo.png';
-import rutland from '../img/sponsorship/4_bronze_sponsors/rutland_logo.jpg';
 
 // PREVIOUS
-import ariss from '../img/sponsorship/5_previous_sponsors/ariss.png';
-import bigredbee from '../img/sponsorship/5_previous_sponsors/bigredbee_logo.png';
-import broadcom from '../img/sponsorship/5_previous_sponsors/Broadcom_Logo.png';
-import eljen from '../img/sponsorship/5_previous_sponsors/eljen_logo.png';
-import ereztech from '../img/sponsorship/5_previous_sponsors/ereztech-logo.png';
-import robotshop from '../img/sponsorship/5_previous_sponsors/robotshop.png';
-import triumph from '../img/sponsorship/5_previous_sponsors/triumph-logo.png';
-import mrc from '../img/sponsorship/5_previous_sponsors/MRC.png';
-import engsoc from '../img/sponsorship/5_previous_sponsors/engsoc_logo.png';
-import AandP from '../img/sponsorship/5_previous_sponsors/A&P_Logo.png';
-import olin from '../img/sponsorship/5_previous_sponsors/olin-corporation.png';
 import aircraftSpruce from '../img/sponsorship/5_previous_sponsors/Aircraft_Spruce_Logo.png';
 import airtech from '../img/sponsorship/5_previous_sponsors/Airtech.png';
 import Aversan from '../img/sponsorship/5_previous_sponsors/AversanLogo.jpg';
@@ -120,8 +107,7 @@ const Sponsors = () => {
             <DividerLine />
           </Content>
           <Row className="my-4 mx-2 gx-4 justify-content-center">
-            <Col lg={{ span: 5 }}>
-              <p> </p>
+            <Col lg={{ span: 6 }}>
               <SponsorLinkWithDesc logoTier="platinum" image={stein} link="https://steinindustriesinc.com/">
                 <p className="content-text">
                   Stein Industries Inc. was founded in 1992 by company president Dan Steinhaur along
@@ -143,31 +129,6 @@ const Sponsors = () => {
                   developing by addressing the needs of our customers and making investments in
                   research and development to innovate existing products and creating
                   cutting-edge solutions for the future.
-                </p>
-              </SponsorLinkWithDesc>
-            </Col>
-            <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="platinum" image={demtool} link="https://demtool.com/">
-                <p className="content-text">
-                  Established in 2004 by Jim and Derrick Demerling in Petersburg, Ontario, Demtool
-                  is a family-led enterprise. With the addition of their brother Matt, the trio
-                  leads a team of over 50 talented individuals, including professional
-                  administrators, engineers, skilled labourers, and tradesmen. Committed to
-                  continuous improvement, Demtool strives to exceed customer expectations,
-                  providing an exceptional customer experience and delivering top-notch end
-                  products.
-                </p>
-                <p className="content-text">
-                  Operating on the principles of Quality and Integrity, Demtool fosters a culture
-                  of innovation, welcoming new ideas from every team member. The company maintains
-                  a clean and safe working environment, with a team that takes immense pride in
-                  their work. As industry leaders, we invest in cutting-edge technologies,
-                  software, machinery, and training to equip employees with the best tools
-                  available. We also actively support and sponsors numerous programs that promote
-                  Science, Technology, Engineering, and Math (STEM), recognizing the importance of
-                  inspiring the next generation. Demtool is deeply engaged in the local community,
-                  participating in and contributing to fundraisers and charitable events,
-                  reflecting its dedication to making a positive impact on the world around them.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
@@ -227,27 +188,26 @@ const Sponsors = () => {
 
           <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
-              <p> </p>
-              <SponsorLinkWithDesc logoTier="platinum" image={harwin} link="https://www.harwin.com/">
+              <SponsorLinkWithDesc logoTier="platinum" image={ansys} link="https://www.ansys.com/">
                 <p className="content-text">
-                  Since 1952, the de Laszlo family has led Harwin, evolving from a turning facility
-                  to a global leader in interconnects. Through innovation, advanced technologies,
-                  and exemplary service, Harwin addresses the most demanding connectivity
-                  challenges, empowering customers to gain a competitive edge. Our vision is clear:
-                  to be the first-choice supplier of mission-critical and high-performance
-                  connectivity solutions.
+                  Founded in 1970, ANSYS employs nearly 4,000 professionals,
+                  many of whom are expert M.S. and Ph.D.-level engineers
+                  in finite element analysis, computational fluid dynamics,
+                  electronics, semiconductors, embedded software and design
+                  optimization. Our exceptional staff is passionate about
+                  pushing the limits of world-class simulation technology so our
+                  customers can turn their design concepts into successful, innovative
+                  products faster and at lower cost. As a measure of our success in
+                  attaining these goals, ANSYS has been recognized as one of the world&apos;s
+                  most innovative companies by prestigious publications such as Bloomberg
+                  Businessweek and FORTUNE magazines.
                 </p>
                 <p className="content-text">
-                  Integral to our ongoing success is our strategic investment in human capital.
-                  Harwin is deeply committed to cultivating a competent, efficient, and
-                  team-oriented workforce. Our comprehensive apprenticeship program not only equips
-                  students with internationally recognized engineering qualifications but also
-                  provides valuable hands-on experience at our Portsmouth headquarters.
-                  As a responsible employer, we also prioritize the welfare of our employees and
-                  the broader community, actively operating with a strong commitment to social
-                  responsibility and striving to minimize our impact on the planet. Harwin navigates
-                  the future with a focus on quality, innovation, and corporate responsibility,
-                  ensuring a seamless transition toward a brighter and more connected tomorrow.
+                  Engineering simulation is our sole focus. For more than 45 years,
+                  we have consistently advanced this technology to meet evolving
+                  customer needs. ANSYS develops, markets and supports engineering
+                  simulation software used to predict how product designs will
+                  behave in real-world environments.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
@@ -312,40 +272,28 @@ const Sponsors = () => {
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={ansys} link="https://www.ansys.com/">
+              <SponsorLinkWithDesc logoTier="gold" image={olin} link="https://olin.com/">
                 <p className="content-text">
-                  Founded in 1970, ANSYS specializes in engineering simulation with a team of
-                  nearly 4,000 skilled professionals. Our experts, including M.S. and Ph.D.-level
-                  engineers, focus on finite element analysis, computational fluid dynamics,
-                  electronics, semiconductors, embedded software, and design optimization.
-                  Recognized as one of the world' most innovative companies, ANSYS has been
-                  dedicated to engineering simulation for over 45 years. We develop and support
-                  simulation software for predicting product designs' real-world behaviour.
+                  Olin Corporation began in 1892 as a small blasting powder supplier
+                  in East Alton, Illinois. Following a few decades of success, along
+                  with some fruitful acquisitions, Olin has grown and expanded to
+                  encompass several complementary business units, among them—Olin
+                  Chlor Alkali Products and Vinyls and Olin Epoxy. Collectively,
+                  these business segments employ 8,000 professionals in more than 20
+                  countries with customers in nearly 100 countries across the globe.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={dxengineering} link="https://www.dxengineering.com/">
+              <SponsorLinkWithDesc logoTier="gold" image={demtool} link="https://demtool.com/">
                 <p className="content-text">
-                  At DX Engineering, Amateur Radio is what we know. We understand your every need
-                  for top-performing and reliable products, and it's impossible to overstate the
-                  importance of filling those needs. Whether it's DXing, Contesting or just plain
-                  everyday operating, we strive to develop products that fill a specific need,
-                  products that are reliable, fully tested, and represent the best value for your
-                  money. Anything we design and build offers you proven, measurable benefits.
-                </p>
-              </SponsorLinkWithDesc>
-            </Col>
-            <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={linde} link="https://www.linde.com/">
-                <p className="content-text">
-                  Linde is a leading global industrial gases and engineering company with 2022
-                  sales of $33 billion. We live our mission of making our world more productive
-                  every day by providing high-quality solutions, technologies and services which
-                  are making our customers more successful and helping to sustain, decarbonize and
-                  protect our planet. Our company serves a variety of end markets such as
-                  chemicals & energy, food & beverage, electronics, healthcare, manufacturing,
-                  metals and mining.
+                  Demtool provides various services and expertise for customers in an array of
+                  industries. We specialize in machining, sheet metal fabrication, and
+                  powder-coating.
+                  The machine shop provides expert custom and production machining while
+                  fabrication provides industry leading custom and production sheet metal
+                  and other light fabrications. The powder-coating division applies the
+                  highest quality coatings to nearly any product.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
@@ -363,16 +311,10 @@ const Sponsors = () => {
               <SponsorLinkWithDesc logoTier="silver" image={swagelok} link="http://www.swagelok.com/en" />
             </Col>
             <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={ieee} link="https://www.ieee.org/" />
+              <SponsorLinkWithDesc logoTier="silver" image={engsoc} link="https://www.engsoc.uwaterloo.ca/" />
             </Col>
             <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={moderncrane} link="https://moderncrane.ca/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={bomist} link="https://bomist.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={inteliheat} link="https://www.inteliheat.com/" />
+              <SponsorLinkWithDesc logoTier="silver" image={linde} link="http://www.linde.com/" />
             </Col>
           </Row>
 
@@ -381,42 +323,53 @@ const Sponsors = () => {
               <SponsorLinkWithDesc logoTier="silver" image={customClothes} link="https://customclothes.ca/" />
             </Col>
             <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={pelican} link="https://www.pelican.com/ca/en/" />
+              <SponsorLinkWithDesc logoTier="silver" image={sff} link="https://uwaterloo.ca/sandford-fleming-foundation/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={rdx} link="https://www.reactiondynamics.space/" />
+              <SponsorLinkWithDesc logoTier="silver" image={harwin} link="http://www.harwin.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={standfordfleming} link="https://uwaterloo.ca/sandford-fleming-foundation/" />
+              <SponsorLinkWithDesc logoTier="silver" image={AandP} link="http://www.braider.com/" />
             </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={teamgantt} link="https://www.teamgantt.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={jr} link="https://jrsecurity.ca/" />
+          </Row>
+
+          <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
+            <Col md="auto" style={{ float: 'center', marginBottom: '2rem' }}>
+              <SponsorLinkWithDesc logoTier="silver" image={mrc} link="https://www.mrcwireless.com/" />
             </Col>
           </Row>
 
           {/* Bronze Sponsors */}
-          <p> </p>
           <Content title="BRONZE SPONSORS">
             <DividerLine />
           </Content>
           <Row className="my-4 mx-2 gx-4 col-md-12 justify-content-center text-center" style={{ display: 'float' }}>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={ceno360} link="https://www.ceno360.com/" />
+              <SponsorLinkWithDesc logoTier="bronze" image={triumph} link="https://www.triumphtool.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={kwsewingmachine} link="https://www.kwsewingmachines.com/" />
+              <SponsorLinkWithDesc logoTier="bronze" image={broadcom} link="https://www.broadcom.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={rutland} link="https://rutland.com/" />
+              <SponsorLinkWithDesc logoTier="bronze" image={ereztech} link="https://ereztech.com/ereztech-custom-synthesis/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" image={robotshop} link="https://www.robotshop.com/" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={waterlooElectroplating} link="https://www.google.com/maps/place/Waterloo+Electroplating+%26+Metal+Finishing+Inc/@43.5017069,-80.5494139,15z/data=!4m2!3m1!1s0x0:0x91bf0e1ff7c624cf?sa=X&ved=2ahUKEwiv5PTJ5NT5AhUEFFkFHd5bAH4Q_BJ6BAg6EAU" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={acornFireSafety} link="https://www.acornfire.ca/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" image={eljen} link="https://eljentechnology.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" image={bigredbee} link="https://shop.bigredbee.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" image={ariss} link="https://arissbrospropane.com/" />
             </Col>
           </Row>
 
@@ -528,41 +481,6 @@ const Sponsors = () => {
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc image={msam} link="https://msam-uwaterloo.ca" />
-            </Col>
-
-            {/* ROW 4 BEGINS HERE */}
-            <Col md="auto">
-              <SponsorLinkWithDesc image={ariss} link="https://arissbrospropane.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={bigredbee} link="https://shop.bigredbee.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={broadcom} link="https://www.broadcom.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={eljen} link="https://eljentechnology.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={ereztech} link="https://ereztech.com/ereztech-custom-synthesis/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={robotshop} link="https://www.robotshop.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={triumph} link="https://www.triumphtool.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={mrc} link="https://www.mrcwireless.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={engsoc} link="https://www.engsoc.uwaterloo.ca/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={AandP} link="http://www.braider.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={olin} link="https://olin.com/" />
             </Col>
           </Row>
         </Row>
