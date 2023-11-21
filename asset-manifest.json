@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a1b65d51.css",
-    "main.js": "/static/js/main.e2175a68.js",
+    "main.js": "/static/js/main.f65974ce.js",
     "static/media/cover_subsystems.jpg": "/static/media/cover_subsystems.86c7311aaffe2994e181.jpg",
     "static/media/rocket_drag_race_2019.jpg": "/static/media/rocket_drag_race_2019.e3229ff779b54b3a4998.jpg",
     "static/media/unexploded-ordnance-2018.jpg": "/static/media/unexploded-ordnance-2018.a400fbd76a25c414da44.jpg",
@@ -157,6 +157,7 @@
     "static/media/liftwerx_logo.png": "/static/media/liftwerx_logo.35007a0bf2bc46757f97.png",
     "static/media/firecam_logo.png": "/static/media/firecam_logo.e6356980c336acb7cf2a.png",
     "static/media/Pratt-and-Whitney.png": "/static/media/Pratt-and-Whitney.64cd4dac92d4e5c27c90.png",
+    "static/media/patrickG.jpg": "/static/media/patrickG.bd9c1ca96e2a2029fdec.jpg",
     "static/media/u-blox_logo_rgb.jpg": "/static/media/u-blox_logo_rgb.be2f2dd1b240474f6c99.jpg",
     "static/media/Stratasys-3.png": "/static/media/Stratasys-3.c4e0bfd177802b2d2d73.png",
     "static/media/misumi.png": "/static/media/misumi.70d14d19e19a19dc00ce.png",
@@ -184,10 +185,10 @@
     "static/media/BGF.png": "/static/media/BGF.bd3d9b2701f9601d8046.png",
     "index.html": "/index.html",
     "main.a1b65d51.css.map": "/static/css/main.a1b65d51.css.map",
-    "main.e2175a68.js.map": "/static/js/main.e2175a68.js.map"
+    "main.f65974ce.js.map": "/static/js/main.f65974ce.js.map"
   },
   "entrypoints": [
     "static/css/main.a1b65d51.css",
-    "static/js/main.e2175a68.js"
+    "static/js/main.f65974ce.js"
   ]
 }
