@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a1b65d51.css",
-    "main.js": "/static/js/main.f65974ce.js",
+    "main.js": "/static/js/main.2487a30a.js",
     "static/media/cover_subsystems.jpg": "/static/media/cover_subsystems.86c7311aaffe2994e181.jpg",
     "static/media/rocket_drag_race_2019.jpg": "/static/media/rocket_drag_race_2019.e3229ff779b54b3a4998.jpg",
     "static/media/unexploded-ordnance-2018.jpg": "/static/media/unexploded-ordnance-2018.a400fbd76a25c414da44.jpg",
@@ -44,6 +44,7 @@
     "static/media/link_to_rockets.jpg": "/static/media/link_to_rockets.a8ca230372d54d3770f0.jpg",
     "static/media/10k_SRAD18.png": "/static/media/10k_SRAD18.03ef9abbba63d17bf480.png",
     "static/media/vidar2.jpg": "/static/media/vidar2.b8ea779abd25715f364b.jpg",
+    "static/media/KW_sewing_machine_logo.png": "/static/media/KW_sewing_machine_logo.86545e916ff47b6a9ca3.png",
     "static/media/Vidar.jpg": "/static/media/Vidar.baa99f8fd6d8745b85e9.jpg",
     "static/media/owenH.jpg": "/static/media/owenH.fcbc797ab0acf8f530eb.jpg",
     "static/media/harwin_logo.png": "/static/media/harwin_logo.c7281097385973c27feb.png",
@@ -145,6 +146,7 @@
     "static/media/ferrotec.png": "/static/media/ferrotec.c068f2905161ffe445bb.png",
     "static/media/wrt1.jpg": "/static/media/wrt1.fcacd6c1503d64fc4228.jpg",
     "static/media/Vidar3.jpg": "/static/media/Vidar3.60f517e940d03aed07f5.jpg",
+    "static/media/JR_security_solutions_logo.png": "/static/media/JR_security_solutions_logo.5133396334533af84e13.png",
     "static/media/digi_logo.png": "/static/media/digi_logo.c425885a755f1cb2bcb9.png",
     "static/media/olin-corporation.png": "/static/media/olin-corporation.07de98ad422568c57851.png",
     "static/media/Cimetrix-Logo.jpg": "/static/media/Cimetrix-Logo.75d19d19469c34bde996.jpg",
@@ -162,22 +164,27 @@
     "static/media/Stratasys-3.png": "/static/media/Stratasys-3.c4e0bfd177802b2d2d73.png",
     "static/media/misumi.png": "/static/media/misumi.70d14d19e19a19dc00ce.png",
     "static/media/ivanB.jpg": "/static/media/ivanB.9c9aed591f843e6fb6a5.jpg",
+    "static/media/IEEE-Logo.jpg": "/static/media/IEEE-Logo.bda795497a01ab5d466b.jpg",
     "static/media/SFF_Logo.png": "/static/media/SFF_Logo.9f3ba276d279d4faeda8.png",
     "static/media/WEEF_Logo_yellow.png": "/static/media/WEEF_Logo_yellow.96022c3281d38efb7626.png",
+    "static/media/RDX_logo.png": "/static/media/RDX_logo.a70989b0cde3cec45c1e.png",
     "static/media/Keysight.png": "/static/media/Keysight.34fe1b51fd67fdacf062.png",
     "static/media/ni_logo.JPG": "/static/media/ni_logo.932ef78bb25a819c1e9d.JPG",
     "static/media/engsoc_logo.png": "/static/media/engsoc_logo.c0196dcbb3ae7b2ee478.png",
     "static/media/bj_photo.png": "/static/media/bj_photo.36542107c6bab3e95ecc.png",
+    "static/media/pelican_logo.png": "/static/media/pelican_logo.7037b3f0840d08ef0e66.png",
     "static/media/Mitutoyo_Logo.png": "/static/media/Mitutoyo_Logo.aeec70ef86fc523a3bf0.png",
     "static/media/solidworks_logo.png": "/static/media/solidworks_logo.a81da2bbd7e75577862c.png",
     "static/media/custom_clothes_canada.png": "/static/media/custom_clothes_canada.fcde5e792a7c47e21175.png",
     "static/media/Searles_Surveying_Logo.png": "/static/media/Searles_Surveying_Logo.5e07df00acd8cf5a50e8.png",
     "static/media/qnx-logo-black-medium.png": "/static/media/qnx-logo-black-medium.c12e324fe05520dd3ea9.png",
+    "static/media/inteliheat_logo.jpg": "/static/media/inteliheat_logo.ba007649982418e8d5eb.jpg",
     "static/media/dorisJ.jpg": "/static/media/dorisJ.a251b45a18bb935cab00.jpg",
     "static/media/proto3000.png": "/static/media/proto3000.773182281ba9b413b4c1.png",
     "static/media/ereztech-logo.png": "/static/media/ereztech-logo.a2c8b9e108c35d9c4443.png",
     "static/media/missing.jpg": "/static/media/missing.07f693310883ce645136.jpg",
     "static/media/textreme.png": "/static/media/textreme.1cce65d894a63df4c0ed.png",
+    "static/media/ceno_360_logo.png": "/static/media/ceno_360_logo.a0da8c38c918ad44da0e.png",
     "static/media/demtool.png": "/static/media/demtool.15a552eb114555c2b005.png",
     "static/media/AversanLogo.jpg": "/static/media/AversanLogo.2934e62989968902dc91.jpg",
     "static/media/triumph-logo.png": "/static/media/triumph-logo.ee3b9705ca9626fb94a5.png",
@@ -185,10 +192,10 @@
     "static/media/BGF.png": "/static/media/BGF.bd3d9b2701f9601d8046.png",
     "index.html": "/index.html",
     "main.a1b65d51.css.map": "/static/css/main.a1b65d51.css.map",
-    "main.f65974ce.js.map": "/static/js/main.f65974ce.js.map"
+    "main.2487a30a.js.map": "/static/js/main.2487a30a.js.map"
   },
   "entrypoints": [
     "static/css/main.a1b65d51.css",
-    "static/js/main.f65974ce.js"
+    "static/js/main.2487a30a.js"
   ]
 }
