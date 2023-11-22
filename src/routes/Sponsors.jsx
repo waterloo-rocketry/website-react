@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import { React } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
@@ -318,9 +317,9 @@ const Sponsors = () => {
                   nearly 4,000 skilled professionals. Our experts, including M.S. and Ph.D.-level
                   engineers, focus on finite element analysis, computational fluid dynamics,
                   electronics, semiconductors, embedded software, and design optimization.
-                  Recognized as one of the world' most innovative companies, ANSYS has been
+                  Recognized as one of the world&apos; most innovative companies, ANSYS has been
                   dedicated to engineering simulation for over 45 years. We develop and support
-                  simulation software for predicting product designs' real-world behaviour.
+                  simulation software for predicting product designs&apos; real-world behaviour.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
@@ -328,11 +327,11 @@ const Sponsors = () => {
               <SponsorLinkWithDesc logoTier="gold" image={dxengineering} link="https://www.dxengineering.com/">
                 <p className="content-text">
                   At DX Engineering, Amateur Radio is what we know. We understand your every need
-                  for top-performing and reliable products, and it's impossible to overstate the
-                  importance of filling those needs. Whether it's DXing, Contesting or just plain
-                  everyday operating, we strive to develop products that fill a specific need,
-                  products that are reliable, fully tested, and represent the best value for your
-                  money. Anything we design and build offers you proven, measurable benefits.
+                  for top-performing and reliable products, and it&apos;s impossible to overstate
+                  the importance of filling those needs. Whether it&apos;s DXing, Contesting or
+                  just plain everyday operating, we strive to develop products that fill a specific
+                  need, products that are reliable, fully tested, and represent the best value for
+                  your money. Anything we design and build offers you proven, measurable benefits.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
