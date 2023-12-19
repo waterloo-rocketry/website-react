@@ -15,7 +15,7 @@ import TechnicalExcellenceImage from '../img/awards/technical_excellence.png';
 const Awards = () => {
   return (
     <>
-      <CoverPhoto image={awardsCoverImage} style={{ backgroundPosition: '50% 40%' }} />
+      <CoverPhoto image={awardsCoverImage} style={{ backgroundPosition: '50% 52.5%' }} />
       <Container fluid>
         <Row className="my-4 mx-2 gx-5 justify-content-right">
           <AwardYear Year={2023} />

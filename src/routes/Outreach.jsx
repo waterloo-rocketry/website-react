@@ -19,7 +19,7 @@ import edPhoto from '../img/outreach/ed_session.jpg';
 const Outreach = () => {
   return (
     <>
-      <CoverPhoto image={outreachCoverPhoto} style={{ backgroundPosition: '50% 40%' }} />
+      <CoverPhoto image={outreachCoverPhoto} style={{ backgroundPosition: '50% 50%' }} />
       <Container fluid>
         <Row className="my-4 mx-2 gx-5 justify-content-center">
           <Content title="OUTREACH">
