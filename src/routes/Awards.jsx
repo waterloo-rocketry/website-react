@@ -36,10 +36,10 @@ const Awards = () => {
             to 30,000 ft ever achieved by an SRAD hybrid rocket at the Spaceport America Cup.
           </AwardItem>
           <AwardItem
-            RocketName="KotS"
-            AwardName="THIRD PLACE - 10K SOLID COTS"
+            RocketName="10KKS"
+            AwardName="THIRD PLACE - BASIC CATEGORY"
             ImageAddress={KOTS23Image}
-            ImageName="Third Place - 10k Cots Solid"
+            ImageName="Third Place - CATEGORY"
           >
             The basic category contains all single-stage vehicles using commercial off-the-shelf
             (COTS) rocket motors, with a target apogee of at least 10,000 feet. This challenge is
@@ -50,6 +50,7 @@ const Awards = () => {
             kind of engineering challenge than the complex year-long development we are familiar
             with.
           </AwardItem>
+
           <AwardYear Year="2020 - 2021" />
           <AwardItem
             RocketName="KotS"
