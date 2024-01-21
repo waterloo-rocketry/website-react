@@ -7,6 +7,7 @@ import awardsCoverImage from '../img/awards/awards_cover.jpg';
 import MOORE21Image from '../img/awards/DrGilMoore21.png';
 import CANRGXImage from '../img/awards/CANRGXOutreach19.png';
 import SRAD23Image from '../img/awards/30k_SRAD23.png';
+import KOTS23Image from '../img/awards/10k_KOTS23.png';
 import SRAD19Image from '../img/awards/30k_SRAD19.png';
 import SRAD18Image from '../img/awards/10k_SRAD18.png';
 import SRAD17Image from '../img/awards/10k_SRAD17.png';
@@ -33,6 +34,21 @@ const Awards = () => {
             operating procedures. Our team received this award for finishing second in our category
             at the 2023 IREC, with the debut flight of LOTS which reached the closest altitude
             to 30,000 ft ever achieved by an SRAD hybrid rocket at the Spaceport America Cup.
+          </AwardItem>
+          <AwardItem
+            RocketName="KotS"
+            AwardName="THIRD PLACE - 10K SOLID COTS"
+            ImageAddress={KOTS23Image}
+            ImageName="Third Place - 10k Cots Solid"
+          >
+            The basic category contains all single-stage vehicles using commercial off-the-shelf
+            (COTS) rocket motors, with a target apogee of at least 10,000 feet. This challenge is
+            geared towards both new teams just getting started in advanced rocketry, as well as
+            more experienced teams that want to flight test new technologies for the first time
+            using off-the-shelf propulsion systems.  In Waterloo Rocketry&apos;s case, the vehicle
+            flown for this award was constructed in less than two months, representing a different
+            kind of engineering challenge than the complex year-long development we are familiar
+            with.
           </AwardItem>
           <AwardYear Year="2020 - 2021" />
           <AwardItem
