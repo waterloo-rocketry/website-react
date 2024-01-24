@@ -341,7 +341,7 @@ const Subsystems = () => {
                       analysis.
                     </li>
                     <li>
-                      Processor Board & Motor Controller Board: customly designed in KiCAD.
+                      Processor Board & Motor Controller Board: custom-designed in KiCAD.
                     </li>
                     <li>
                       Airbrakes Control Software
