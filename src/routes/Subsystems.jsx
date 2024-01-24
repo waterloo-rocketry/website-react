@@ -12,6 +12,7 @@ import styles from './css/Subsystems.module.css';
 import airframeImg from '../img/subsystems/rocket_imgs/airframe.png';
 import daqImg from '../img/subsystems/rocket_imgs/daq.png';
 import payloadImg from '../img/subsystems/rocket_imgs/payload.png';
+import controlsImg from '../img/subsystems/rocket_imgs/controls.png';
 import propulsionImg from '../img/subsystems/rocket_imgs/propulsion.png';
 import recoveryImg from '../img/subsystems/rocket_imgs/recovery.png';
 import rlcsImg from '../img/subsystems/rocket_imgs/rlcs.png';
@@ -24,6 +25,7 @@ const rocketImgs = {
   daq: daqImg,
   payload: payloadImg,
   propulsion: propulsionImg,
+  controls: controlsImg,
   recovery: recoveryImg,
   rlcs: rlcsImg,
   rocketcan: rocketcanImg,
@@ -285,6 +287,71 @@ const Subsystems = () => {
                     to fabricate and modular for future payload experiments.
 
                   </p>
+                </Content>
+              </Tab>
+              <Tab
+                eventKey="controls"
+                title="CONTROLS"
+                tabClassName={styles.subsystemTabButton}
+                className={styles.subsystemTab}
+              >
+                <Content hr title="CONTROLS">
+                  <h3>OVERVIEW</h3>
+                  <p>
+                    The controls subteam is in charge of implementing active control systems on the
+                    rocket in order to steer it during flight.
+                    For the 2023-2024 design cycle, we are designing airbrakes,
+                    which will vary drag to control the final apogee of the rocket,
+                    hopefully getting us as close to the target as possible.
+                  </p>
+                  <p>
+                    The airbrake system is a set of 3 symmetric
+                    plates which can be extended from the rocket body into the air
+                    stream to increase drag on the rocket in a controlled manner,
+                    and thereby reduce the final apogee of the rocket.
+                    The target apogee will be chosen so as to undershoot the as-simulated apogee,
+                    giving the airbrakes some margin both above and below the target apogee.
+                  </p>
+                  <p>
+                    The subteam is exceptionally interdisciplinary,
+                    new, and risky! If that sounds interesting, we would love to have you join us!
+                  </p>
+                  <h3>COMPONENTS</h3>
+                  <ul>
+                    <li>Airbrakes</li>
+                    <li>State Estimation</li>
+                    <li>Trajectory Prediction</li>
+                    <li>Controllers & Onboard RTOS</li>
+                    <li>Computational Fluid Dynamics</li>
+                  </ul>
+                  <h3>HISTORY</h3>
+                  <p>
+                    This subsystem is recently created for the 2023 - 2024 design cycle, succeeding
+                    the state estimation payload module onboard Leviathan of the Sky. This
+                    interdisciplinary subsystem attracts members from all areas of expertise,
+                    including mechanical, electrical, firmware and software. The goal
+                    is to validate active flight stabilization control with thrust vector control by
+                    2026.
+                  </p>
+                  <h3>CURRENTLY WORKING ON</h3>
+                  <p>The subsystem owns projects in a various of subject areas:</p>
+                  <ul>
+                    <li>
+                      Airbrakes: mechanical design using Solidworks, rapid prototyping and FEA
+                      analysis.
+                    </li>
+                    <li>
+                      Processor Board & Motor Controller Board: customly designed in KiCAD.
+                    </li>
+                    <li>
+                      Airbrakes Control Software
+                    </li>
+                    <li>
+                      Computational Fluid Dynamics: using Ansys Fluent to study and validate
+                      stability and drag experienced by the rocket body
+                      upon the influence of the airbrakes.
+                    </li>
+                  </ul>
                 </Content>
               </Tab>
               <Tab
