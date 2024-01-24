@@ -32,4 +32,11 @@
 
 .subsystemTabButton {
 	color: rgb(51, 51, 51) !important; 
+	
+}
+/*Reduce font size to push everything onto the same line for large screen*/
+@media (min-width: 1350px) {
+	.subsystemTabButton	{
+		font-size: 0.93rem;
+	}
 }
