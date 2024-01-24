@@ -39,7 +39,8 @@ const Awards = () => {
             RocketName="10KKS"
             AwardName="THIRD PLACE - BASIC CATEGORY"
             ImageAddress={KOTS23Image}
-            ImageName="Third Place - CATEGORY"
+            ImageStyle={{ width: '150px', marginLeft: '2%' }}
+            ImageName="Third Place - Basic Category"
           >
             The basic category contains all single-stage vehicles using commercial off-the-shelf
             (COTS) rocket motors, with a target apogee of at least 10,000 feet. This challenge is
