@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5d6d571.css",
-    "main.js": "/static/js/main.d266a7fc.js",
+    "main.css": "/static/css/main.83394a7d.css",
+    "main.js": "/static/js/main.21e7d69f.js",
     "static/media/cover_subsystems.jpg": "/static/media/cover_subsystems.86c7311aaffe2994e181.jpg",
     "static/media/rocket_drag_race_2019.jpg": "/static/media/rocket_drag_race_2019.e3229ff779b54b3a4998.jpg",
     "static/media/unexploded-ordnance-2018.jpg": "/static/media/unexploded-ordnance-2018.a400fbd76a25c414da44.jpg",
@@ -141,6 +141,7 @@
     "static/media/husseinS.jpg": "/static/media/husseinS.cd0416bde8c765b5b899.jpg",
     "static/media/domenicH.jpg": "/static/media/domenicH.2cf81293904d613f4543.jpg",
     "static/media/aaronM.jpg": "/static/media/aaronM.dc3d2e46d384c704cd55.jpg",
+    "static/media/controls.png": "/static/media/controls.3d09898d844625286652.png",
     "static/media/MRC.png": "/static/media/MRC.18923a6d905f6b0e8e1c.png",
     "static/media/adamL.jpg": "/static/media/adamL.6566605594504484ae7a.jpg",
     "static/media/ferrotec.png": "/static/media/ferrotec.c068f2905161ffe445bb.png",
@@ -191,11 +192,11 @@
     "static/media/Bombardier-Aerospace.jpg": "/static/media/Bombardier-Aerospace.7fd338ca4aa9511f6012.jpg",
     "static/media/BGF.png": "/static/media/BGF.bd3d9b2701f9601d8046.png",
     "index.html": "/index.html",
-    "main.d5d6d571.css.map": "/static/css/main.d5d6d571.css.map",
-    "main.d266a7fc.js.map": "/static/js/main.d266a7fc.js.map"
+    "main.83394a7d.css.map": "/static/css/main.83394a7d.css.map",
+    "main.21e7d69f.js.map": "/static/js/main.21e7d69f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5d6d571.css",
-    "static/js/main.d266a7fc.js"
+    "static/css/main.83394a7d.css",
+    "static/js/main.21e7d69f.js"
   ]
 }
