@@ -36,7 +36,7 @@ const Awards = () => {
             to 30,000 ft ever achieved by an SRAD hybrid rocket at the Spaceport America Cup.
           </AwardItem>
           <AwardItem
-            RocketName="10KKS"
+            RocketName="10KKOTS"
             AwardName="THIRD PLACE - BASIC CATEGORY"
             ImageAddress={KOTS23Image}
             ImageStyle={{ width: '150px', marginLeft: '2%' }}
