@@ -39,7 +39,7 @@ const Awards = () => {
             RocketName="10KKOTS"
             AwardName="THIRD PLACE - BASIC CATEGORY"
             ImageAddress={KOTS23Image}
-            ImageStyle={{ width: '150px', marginLeft: '2%' }}
+            ImageStyle={{ width: '250px', marginLeft: '2%' }}
             ImageName="Third Place - Basic Category"
           >
             The basic category contains all single-stage vehicles using commercial off-the-shelf
