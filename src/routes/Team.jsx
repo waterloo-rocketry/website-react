@@ -43,6 +43,7 @@ import NahvidZ from '../img/teams/nahvidZ.jpg';
 import OwenH from '../img/teams/owenH.jpg';
 import OzayrR from '../img/teams/ozayrR.jpg';
 import PatrickG from '../img/teams/patrickG.jpg';
+import RheaS from '../img/teams/rheaS.jpg';
 import RichardD from '../img/teams/richardD.jpg';
 import RidaS from '../img/teams/ridaS.jpg';
 import RioL from '../img/teams/rioL.jpg';
@@ -118,11 +119,12 @@ const Team = () => {
           <MemberImage image={TessaP} name="Tessa Pugh" title="Team Co-Lead" />
           <MemberImage image={MatthewG} name="Matthew Gordon" title="Safety Captain/Operations Lead" />
           <MemberImage image={RidaS} name="Rida Sayed" title="Safety Captain" />
+          <MemberImage image={RheaS} name="Rhea Scollie" title="Safety Captain" />
           <MemberImage image={AaronL} name="Aaron Leszkowiat" title="Senior Member" />
           <MemberImage image={ZachariahM} name="Zachariah Mears" title="Senior Member" />
           <MemberImage image={ABMH} name="ABM Hussein" title="Senior Member" />
           <MemberImage image={LanaT} name="Lana Tomlin" title="Payload/Electrical" />
-          <MemberImage image={FrancisY} name="Francis Yao" title="Airframe Lead/Launch Tower" />
+          <MemberImage image={FrancisY} name="Francis Yao" title="Senior Member" />
           <MemberImage image={ChamathW} name="Chamath Wijesekera" title="Software/Electrical" />
           <MemberImage image={ChrisS} name="Chris Sankey" title="Recovery" />
           <MemberImage image={KavinS} name="Kavin Satheeskumar" title="Software/Electrical/Controls" />
@@ -152,7 +154,7 @@ const Team = () => {
           <MemberImage image={RyanL} name="Ryan Lau" title="Flight Dynamics" />
           <MemberImage image={DavisL} name="Davis Liu" title="Electrical" />
           <MemberImage image={JasonX} name="Jason Xu" title="Electrical Co-Lead" />
-          <MemberImage image={KasiaA} name="Kasia-Alexei Delpeche" title="Airframe" />
+          <MemberImage image={KasiaA} name="Kasia-Alexei Delpeche" title="Airframe Co-Lead" />
           <MemberImage image={MakisL} name="Makis Lam" title="Airframe" />
           <MemberImage image={JiyaM} name="Jiya Makwana" title="Propulsion" />
           <MemberImage image={RichardD} name="Richard Ding" title="Controls" />
