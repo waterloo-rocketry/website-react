@@ -28,7 +28,7 @@ AwardYear.defaultProps = {
 * @param {string} ImageName Name of Image for alt tag
 */
 const AwardItem = ({
-  RocketName, AwardName, children, ImageAddress, ImageName,
+  RocketName, AwardName, children, ImageAddress, ImageName, ImageStyle,
 }) => {
   return (
     <div className={styles.award__wrapper}>
@@ -45,7 +45,7 @@ const AwardItem = ({
         </div>
       </div>
       <div>
-        <img className={styles.poster} src={ImageAddress} alt={ImageName} />
+        <img className={styles.poster} src={ImageAddress} alt={ImageName} style={ImageStyle} />
       </div>
     </div>
   );
@@ -56,6 +56,7 @@ AwardItem.defaultProps = {
   children: <span>Award Description</span>,
   ImageAddress: 'AwardName',
   ImageName: 'AwardDescription',
+  ImageStyle: {},
 };
 
 export { AwardItem, AwardYear };
