@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.83394a7d.css",
-    "main.js": "/static/js/main.21e7d69f.js",
+    "main.css": "/static/css/main.967acaa7.css",
+    "main.js": "/static/js/main.f19f9f3f.js",
     "static/media/cover_subsystems.jpg": "/static/media/cover_subsystems.86c7311aaffe2994e181.jpg",
     "static/media/rocket_drag_race_2019.jpg": "/static/media/rocket_drag_race_2019.e3229ff779b54b3a4998.jpg",
     "static/media/unexploded-ordnance-2018.jpg": "/static/media/unexploded-ordnance-2018.a400fbd76a25c414da44.jpg",
@@ -131,6 +131,7 @@
     "static/media/silver-brant.jpg": "/static/media/silver-brant.b7df01a20906a5448a56.jpg",
     "static/media/thomasf.jpg": "/static/media/thomasf.3a53b78e844f904ae8ab.jpg",
     "static/media/Kerbal_Space_Program_High_Res_Logo.png": "/static/media/Kerbal_Space_Program_High_Res_Logo.578f1c89f94a182b75e9.png",
+    "static/media/10k_KOTS23.png": "/static/media/10k_KOTS23.1484f7bdb7db0c1f2798.png",
     "static/media/rioL.jpg": "/static/media/rioL.21e3e1e5a209d48d5e0b.jpg",
     "static/media/nahvidZ.jpg": "/static/media/nahvidZ.51d4e5742a97b0cb3ecc.jpg",
     "static/media/artemS.jpg": "/static/media/artemS.735ae2cbbafff2fc96ff.jpg",
@@ -192,11 +193,11 @@
     "static/media/Bombardier-Aerospace.jpg": "/static/media/Bombardier-Aerospace.7fd338ca4aa9511f6012.jpg",
     "static/media/BGF.png": "/static/media/BGF.bd3d9b2701f9601d8046.png",
     "index.html": "/index.html",
-    "main.83394a7d.css.map": "/static/css/main.83394a7d.css.map",
-    "main.21e7d69f.js.map": "/static/js/main.21e7d69f.js.map"
+    "main.967acaa7.css.map": "/static/css/main.967acaa7.css.map",
+    "main.f19f9f3f.js.map": "/static/js/main.f19f9f3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.83394a7d.css",
-    "static/js/main.21e7d69f.js"
+    "static/css/main.967acaa7.css",
+    "static/js/main.f19f9f3f.js"
   ]
 }
