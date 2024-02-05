@@ -27,7 +27,7 @@ import FrancisY from '../img/teams/francisY.jpg';
 import JackC from '../img/teams/jackC.jpg';
 import JasonX from '../img/teams/jasonX.jpg';
 import JenniferL from '../img/teams/jenniferL.jpg';
-import JermeyS from '../img/teams/jeremyS.jpg';
+import JeremyS from '../img/teams/jeremyS.jpg';
 import JerryL from '../img/teams/jerryL.jpg';
 import JiyaM from '../img/teams/jiyaM.jpg';
 import JoeD from '../img/teams/joeD.jpg';
@@ -61,7 +61,7 @@ import TessaP from '../img/teams/tessaP.jpg';
 import ThomasF from '../img/teams/thomasf.jpg';
 import ThomasM from '../img/teams/thomasm.jpg';
 import XavierR from '../img/teams/xavierR.jpg';
-import YuranW from '../img/teams/yuranW.jpg';
+import YuRanW from '../img/teams/yuranW.jpg';
 import ZachariahM from '../img/teams/zachM.jpg';
 
 // Alumni
@@ -169,10 +169,10 @@ const Team = () => {
           <MemberImage image={ConnorS} name="Connor Stubbs" title="Propulsion/Payload" />
           <MemberImage image={SeanG} name="Sean Gauthier " title="Airframe" />
           <MemberImage image={ManavT} name="Manav Toor" title="Co-op" />
-          <MemberImage image={YuranW} name="Yu ran Wang" title="Propulsion" />
+          <MemberImage image={YuRanW} name="Yu Ran Wang" title="Propulsion" />
           <MemberImage image={PatrickG} name="Patrick Gu" title="Controls/Flight Dynamics" />
           <MemberImage image={AlexA} name="Alex Aumais" title="Media/Software" />
-          <MemberImage image={JermeyS} name="Jeremy Schnellhardt" title="Co-op" />
+          <MemberImage image={JeremyS} name="Jeremy Schnellhardt" title="Co-op" />
           <MemberImage image={PranavM} name="Pranav Mahabal" title="Electrical" />
           <MemberImage image={AshL} name="Ash Lang" title="Electrical/Controls" />
 
