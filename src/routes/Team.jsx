@@ -11,21 +11,23 @@ import teamCoverImage from '../img/teams/team-win-min.jpg';
 // Members
 import AaronL from '../img/teams/aaronL.jpg';
 import ABMH from '../img/teams/abmH.jpg';
-import AdamL from '../img/teams/adamL.jpg';
+import AlexA from '../img/teams/alexA.jpg';
 import AndreA from '../img/teams/andreA.jpg';
 import AnthonyC from '../img/teams/anthonyC.jpg';
 import ArtemS from '../img/teams/artemS.jpg';
+import AshL from '../img/teams/ashL.jpg';
 import CaseyT from '../img/teams/caseyT.jpg';
 import ChamathW from '../img/teams/chamathW.jpg';
-import CharlieB from '../img/teams/charlieB.jpg';
 import ChrisS from '../img/teams/chrisS.jpg';
+import ConnorS from '../img/teams/connorS.jpg';
 import DavisL from '../img/teams/davisL.jpg';
 import DomenicH from '../img/teams/domenicH.jpg';
-import EvanC from '../img/teams/evanC.jpg';
 import ElizabethX from '../img/teams/elizabethX.jpg';
 import FrancisY from '../img/teams/francisY.jpg';
 import JackC from '../img/teams/jackC.jpg';
 import JasonX from '../img/teams/jasonX.jpg';
+import JenniferL from '../img/teams/jenniferL.jpg';
+import JermeyS from '../img/teams/jeremyS.jpg';
 import JerryL from '../img/teams/jerryL.jpg';
 import JiyaM from '../img/teams/jiyaM.jpg';
 import JoeD from '../img/teams/joeD.jpg';
@@ -33,16 +35,19 @@ import JoelG from '../img/teams/joelG.jpg';
 import KasiaA from '../img/teams/kasiaA.jpg';
 import KavinS from '../img/teams/kavinS.jpg';
 import KeeganT from '../img/teams/keeganT.jpg';
-import KimiL from '../img/teams/kimiL.jpg';
 import LanaT from '../img/teams/lanaT.jpg';
+import LucaS from '../img/teams/lucaS.jpg';
+import LucasS from '../img/teams/lucasS.jpg';
+import LydiaG from '../img/teams/lydiaG.jpg';
 import MabelA from '../img/teams/mabelA.jpg';
-import MakisL from '../img/teams/makisL.jpg';
+import ManavT from '../img/teams/ManavT.jpg';
 import MatthewG from '../img/teams/matthewG.jpg';
 import MichaelZ from '../img/teams/michaelZ.jpg';
 import NahvidZ from '../img/teams/nahvidZ.jpg';
 import OwenH from '../img/teams/owenH.jpg';
 import OzayrR from '../img/teams/ozayrR.jpg';
 import PatrickG from '../img/teams/patrickG.jpg';
+import PranavM from '../img/teams/pranavM.jpg';
 import RheaS from '../img/teams/rheaS.jpg';
 import RichardD from '../img/teams/richardD.jpg';
 import RidaS from '../img/teams/ridaS.jpg';
@@ -50,11 +55,13 @@ import RioL from '../img/teams/rioL.jpg';
 import RobertC from '../img/teams/robertC.jpg';
 import RomanK from '../img/teams/romanK.jpg';
 import RyanL from '../img/teams/ryanL.jpg';
+import SeanG from '../img/teams/seanG.jpg';
 import StefanA from '../img/teams/stefanA.jpg';
 import TessaP from '../img/teams/tessaP.jpg';
 import ThomasF from '../img/teams/thomasf.jpg';
 import ThomasM from '../img/teams/thomasm.jpg';
 import XavierR from '../img/teams/xavierR.jpg';
+import YuranW from '../img/teams/yuranW.jpg';
 import ZachariahM from '../img/teams/zachM.jpg';
 
 // Alumni
@@ -114,7 +121,6 @@ const Team = () => {
         </Row>
 
         <Container className={styles.containerFluid} fluid>
-          <MemberImage image={RomanK} name="Roman Kobets" title="Team Co-Lead" />
           <MemberImage image={JackC} name="Jack Christensen" title="Team Co-Lead" />
           <MemberImage image={TessaP} name="Tessa Pugh" title="Team Co-Lead" />
           <MemberImage image={MatthewG} name="Matthew Gordon" title="Safety Captain/Operations Lead" />
@@ -122,6 +128,7 @@ const Team = () => {
           <MemberImage image={RheaS} name="Rhea Scollie" title="Safety Captain" />
           <MemberImage image={AaronL} name="Aaron Leszkowiat" title="Senior Member" />
           <MemberImage image={ZachariahM} name="Zachariah Mears" title="Senior Member" />
+          <MemberImage image={RomanK} name="Roman Kobets" title="Senior Member" />
           <MemberImage image={ABMH} name="ABM Hussein" title="Senior Member" />
           <MemberImage image={LanaT} name="Lana Tomlin" title="Payload/Electrical" />
           <MemberImage image={FrancisY} name="Francis Yao" title="Senior Member" />
@@ -134,20 +141,17 @@ const Team = () => {
           <MemberImage image={JerryL} name="Jerry Lu" title="Propulsion" />
           <MemberImage image={ArtemS} name="Artem Sotnikov" title="Recovery" />
           <MemberImage image={JoelG} name="Joel Godard" title="Airframe" />
-          <MemberImage image={KimiL} name="Kimi Liang" title="Airframe" />
           <MemberImage image={NahvidZ} name="Nahvid Zolfaghari" title="Infrastructure Lead/Airframe" />
           <MemberImage image={JoeD} name="Joe Dolina" title="Controls Lead" />
           <MemberImage image={XavierR} name="Xavier Rayes" title="Propulsion/Infrastructure" />
           <MemberImage image={StefanA} name="Stefan Arroyo-Cottier" title="Recovery Lead" />
           <MemberImage image={AndreA} name="Andre Arroyo-Cottier" title="Propulsion/Payload" />
-          <MemberImage image={AdamL} name="Adam Lastovka" title="Propulsion" />
-          <MemberImage image={CharlieB} name="Charlie Bell" title="Propulsion" />
           <MemberImage image={DomenicH} name="Domenic Hampson" title="Electrical Co-Lead" />
           <MemberImage image={OwenH} name="Owen Henry" title="Payload" />
           <MemberImage image={ThomasF} name="Thomas Fairhead" title="Propulsion Lead" />
           <MemberImage image={OzayrR} name="Ozayr Raazi" title="Software Lead" />
           <MemberImage image={KeeganT} name="Keegan Tripp" title="Media Lead" />
-          <MemberImage image={EvanC} name="Evan Cheung" title="Software" />
+          <MemberImage image={LydiaG} name="Lydia Griffith" title="Payload Lead" />
           <MemberImage image={CaseyT} name="Casey Tsujita" title="Finance Lead" />
           <MemberImage image={ThomasM} name="Thomas Martinez" title="Infrastructure/Electrical" />
           <MemberImage image={MabelA} name="Mabel Aung" title="Propulsion/Infrastructure" />
@@ -155,12 +159,23 @@ const Team = () => {
           <MemberImage image={DavisL} name="Davis Liu" title="Electrical" />
           <MemberImage image={JasonX} name="Jason Xu" title="Electrical Co-Lead" />
           <MemberImage image={KasiaA} name="Kasia-Alexei Delpeche" title="Airframe Co-Lead" />
-          <MemberImage image={MakisL} name="Makis Lam" title="Airframe" />
           <MemberImage image={JiyaM} name="Jiya Makwana" title="Propulsion" />
-          <MemberImage image={RichardD} name="Richard Ding" title="Controls" />
-          <MemberImage image={AnthonyC} name="Anthony Chen" title="Software" />
+          <MemberImage image={JenniferL} name="Jennifer Li" title="Airframe Co-Lead" />
+          <MemberImage image={RichardD} name="Richard Ding" title="Controls/Ansys CFD" />
+          <MemberImage image={LucaS} name="Luca Scavone" title="Airframe/Flight Dynamics" />
+          <MemberImage image={AnthonyC} name="Anthony Chen" title="Software/Infrastructure" />
           <MemberImage image={ElizabethX} name="Xiaotong Elizabeth Xiong" title="Controls/Software" />
+          <MemberImage image={LucasS} name="Lucas Shumaker" title="Recovery" />
+          <MemberImage image={ConnorS} name="Connor Stubbs" title="Propulsion/Payload" />
+          <MemberImage image={SeanG} name="Sean Gauthier " title="Airframe" />
+          <MemberImage image={ManavT} name="Manav Toor" title="Co-op" />
+          <MemberImage image={YuranW} name="Yu ran Wang" title="Propulsion" />
           <MemberImage image={PatrickG} name="Patrick Gu" title="Controls/Flight Dynamics" />
+          <MemberImage image={AlexA} name="Alex Aumais" title="Media/Software" />
+          <MemberImage image={JermeyS} name="Jeremy Schnellhardt" title="Co-op" />
+          <MemberImage image={PranavM} name="Pranav Mahabal" title="Electrical" />
+          <MemberImage image={AshL} name="Ash Lang" title="Electrical/Controls" />
+
         </Container>
 
         <Row className="my-4 mx-2 gx-4 justify-content-center">
