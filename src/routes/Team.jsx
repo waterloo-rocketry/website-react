@@ -10,7 +10,6 @@ import teamCoverImage from '../img/teams/team-win-min.jpg';
 
 // Members
 import AaronL from '../img/teams/aaronL.jpg';
-import ABMH from '../img/teams/abmH.jpg';
 import AlexA from '../img/teams/alexA.jpg';
 import AndreA from '../img/teams/andreA.jpg';
 import AnthonyC from '../img/teams/anthonyC.jpg';
@@ -129,7 +128,6 @@ const Team = () => {
           <MemberImage image={AaronL} name="Aaron Leszkowiat" title="Senior Member" />
           <MemberImage image={ZachariahM} name="Zachariah Mears" title="Senior Member" />
           <MemberImage image={RomanK} name="Roman Kobets" title="Senior Member" />
-          <MemberImage image={ABMH} name="ABM Hussein" title="Senior Member" />
           <MemberImage image={LanaT} name="Lana Tomlin" title="Payload/Electrical" />
           <MemberImage image={FrancisY} name="Francis Yao" title="Senior Member" />
           <MemberImage image={ChamathW} name="Chamath Wijesekera" title="Software/Electrical" />
