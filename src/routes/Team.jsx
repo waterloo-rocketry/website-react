@@ -9,7 +9,7 @@ import MemberImage from '../components/MemberImage/MemberImage';
 import teamCoverImage from '../img/teams/team-win-min.jpg';
 
 // Members
-import AaronL from '../img/teams/aaronL.jpg;
+import AaronL from '../img/teams/aaronL.jpg';
 import AlexA from '../img/teams/alexA.jpg';
 import AndreA from '../img/teams/andreA.jpg';
 import AnthonyC from '../img/teams/anthonyC.jpg';
