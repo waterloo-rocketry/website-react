@@ -37,6 +37,7 @@ import teamgantt from '../img/sponsorship/3_silver_sponsors/team_gantt_logo.png'
 import jr from '../img/sponsorship/3_silver_sponsors/JR_security_solutions_logo.png';
 import bomist from '../img/sponsorship/3_silver_sponsors/bomist_logo.png';
 import inteliheat from '../img/sponsorship/3_silver_sponsors/inteliheat_logo.jpg';
+import mitutoyo from '../img/sponsorship/3_silver_sponsors/Mitutoyo_Logo.png';
 
 // BRONZE
 import acornFireSafety from '../img/sponsorship/4_bronze_sponsors/acorn_fire_and_safety.png';
@@ -76,7 +77,6 @@ import hatch from '../img/sponsorship/5_previous_sponsors/Hatch-logo.png';
 import hickoryHill from '../img/sponsorship/5_previous_sponsors/hickory_hill_logo.png';
 import kerbalSpaceProgram from '../img/sponsorship/5_previous_sponsors/Kerbal_Space_Program_High_Res_Logo.png';
 import misumi from '../img/sponsorship/5_previous_sponsors/misumi.png';
-import mitutoyo from '../img/sponsorship/5_previous_sponsors/Mitutoyo_Logo.png';
 import msam from '../img/sponsorship/5_previous_sponsors/msam_logo.png';
 import nationalInstruments from '../img/sponsorship/5_previous_sponsors/ni_logo.JPG';
 import prattAndWhitney from '../img/sponsorship/5_previous_sponsors/Pratt-and-Whitney.png';
@@ -394,6 +394,9 @@ const Sponsors = () => {
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={jr} link="https://jrsecurity.ca/" />
             </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" image={mitutoyo} link="https://www.mitutoyo.ca/" />
+            </Col>
           </Row>
 
           {/* Bronze Sponsors */}
@@ -506,9 +509,6 @@ const Sponsors = () => {
             {/* ROW 3 BEGINS HERE */}
             <Col md="auto">
               <SponsorLinkWithDesc image={hickoryHill} link="https://www.hickory-hills.ca/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={mitutoyo} link="https://www.mitutoyo.ca/" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc image={textreme} link="http://www.textreme.com/" />
