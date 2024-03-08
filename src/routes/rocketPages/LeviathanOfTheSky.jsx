@@ -14,15 +14,16 @@ const LeviathanOfTheSky = () => {
     <>
       <RocketPageOutline title="LEVIATHAN OF THE SKY" img={lotsUpright} altText="Leviathan of the sky drawing">
         <Content title="Overview">
-          Leviathan of the Sky (LotS) is the team&apos;s newest generation of hybrid rocket and was developed to compete in
+          Leviathan of the Sky (LotS) is the team&apos;s newest generation of
+          hybrid rocket and was developed to compete in
           2023 Spaceport America Cup (SAC), 30,000 ft SRAD (Student Researched And Designed)
-          liquid/hybrid engine category. Building on the success of last year&apos;s rocket (SotS),
-          design of KotS focused on mass reduction and engine improvements. KotS is powered
-          by the Kismet hybrid SRAD engine.
+          liquid/hybrid engine category. Inherriting many design features from KotS in 2022,
+          this rocket featured major engine performance upgrades.
+          It is powered by the Kismet hybrid SRAD engine.
         </Content>
         <SpecsComponent specs={
           [
-            [{ Diameter: '6"', Length: '202"' }, { 'Motor Classification': 'O', 'Wet Mass': '155 lbs' }],
+            [{ Diameter: '6"', Length: '175"' }, { 'Motor Classification': 'O', 'Wet Mass': '126.01 lbs' }],
             [{ Fuel: 'Hydroxyl-Terminated Polybutadiene', Oxidizer: 'Nitrous Oxide' }, { 'Two Stage Reefing Parachute': '', 'Full Chute Diameter': '148.8"' }],
           ]
         }
@@ -31,14 +32,14 @@ const LeviathanOfTheSky = () => {
         <TwoColumns title="DETAILS">
           <>
             <Content title="PAYLOAD">
-              The team developed a payload this year that assessed the radiation shielding
-              properties of various experimental materials including boron-nitride
-              nanotubes (BNNTs) and metal oxide composites. These materials are theorized
-              to be lighter and better at shielding radiation than traditional
-              solutions using lead, steel, or concrete. This experiment was housed in a
-              3U CubeSat and was operated using an independent electrical system that
-              measured the amount of radiation passing through the rocket and the materials
-              during flight and ground operation.
+              The payload onboard LotS contains two experiments.
+              One is state estimation, which uses a Kalman filter to fuse data from onboard
+              sensors with a model of the rocket dynamics
+              to provide enhanced estimates of the rocket state during flight.
+              This was developed as a prototype for future active control
+              systems onboard the rocket. The other experiment consisted of yeast
+              cultures which were flown on the rocket, to assess the
+              effects of increased gravity on fermentation activity.
             </Content>
             <Content title="RECOVERY">
               The recovery system onboard KotS uses a reefing two-stage recovery system
@@ -99,11 +100,19 @@ const LeviathanOfTheSky = () => {
               leave the nozzle, providing the rocket with thrust.
             </Content>
             <Content title="FINS">
-              KotS uses a carbon fibre fin can holding 3 trapezoidal carbon fiber fins.
-              Carbon fiber was chosen for its high specific stiffness and low mass.
-              The fins were cut on a CNC router and bonded to the tube with a high
-              shear strength epoxy. 3 tip-to-tip layups were done on top of the fins
-              with structural carbon fibre plies to add strength.
+              LotS has a mainly carbon fibre fin can with 4 swept delta fins.
+              Carbon fiber was chosen for its high specific stiffness for all
+              components except the boattail and top coupler.
+              The swept delta shape was designed to reduce drag at high speeds.
+              Compared to using the same fin shape as previous rockets,
+              this shape increased apogee by 3 000ft. To manufacture the fin can,
+              first the SRAD bodytube was fabricated using vacuum infusion.
+              Then the fins were cut on a CNC router and bonded to the tube
+              with a high shear strength epoxy. Next four additional layers
+              of fabric were added tip-to-tip in a vacuum assisted wet layup to add
+              strength and stiffness. Lastly the aluminum boattail and top couplers
+              were bonded which allows for
+              easy and strong attachment to the combustion chamber.
             </Content>
             <Content title="PROJECT REPORT">
               A complete report of this project, including descriptions of onboard and ground
