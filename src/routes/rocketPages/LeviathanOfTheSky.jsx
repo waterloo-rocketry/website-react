@@ -71,9 +71,9 @@ const LeviathanOfTheSky = () => {
             </Content>
             <Content title="NOSECONE">
               Because of the possibility of going supersonic, a Von Kármán nosecone with a 4:1
-              fineness ratio, built from fiberglass was selected for KotS. Two mold halves
+              fineness ratio, built from fiberglass was selected for LOTS. Two mold halves
               were formed with foam on a CNC router, and then joined during the layup
-              to form the complete nosecone shape. The nosecone was post-cured at 50 °C for
+              to form the complete nosecone shape. The nosecone was post-cured at 70 °C for
               6 hours, to protect against the hot desert temperatures.
             </Content>
           </>
@@ -98,6 +98,16 @@ const LeviathanOfTheSky = () => {
               nitrous oxide flows through the system into the combustion
               chamber. The propellants combust and resulting exhaust gases
               leave the nozzle, providing the rocket with thrust.
+            </Content>
+            <Content title="AIRFRAME">
+              The LotS airframe consists mainly of carbon fiber and fiberglass composites which make
+              up the nosecone, bodytubes and fins. These composites are used due to their extremely
+              high strength-to-weight ratio, allowing a mere 1.3 mm bodytube thickness to withstand
+              the intense flight loads. Most parts are manufactured in-house using either
+              vacuum bag hand layups or vacuum assisted resin transfer molding on CNC&apos;d
+              female molds. Other components include machined aluminum couplers are the
+              joints which are joined to the bodytubes using epoxy and joined to each
+              other by a series of radial bolted joints.
             </Content>
             <Content title="FINS">
               LotS has a mainly carbon fibre fin can with 4 swept delta fins.
