@@ -17,14 +17,24 @@ const LeviathanOfTheSky = () => {
           Leviathan of the Sky (LotS) is the team&apos;s newest generation of
           hybrid rocket and was developed to compete in
           2023 Spaceport America Cup (SAC), 30,000 ft SRAD (Student Researched And Designed)
-          liquid/hybrid engine category. Inherriting many design features from KotS in 2022,
+          liquid/hybrid engine category. Inheriting many design features from KotS in 2022,
           this rocket featured major engine performance upgrades.
           It is powered by the Kismet hybrid SRAD engine.
+          <br />
+          <br />
+          The primary objective of the LotS launch campaign is to attain an apogee of 30,000
+          ft and achieve a non-hazardous descent using a reefed parachute system. The secondary
+          objective is to collect state estimation data through the payload module during flight.
+          Engine control is managed by RocketCAN, a modular and extensible avionics system which
+          also includes subsystems for radio communication, GPS tracking and remote recovery arming.
+          All launch operations are conducted using the Remote Launch Control System (RLCS),
+          which provides launch control capabilities from a range of over 3,000 ft.
         </Content>
         <SpecsComponent specs={
           [
             [{ Diameter: '6"', Length: '175"' }, { 'Motor Classification': 'O', 'Wet Mass': '126.01 lbs' }],
-            [{ Fuel: 'Hydroxyl-Terminated Polybutadiene', Oxidizer: 'Nitrous Oxide' }, { 'Two Stage Reefing Parachute': '', 'Full Chute Diameter': '148.8"' }],
+            [{ Fuel: 'Hydroxyl-Terminated Polybutadiene', Oxidizer: 'Nitrous Oxide' },
+              { 'Two Stage Reefing Parachute': '', 'Full Chute Diameter': '148.8"' }],
           ]
         }
         />
@@ -42,32 +52,56 @@ const LeviathanOfTheSky = () => {
               effects of increased gravity on fermentation activity.
             </Content>
             <Content title="RECOVERY">
-              The recovery system onboard KotS uses a reefing two-stage recovery system
-              consisting of a small pilot parachute and a control-line reefed main parachute.
-              A carbon dioxide canister-based separation mechanism deploys the recovery system
-              at apogee, at which point the pilot parachute pulls the reefed parachute out
-              of its bag. At 1500 ft AGL, pyrocutters actuated by electric matches disreef
-              the full parachute. The system is housed inside the nosecone and a fiberglass
-              tube directly below.
+              The recovery system on LotS uses a reefing two-stage recovery system
+              consisting of a small pilot parachute and a control-line reefed main
+              parachute, an iteration on the 2022 recovery system. At apogee, pyrotechnically
+              punctured carbon dioxide canisters pressurize the
+              recovery bay and separate the nosecone,
+              deploying the recovery rigging into the airstream.
+              A pilot parachute pulls the reefed
+              main parachute out of its bag, which inflates to a
+              partial state due to the presence of
+              a reefing line. At 1500 ft AGL, custom high-power
+              titanium pyrotechnic line cutters cut
+              the reefing line and disreef the full parachute
+              (i.e. allow it to fully inflate) for a soft
+              landing. Prior to their activation, a slip ring
+              allows the line cutters to rotate with the
+              parachute while maintaining electrical contact
+              with the deployment electronics.
               <br />
               <br />
-              KotS is equipped with two COTS (Commercial Off-the-Shelf) altimeters for
-              recovery deployment. A PerfectFlite StratoLoggerCF and a Featherweight
-              Raven3 were used for increased reliability. Each altimeter is powered
-              by a 9V battery and is armed immediately prior to launch. The deployment
-              system includes dual redundancy, with two carbon dioxide ejectors,
-              two pyrotechnic cutters, and both altimeters being capable of independently
-              deploying the parachute.
+              The system uses two COTS (Commercial Off-the-Shelf)
+              altimeters. A PerfectFlite StratoLoggerCF
+              and a Featherweight Raven3 were used for increased reliability.
+              Each altimeter is powered by a
+              separate 9V battery and is armed immediately prior to launch. The
+              deployment system includes full
+              interlinked dual redundancy, with two carbon dioxide ejectors,
+              two pyrotechnic cutters, and two
+              electronic matches in all pyrotechnic charges.
+              Both altimeters are capable of independently deploying the parachute.
             </Content>
             <Content title="ELECTRICAL">
-              KotS has a network of 11 custom PCBs spread throughout the rocket that handle
-              everything from arming pyrotechnics and actuating valves to collecting and
-              transmitting sensor data during flight. The PCBs communicate over a CAN bus
-              which is notable for its property of being masterless; any board can fail
-              without bringing down the rest of the system. KotS features a live
-              telemetry system built around the RFD900x 1W 900 MHz transceiver,
-              allowing critical sensor data such as the rocket&apos;s altitude and
-              location to be streamed to the ground during flight.
+              The 2024 rocket&apos;s avionics system contains 3 main components: the RocketCAN bus,
+              a pair of dissimilar COTS Altimeters, and an independent GPS tracking module from
+              BigRedBee. The RocketCAN network consists of individual boards with single
+              functionalities, which communicate through a Controller Area Network (CAN)
+              bus. This system was initially introduced in 2019 on Shark of the Sky (SotS),
+              but has undergone significant updates since then, including new revisions of every
+              board based on lessons learned throughout the previous years. In addition, this year,
+              new systems have been introduced and upgraded including a long-range live telemetry
+              radio system, in-flight camera systems, and an on-the-pad charging system.
+              <br />
+              <br />
+              The Electrical Ground Support Systems (EGSE) has also had substantial upgrades
+              this year. Both the Remote Launch Control System (RLCS) and Data Acquisition
+              System (DAQ) have had notable changes to their boards and software. These changes
+              provided not only better quality of life features for the equipment operators but
+              also improved both reliability and repairability of the aforementioned systems.
+              The most noteworthy change this year was the introduction of our Ground-Side Power
+              Distribution system (GSPD) which provides a reliable power source for
+              all ground systems and the rocket.
             </Content>
             <Content title="NOSECONE">
               Because of the possibility of going supersonic, a Von Kármán nosecone with a 4:1
@@ -79,32 +113,32 @@ const LeviathanOfTheSky = () => {
           </>
           <>
             <Content title="RUN TANK">
-              KotS&apos;s oxidizer tank holds its propellant, nitrous oxide,
-              and must also control its pressure while filling. It is built
-              from 6061-T6 aluminium alloy and is 80&quot; long, with a 6&quot; outer
-              diameter and 3/16&quot; wall thickness. Twenty-four 1/4&quot;-28 bolts
-              join the bulkheads to the tube at each end with redundant Buna-N
-              o-rings, resulting in a minimum safety factor of 2.4, based on a
-              maximum operating pressure of 1000 psi.
+              The oxidizer tank is a 6” OD, 62” long tank sealed
+              on both ends with removable bulkheads.
+              The system is blow-down, utilizing the self pressurizing properties of nitrous oxide
+              to feed oxidizer into the injector. The oxidizer tank is made of 6061-T6 aluminium.
+              Due to increases in engine efficiency, the length of the oxidizer tank was reduced
+              from previous iterations of the Kismet engine, allowing for significant mass savings.
             </Content>
             <Content title="COMBUSTION CHAMBER">
-              The combustion chamber houses the injector, solid fuel, and nozzle.
-              The chamber is insulated with a 1/8&quot; thick G11 fiberglass tube,
-              and has a 5&quot; outer diameter. It has been hydrostatically tested
-              to 1.5x the maximum expected operating pressure at 700 psi.
-              Kismet burns a solid mixture of 90% HTPB and 10% powdered aluminium
-              by mass. A pseudo-finocyl grain geometry achieved through investment
-              casting is used for the fuel. Once the injector valve opens,
-              nitrous oxide flows through the system into the combustion
-              chamber. The propellants combust and resulting exhaust gases
-              leave the nozzle, providing the rocket with thrust.
+              The combustion chamber comprises a structural pressure vessel containing
+              the fuel grain and several combustion devices which are described subsequently.
+              O-rings are used for the main seals at the forward and aft ends of the chamber.
+              To prevent hot combustion gases from reaching the casing and/or o-rings,
+              most interfaces between internal components of the combustion chamber are sealed
+              with high-temperature RTV gasket maker (Permatex 26BR). A high-temperature
+              synthetic grease (Super Lube 41160) is applied liberally to the exterior
+              surface of the stack of internal components to fill the gap between the
+              liner and the casing, which facilitates disassembly of the combustion
+              chamber assembly after the burn, as well as helping to transmit radial
+              pressure forces into the casing.
             </Content>
             <Content title="AIRFRAME">
               The LotS airframe consists mainly of carbon fiber and fiberglass composites which make
               up the nosecone, bodytubes and fins. These composites are used due to their extremely
               high strength-to-weight ratio, allowing a mere 1.3 mm bodytube thickness to withstand
               the intense flight loads. Most parts are manufactured in-house using either
-              vacuum bag hand layups or vacuum assisted resin transfer molding on CNC&apos;d
+              vacuum bag hand layups or vacuum assisted resin transfer molding on CNC-machined
               female molds. Other components include machined aluminum couplers are the
               joints which are joined to the bodytubes using epoxy and joined to each
               other by a series of radial bolted joints.
@@ -127,21 +161,21 @@ const LeviathanOfTheSky = () => {
             <Content title="PROJECT REPORT">
               A complete report of this project, including descriptions of onboard and ground
               support systems, engineering drawings of all rocket components, and a complete
-              set of assembly and launch procedures for KotS can be downloaded&nbsp;
-              <a href="https://www.waterloorocketry.com/pdfs/2022_project_report.pdf">here.</a>
+              set of assembly and launch procedures for LotS can be downloaded&nbsp;
+              <a href="https://www.waterloorocketry.com/pdfs/2023_project_report.pdf">here.</a>
             </Content>
           </>
         </TwoColumns>
       </RocketPageOutline>
-      <Gallery title="PHOTO GALLERY" morelink="https://www.flickr.com/photos/uwrocketry/albums/72177720300812163">
-        <Photo link="https://live.staticflickr.com/65535/52240643115_afe5ce53b0_h.jpg" altText="Kraken of the sky on display" />
-        <Photo link="https://live.staticflickr.com/65535/52240243703_a6e33f0d41_h.jpg" altText="Kraken of the sky on the launch rail" />
-        <Photo link="https://live.staticflickr.com/65535/52239253412_c83e159766_h.jpg" altText="Kraken of the sky on the launch rail" />
+      <Gallery title="PHOTO GALLERY" morelink="https://flic.kr/s/aHBqjAQDBg">
+        <Photo link="https://live.staticflickr.com/65535/53109577593_6ae3061bee_b.jpg" altText="Leviathan of the sky on display" />
+        <Photo link="https://live.staticflickr.com/65535/53106000167_4222d409cd_b.jpg" altText="Leviathan of the sky on the launch rail" />
+        <Photo link="https://live.staticflickr.com/65535/53106569961_320290e488_b.jpg" altText="Leviathan of the sky on the launch rail" />
       </Gallery>
       <Gallery title="VIDEO GALLERY" morelink="https://www.youtube.com/user/uwrocketry">
-        <Video link="https://www.youtube.com/embed/w3KNlvQaKOg" title="Kismet Static Fire #3" />
-        <Video link="https://www.youtube.com/embed/mo3JZF83jas" altText="Static Fire 4" />
-        <Video link="https://www.youtube.com/embed/xN5xajUccOE" altText="Shark of the Sky IREC launch" />
+        <Video link="https://www.youtube.com/embed/mbh0pF7rsBk?si=N-aYlC9pEPQlMmfV" title="Kismet Static Fire #7" />
+        <Video link="https://www.youtube.com/embed/2me74BFN_7U?si=0CUmnqoa_Xo4_fED" altText="Kismet Static Fire #8" />
+        <Video link="https://www.youtube.com/embed/_xNaNCqM2Go?si=BFmpSo6QmgmJ-mZl" altText="Leviathan of the Sky IREC launch" />
       </Gallery>
     </>
   );
