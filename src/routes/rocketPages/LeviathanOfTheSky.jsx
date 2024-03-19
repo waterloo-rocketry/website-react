@@ -47,7 +47,7 @@ const LeviathanOfTheSky = () => {
               sensors with a model of the rocket dynamics
               to provide enhanced estimates of the rocket state during flight.
               This was developed as a prototype for future active control
-              systems onboard the rocket. The other experiment consisted of yeast
+              systems onboard the rocket. The second experiment consisted of yeast
               cultures which were flown on the rocket, to assess the
               effects of increased gravity on fermentation activity.
             </Content>
@@ -61,7 +61,7 @@ const LeviathanOfTheSky = () => {
               A pilot parachute pulls the reefed
               main parachute out of its bag, which inflates to a
               partial state due to the presence of
-              a reefing line. At 1500 ft AGL, custom high-power
+              a reefing line. At 1500 ft AGL (above ground level), custom high-power
               titanium pyrotechnic line cutters cut
               the reefing line and disreef the full parachute
               (i.e. allow it to fully inflate) for a soft
@@ -73,7 +73,7 @@ const LeviathanOfTheSky = () => {
               <br />
               The system uses two COTS (Commercial Off-the-Shelf)
               altimeters. A PerfectFlite StratoLoggerCF
-              and a Featherweight Raven3 were used for increased reliability.
+              and for increased reliability, a Featherweight Raven3.
               Each altimeter is powered by a
               separate 9V battery and is armed immediately prior to launch. The
               deployment system includes full
@@ -94,7 +94,7 @@ const LeviathanOfTheSky = () => {
               radio system, in-flight camera systems, and an on-the-pad charging system.
               <br />
               <br />
-              The Electrical Ground Support Systems (EGSE) has also had substantial upgrades
+              The Electrical Ground Support Equipment (EGSE) has also had substantial upgrades
               this year. Both the Remote Launch Control System (RLCS) and Data Acquisition
               System (DAQ) have had notable changes to their boards and software. These changes
               provided not only better quality of life features for the equipment operators but
@@ -104,9 +104,9 @@ const LeviathanOfTheSky = () => {
               all ground systems and the rocket.
             </Content>
             <Content title="NOSECONE">
-              Because of the possibility of going supersonic, a Von Kármán nosecone with a 4:1
-              fineness ratio, built from fiberglass was selected for LOTS. Two mold halves
-              were formed with foam on a CNC router, and then joined during the layup
+              With the possibility of going supersonic, a Von Kármán nosecone with a 4:1
+              fineness ratio, built from fiberglass was selected. Two mold halves
+              were formed with foam on a CNC router, and then joined during a layup
               to form the complete nosecone shape. The nosecone was post-cured at 70 °C for
               6 hours, to protect against the hot desert temperatures.
             </Content>
@@ -121,8 +121,8 @@ const LeviathanOfTheSky = () => {
               from previous iterations of the Kismet engine, allowing for significant mass savings.
             </Content>
             <Content title="COMBUSTION CHAMBER">
-              The combustion chamber comprises a structural pressure vessel containing
-              the fuel grain and several combustion devices which are described subsequently.
+              The combustion chamber is comprised of a structural pressure vessel containing
+              the fuel grain and several other combustion devices.
               O-rings are used for the main seals at the forward and aft ends of the chamber.
               To prevent hot combustion gases from reaching the casing and/or o-rings,
               most interfaces between internal components of the combustion chamber are sealed
@@ -135,33 +135,34 @@ const LeviathanOfTheSky = () => {
             </Content>
             <Content title="AIRFRAME">
               The LotS airframe consists mainly of carbon fiber and fiberglass composites which make
-              up the nosecone, bodytubes and fins. These composites are used due to their extremely
+              up the nosecone, bodytubes and fins. These composites are used for their extremely
               high strength-to-weight ratio, allowing a mere 1.3 mm bodytube thickness to withstand
-              the intense flight loads. Most parts are manufactured in-house using either
+              the immense flight loads of the rocket. Most parts are manufactured in-house using either
               vacuum bag hand layups or vacuum assisted resin transfer molding on CNC-machined
-              female molds. Other components include machined aluminum couplers are the
-              joints which are joined to the bodytubes using epoxy and joined to each
-              other by a series of radial bolted joints.
+              female molds. Other components, include machined aluminum couplers which are joined to
+              the bodytubes using epoxy, and joined tohgether using a series of radial bolt rings.
             </Content>
             <Content title="FINS">
-              LotS has a mainly carbon fibre fin can with 4 swept delta fins.
-              Carbon fiber was chosen for its high specific stiffness for all
+              LotS has a primarily carbon fibre fin can with 4 swept delta fins.
+              Carbon fiber was chosen for its high specific stiffness, and was used for all
               components except the boattail and top coupler.
+              <br />
+              <br />
               The swept delta shape was designed to reduce drag at high speeds.
               Compared to using the same fin shape as previous rockets,
               this shape increased apogee by 3 000ft. To manufacture the fin can,
-              first the SRAD bodytube was fabricated using vacuum infusion.
-              Then the fins were cut on a CNC router and bonded to the tube
+              first an SRAD bodytube was fabricated using vacuum infusion.
+              Afterwards, the fins were cutout from a carbon fiber plate on a CNC router and bonded to the tube
               with a high shear strength epoxy. Next four additional layers
               of fabric were added tip-to-tip in a vacuum assisted wet layup to add
               strength and stiffness. Lastly the aluminum boattail and top couplers
-              were bonded which allows for
+              were bonded which allowed for
               easy and strong attachment to the combustion chamber.
             </Content>
             <Content title="PROJECT REPORT">
               A complete report of this project, including descriptions of onboard and ground
               support systems, engineering drawings of all rocket components, and a complete
-              set of assembly and launch procedures for LotS can be downloaded&nbsp;
+              set of assembly and launch procedures can be downloaded&nbsp;
               <a href="https://www.waterloorocketry.com/pdfs/2023_project_report.pdf">here.</a>
             </Content>
           </>
