@@ -117,8 +117,10 @@ const LeviathanOfTheSky = () => {
               on both ends with removable bulkheads.
               The system is blow-down, utilizing the self pressurizing properties of nitrous oxide
               to feed oxidizer into the injector. The oxidizer tank is made of 6061-T6 aluminium.
-              Due to increases in engine efficiency, the length of the oxidizer tank was reduced
-              from previous iterations of the Kismet engine, allowing for significant mass savings.
+              It was suitable to reduce the length of the
+              oxidizer tank from previous iterations of the
+              Kismet engine due to increases in engine efficiency,
+              allowing for significant mass savings.
             </Content>
             <Content title="COMBUSTION CHAMBER">
               The combustion chamber is comprised of a structural pressure vessel containing
@@ -137,7 +139,8 @@ const LeviathanOfTheSky = () => {
               The LotS airframe consists mainly of carbon fiber and fiberglass composites which make
               up the nosecone, bodytubes and fins. These composites are used for their extremely
               high strength-to-weight ratio, allowing a mere 1.3 mm bodytube thickness to withstand
-              the immense flight loads of the rocket. Most parts are manufactured in-house using either
+              the immense flight loads of the rocket. Most
+              parts are manufactured in-house using either
               vacuum bag hand layups or vacuum assisted resin transfer molding on CNC-machined
               female molds. Other components, include machined aluminum couplers which are joined to
               the bodytubes using epoxy, and joined tohgether using a series of radial bolt rings.
@@ -150,9 +153,10 @@ const LeviathanOfTheSky = () => {
               <br />
               The swept delta shape was designed to reduce drag at high speeds.
               Compared to using the same fin shape as previous rockets,
-              this shape increased apogee by 3 000ft. To manufacture the fin can,
+              this shape increased apogee by 3 000ft. In order to manufacture the fin can,
               first an SRAD bodytube was fabricated using vacuum infusion.
-              Afterwards, the fins were cutout from a carbon fiber plate on a CNC router and bonded to the tube
+              Afterwards, the fins were cutout from a carbon fiber
+              plate on a CNC router and bonded to the tube
               with a high shear strength epoxy. Next four additional layers
               of fabric were added tip-to-tip in a vacuum assisted wet layup to add
               strength and stiffness. Lastly the aluminum boattail and top couplers
