@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.967acaa7.css",
-    "main.js": "/static/js/main.df538cac.js",
+    "main.js": "/static/js/main.73aa3e8c.js",
     "static/media/cover_subsystems.jpg": "/static/media/cover_subsystems.86c7311aaffe2994e181.jpg",
     "static/media/rocket_drag_race_2019.jpg": "/static/media/rocket_drag_race_2019.e3229ff779b54b3a4998.jpg",
+    "static/media/leviathan-of-the-sky.jpg": "/static/media/leviathan-of-the-sky.7a768346ba61c6543f34.jpg",
     "static/media/michaelZ.jpg": "/static/media/michaelZ.eecbabbf05481f3d7d2b.jpg",
     "static/media/unexploded-ordnance-2018.jpg": "/static/media/unexploded-ordnance-2018.a400fbd76a25c414da44.jpg",
     "static/media/kraken-of-the-sky.jpg": "/static/media/kraken-of-the-sky.ee8b1fc2872bd8dfa566.jpg",
@@ -37,6 +38,7 @@
     "static/media/anthonyC.jpg": "/static/media/anthonyC.188f169a6c961ba8ef9f.jpg",
     "static/media/eridani_upright.png": "/static/media/eridani_upright.4716643ec16e2f13f42d.png",
     "static/media/Airtech.png": "/static/media/Airtech.1543840c981eb1c1288f.png",
+    "static/media/lots_upright.png": "/static/media/lots_upright.36f8bad00bed8c58925f.png",
     "static/media/rocketcan.png": "/static/media/rocketcan.7d662cb50af695f1dea4.png",
     "static/media/ariss.png": "/static/media/ariss.1bfb25a08bc218f2f932.png",
     "static/media/bay_area_circuits.png": "/static/media/bay_area_circuits.2b400e43f52a3458f56f.png",
@@ -201,10 +203,10 @@
     "static/media/BGF.png": "/static/media/BGF.bd3d9b2701f9601d8046.png",
     "index.html": "/index.html",
     "main.967acaa7.css.map": "/static/css/main.967acaa7.css.map",
-    "main.df538cac.js.map": "/static/js/main.df538cac.js.map"
+    "main.73aa3e8c.js.map": "/static/js/main.73aa3e8c.js.map"
   },
   "entrypoints": [
     "static/css/main.967acaa7.css",
-    "static/js/main.df538cac.js"
+    "static/js/main.73aa3e8c.js"
   ]
 }
