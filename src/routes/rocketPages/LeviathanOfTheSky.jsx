@@ -117,10 +117,8 @@ const LeviathanOfTheSky = () => {
               on both ends with removable bulkheads.
               The system is blow-down, utilizing the self pressurizing properties of nitrous oxide
               to feed oxidizer into the injector. The oxidizer tank is made of 6061-T6 aluminium.
-              It was suitable to reduce the length of the
-              oxidizer tank from previous iterations of the
-              Kismet engine due to increases in engine efficiency,
-              allowing for significant mass savings.
+              Thanks to increases in engine efficiency, the length of the oxidizer
+              tank was reduced from previous iterations of the Kismet engine.
             </Content>
             <Content title="COMBUSTION CHAMBER">
               The combustion chamber is comprised of a structural pressure vessel containing
