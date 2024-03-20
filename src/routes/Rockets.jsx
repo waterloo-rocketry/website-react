@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import RocketCard from '../components/RocketCard/RocketCard';
 import styles from './css/rocket.module.css';
 
+import rocketLeviathanOfTheSky from '../img/rocket/leviathan-of-the-sky.jpg';
 import rocketKrakenOfTheSky from '../img/rocket/kraken-of-the-sky.jpg';
 import rocketSharkOfTheSky from '../img/rocket/shark-of-the-sky.jpg';
 import rocketUnexplodedOrdnance from '../img/rocket/unexploded-ordnance-2018.jpg';
@@ -18,6 +19,15 @@ const Rockets = () => {
     <Container fluid>
       <div className={styles.flex__wrapper}>
         <Row xl={3} md={2} sm={1}>
+          <Col>
+            <RocketCard
+              url="/rockets/lots"
+              title="LEVIATHAN OF THE SKY"
+              date="2023"
+              image={rocketLeviathanOfTheSky}
+              imagePosition="20% 45%"
+            />
+          </Col>
           <Col>
             <RocketCard
               url="/rockets/kots"

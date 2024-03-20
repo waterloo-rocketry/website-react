@@ -23,6 +23,7 @@ import Contact from './routes/Contact';
 
 import Footer from './components/Footer/Footer';
 
+import LeviathanOfTheSky from './routes/rocketPages/LeviathanOfTheSky';
 import KrakenOfTheSky from './routes/rocketPages/KrakenOfTheSky';
 import SharkOfTheSky from './routes/rocketPages/SharkOfTheSky';
 import UnexplodedOrdnance from './routes/rocketPages/UnexplodedOrdnance';
@@ -67,6 +68,11 @@ ReactDOM.render(
           exact
           path="rockets"
           element={<Page title="Rockets"><Rockets /></Page>}
+        />
+        <Route
+          exact
+          path="rockets/lots"
+          element={<Page title="Leviathan Of The Sky"><LeviathanOfTheSky /></Page>}
         />
         <Route
           exact
