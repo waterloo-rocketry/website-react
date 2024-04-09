@@ -23,6 +23,7 @@ import keysight from '../img/sponsorship/2_gold_sponsors/Keysight.png';
 import liftwerx from '../img/sponsorship/2_gold_sponsors/liftwerx_logo.png';
 import linde from '../img/sponsorship/2_gold_sponsors/Linde.jpg';
 import dxengineering from '../img/sponsorship/2_gold_sponsors/DX_Engineering_logo.jpg';
+import vectornav from '../img/sponsorship/2_gold_sponsors/vectornav.png';
 
 // SILVER
 import customClothes from '../img/sponsorship/3_silver_sponsors/custom_clothes_canada.png';
@@ -345,6 +346,21 @@ const Sponsors = () => {
                   protect our planet. Our company serves a variety of end markets such as
                   chemicals & energy, food & beverage, electronics, healthcare, manufacturing,
                   metals and mining.
+                </p>
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc logoTier="gold" image={vectornav} link="https://www.vectornav.com/">
+                <p className="content-text">
+                  Founded in 2008, we began with the idea that our expertise in aerospace guidance,
+                  navigation, and control could be applied to the latest advancements in inertial
+                  and GNSS technology, resulting in products that achieve unprecedented performance
+                  in the smallest possible footprint.
+                  Headquartered in Dallas, TX, USA, VectorNav maintains an AS9100-certified,
+                  45,000 ft2 (4200 m2) facility, with the capacity to produce and deliver tens
+                  of thousands of units each year to our worldwide customer base. With proven
+                  solutions across a wide range of markets - SATCOM to robotics, missiles to ISR
+                  systems - VectorNav is your trusted partner in inertial navigation.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
