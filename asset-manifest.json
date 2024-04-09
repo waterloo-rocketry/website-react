@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.967acaa7.css",
-    "main.js": "/static/js/main.73aa3e8c.js",
+    "main.js": "/static/js/main.52841c75.js",
     "static/media/cover_subsystems.jpg": "/static/media/cover_subsystems.86c7311aaffe2994e181.jpg",
     "static/media/rocket_drag_race_2019.jpg": "/static/media/rocket_drag_race_2019.e3229ff779b54b3a4998.jpg",
     "static/media/leviathan-of-the-sky.jpg": "/static/media/leviathan-of-the-sky.7a768346ba61c6543f34.jpg",
@@ -203,10 +203,10 @@
     "static/media/BGF.png": "/static/media/BGF.bd3d9b2701f9601d8046.png",
     "index.html": "/index.html",
     "main.967acaa7.css.map": "/static/css/main.967acaa7.css.map",
-    "main.73aa3e8c.js.map": "/static/js/main.73aa3e8c.js.map"
+    "main.52841c75.js.map": "/static/js/main.52841c75.js.map"
   },
   "entrypoints": [
     "static/css/main.967acaa7.css",
-    "static/js/main.73aa3e8c.js"
+    "static/js/main.52841c75.js"
   ]
 }
