@@ -102,8 +102,10 @@ const Subsystems = () => {
                   <p>Want to get involved? This is what we&apos;re working on right now:</p>
                   <ul>
                     <li>
-                      Ox tank aft skirt: the structure between the oxidizer tank and the engine.
-                      It houses the injector valve and rocket side fill plumbing.
+                      Manufacturing: we research, design and manufacture our entire airframe out
+                      of composites and metal. This includes the nosecone, upperbody tube,
+                      parachute bay/vent shroud, oxidizer tank aft skirt fairing, fin can and
+                      boattail.
                     </li>
                     <li>
                       Fill disconnect hatch: an access panel on the rocket that opens to
@@ -111,29 +113,19 @@ const Subsystems = () => {
                       actuation.
                     </li>
                     <li>
-                      Composite boattail: a lighter and more aerodynamic version of the old
-                      aluminium boattail that used to double as a heat sink for the engine.
+                      Fiberglass Moulds: a lighter set of female moulds made from the same materials
+                      as our airframe to manufacture parts with better surface finish and
+                      concentricity.
                     </li>
                     <li>
-                      Composites stress calculator: a calculator implemented in Python to aid
-                      in composites layup schedule design by calculating stress in each ply.
+                      Composites Testing: A project to gather data on our composites and
+                      characterize its properties so that we can reduce safety factors
+                      and build a lighter airframe.
                     </li>
                     <li>
-                      WatWind: a 3-axis filament winder for use in manufacturing of body
-                      tubes.
-                    </li>
-                    <li>
-                      Nosecone mould: a female fibreglass mould to replace aging
-                      <a
-                        href="https://en.wikipedia.org/wiki/Medium-density_fibreboard"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {' '}
-                        MDF
-                      </a>
-                      {' '}
-                      moulds used in the nosecone layup process.
+                      And many other smaller projects that contribute to the manufacturing
+                      and optimization of our airframe, including design, 3D modeling
+                      and of course more composites!
                     </li>
                   </ul>
                 </Content>
@@ -267,25 +259,23 @@ const Subsystems = () => {
                   </p>
                   <h3>CURRENTLY WORKING ON</h3>
                   <p>
-                    The plan for the 2021 payload is to conduct a materials analysis of metal
-                    oxide conformal coatings and
-                    {' '}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Boron_nitride_nanotube"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      boron nitride nanotube (BNNT)
-                    </a>
-                    {' '}
-                    composites during the flight of the rocket to determine the viability of
-                    these materials as structural and protective shielding elements in spacecraft.
-                    In addition, a set of radiation detectors are being developed to measure the
-                    atmospheric secondary radiation that permeates into the rocket and to determine
-                    the radiation shielding abilities of these materials.
-                    All of this will be housed in a redesigned CubeSat optimized to be easy
-                    to fabricate and modular for future payload experiments.
-
+                    This year, our payload consists of two main experiments: Quantifying the
+                    vibrations experienced in flight from the movement of the rocket, and
+                    testing the ability of a peristaltic IV pump to produce and maintain
+                    laminar flow while experiencing high levels of acceleration. The vibration
+                    experiment contains a mechanical component consisting of plates of different,
+                    commonly used materials and thicknesses. These plates will have holes drilled
+                    into them and be tapped for different screw sizes. We will fly one of these
+                    assemblies and keep one on the ground at competition to compare how the
+                    vibrations affect our screws. There is also an electrical PCB being flown that
+                    will have a 3-axis accelerometer on it, which will provide a profile of the
+                    vibrations felt by the screws on the rocket. For the peristaltic pump
+                    experiment, we will be flying a student researched and developed peristaltic
+                    pump. We will use this to monitor the Reynold&apos;s number of a water and
+                    glycerol solution, tracking the ability of the pump to produce laminar flow.
+                    To do this monitoring, we will employ the use of electrical sensors such as
+                    flowmeters to track flow velocity and thermistors to extrapolate the density
+                    and viscosity of the solution as the flight of the rocket progresses.
                   </p>
                 </Content>
               </Tab>
@@ -337,19 +327,28 @@ const Subsystems = () => {
                   <p>The subsystem owns projects in a various of subject areas:</p>
                   <ul>
                     <li>
-                      Airbrakes: mechanical design using Solidworks, rapid prototyping and FEA
-                      analysis.
+                      Airbrakes: The airbrakes are a trio of metal panels which slide out
+                      from the upper body tube during flight in order to change the drag
+                      force acting on the rocket. This allows us to actively control the
+                      final apogee of the rocket and allow us to hit our target more
+                      precisely. An internal servo drives a rotating cam mechanism that
+                      ensures the airbrake panels all extend an equal distance from the rocket body.
                     </li>
                     <li>
-                      Processor Board & Motor Controller Board: custom-designed in KiCAD.
+                      Processor Board & Motor Controller Board: Processor board does the majority of
+                      computation for the airbrakes system. It uses a powerful 32 bit processor to
+                      read in data from our onboard IMU and other sensors, generate state estimates,
+                      and generate control commands for the airbrakes servo. It also has significant
+                      internal logging capability, allowing us to store raw sensor readings and
+                      state estimates for post-flight analysis.
                     </li>
                     <li>
-                      Airbrakes Control Software
-                    </li>
-                    <li>
-                      Computational Fluid Dynamics: using Ansys Fluent to study and validate
-                      stability and drag experienced by the rocket body
-                      upon the influence of the airbrakes.
+                      State Estimation: The state estimation software runs on the processor board
+                      and fuses accelerometer, gyroscope, and magnetometer data using a Madgwick
+                      filter to estimate what direction the rocket is pointing. This is combined
+                      with information from the altimeters to estimate altitude and position,
+                      which is integrated to determine when the rocket will hit apogee, and
+                      compensate with the airbrakes appropriately.
                     </li>
                   </ul>
                 </Content>
