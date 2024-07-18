@@ -1,11 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.967acaa7.css",
-    "main.js": "/static/js/main.689bbd38.js",
+    "main.js": "/static/js/main.f1a97587.js",
+    "static/media/jiuchengZ.jpg": "/static/media/jiuchengZ.d219b646e9218455669a.jpg",
     "static/media/cover_subsystems.jpg": "/static/media/cover_subsystems.86c7311aaffe2994e181.jpg",
+    "static/media/artemS.jpg": "/static/media/artemS.0ba75425eefeb7360b14.jpg",
     "static/media/rocket_drag_race_2019.jpg": "/static/media/rocket_drag_race_2019.e3229ff779b54b3a4998.jpg",
     "static/media/leviathan-of-the-sky.jpg": "/static/media/leviathan-of-the-sky.7a768346ba61c6543f34.jpg",
+    "static/media/benP.jpg": "/static/media/benP.a03bd08d4332c9df850e.jpg",
     "static/media/michaelZ.jpg": "/static/media/michaelZ.eecbabbf05481f3d7d2b.jpg",
+    "static/media/anaD.jpg": "/static/media/anaD.021d4c64463a1a0463e2.jpg",
     "static/media/unexploded-ordnance-2018.jpg": "/static/media/unexploded-ordnance-2018.a400fbd76a25c414da44.jpg",
     "static/media/kraken-of-the-sky.jpg": "/static/media/kraken-of-the-sky.ee8b1fc2872bd8dfa566.jpg",
     "static/media/shark-of-the-sky.jpg": "/static/media/shark-of-the-sky.c8d283fee49c3515e292.jpg",
@@ -14,6 +18,7 @@
     "static/media/ed_session.jpg": "/static/media/ed_session.1356516aaabf71c77d70.jpg",
     "static/media/cover_sponsors.jpg": "/static/media/cover_sponsors.ae23aaa3dbb2f9a5a7c8.jpg",
     "static/media/cover_join.jpg": "/static/media/cover_join.2c8fd7a57ac0193cdb05.jpg",
+    "static/media/armaanS.jpg": "/static/media/armaanS.8b9c778f953cff1cbc14.jpg",
     "static/media/DrGilMoore21.png": "/static/media/DrGilMoore21.51d95bc39b155516191e.png",
     "static/media/rheaS.jpg": "/static/media/rheaS.60632b21ccccd8492787.jpg",
     "static/media/CANRGXOutreach19.png": "/static/media/CANRGXOutreach19.167154d533f40d8615c1.png",
@@ -28,6 +33,7 @@
     "static/media/technical_excellence.png": "/static/media/technical_excellence.acff53d9693fe5383cfa.png",
     "static/media/30k_SRAD23.png": "/static/media/30k_SRAD23.ef223346ee92193aecf6.png",
     "static/media/30k_SRAD19.png": "/static/media/30k_SRAD19.e9d4756a1b974b8aa7a6.png",
+    "static/media/bonitaS.jpg": "/static/media/bonitaS.c12515395d02a9363dc7.jpg",
     "static/media/stein_logo.png": "/static/media/stein_logo.5bfb2c64a3b9a703aea6.png",
     "static/media/yuranW.jpg": "/static/media/yuranW.a42a954a7c705912f54a.jpg",
     "static/media/kots_upright.png": "/static/media/kots_upright.e640d8dc38aec65fa2fa.png",
@@ -107,6 +113,7 @@
     "static/media/stefanA.jpg": "/static/media/stefanA.78f1d11ffc04b06d646e.jpg",
     "static/media/delaneyD.jpg": "/static/media/delaneyD.91dbad45f3642680d1b5.jpg",
     "static/media/jiyaM.jpg": "/static/media/jiyaM.79b1fc9a39960c81401e.jpg",
+    "static/media/rajatA.jpg": "/static/media/rajatA.896d256002b68cffba57.jpg",
     "static/media/caseyT.jpg": "/static/media/caseyT.5e3e9e1cd57df70f179b.jpg",
     "static/media/joeD.jpg": "/static/media/joeD.fbdff186509e8051dacd.jpg",
     "static/media/sots_upright.png": "/static/media/sots_upright.33025ae650234ecfbb85.png",
@@ -143,7 +150,6 @@
     "static/media/10k_KOTS23.png": "/static/media/10k_KOTS23.1484f7bdb7db0c1f2798.png",
     "static/media/rioL.jpg": "/static/media/rioL.21e3e1e5a209d48d5e0b.jpg",
     "static/media/nahvidZ.jpg": "/static/media/nahvidZ.51d4e5742a97b0cb3ecc.jpg",
-    "static/media/artemS.jpg": "/static/media/artemS.735ae2cbbafff2fc96ff.jpg",
     "static/media/jerryL.jpg": "/static/media/jerryL.68620a06eefd2b9ed453.jpg",
     "static/media/jasonX.jpg": "/static/media/jasonX.8859163512f3f3b25191.jpg",
     "static/media/andreA.jpg": "/static/media/andreA.82962d0ae27999032646.jpg",
@@ -159,6 +165,7 @@
     "static/media/JR_security_solutions_logo.png": "/static/media/JR_security_solutions_logo.5133396334533af84e13.png",
     "static/media/digi_logo.png": "/static/media/digi_logo.c425885a755f1cb2bcb9.png",
     "static/media/olin-corporation.png": "/static/media/olin-corporation.07de98ad422568c57851.png",
+    "static/media/owenS.jpg": "/static/media/owenS.55eee408cd252dfe6035.jpg",
     "static/media/Cimetrix-Logo.jpg": "/static/media/Cimetrix-Logo.75d19d19469c34bde996.jpg",
     "static/media/ANSYS_Logo.png": "/static/media/ANSYS_Logo.994fca665fedec731d8e.png",
     "static/media/future-electronics.gif": "/static/media/future-electronics.52185d17015470db147a.gif",
@@ -203,10 +210,10 @@
     "static/media/BGF.png": "/static/media/BGF.bd3d9b2701f9601d8046.png",
     "index.html": "/index.html",
     "main.967acaa7.css.map": "/static/css/main.967acaa7.css.map",
-    "main.689bbd38.js.map": "/static/js/main.689bbd38.js.map"
+    "main.f1a97587.js.map": "/static/js/main.f1a97587.js.map"
   },
   "entrypoints": [
     "static/css/main.967acaa7.css",
-    "static/js/main.689bbd38.js"
+    "static/js/main.f1a97587.js"
   ]
 }
