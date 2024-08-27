@@ -38,22 +38,30 @@ const Home = () => (
             <strong>Timmins, Ontario:</strong>
             {' '}
             Waterloo Rocketry, a student design team from the University of Waterloo,
-            proudly announces a historic milestone in Canadian aerospace with the successful launch of
-            ‘Borealis,’ the first-ever Canadian liquid bi-propellant rocket. The launch occurred on August 20, 2024,
+            proudly announces a historic milestone in Canadian
+            aerospace with the successful launch of
+            ‘Borealis,’ the first-ever Canadian liquid bi-propellant rocket.
+            The launch occurred on August 20, 2024,
             during the third annual Launch Canada event held just outside Timmins, ON.
           </p>
           <p>
-            The ‘Borealis’ rocket, powered by a bi-propellant mixture of ethanol and nitrous oxide,
-            reached an altitude of 5,855 metres (19,212 feet) and achieved a top speed of 1646 km/h before
+            The ‘Borealis’ rocket, powered by a bi-propellant
+            mixture of ethanol and nitrous oxide,
+            reached an altitude of 5,855 metres
+            (19,212 feet) and achieved a top speed of 1646 km/h before
             falling back to the ground under its own parachute. Designed entirely by students,
             building on years of team history, this rocket showcases the culmination of the advanced
             engineering capabilities developed by the team throughout its past 13 years.
           </p>
           <p>
-            This accomplishment positions the University of Waterloo as a leading institution in Canadian student rocketry,
-            joining a select group of universities globally that have successfully launched liquid engine rockets.
-            In years to come, the team plans to continue building bigger and better liquid bi-propellant rockets,
-            with sights set for higher altitudes, more complex payloads, and continued learning to further propel
+            This accomplishment positions the University of Waterloo
+            as a leading institution in Canadian student rocketry,
+            joining a select group of universities globally that have
+            successfully launched liquid engine rockets.
+            In years to come, the team plans to continue building bigger
+            and better liquid bi-propellant rockets,
+            with sights set for higher altitudes, more complex payloads,
+            and continued learning to further propel
             Canada into the global aerospace arena.
           </p>
         </Col>
