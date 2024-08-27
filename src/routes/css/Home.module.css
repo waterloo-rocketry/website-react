@@ -1,3 +1,44 @@
-.imageLinkRow {
-  background-color: #f7f7f7;
+.pressReleaseBox {
+  padding: 25px;
+  background-color: #f9f9f9; /* Lighter background for a cleaner look */
+  border: 1px solid #e0e0e0; /* Light gray border */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  line-height: 1.7;
+}
+
+.pressReleaseBox h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #333;
+  margin: 20px 0 15px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.pressReleaseContainer {
+  margin-top: 25px; /* Adjust this value as needed for more space */
+}
+
+.pressReleaseBox p {
+  color: #555;
+}
+
+.pressReleaseBox a {
+  color: #555;
+  text-decoration: underline;
+}
+
+.pressReleaseBox a:hover {
+  text-decoration: underline;
+}
+
+.mediaBox {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
