@@ -8,7 +8,7 @@ import Content from '../components/Content/Content';
 import ImageBox from '../components/ImageBox/ImageBox';
 
 import compCoverImage from '../img/competition/cover_comp.jpg';
-import SpaceportImage from '../img/competition/spaceport_group.jpg';
+import LCImage from '../img/competition/lc_group.jpg';
 
 const Competition = () => {
   return (
@@ -17,33 +17,33 @@ const Competition = () => {
       <Container fluid>
         <Row className="my-4 mx-0 gx-5 justify-content-left">
           <Col className="" lg={{ span: 6 }}>
-            <Content title="INTERCOLLEGIATE ROCKET ENGINEERING COMPETITION">
+            <Content title="LAUNCH CANADA">
               <p>
-                The IREC is an international competition each June in Las Cruces,
-                New Mexico. Hosted by the Experimental Sounding Rocket Association
-                in partnership with Spaceport America, it is the flagship event
-                of the Spaceport America Cup. Student teams compete in one of six
-                categories, split between two different altitude categories and
-                three different engine types. Each rocket carries a four kilogram
-                payload. Students are strongly encouraged to design and construct
-                each of their rocket&apos;s myriad systems themselves: everything from
-                propulsion and structures to avionics, recovery, and payload.
-                Overuse of commercial components is discouraged. In this way, the
-                IREC promotes student design and a spirit of simple, holistic
-                design: excess complexity is the bane of the student rocket
-                engineering team.
+                The Launch Canada Challenge is Canada’s
+                first-ever major national rocketry competition.
+                It brings together Canada’s passionate and
+                rapidly growing amateur and student rocketry community
+                with academia, industry and government partners to facilitate
+                the development of national talent in the interdisciplinary
+                field of rocket engineering, while fostering a strong
+                culture of safety.
+              </p>
+              <p>
+                The team has competed in the 2023 Launch Canada challenge
+                with a solid rocket - 10K KOTS Solid, and again in 2024 with
+                Borealis - the first-ever Canadian liquid engine rocket.
               </p>
               <p>
                 Visit the official competition page
                 {' '}
-                <a href="https://www.soundingrocket.org/">here</a>
+                <a href="https://www.launchcanada.org/">here</a>
                 .
               </p>
             </Content>
           </Col>
           <Col lg={{ span: 5 }}>
             <ImageBox
-              image={SpaceportImage}
+              image={LCImage}
               width="40rem"
             />
           </Col>
