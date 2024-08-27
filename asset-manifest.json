@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.967acaa7.css",
-    "main.js": "/static/js/main.f1a97587.js",
+    "main.css": "/static/css/main.7100912a.css",
+    "main.js": "/static/js/main.ec6c8d35.js",
+    "static/media/cover_home.png": "/static/media/cover_home.2a38d250a7d59f26017f.png",
     "static/media/jiuchengZ.jpg": "/static/media/jiuchengZ.d219b646e9218455669a.jpg",
+    "static/media/borealis.jpg": "/static/media/borealis.34dce1ae1a82f6d25e30.jpg",
     "static/media/cover_subsystems.jpg": "/static/media/cover_subsystems.86c7311aaffe2994e181.jpg",
+    "static/media/borealis.png": "/static/media/borealis.c0e2e86f28826187910f.png",
     "static/media/artemS.jpg": "/static/media/artemS.0ba75425eefeb7360b14.jpg",
     "static/media/rocket_drag_race_2019.jpg": "/static/media/rocket_drag_race_2019.e3229ff779b54b3a4998.jpg",
     "static/media/leviathan-of-the-sky.jpg": "/static/media/leviathan-of-the-sky.7a768346ba61c6543f34.jpg",
@@ -13,7 +16,6 @@
     "static/media/unexploded-ordnance-2018.jpg": "/static/media/unexploded-ordnance-2018.a400fbd76a25c414da44.jpg",
     "static/media/kraken-of-the-sky.jpg": "/static/media/kraken-of-the-sky.ee8b1fc2872bd8dfa566.jpg",
     "static/media/shark-of-the-sky.jpg": "/static/media/shark-of-the-sky.c8d283fee49c3515e292.jpg",
-    "static/media/cover_home.jpg": "/static/media/cover_home.ce7f0f339dbb6a82f070.jpg",
     "static/media/msam_logo.png": "/static/media/msam_logo.a4c7bbfe9a9d813a3865.png",
     "static/media/ed_session.jpg": "/static/media/ed_session.1356516aaabf71c77d70.jpg",
     "static/media/cover_sponsors.jpg": "/static/media/cover_sponsors.ae23aaa3dbb2f9a5a7c8.jpg",
@@ -21,11 +23,11 @@
     "static/media/armaanS.jpg": "/static/media/armaanS.8b9c778f953cff1cbc14.jpg",
     "static/media/DrGilMoore21.png": "/static/media/DrGilMoore21.51d95bc39b155516191e.png",
     "static/media/rheaS.jpg": "/static/media/rheaS.60632b21ccccd8492787.jpg",
+    "static/media/lc_group.jpg": "/static/media/lc_group.ac3b33f5e911d7eff173.jpg",
     "static/media/CANRGXOutreach19.png": "/static/media/CANRGXOutreach19.167154d533f40d8615c1.png",
     "static/media/jenniferL.jpg": "/static/media/jenniferL.7ea3c81d40529685120e.jpg",
     "static/media/contact.jpg": "/static/media/contact.20b89ce3c8c6bbc025c8.jpg",
     "static/media/cover_outreach.jpg": "/static/media/cover_outreach.a88d8022a8db4e91da44.jpg",
-    "static/media/cover_comp.jpg": "/static/media/cover_comp.53a89bb29c0f5f099628.jpg",
     "static/media/awards_cover.jpg": "/static/media/awards_cover.56afe088bffe9f821d69.jpg",
     "static/media/richardD.jpg": "/static/media/richardD.fa0b0a9f86e1fe2b3c0c.jpg",
     "static/media/10k_SRAD17.png": "/static/media/10k_SRAD17.e4f928163f1962fd4693.png",
@@ -55,7 +57,6 @@
     "static/media/banner_logo.png": "/static/media/banner_logo.b84c5f4c0c5c99a577e4.png",
     "static/media/hickory_hill_logo.png": "/static/media/hickory_hill_logo.ddf56d739549a1396b2d.png",
     "static/media/robertC.jpg": "/static/media/robertC.e24342c8ff5e6d330193.jpg",
-    "static/media/spaceport_group.jpg": "/static/media/spaceport_group.f9775d9a11975ba5fd6f.jpg",
     "static/media/link_to_rockets.jpg": "/static/media/link_to_rockets.a8ca230372d54d3770f0.jpg",
     "static/media/10k_SRAD18.png": "/static/media/10k_SRAD18.03ef9abbba63d17bf480.png",
     "static/media/vidar2.jpg": "/static/media/vidar2.b8ea779abd25715f364b.jpg",
@@ -173,6 +174,7 @@
     "static/media/bigredbee_logo.png": "/static/media/bigredbee_logo.7a4b277bc971912027b3.png",
     "static/media/Princess_Auto_Logo.png": "/static/media/Princess_Auto_Logo.b3365177dde40c6b717a.png",
     "static/media/liftwerx_logo.png": "/static/media/liftwerx_logo.35007a0bf2bc46757f97.png",
+    "static/media/cover_comp.jpg": "/static/media/cover_comp.7f5f4936c0246f7e75bd.jpg",
     "static/media/firecam_logo.png": "/static/media/firecam_logo.e6356980c336acb7cf2a.png",
     "static/media/Pratt-and-Whitney.png": "/static/media/Pratt-and-Whitney.64cd4dac92d4e5c27c90.png",
     "static/media/patrickG.jpg": "/static/media/patrickG.bd9c1ca96e2a2029fdec.jpg",
@@ -209,11 +211,11 @@
     "static/media/Bombardier-Aerospace.jpg": "/static/media/Bombardier-Aerospace.7fd338ca4aa9511f6012.jpg",
     "static/media/BGF.png": "/static/media/BGF.bd3d9b2701f9601d8046.png",
     "index.html": "/index.html",
-    "main.967acaa7.css.map": "/static/css/main.967acaa7.css.map",
-    "main.f1a97587.js.map": "/static/js/main.f1a97587.js.map"
+    "main.7100912a.css.map": "/static/css/main.7100912a.css.map",
+    "main.ec6c8d35.js.map": "/static/js/main.ec6c8d35.js.map"
   },
   "entrypoints": [
-    "static/css/main.967acaa7.css",
-    "static/js/main.f1a97587.js"
+    "static/css/main.7100912a.css",
+    "static/js/main.ec6c8d35.js"
   ]
 }
