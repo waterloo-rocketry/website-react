@@ -23,13 +23,13 @@ const Competition = () => {
                 first-ever major national rocketry competition.
                 It brings together Canada’s passionate and
                 rapidly growing amateur and student rocketry community
-                with academia, industry and government to facilitate
+                with academia, industry and government partners to facilitate
                 the development of national talent in the interdisciplinary
                 field of rocket engineering, while fostering a strong
                 culture of safety.
               </p>
               <p>
-                The team have competed in the 2023 Launch Canada challenge
+                The team has competed in the 2023 Launch Canada challenge
                 with a solid rocket - 10K KOTS Solid, and again in 2024 with
                 Borealis - the first-ever Canadian liquid engine rocket.
               </p>
