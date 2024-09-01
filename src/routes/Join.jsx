@@ -36,15 +36,7 @@ const Join = () => {
             </a>
             {' '}
             to get started. We&apos;ll send you an invite to our
-            Slack workspace, the team&apos;s main form of communication. If you haven&apos;t
-            already, you can also join our
-            {' '}
-            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/groups/uwrocketry/">
-              Facebook group
-            </a>
-            {' '}
-            for important updates and
-            announcements regarding the team.
+            Slack workspace, the team&apos;s main form of communication.
           </Content>
         </Row>
 
