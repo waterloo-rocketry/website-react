@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7100912a.css",
-    "main.js": "/static/js/main.ec6c8d35.js",
+    "main.js": "/static/js/main.bce73600.js",
     "static/media/cover_home.png": "/static/media/cover_home.2a38d250a7d59f26017f.png",
     "static/media/jiuchengZ.jpg": "/static/media/jiuchengZ.d219b646e9218455669a.jpg",
     "static/media/borealis.jpg": "/static/media/borealis.34dce1ae1a82f6d25e30.jpg",
@@ -53,6 +53,7 @@
     "static/media/richard_dudgeon_logo.png": "/static/media/richard_dudgeon_logo.40bd6eef36eb162490d9.png",
     "static/media/vidar3_drawing.png": "/static/media/vidar3_drawing.4c1b8f81c7dbcb87f519.png",
     "static/media/eridani-2012.jpg": "/static/media/eridani-2012.21e8af92e75eee926c74.jpg",
+    "static/media/advanced_2024.png": "/static/media/advanced_2024.c3dcdfd99a9c451f714c.png",
     "static/media/elizabethX.jpg": "/static/media/elizabethX.dbe96063bea8f8ab792f.jpg",
     "static/media/banner_logo.png": "/static/media/banner_logo.b84c5f4c0c5c99a577e4.png",
     "static/media/hickory_hill_logo.png": "/static/media/hickory_hill_logo.ddf56d739549a1396b2d.png",
@@ -212,10 +213,10 @@
     "static/media/BGF.png": "/static/media/BGF.bd3d9b2701f9601d8046.png",
     "index.html": "/index.html",
     "main.7100912a.css.map": "/static/css/main.7100912a.css.map",
-    "main.ec6c8d35.js.map": "/static/js/main.ec6c8d35.js.map"
+    "main.bce73600.js.map": "/static/js/main.bce73600.js.map"
   },
   "entrypoints": [
     "static/css/main.7100912a.css",
-    "static/js/main.ec6c8d35.js"
+    "static/js/main.bce73600.js"
   ]
 }
