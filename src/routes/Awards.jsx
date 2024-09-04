@@ -6,6 +6,7 @@ import CoverPhoto from '../components/CoverPhoto/CoverPhoto';
 import awardsCoverImage from '../img/awards/awards_cover.jpg';
 import MOORE21Image from '../img/awards/DrGilMoore21.png';
 import CANRGXImage from '../img/awards/CANRGXOutreach19.png';
+import ADVANCED2024 from '../img/awards/advanced_2024.png';
 import SRAD23Image from '../img/awards/30k_SRAD23.png';
 import KOTS23Image from '../img/awards/10k_KOTS23.png';
 import SRAD19Image from '../img/awards/30k_SRAD19.png';
@@ -19,6 +20,21 @@ const Awards = () => {
       <CoverPhoto image={awardsCoverImage} style={{ backgroundPosition: '50% 52.5%' }} />
       <Container fluid>
         <Row className="my-4 mx-2 gx-5 justify-content-right">
+          <AwardYear Year={2024} />
+          <AwardItem
+            RocketName="Borealis"
+            AwardName="FIRST PLACE - ADVANCED CATEGORY"
+            ImageAddress={ADVANCED2024}
+            ImageStyle={{ width: '300px', marginLeft: '2%' }}
+            ImageName="First place - advanced category"
+          >
+            The Category First Place Awards recognize the teams with the highest overall
+            scores in each of the three competition categories, with this category representing
+            advanced flights, including Student Research and Designed two-stage, hybird and liquid
+            engine rockets. Our team received this award for finishing first in our category
+            at the 2024 LC, with the flight of Borealis - the  first-ever Canadian
+            liquid bi-propellant rocket.
+          </AwardItem>
           <AwardYear Year={2023} />
           <AwardItem
             RocketName="LotS"
