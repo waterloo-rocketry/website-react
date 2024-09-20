@@ -48,6 +48,10 @@ const Navigation = () => {
             <Nav.Link as={Link} className={styles.navbarLink} to="outreach">
               OUTREACH
             </Nav.Link>
+	    </Nav.Link>
+            <Nav.Link as={Link} className={styles.navbarLink} to="documentation">
+              DOCUMENTATION
+            </Nav.Link>
             <Nav.Link as={Link} className={styles.navbarLink} to="contact">
               CONTACT
             </Nav.Link>
