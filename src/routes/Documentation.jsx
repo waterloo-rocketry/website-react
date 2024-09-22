@@ -9,7 +9,7 @@ import documentCoverPhoto from '../img/documentation/cover_documentation.jpg';
 const Documentation = () => {
   return (
     <>
-      <CoverPhoto image={documentCoverPhoto} style={{ backgroundPosition: '50% 65%' }} />
+      <CoverPhoto image={documentCoverPhoto} style={{ backgroundPosition: '50% 45%' }} />
       <Container fluid>
         <Row className="my-4 mx-2 gx-5 justify-content-center">
           <Content title="Official Competition and Work Term Reports">
@@ -21,10 +21,10 @@ const Documentation = () => {
             school about a project they undertook during their coop term.
             Many members chose to write theirs on projects they undertook
             for rocketry. Feel free to give them a read but please do credit
-            them if you use any designs or information.
+            them if you use any designs or information. 
             <b>
               If you would like more insight or further clarification on any
-              of our projects, feel free to send an email to: contact@waterloorocketry.com
+              of our projects, feel free to send an email to: contact@waterloorocketry.com 
             </b>
             For more information on our software and electrical projects, visit
             {' '}
