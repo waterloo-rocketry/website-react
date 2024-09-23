@@ -91,6 +91,14 @@ const Documentation = () => {
               </li>
             </ul>
           </Content>
+          <Content title="Technical Reports">
+            <ul className="competition-reports-link-list">
+              <li>
+                Airbrakes CFD Report - Richard Ding, Joe Dolina (August 2024) |
+                <a href="https://docs.google.com/document/d/1Z-oG1jZdjk96txgp5OGYvELsAUv6tGQymU-YJx3D068/edit?usp=sharing" target="_blank" rel="noreferrer">View</a>
+              </li>
+            </ul>
+          </Content>
           <Content title="Work Term Reports">
             {/* eslint-disable max-len */}
             <ul className="competition-reports-link-list">
