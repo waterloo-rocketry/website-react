@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7100912a.css",
-    "main.js": "/static/js/main.bce73600.js",
+    "main.js": "/static/js/main.334b933e.js",
     "static/media/cover_home.png": "/static/media/cover_home.2a38d250a7d59f26017f.png",
     "static/media/jiuchengZ.jpg": "/static/media/jiuchengZ.d219b646e9218455669a.jpg",
     "static/media/borealis.jpg": "/static/media/borealis.34dce1ae1a82f6d25e30.jpg",
@@ -11,6 +11,7 @@
     "static/media/rocket_drag_race_2019.jpg": "/static/media/rocket_drag_race_2019.e3229ff779b54b3a4998.jpg",
     "static/media/leviathan-of-the-sky.jpg": "/static/media/leviathan-of-the-sky.7a768346ba61c6543f34.jpg",
     "static/media/benP.jpg": "/static/media/benP.a03bd08d4332c9df850e.jpg",
+    "static/media/cover_documentation.jpg": "/static/media/cover_documentation.e6047d62a21b5029c0ab.jpg",
     "static/media/michaelZ.jpg": "/static/media/michaelZ.eecbabbf05481f3d7d2b.jpg",
     "static/media/anaD.jpg": "/static/media/anaD.021d4c64463a1a0463e2.jpg",
     "static/media/unexploded-ordnance-2018.jpg": "/static/media/unexploded-ordnance-2018.a400fbd76a25c414da44.jpg",
@@ -213,10 +214,10 @@
     "static/media/BGF.png": "/static/media/BGF.bd3d9b2701f9601d8046.png",
     "index.html": "/index.html",
     "main.7100912a.css.map": "/static/css/main.7100912a.css.map",
-    "main.bce73600.js.map": "/static/js/main.bce73600.js.map"
+    "main.334b933e.js.map": "/static/js/main.334b933e.js.map"
   },
   "entrypoints": [
     "static/css/main.7100912a.css",
-    "static/js/main.bce73600.js"
+    "static/js/main.334b933e.js"
   ]
 }
