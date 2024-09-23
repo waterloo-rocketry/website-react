@@ -31,6 +31,7 @@ const Documentation = () => {
             <a href="https://docs.waterloorocketry.com/" target="_blank" rel="noreferrer">docs.waterloorocketry.com</a>
           </Content>
           <Content title="Competition Reports">
+            <!-- eslint-disable max-len -->
             <ul className="competition-reports-link-list">
               <li>
                 2024 Launch Canada (Borealis) |
