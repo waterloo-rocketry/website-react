@@ -20,6 +20,7 @@ import Subsystems from './routes/Subsystems';
 import Team from './routes/Team';
 import Outreach from './routes/Outreach';
 import Contact from './routes/Contact';
+import Documentation from './routes/Documentation';
 
 import Footer from './components/Footer/Footer';
 
@@ -58,6 +59,11 @@ ReactDOM.render(
           exact
           path="competition"
           element={<Page title="Competition"><Competition /></Page>}
+        />
+        <Route
+          exact
+          path="documentation"
+          element={<Page title="Documentation"><Documentation /></Page>}
         />
         <Route
           exact
