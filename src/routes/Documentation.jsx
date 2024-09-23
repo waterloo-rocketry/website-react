@@ -92,6 +92,7 @@ const Documentation = () => {
             </ul>
           </Content>
           <Content title="Work Term Reports">
+            <!-- eslint-disable max-len -->
             <ul className="competition-reports-link-list">
               <li>
                 Increasing Rocket Apogee by 23% Through Iterative Design - Joel Godard (Jan 2024) |
