@@ -60,4 +60,8 @@ const Gallery = ({ title, morelink, children }) => {
   );
 };
 
-export { Photo, Video, Gallery };
+export {
+  Photo,
+  Video,
+  Gallery,
+};
