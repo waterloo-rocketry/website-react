@@ -197,13 +197,6 @@ const Documentation = () => {
                 <a href="https://www.waterloorocketry.com/pdfs/HamzaAbuabahMay2020.pdf" download>Download</a>
               </li>
               <li>
-                Design of a CubeSat Structure for Sounding Rocket Payloads - Kyle Tam (May 2020) |
-                <a href="https://www.waterloorocketry.com/pdfs/KyleTamMay2020.pdf" target="_blank" rel="noreferrer">View</a>
-                {' '}
-                |
-                <a href="https://www.waterloorocketry.com/pdfs/KyleTamMay2020.pdf" download>Download</a>
-              </li>
-              <li>
                 Development of a laminate calculator based on Classical Laminate Plate Theory - Shirley Kong (May 2020) |
                 <a href="https://www.waterloorocketry.com/pdfs/ShirleyKongMay2020.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
@@ -223,48 +216,6 @@ const Documentation = () => {
                 {' '}
                 |
                 <a href="https://www.waterloorocketry.com/pdfs/JacobDeerySep2020.pdf" download>Download</a>
-              </li>
-              <li>
-                Design of an Upgraded Fill Disconnect System Compatible with Quick Connect Fittings - Ruoqin Jiang (Sep 2019) |
-                <a href="https://www.waterloorocketry.com/pdfs/RuoqinJiangSep2019.pdf" target="_blank" rel="noreferrer">View</a>
-                {' '}
-                |
-                <a href="https://www.waterloorocketry.com/pdfs/RuoqinJiangSep2019.pdf" download>Download</a>
-              </li>
-              <li>
-                Analysis and selection of microcontrollers for rocketry avionics application - Ivan Baranov (Jan 2017) |
-                <a href="https://www.waterloorocketry.com/pdfs/IvanBaranovJan2017.pdf" target="_blank" rel="noreferrer">View</a>
-                {' '}
-                |
-                <a href="https://www.waterloorocketry.com/pdfs/IvanBaranovJan2017.pdf" download>Download</a>
-              </li>
-              <li>
-                Bolt Head Drag - Nicholas Christopher (July 2017) |
-                <a href="https://www.waterloorocketry.com/pdfs/NicholasChristopherJuly2017.pdf" target="_blank" rel="noreferrer">View</a>
-                {' '}
-                |
-                <a href="https://www.waterloorocketry.com/pdfs/NicholasChristopherJuly2017.pdf" download>Download</a>
-              </li>
-              <li>
-                Design of an Integrated Tank Stand for Rocket Engine Testing - Robin Liu (Sep 2017) |
-                <a href="https://www.waterloorocketry.com/pdfs/RobinLiuSep2017.pdf" target="_blank" rel="noreferrer">View</a>
-                {' '}
-                |
-                <a href="https://www.waterloorocketry.com/pdfs/RobinLiuSep2017.pdf" download>Download</a>
-              </li>
-              <li>
-                Design of an Avionics Module for the Vidar III Hybrid-Engine Rocket - Robin Liu (Jan 2016) |
-                <a href="https://www.waterloorocketry.com/pdfs/RobinLiuJan2016.pdf" target="_blank" rel="noreferrer">View</a>
-                {' '}
-                |
-                <a href="https://www.waterloorocketry.com/pdfs/RobinLiuJan2016.pdf" download>Download</a>
-              </li>
-              <li>
-                Center of Gravity Simulation for a Hybrid Rocket Engine - Hilbert Li (May 2016) |
-                <a href="https://www.waterloorocketry.com/pdfs/HilbertLiMay2016.pdf" target="_blank" rel="noreferrer">View</a>
-                {' '}
-                |
-                <a href="https://www.waterloorocketry.com/pdfs/HilbertLiMay2016.pdf" download>Download</a>
               </li>
             </ul>
           </Content>
