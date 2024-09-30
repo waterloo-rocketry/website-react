@@ -40,7 +40,7 @@ const Documentation = () => {
                 <a href="https://www.waterloorocketry.com/pdfs/2024_project_report.pdf" download>Download</a>
               </li>
               <li>
-                2023 SpacePort America Cup (Leviathan of the Sky) |
+                2023 IREC (Leviathan of the Sky) |
                 <a href="https://www.waterloorocketry.com/pdfs/2023_project_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
