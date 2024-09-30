@@ -93,14 +93,14 @@ const Documentation = () => {
           </Content>
           <Content title="Technical Reports">
             <ul className="competition-reports-link-list">
-	      <li>
+              <li>
                 The Structural Analysis of the Static Fire Test Stand - Jiya Makwana (May 2024) |
                 <a href="https://drive.google.com/file/d/11GC4f6YCBrLKAj2u-H5ouNC7D9_8236c/preview" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
                 <a href="https://drive.google.com/uc?export=download&id=11GC4f6YCBrLKAj2u-H5ouNC7D9_8236c" download>Download</a>
               </li>
-	      <li>
+              <li>
                 Airbrakes CFD Report - Richard Ding, Joe Dolina (Aug 2024) |
                 <a href="https://drive.google.com/file/d/1lD9XAifR0tfiJs-JQUnJ0HrR1B0OIGfy/preview" target="_blank" rel="noreferrer">View</a>
                 {' '}
