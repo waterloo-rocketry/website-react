@@ -21,16 +21,17 @@ const Documentation = () => {
             school about a project they undertook during their coop term.
             Many members chose to write theirs on projects they undertook
             for rocketry. Feel free to give them a read but please do credit
-            them if you use any designs or information. 
+            them if you use any designs or information.
             <b>
               If you would like more insight or further clarification on any
-              of our projects, feel free to send an email to: contact@waterloorocketry.com 
+              of our projects, feel free to send an email to: contact@waterloorocketry.com
             </b>
             For more information on our software and electrical projects, visit
             {' '}
             <a href="https://docs.waterloorocketry.com/" target="_blank" rel="noreferrer">docs.waterloorocketry.com</a>
           </Content>
           <Content title="Competition Reports">
+            {/* eslint-disable max-len */}
             <ul className="competition-reports-link-list">
               <li>
                 2024 Launch Canada (Borealis) |
@@ -90,7 +91,26 @@ const Documentation = () => {
               </li>
             </ul>
           </Content>
+          <Content title="Technical Reports">
+            <ul className="competition-reports-link-list">
+	      <li>
+                The Structural Analysis of the Static Fire Test Stand - Jiya Makwana (May 2024) |
+                <a href="https://drive.google.com/file/d/11GC4f6YCBrLKAj2u-H5ouNC7D9_8236c/preview" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="https://drive.google.com/uc?export=download&id=11GC4f6YCBrLKAj2u-H5ouNC7D9_8236c" download>Download</a>
+              </li>
+	      <li>
+                Airbrakes CFD Report - Richard Ding, Joe Dolina (Aug 2024) |
+                <a href="https://drive.google.com/file/d/1lD9XAifR0tfiJs-JQUnJ0HrR1B0OIGfy/preview" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="https://drive.google.com/uc?export=download&id=1lD9XAifR0tfiJs-JQUnJ0HrR1B0OIGfy" download>Download</a>
+              </li>
+            </ul>
+          </Content>
           <Content title="Work Term Reports">
+            {/* eslint-disable max-len */}
             <ul className="competition-reports-link-list">
               <li>
                 Increasing Rocket Apogee by 23% Through Iterative Design - Joel Godard (Jan 2024) |
