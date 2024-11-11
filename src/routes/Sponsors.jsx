@@ -46,6 +46,7 @@ import waterlooElectroplating from '../img/sponsorship/4_bronze_sponsors/Waterlo
 import kwsewingmachine from '../img/sponsorship/4_bronze_sponsors/KW_sewing_machine_logo.png';
 import ceno360 from '../img/sponsorship/4_bronze_sponsors/ceno_360_logo.png';
 import rutland from '../img/sponsorship/4_bronze_sponsors/rutland_logo.jpg';
+import jlcpcb from '../img/sponsorship/4_bronze_sponsors/jlcpcb.png';
 
 // PREVIOUS
 import ariss from '../img/sponsorship/5_previous_sponsors/ariss.png';
@@ -435,6 +436,9 @@ const Sponsors = () => {
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={acornFireSafety} link="https://www.acornfire.ca/" />
+            </Col>
+	    <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" image={jlcpcb} link="https://jlcpcb.com/" />
             </Col>
           </Row>
 
