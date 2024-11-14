@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7100912a.css",
-    "main.js": "/static/js/main.18f0be26.js",
+    "main.js": "/static/js/main.b275e387.js",
     "static/media/cover_home.png": "/static/media/cover_home.2a38d250a7d59f26017f.png",
     "static/media/jiuchengZ.jpg": "/static/media/jiuchengZ.d219b646e9218455669a.jpg",
     "static/media/borealis.jpg": "/static/media/borealis.34dce1ae1a82f6d25e30.jpg",
@@ -29,6 +29,7 @@
     "static/media/jenniferL.jpg": "/static/media/jenniferL.7ea3c81d40529685120e.jpg",
     "static/media/contact.jpg": "/static/media/contact.20b89ce3c8c6bbc025c8.jpg",
     "static/media/cover_outreach.jpg": "/static/media/cover_outreach.a88d8022a8db4e91da44.jpg",
+    "static/media/jlcpcb.png": "/static/media/jlcpcb.266199ea9e6a7b6381f0.png",
     "static/media/awards_cover.jpg": "/static/media/awards_cover.56afe088bffe9f821d69.jpg",
     "static/media/richardD.jpg": "/static/media/richardD.fa0b0a9f86e1fe2b3c0c.jpg",
     "static/media/10k_SRAD17.png": "/static/media/10k_SRAD17.e4f928163f1962fd4693.png",
@@ -214,10 +215,10 @@
     "static/media/BGF.png": "/static/media/BGF.bd3d9b2701f9601d8046.png",
     "index.html": "/index.html",
     "main.7100912a.css.map": "/static/css/main.7100912a.css.map",
-    "main.18f0be26.js.map": "/static/js/main.18f0be26.js.map"
+    "main.b275e387.js.map": "/static/js/main.b275e387.js.map"
   },
   "entrypoints": [
     "static/css/main.7100912a.css",
-    "static/js/main.18f0be26.js"
+    "static/js/main.b275e387.js"
   ]
 }
