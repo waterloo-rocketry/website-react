@@ -437,7 +437,7 @@ const Sponsors = () => {
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={acornFireSafety} link="https://www.acornfire.ca/" />
             </Col>
-	    <Col md="auto">
+            <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={jlcpcb} link="https://jlcpcb.com/" />
             </Col>
           </Row>
