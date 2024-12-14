@@ -24,6 +24,7 @@ import liftwerx from '../img/sponsorship/2_gold_sponsors/liftwerx_logo.png';
 import linde from '../img/sponsorship/2_gold_sponsors/Linde.jpg';
 import dxengineering from '../img/sponsorship/2_gold_sponsors/DX_Engineering_logo.jpg';
 import vectornav from '../img/sponsorship/2_gold_sponsors/vectornav.png';
+import Movella from '../img/sponsorship/2_gold_sponsors/movella_logo.png';
 
 // SILVER
 import customClothes from '../img/sponsorship/3_silver_sponsors/custom_clothes_canada.png';
@@ -47,6 +48,8 @@ import kwsewingmachine from '../img/sponsorship/4_bronze_sponsors/KW_sewing_mach
 import ceno360 from '../img/sponsorship/4_bronze_sponsors/ceno_360_logo.png';
 import rutland from '../img/sponsorship/4_bronze_sponsors/rutland_logo.jpg';
 import jlcpcb from '../img/sponsorship/4_bronze_sponsors/jlcpcb.png';
+import Pololu from '../img/sponsorship/4_bronze_sponsors/pololu_logo.png';
+import Studica from '../img/sponsorship/4_bronze_sponsors/studica_logo.png';
 
 // PREVIOUS
 import ariss from '../img/sponsorship/5_previous_sponsors/ariss.png';
@@ -365,6 +368,16 @@ const Sponsors = () => {
                 </p>
               </SponsorLinkWithDesc>
             </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc logoTier="gold" image={Movella} link="https://www.movella.com/">
+                <p className="content-text">
+                  Movella is a leading full-stack provider of sensors,
+                  software, and analytics that enable the digitization of movement.
+                  Movella serves the entertainment, health, safety & sports,
+                  and automation & mobility markets.
+                </p>
+              </SponsorLinkWithDesc>
+            </Col>
           </Row>
 
           {/* Silver Sponsors */}
@@ -439,6 +452,12 @@ const Sponsors = () => {
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={jlcpcb} link="https://jlcpcb.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" image={Pololu} link="https://www.pololu.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" image={Studica} link="https://www.studica.com/" />
             </Col>
           </Row>
 
