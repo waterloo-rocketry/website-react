@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7100912a.css",
-    "main.js": "/static/js/main.b275e387.js",
+    "main.js": "/static/js/main.4dc13cfb.js",
     "static/media/cover_home.png": "/static/media/cover_home.2a38d250a7d59f26017f.png",
     "static/media/jiuchengZ.jpg": "/static/media/jiuchengZ.d219b646e9218455669a.jpg",
     "static/media/borealis.jpg": "/static/media/borealis.34dce1ae1a82f6d25e30.jpg",
@@ -177,6 +177,7 @@
     "static/media/bigredbee_logo.png": "/static/media/bigredbee_logo.7a4b277bc971912027b3.png",
     "static/media/Princess_Auto_Logo.png": "/static/media/Princess_Auto_Logo.b3365177dde40c6b717a.png",
     "static/media/liftwerx_logo.png": "/static/media/liftwerx_logo.35007a0bf2bc46757f97.png",
+    "static/media/movella_logo.png": "/static/media/movella_logo.534088ea90e152b3ba7f.png",
     "static/media/cover_comp.jpg": "/static/media/cover_comp.7f5f4936c0246f7e75bd.jpg",
     "static/media/firecam_logo.png": "/static/media/firecam_logo.e6356980c336acb7cf2a.png",
     "static/media/Pratt-and-Whitney.png": "/static/media/Pratt-and-Whitney.64cd4dac92d4e5c27c90.png",
@@ -215,10 +216,10 @@
     "static/media/BGF.png": "/static/media/BGF.bd3d9b2701f9601d8046.png",
     "index.html": "/index.html",
     "main.7100912a.css.map": "/static/css/main.7100912a.css.map",
-    "main.b275e387.js.map": "/static/js/main.b275e387.js.map"
+    "main.4dc13cfb.js.map": "/static/js/main.4dc13cfb.js.map"
   },
   "entrypoints": [
     "static/css/main.7100912a.css",
-    "static/js/main.b275e387.js"
+    "static/js/main.4dc13cfb.js"
   ]
 }
