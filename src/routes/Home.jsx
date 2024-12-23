@@ -33,37 +33,34 @@ const Home = () => {
     <>
       <BannerPhoto image={coverPhotoImage}>
         <div>
-          <h1>
-            <span style={{ fontWeight: 300 }}> Waterloo </span>
-            Rocketry
+          <h1 style={{ marginTop: '150px', textAlign: 'center' }}>
+            <span style={{ fontWeight: 'bold' }}>Waterloo Rocketry</span>
+            <div style={{ display: 'flex', padding: '40px' }}>
+              <Button variant="dark" onClick={handleScrollToAboutUs}>Learn More</Button>
+              <Button variant="dark" href="join" style={{ marginLeft: '50px' }}>Join Us</Button>
+            </div>
           </h1>
-          <div>
-            <Button variant="dark" className="me-2" onClick={handleScrollToAboutUs}>
-              Learn More
-            </Button>
-            <Button variant="dark" href="join">Join Us</Button>
-          </div>
         </div>
       </BannerPhoto>
-      <Container>
+      <Container ref={aboutUsRef} style={{ paddingTop: '80px' }}>
         <Row>
           <Col md={7}>
-            <div ref={aboutUsRef} style={{ paddingTop: '80px', marginTop: '-80px' }}>
+            <div>
               <HomeContent title="ABOUT US">
                 Waterloo Rocketry is a student design team from the University of Waterloo in
                 Waterloo, Ontario. We currently have around 50 members, primarily
                 undergraduate students in engineering, science, and mathematics. We design,
-                build, and launch rockets to a target altitude of 30,000&apos; at the
-                Intercollegiate Rocket Engineering Competition each June at Spaceport America,
-                New Mexico. Our team&apos;s primary objective is to provide students
-                with hands-on learning opportunities in research, design, analysis, fabrication, and
-                testing throughout the entire engineering design cycle.
+                build, and launch rockets each year at Launch Canada, most recently having
+                launched Canada&apos;s first ever liquid engine rocket in 2024! Our team&apos;s
+                primary objective is to provide students with hands-on learning opportunities in
+                research, design, analysis, fabrication, and testing throughout the entire
+                engineering design cycle.
               </HomeContent>
             </div>
           </Col>
           <Col>
             <Row>
-              <Photo link={aboutUsImage1} alt="About Us 1" style={{ padding: '0', borderRadius: '70%' }} />
+              <Photo link={aboutUsImage1} alt="About Us 1" style={{ borderRadius: '70%' }} />
             </Row>
           </Col>
         </Row>
