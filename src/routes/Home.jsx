@@ -33,11 +33,11 @@ const Home = () => {
     <>
       <BannerPhoto image={coverPhotoImage}>
         <div>
-          <h1 style={{ marginTop: '150px', textAlign: 'center' }}>
-            <span style={{ fontWeight: 'bold' }}>Waterloo Rocketry</span>
-            <div style={{ display: 'flex', padding: '40px' }}>
-              <Button variant="dark" onClick={handleScrollToAboutUs}>Learn More</Button>
-              <Button variant="dark" href="join" style={{ marginLeft: '50px' }}>Join Us</Button>
+          <h1 className={styles.landingContainer}>
+            <span style={{ fontWeight: 'bold', textAlign: 'left' }}>Waterloo Rocketry</span>
+            <div className={styles.landingButtons}>
+              <Button variant="dark" onClick={handleScrollToAboutUs} style={{ position: 'relative', left: '22%', top: '0' }}>Learn More</Button>
+              <Button variant="dark" href="join" style={{ position: 'relative', left: '22%', top: '0' }}>Join Us</Button>
             </div>
           </h1>
         </div>

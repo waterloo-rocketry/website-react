@@ -11,7 +11,7 @@
   }
 
 .backgroundImage {
-    filter: brightness(50%);
+    filter: brightness(40%);
     background-repeat: no-repeat;
     background-position: 100% 70%;
     background-size: cover;
