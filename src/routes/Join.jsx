@@ -56,8 +56,8 @@ const Join = () => {
             <div>
               There is no &quot;time commitment&quot; that a team member needs to meet. Of course,
               if you take on work for a project,
-              then it is expected that you communicate with the project team to ensure it is finished in
-              a reasonable time period.
+              then it is expected that you communicate with the project team to ensure
+              it is finished in a reasonable time period.
               In terms of &quot;hours per week&quot; etc, however, you can put as much or as little
               in as you wish.
             </div>
