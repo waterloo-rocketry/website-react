@@ -56,7 +56,7 @@ const Join = () => {
             <div>
               There is no &quot;time commitment&quot; that a team member needs to meet. Of course,
               if you take on work for a project,
-              then it is expected that you communicate with the subteam to ensure it is finished in
+              then it is expected that you communicate with the project team to ensure it is finished in
               a reasonable time period.
               In terms of &quot;hours per week&quot; etc, however, you can put as much or as little
               in as you wish.
@@ -65,13 +65,13 @@ const Join = () => {
 
           <FAQComponent questionText="What do the team's day to day operations look like?" index={2}>
             <div>
-              The team is split up into different subteams - for example - electrical, recovery,
-              propulsion, etc. Each subteam has regular meetings, usually once a week, while the
+              The team is split up into different projects - for example - electrical, recovery,
+              propulsion, etc. Each project has regular meetings, usually once a week, while the
               entire team gathers for a weekly general meeting.
-              Each subteam is responsible for a different part of the rocket and supporting
+              Each project is responsible for a different part of the rocket and supporting
               equipment.
-              A subteam lead supervises the operation of each subteam. You are not restricted to
-              any one subteam; you can be a part of as many as you want. Communication is done
+              A project lead supervises the operation of each project. You are not restricted to
+              any one project; you can be a part of as many as you want. Communication is done
               primarily through a Slack workspace.
             </div>
           </FAQComponent>
@@ -118,7 +118,7 @@ const Join = () => {
               <a href="competition">competition page</a>
               .
               <br />
-              To learn about all the subteams our team is comprised of, see our
+              To learn about all the projects our team is comprised of, see our
               {' '}
               <a href="subsystems">subsystems page</a>
               .
