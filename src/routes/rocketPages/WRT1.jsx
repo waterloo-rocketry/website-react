@@ -5,7 +5,7 @@ import DividerLine from '../../components/DividerLine/DividerLine';
 import RocketPageOutline from '../../components/RocketPageOutline/RocketPageOutline';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
-import wrt1Upright from '../../img/rocketPhotos/wrt1_upright.png';
+import wrt1Upright from '../../img/rocketPhotos/wrt1_upright.webp';
 
 const WRT1 = () => {
   return (

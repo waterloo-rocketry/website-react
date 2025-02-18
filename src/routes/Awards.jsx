@@ -3,16 +3,16 @@ import { Container, Row } from 'react-bootstrap';
 import { AwardItem, AwardYear } from '../components/AwardItem/AwardItem';
 import CoverPhoto from '../components/CoverPhoto/CoverPhoto';
 
-import awardsCoverImage from '../img/awards/awards_cover.jpg';
-import MOORE21Image from '../img/awards/DrGilMoore21.png';
-import CANRGXImage from '../img/awards/CANRGXOutreach19.png';
-import ADVANCED2024 from '../img/awards/advanced_2024.png';
-import SRAD23Image from '../img/awards/30k_SRAD23.png';
-import KOTS23Image from '../img/awards/10k_KOTS23.png';
-import SRAD19Image from '../img/awards/30k_SRAD19.png';
-import SRAD18Image from '../img/awards/10k_SRAD18.png';
-import SRAD17Image from '../img/awards/10k_SRAD17.png';
-import TechnicalExcellenceImage from '../img/awards/technical_excellence.png';
+import awardsCoverImage from '../img/awards/awards_cover.webp';
+import MOORE21Image from '../img/awards/DrGilMoore21.webp';
+import CANRGXImage from '../img/awards/CANRGXOutreach19.webp';
+import ADVANCED2024 from '../img/awards/advanced_2024.webp';
+import SRAD23Image from '../img/awards/30k_SRAD23.webp';
+import KOTS23Image from '../img/awards/10k_KOTS23.webp';
+import SRAD19Image from '../img/awards/30k_SRAD19.webp';
+import SRAD18Image from '../img/awards/10k_SRAD18.webp';
+import SRAD17Image from '../img/awards/10k_SRAD17.webp';
+import TechnicalExcellenceImage from '../img/awards/technical_excellence.webp';
 
 const Awards = () => {
   return (

@@ -7,7 +7,7 @@ import SpecsComponent from '../../components/SpecsComponent/SpecsComponent';
 import TwoColumns from '../../components/TwoColumns/TwoColumns';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
-import uxoUpright from '../../img/rocketPhotos/uxo_upright.png';
+import uxoUpright from '../../img/rocketPhotos/uxo_upright.webp';
 
 const UnexplodedOrdnance = () => {
   return (

@@ -7,7 +7,7 @@ import SpecsComponent from '../../components/SpecsComponent/SpecsComponent';
 import TwoColumns from '../../components/TwoColumns/TwoColumns';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
-import kotsUpright from '../../img/rocketPhotos/kots_upright.png';
+import kotsUpright from '../../img/rocketPhotos/kots_upright.webp';
 
 const KrakenOfTheSky = () => {
   return (

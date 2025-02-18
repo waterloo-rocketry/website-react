@@ -9,16 +9,16 @@ import Content from '../components/Content/Content';
 
 import styles from './css/Subsystems.module.css';
 
-import airframeImg from '../img/subsystems/rocket_imgs/airframe.png';
-import daqImg from '../img/subsystems/rocket_imgs/daq.png';
-import payloadImg from '../img/subsystems/rocket_imgs/payload.png';
-import controlsImg from '../img/subsystems/rocket_imgs/controls.png';
-import propulsionImg from '../img/subsystems/rocket_imgs/propulsion.png';
-import recoveryImg from '../img/subsystems/rocket_imgs/recovery.png';
-import rlcsImg from '../img/subsystems/rocket_imgs/rlcs.png';
-import rocketcanImg from '../img/subsystems/rocket_imgs/rocketcan.png';
+import airframeImg from '../img/subsystems/rocket_imgs/airframe.webp';
+import daqImg from '../img/subsystems/rocket_imgs/daq.webp';
+import payloadImg from '../img/subsystems/rocket_imgs/payload.webp';
+import controlsImg from '../img/subsystems/rocket_imgs/controls.webp';
+import propulsionImg from '../img/subsystems/rocket_imgs/propulsion.webp';
+import recoveryImg from '../img/subsystems/rocket_imgs/recovery.webp';
+import rlcsImg from '../img/subsystems/rocket_imgs/rlcs.webp';
+import rocketcanImg from '../img/subsystems/rocket_imgs/rocketcan.webp';
 
-import subsystemsCoverImage from '../img/subsystems/cover_subsystems.jpg';
+import subsystemsCoverImage from '../img/subsystems/cover_subsystems.webp';
 
 const rocketImgs = {
   airframe: airframeImg,

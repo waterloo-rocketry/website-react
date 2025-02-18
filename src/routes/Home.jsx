@@ -13,14 +13,14 @@ import { Photo, Video } from '../components/Gallery/Gallery';
 
 import styles from './css/Home.module.css';
 
-import coverPhotoImage from '../img/home/cover_home.png';
-import rocketsCoverImage from '../img/home/link_to_rockets.jpg';
-import sponsorsCoverImage from '../img/home/link_to_sponsors.jpg';
-import galleryCoverImage from '../img/home/link_to_gallery.jpg';
+import coverPhotoImage from '../img/home/cover_home.webp';
+import rocketsCoverImage from '../img/home/link_to_rockets.webp';
+import sponsorsCoverImage from '../img/home/link_to_sponsors.webp';
+import galleryCoverImage from '../img/home/link_to_gallery.webp';
 
-import aboutUsImage1 from '../img/rocket/leviathan-of-the-sky.jpg';
+import aboutUsImage1 from '../img/rocket/leviathan-of-the-sky.webp';
 
-import pressReleasePhotoA from '../img/home/borealis.png';
+import pressReleasePhotoA from '../img/home/borealis.webp';
 
 const Home = () => {
   const aboutUsRef = useRef(null);

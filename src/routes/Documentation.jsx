@@ -4,7 +4,7 @@ import { Container, Row } from 'react-bootstrap';
 import CoverPhoto from '../components/CoverPhoto/CoverPhoto';
 import Content from '../components/Content/Content';
 
-import documentCoverPhoto from '../img/documentation/cover_documentation.jpg';
+import documentCoverPhoto from '../img/documentation/cover_documentation.webp';
 
 const Documentation = () => {
   return (
