@@ -9,10 +9,10 @@ import ImageBox from '../components/ImageBox/ImageBox';
 
 import DividerLine from '../components/DividerLine/DividerLine';
 
-import outreachCoverPhoto from '../img/outreach/cover_outreach.jpg';
-import afdPhoto from '../img/outreach/afd_logo.jpg';
-import rdrPhoto from '../img/outreach/rocket_drag_race_2019.jpg';
-import edPhoto from '../img/outreach/ed_session.jpg';
+import outreachCoverPhoto from '../img/outreach/cover_outreach.webp';
+import afdPhoto from '../img/outreach/afd_logo.webp';
+import rdrPhoto from '../img/outreach/rocket_drag_race_2019.webp';
+import edPhoto from '../img/outreach/ed_session.webp';
 
 /* eslint-disable max-len */
 

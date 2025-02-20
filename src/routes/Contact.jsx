@@ -8,8 +8,8 @@ import DividerLine from '../components/DividerLine/DividerLine';
 
 import styles from './css/Contact.module.css';
 
-import contactCoverPhoto from '../img/contact.jpg';
-import IgIcon from '../img/instagram-logo.png';
+import contactCoverPhoto from '../img/contact.webp';
+import IgIcon from '../img/instagram-logo.webp';
 
 const Contact = () => {
   return (

@@ -7,7 +7,7 @@ import SpecsComponent from '../../components/SpecsComponent/SpecsComponent';
 import TwoColumns from '../../components/TwoColumns/TwoColumns';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
-import lotsUpright from '../../img/rocketPhotos/lots_upright.png';
+import lotsUpright from '../../img/rocketPhotos/lots_upright.webp';
 
 const LeviathanOfTheSky = () => {
   return (

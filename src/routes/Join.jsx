@@ -9,7 +9,7 @@ import FAQComponent from '../components/FAQComponent/FAQComponent';
 
 import styles from './css/Join.module.css';
 
-import joinCoverPhoto from '../img/join/cover_join.jpg';
+import joinCoverPhoto from '../img/join/cover_join.webp';
 
 const Join = () => {
   return (

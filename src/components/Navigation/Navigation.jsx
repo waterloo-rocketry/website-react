@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 import styles from './Navigation.module.css';
 
-import bannerLogoImage from '../../img/banner_logo.png';
+import bannerLogoImage from '../../img/banner_logo.webp';
 
 // The navbar at the top of each page
 const Navigation = () => {

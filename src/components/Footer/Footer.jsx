@@ -3,10 +3,10 @@ import { Col, Container, Image } from 'react-bootstrap';
 
 import styles from './Footer.module.css';
 
-import facebookIcon from '../../img/icon_fb.png';
-import flickrIcon from '../../img/icon_flickr.png';
-import mailIcon from '../../img/icon_mail.png';
-import youtubeIcon from '../../img/icon_youtube.png';
+import facebookIcon from '../../img/icon_fb.webp';
+import flickrIcon from '../../img/icon_flickr.webp';
+import mailIcon from '../../img/icon_mail.webp';
+import youtubeIcon from '../../img/icon_youtube.webp';
 
 // Footer for all pages, containing links to social media
 const Footer = () => {

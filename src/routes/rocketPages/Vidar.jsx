@@ -6,7 +6,7 @@ import RocketPageOutline from '../../components/RocketPageOutline/RocketPageOutl
 import TwoColumns from '../../components/TwoColumns/TwoColumns';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
-import vidarUpright from '../../img/rocketPhotos/vidar_upright.png';
+import vidarUpright from '../../img/rocketPhotos/vidar_upright.webp';
 
 const Vidar = () => {
   return (
