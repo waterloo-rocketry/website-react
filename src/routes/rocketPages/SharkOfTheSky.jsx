@@ -7,7 +7,7 @@ import SpecsComponent from '../../components/SpecsComponent/SpecsComponent';
 import TwoColumns from '../../components/TwoColumns/TwoColumns';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
-import sotsUpright from '../../img/rocketPhotos/sots_upright.png';
+import sotsUpright from '../../img/rocketPhotos/sots_upright.webp';
 
 const SharkOfTheSky = () => {
   return (

@@ -3,17 +3,17 @@ import { Col, Container, Row } from 'react-bootstrap';
 import RocketCard from '../components/RocketCard/RocketCard';
 import styles from './css/rocket.module.css';
 
-import rocketBorealis from '../img/rocket/borealis.jpg';
-import rocketLeviathanOfTheSky from '../img/rocket/leviathan-of-the-sky.jpg';
-import rocketKrakenOfTheSky from '../img/rocket/kraken-of-the-sky.jpg';
-import rocketSharkOfTheSky from '../img/rocket/shark-of-the-sky.jpg';
-import rocketUnexplodedOrdnance from '../img/rocket/unexploded-ordnance-2018.jpg';
-import rocketVidar3 from '../img/rocket/Vidar3.jpg';
-import rocketVidar2 from '../img/rocket/vidar2.jpg';
-import rocketVidar from '../img/rocket/Vidar.jpg';
-import rocketSilverBrant from '../img/rocket/silver-brant.jpg';
-import rocketEridani from '../img/rocket/eridani-2012.jpg';
-import rocketWRT1 from '../img/rocket/wrt1.jpg';
+import rocketBorealis from '../img/rocket/borealis.webp';
+import rocketLeviathanOfTheSky from '../img/rocket/leviathan-of-the-sky.webp';
+import rocketKrakenOfTheSky from '../img/rocket/kraken-of-the-sky.webp';
+import rocketSharkOfTheSky from '../img/rocket/shark-of-the-sky.webp';
+import rocketUnexplodedOrdnance from '../img/rocket/unexploded-ordnance-2018.webp';
+import rocketVidar3 from '../img/rocket/Vidar3.webp';
+import rocketVidar2 from '../img/rocket/vidar2.webp';
+import rocketVidar from '../img/rocket/Vidar.webp';
+import rocketSilverBrant from '../img/rocket/silver-brant.webp';
+import rocketEridani from '../img/rocket/eridani-2012.webp';
+import rocketWRT1 from '../img/rocket/wrt1.webp';
 
 const Rockets = () => {
   return (

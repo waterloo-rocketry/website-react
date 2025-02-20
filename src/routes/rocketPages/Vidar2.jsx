@@ -7,7 +7,7 @@ import SpecsComponent from '../../components/SpecsComponent/SpecsComponent';
 import TwoColumns from '../../components/TwoColumns/TwoColumns';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
-import vidar2Upright from '../../img/rocketPhotos/vidar2_upright.png';
+import vidar2Upright from '../../img/rocketPhotos/vidar2_upright.webp';
 
 const Vidar2 = () => {
   return (

@@ -6,7 +6,7 @@ import RocketPageOutline from '../../components/RocketPageOutline/RocketPageOutl
 import TwoColumns from '../../components/TwoColumns/TwoColumns';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
-import silverbrantUpright from '../../img/rocketPhotos/silverbrant_upright.png';
+import silverbrantUpright from '../../img/rocketPhotos/silverbrant_upright.webp';
 
 const SilverBrant = () => {
   return (

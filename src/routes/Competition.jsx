@@ -7,8 +7,8 @@ import CoverPhoto from '../components/CoverPhoto/CoverPhoto';
 import Content from '../components/Content/Content';
 import ImageBox from '../components/ImageBox/ImageBox';
 
-import compCoverImage from '../img/competition/cover_comp.jpg';
-import LCImage from '../img/competition/lc_group.jpg';
+import compCoverImage from '../img/competition/cover_comp.webp';
+import LCImage from '../img/competition/lc_group.webp';
 
 const Competition = () => {
   return (

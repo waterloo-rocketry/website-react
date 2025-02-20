@@ -6,7 +6,7 @@ import RocketPageOutline from '../../components/RocketPageOutline/RocketPageOutl
 import TwoColumns from '../../components/TwoColumns/TwoColumns';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
-import eridaniUpright from '../../img/rocketPhotos/eridani_upright.png';
+import eridaniUpright from '../../img/rocketPhotos/eridani_upright.webp';
 
 const Eridani = () => {
   return (

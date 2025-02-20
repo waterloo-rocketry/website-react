@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Navbar, Container, Nav, Image,
 } from 'react-bootstrap';
@@ -7,12 +7,23 @@ import { Link } from 'react-router-dom';
 
 import styles from './Navigation.module.css';
 
-import bannerLogoImage from '../../img/banner_logo.png';
+import bannerLogoImage from '../../img/banner_logo.webp';
 
 // The navbar at the top of each page
 const Navigation = () => {
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const Scroll = () => {
+      const isScrolled = window.scrollY > 50;
+      if (isScrolled !== scrolled) {
+        setScrolled(isScrolled);
+      }
+    };
+    window.addEventListener('scroll', Scroll);
+  });
+
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className={styles.navbar}>
+    <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
       <Container className={styles.navbarContainer} fluid>
         <Navbar.Brand as={Link} to="/">
           <Image
