@@ -84,30 +84,20 @@ const Borealis = () => {
               parachutes.
             </Content>
             <Content title="ELECTRICAL">
-              The 2024 rocket&apos;s avionics system contains 3 main components:
-              the RocketCAN bus, a pair of dissimilar COTS Altimeters, and an
-              independent GPS tracking module from BigRedBee. The RocketCAN
-              network consists of individual boards with single functionalities,
-              which communicate through a Controller Area Network (CAN) bus.
-              This system was initially introduced in 2019 on Shark of the Sky
-              (SotS), but has undergone significant updates since then,
-              including new revisions of every board based on lessons learned
-              throughout the previous years. In addition, this year, new systems
-              have been introduced and upgraded including a long-range live
-              telemetry radio system, in-flight camera systems, and an
-              on-the-pad charging system.
+              Building on previous avionics system architectures, Borealis
+              includes 13 custom-built PCBs on the RocketCAN network (the
+              rocket&apos;s CAN bus for board-to-board communication). These
+              boards perform tasks such as LiPo charging and power distribution,
+              recording in-flight footage, and running state estimation
+              algorithms for the airbrakes controller. In case a board fails and
+              cannot be troubleshooted, it can replaced with an identical spare,
+              with no firmware changes needed.
               <br />
               <br />
-              The Electrical Ground Support Equipment (EGSE) has also had
-              substantial upgrades this year. Both the Remote Launch Control
-              System (RLCS) and Data Acquisition System (DAQ) have had notable
-              changes to their boards and software. These changes provided not
-              only better quality of life features for the equipment operators
-              but also improved both reliability and repairability of the
-              aforementioned systems. The most noteworthy change this year was
-              the introduction of our Ground-Side Power Distribution system
-              (GSPD) which provides a reliable power source for all ground
-              systems and the rocket.
+              Improvements were also made to the DAQ system, including a new
+              patch panel, to allow sensor configuration to be easily adjusted,
+              and support for the RocketCAN bus, so that messages can be parsed
+              and sent over omnibus to mission control.
             </Content>
             <Content title="NOSECONE">
               With the possibility of going supersonic, a Von Kármán nosecone
@@ -152,7 +142,7 @@ const Borealis = () => {
               in-house using either vacuum bag hand layups or vacuum assisted
               resin transfer molding on CNC-machined female molds. Other
               components, include machined aluminum couplers which are joined to
-              the bodytubes using epoxy, and joined tohgether using a series of
+              the bodytubes using epoxy, and joined together using a series of
               radial bolt rings.
             </Content>
             <Content title="Airbrakes">
@@ -179,13 +169,14 @@ const Borealis = () => {
               reported apogee.
             </Content>
             <Content title="PROJECT REPORT">
-              A complete report of this project, including descriptions of
-              onboard and ground support systems, engineering drawings of all
-              rocket components, and a complete set of assembly and launch
-              procedures can be downloaded&nbsp;
-              <a href="https://www.waterloorocketry.com/pdfs/2023_project_report.pdf">
-                here.
+              A description of the rocket&apos;s custom engine, airframe,
+              onboard avionics, ground systems, payload, active controls, and
+              all other technical details of the vehicle can be found in&nbsp;
+              <a href="https://www.waterloorocketry.com/pdfs/2024_project_report.pdf">
+                this report
               </a>
+              , which was submitted to the judges of Launch Canada for review
+              before the competition.
             </Content>
           </>
         </TwoColumns>
