@@ -7,13 +7,16 @@ import SpecsComponent from '../../components/SpecsComponent/SpecsComponent';
 import TwoColumns from '../../components/TwoColumns/TwoColumns';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
-import borealisUpright from '../../img/rocketPhotos/borealis_upright.webp';
+import borealisUpright from '../../img/rocketPhotos/borealis_upright.webm';
+
+import borealisAero from '../../img/rocket/borealis-aerostructures.webp';
 
 const Borealis = () => {
   return (
     <>
       <RocketPageOutline
         title="BOREALIS"
+        mediaType="video"
         img={borealisUpright}
         altText="Borealis"
       >
@@ -99,51 +102,33 @@ const Borealis = () => {
               and support for the RocketCAN bus, so that messages can be parsed
               and sent over omnibus to mission control.
             </Content>
-            <Content title="NOSECONE">
-              With the possibility of going supersonic, a Von Kármán nosecone
-              with a 4:1 fineness ratio, built from fiberglass was selected. Two
-              mold halves were formed with foam on a CNC router, and then joined
-              during a layup to form the complete nosecone shape. The nosecone
-              was post-cured at 70 °C for 6 hours, to protect against the hot
-              desert temperatures.
-            </Content>
           </>
           <>
-            <Content title="RUN TANK">
-              The oxidizer tank is a 6” OD, 62” long tank sealed on both ends
-              with removable bulkheads. The system is blow-down, utilizing the
-              self pressurizing properties of nitrous oxide to feed oxidizer
-              into the injector. The oxidizer tank is made of 6061-T6 aluminium.
-              Thanks to increases in engine efficiency, the length of the
-              oxidizer tank was reduced from previous iterations of the Kismet
-              engine.
-            </Content>
-            <Content title="COMBUSTION CHAMBER">
-              The combustion chamber is comprised of a structural pressure
-              vessel containing the fuel grain and several other combustion
-              devices. O-rings are used for the main seals at the forward and
-              aft ends of the chamber. To prevent hot combustion gases from
-              reaching the casing and/or o-rings, most interfaces between
-              internal components of the combustion chamber are sealed with
-              high-temperature RTV gasket maker (Permatex 26BR). A
-              high-temperature synthetic grease (Super Lube 41160) is applied
-              liberally to the exterior surface of the stack of internal
-              components to fill the gap between the liner and the casing, which
-              facilitates disassembly of the combustion chamber assembly after
-              the burn, as well as helping to transmit radial pressure forces
-              into the casing.
-            </Content>
             <Content title="AIRFRAME">
-              The LotS airframe consists mainly of carbon fiber and fiberglass
-              composites which make up the nosecone, bodytubes and fins. These
-              composites are used for their extremely high strength-to-weight
-              ratio, allowing a mere 1.3 mm bodytube thickness to withstand the
-              immense flight loads of the rocket. Most parts are manufactured
-              in-house using either vacuum bag hand layups or vacuum assisted
-              resin transfer molding on CNC-machined female molds. Other
-              components, include machined aluminum couplers which are joined to
-              the bodytubes using epoxy, and joined together using a series of
-              radial bolt rings.
+              The airframe for Borealis was designed for easy integration,
+              divided into sections like the nosecone, parachute bay, Upper
+              Bodytube (UBT), vent shroud, OTAS fairings, fincan consisting of
+              the fins, and boattail. Most of the structure was fiberglass,
+              while the fincan, fins, and fairings were carbon fiber.
+              <br />
+              <br />
+              The nosecone followed a Von Kármán profile, chosen for optimal
+              aerodynamics and apogee performance. Aluminum couplers machined
+              in-house connected sections for quick assembly and disassembly,
+              while the boattail and longerons were also aluminum, with the
+              boattail CNC-machined.
+              <br />
+              <br />
+              Composite parts were manufactured using Vacuum Assisted Resin
+              Transfer Molding (VARTM), and a tip-to-tip layup reinforced the
+              fincan for added strength. The rocket&apos;s tip was machined from
+              stainless steel and 6061 Aluminum. High-strength bonding epoxy
+              secured all couplers to the body tubes as well as the tip to the
+              nosecone.
+              <Photo
+                link={borealisAero}
+                altText="Airframe detail photo"
+              />
             </Content>
             <Content title="Airbrakes">
               The goal of the airbrakes subsystem is to hit a target apogee
@@ -191,7 +176,7 @@ const Borealis = () => {
           altText="Borealis team photo"
         />
         <Photo
-          link="https://live.staticflickr.com/65535/53997949543_8aed44122c_6k.jpg"
+          link="https://live.staticflickr.com/65535/53997949738_364d5941b1_6k.jpg"
           altText="Borealis on the launch rail"
         />
       </Gallery>
