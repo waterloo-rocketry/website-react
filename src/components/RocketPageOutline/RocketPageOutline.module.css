@@ -16,6 +16,11 @@
 	margin: auto;
 }
 
+.rocketVideo {
+	transform: translateY(15%);
+	scale: 1.8;
+}
+
 .description {
 	min-width: 500px;
 }

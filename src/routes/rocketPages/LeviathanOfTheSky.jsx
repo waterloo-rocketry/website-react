@@ -83,7 +83,7 @@ const LeviathanOfTheSky = () => {
               Both altimeters are capable of independently deploying the parachute.
             </Content>
             <Content title="ELECTRICAL">
-              The 2024 rocket&apos;s avionics system contains 3 main components: the RocketCAN bus,
+              The 2023 rocket&apos;s avionics system contains 3 main components: the RocketCAN bus,
               a pair of dissimilar COTS Altimeters, and an independent GPS tracking module from
               BigRedBee. The RocketCAN network consists of individual boards with single
               functionalities, which communicate through a Controller Area Network (CAN)
