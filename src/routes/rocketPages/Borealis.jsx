@@ -54,14 +54,24 @@ const Borealis = () => {
         <TwoColumns title="DETAILS">
           <>
             <Content title="PAYLOAD">
-              The payload onboard LotS contains two experiments. One is state
-              estimation, which uses a Kalman filter to fuse data from onboard
-              sensors with a model of the rocket dynamics to provide enhanced
-              estimates of the rocket state during flight. This was developed as
-              a prototype for future active control systems onboard the rocket.
-              The second experiment consisted of yeast cultures which were flown
-              on the rocket, to assess the effects of increased gravity on
-              fermentation activity.
+              The payload of Borealis consists of a 3U CubeSat housing two
+              experiments. The first experiment consists of an SRAD peristaltic
+              positive-displacement IV pump which runs a 22% glycerin 78% water
+              solution through a closed loop to observe the ability of the pump
+              to maintain a smooth, uniform flow in a hyper and micro gravity
+              environment. A flow sensor monitors temperature and flow rate,
+              from which flow velocity, density, and viscosity can be
+              extrapolated. The determination of Reynold&apos;s number of the fluid
+              at any point through the flight is then calculated, indicating the
+              amount of turbulence in the flow. The second experiment consists
+              of a qualitative and quantitative analysis of vibrational effects
+              on fasteners throughout flight. A 3-axis accelerometer quantifies
+              the vibrations of the rocket, and hundreds of fasteners are
+              installed on aluminum and steel plates. These plates are flown
+              inside the CubeSat, and test various thread engagements, plate
+              orientations, fastener sizes, fastener profiles, materials,
+              applied torques, nut and bolt configurations, and Loctite
+              applications.
             </Content>
             <Content title="RECOVERY">
               The recovery system onboard Borealis uses a reefing two-stage
@@ -125,10 +135,7 @@ const Borealis = () => {
               stainless steel and 6061 Aluminum. High-strength bonding epoxy
               secured all couplers to the body tubes as well as the tip to the
               nosecone.
-              <Photo
-                link={borealisAero}
-                altText="Airframe detail photo"
-              />
+              <Photo link={borealisAero} altText="Airframe detail photo" />
             </Content>
             <Content title="Airbrakes">
               The goal of the airbrakes subsystem is to hit a target apogee
