@@ -53,6 +53,22 @@ const Borealis = () => {
         <DividerLine />
         <TwoColumns title="DETAILS">
           <>
+            <Content title="PROPULSION">
+              Borealis is powered by Waterloo Rocketry&apos;s first ever liquid
+              bi-propellant rocket engine. Powered by nitrous oxide and ethanol,
+              the engine operates in blowdown mode, producing a peak thrust of
+              8kN at a chamber pressure of 400psi over 6 seconds of burn time.
+              The propellants are pressurized to 750psi using the vapor pressure
+              of the nitrous oxide, with the ethanol pressurized in a concentric
+              fuel tank by the nitrous vapor through use of a sliding piston.
+              The combustion chamber is ablatively cooled with custom cast
+              ablative and a graphite nozzle. The engine uses fully custom SRAD
+              pneumatic propellant valves, including two coaxial sleeve main
+              propellant valves and two poppet valves for remote filling and
+              venting of nitrous oxide. The Borealis propulsion system builds on
+              the teams heritage with hybrid rocket engines and is the first
+              step towards more advanced propulsion systems.
+            </Content>
             <Content title="PAYLOAD">
               The payload of Borealis consists of a 3U CubeSat housing two
               experiments. The first experiment consists of an SRAD peristaltic
@@ -61,17 +77,17 @@ const Borealis = () => {
               to maintain a smooth, uniform flow in a hyper and micro gravity
               environment. A flow sensor monitors temperature and flow rate,
               from which flow velocity, density, and viscosity can be
-              extrapolated. The determination of Reynold&apos;s number of the fluid
-              at any point through the flight is then calculated, indicating the
-              amount of turbulence in the flow. The second experiment consists
-              of a qualitative and quantitative analysis of vibrational effects
-              on fasteners throughout flight. A 3-axis accelerometer quantifies
-              the vibrations of the rocket, and hundreds of fasteners are
-              installed on aluminum and steel plates. These plates are flown
-              inside the CubeSat, and test various thread engagements, plate
-              orientations, fastener sizes, fastener profiles, materials,
-              applied torques, nut and bolt configurations, and Loctite
-              applications.
+              extrapolated. The determination of Reynold&apos;s number of the
+              fluid at any point through the flight is then calculated,
+              indicating the amount of turbulence in the flow. The second
+              experiment consists of a qualitative and quantitative analysis of
+              vibrational effects on fasteners throughout flight. A 3-axis
+              accelerometer quantifies the vibrations of the rocket, and
+              hundreds of fasteners are installed on aluminum and steel plates.
+              These plates are flown inside the CubeSat, and test various thread
+              engagements, plate orientations, fastener sizes, fastener
+              profiles, materials, applied torques, nut and bolt configurations,
+              and Loctite applications.
             </Content>
             <Content title="RECOVERY">
               The recovery system onboard Borealis uses a reefing two-stage
