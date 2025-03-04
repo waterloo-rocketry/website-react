@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac8008df.css",
-    "main.js": "/static/js/main.653fc93d.js",
+    "main.css": "/static/css/main.fb26768e.css",
+    "main.js": "/static/js/main.fffdd4be.js",
     "static/media/kraken-of-the-sky.webp": "/static/media/kraken-of-the-sky.5cf99b02567371342f57.webp",
     "static/media/borealis.webp": "/static/media/borealis.f8fc29c8777514a4fc4d.webp",
     "static/media/cover_home.webp": "/static/media/cover_home.0d0bee1021838c9acc99.webp",
@@ -9,6 +9,7 @@
     "static/media/shark-of-the-sky.webp": "/static/media/shark-of-the-sky.2e4ad6dfaaa5321045a7.webp",
     "static/media/unexploded-ordnance-2018.webp": "/static/media/unexploded-ordnance-2018.92369cbf5d94a5e3d11b.webp",
     "static/media/anaD.webp": "/static/media/anaD.f1e65308c2812d60dec6.webp",
+    "static/media/borealis_upright.webm": "/static/media/borealis_upright.df085794935a43b245a5.webm",
     "static/media/cover_subsystems.webp": "/static/media/cover_subsystems.ae115efea6dc762d3c0f.webp",
     "static/media/leviathan-of-the-sky.webp": "/static/media/leviathan-of-the-sky.246c2aeb8d4a7c5068df.webp",
     "static/media/rocket_drag_race_2019.webp": "/static/media/rocket_drag_race_2019.c61d3d5d5d1430ef3d7c.webp",
@@ -85,6 +86,7 @@
     "static/media/10k_KOTS23.webp": "/static/media/10k_KOTS23.565a77556da81877f7aa.webp",
     "static/media/keeganT.webp": "/static/media/keeganT.cd3e357b685408b7753b.webp",
     "static/media/shirleyK.webp": "/static/media/shirleyK.bfc69805f436e1de8d4b.webp",
+    "static/media/borealis-aerostructures.webp": "/static/media/borealis-aerostructures.f43755fdb9e2a608d90d.webp",
     "static/media/aaronL.webp": "/static/media/aaronL.f15995c543bcdc6ba34a.webp",
     "static/media/adamP.webp": "/static/media/adamP.10d58935f209a4d6ab29.webp",
     "static/media/chrisS.webp": "/static/media/chrisS.61670bf40bc84090a0ef.webp",
@@ -232,11 +234,11 @@
     "static/media/icon_flickr.webp": "/static/media/icon_flickr.9fa96dd8def0662d57f7.webp",
     "index.html": "/index.html",
     "static/media/icon_fb.webp": "/static/media/icon_fb.b2111be5e9009cd6a77e.webp",
-    "main.ac8008df.css.map": "/static/css/main.ac8008df.css.map",
-    "main.653fc93d.js.map": "/static/js/main.653fc93d.js.map"
+    "main.fb26768e.css.map": "/static/css/main.fb26768e.css.map",
+    "main.fffdd4be.js.map": "/static/js/main.fffdd4be.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac8008df.css",
-    "static/js/main.653fc93d.js"
+    "static/css/main.fb26768e.css",
+    "static/js/main.fffdd4be.js"
   ]
 }
