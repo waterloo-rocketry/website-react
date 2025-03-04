@@ -29,8 +29,8 @@ const Borealis = () => {
           culmination of the advanced engineering capabilities developed by the
           team throughout its past 13 years. The rocket was launched at the
           Launch Canada 2024 competition in Timmins, Ontario, where it won the
-          Advanced category first place award. It also the first amateur liquid
-          rocket in Canada!
+          Advanced category first place award. With its launch, Borealis becomes
+          the first liquid bi-propellant rocket in Canadian history.
         </Content>
         <SpecsComponent
           specs={[
