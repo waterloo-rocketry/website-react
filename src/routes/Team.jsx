@@ -49,7 +49,6 @@ import MatthewG from '../img/teams/matthewG.webp';
 import MichaelZ from '../img/teams/michaelZ.webp';
 import NahvidZ from '../img/teams/nahvidZ.webp';
 import OwenH from '../img/teams/owenH.webp';
-import OwenS from '../img/teams/owenS.webp';
 import OzayrR from '../img/teams/ozayrR.webp';
 import PatrickG from '../img/teams/patrickG.webp';
 import PranavM from '../img/teams/pranavM.webp';
@@ -179,7 +178,6 @@ const Team = () => {
           <MemberImage image={BonitaS} name="Bonita Shao" title="Finance Co-Lead" />
           <MemberImage image={RajetA} name="Rajat Agrawal" title="Airframe/Painting" />
           <MemberImage image={AnaD} name="Ana Dimitrievska" title="Propulsion" />
-          <MemberImage image={OwenS} name="Owen Stephenson" title="Propulsion" />
           <MemberImage image={JiuchengZ} name="Jiucheng Zang" title="Software Lead" />
           <MemberImage image={JasonH} name="Jason Huang" title="Controls" />
           <MemberImage image={TristanY} name="Tristan Yan-Klassen" title="Controls/Flight Dynamics" />
