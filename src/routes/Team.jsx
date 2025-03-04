@@ -49,7 +49,6 @@ import MatthewG from '../img/teams/matthewG.webp';
 import MichaelZ from '../img/teams/michaelZ.webp';
 import NahvidZ from '../img/teams/nahvidZ.webp';
 import OwenH from '../img/teams/owenH.webp';
-import OwenS from '../img/teams/owenS.webp';
 import OzayrR from '../img/teams/ozayrR.webp';
 import PatrickG from '../img/teams/patrickG.webp';
 import PranavM from '../img/teams/pranavM.webp';
@@ -69,6 +68,8 @@ import ThomasM from '../img/teams/thomasm.webp';
 import XavierR from '../img/teams/xavierR.webp';
 import YuRanW from '../img/teams/yuranW.webp';
 import ZachariahM from '../img/teams/zachM.webp';
+import JasonH from '../img/teams/jasonH.webp';
+import TristanY from '../img/teams/tristanY.webp';
 
 // Alumni
 import AaronM from '../img/teams/aaronM.webp';
@@ -129,9 +130,9 @@ const Team = () => {
         <Container className={styles.containerFluid} fluid>
           <MemberImage image={TessaP} name="Tessa Pugh" title="Team Co-Lead" />
           <MemberImage image={JeremyS} name="Jeremy Schnellhardt" title="Team Co-Lead" />
-          <MemberImage image={MatthewG} name="Matthew Gordon" title="Operations Lead" />
+          <MemberImage image={BenP} name="Ben Pickens" title="Controls/Safety Captain" />
           <MemberImage image={RheaS} name="Rhea Scollie" title="Safety Captain/Payload Co-Lead" />
-          <MemberImage image={AshL} name="Ash Lang" title="Safety Captain/Electrical/Controls" />
+          <MemberImage image={AshL} name="Ash Lang" title="Safety Captain/Electrical Lead" />
           <MemberImage image={ZachariahM} name="Zachariah Mears" title="Senior Member" />
           <MemberImage image={JackC} name="Jack Christensen" title="Senior Member" />
           <MemberImage image={FrancisY} name="Francis Yao" title="Senior Member (Airframe/Launch Tower)" />
@@ -139,9 +140,10 @@ const Team = () => {
           <MemberImage image={MichaelZ} name="Michael Zhou" title="Propulsion Fluid Systems" />
           <MemberImage image={RobertC} name="Robert Cai" title="Software/Flight Dynamics/Controls" />
           <MemberImage image={RioL} name="Rio Liu" title="Electrical" />
+          <MemberImage image={MatthewG} name="Matthew Gordon" title="Senior Member" />
           <MemberImage image={JoelG} name="Joel Godard" title="Flight Dynamics Co-Lead/Airframe" />
           <MemberImage image={NahvidZ} name="Nahvid Zolfaghari" title="Senior Member" />
-          <MemberImage image={JoeD} name="Joe Dolina" title="Senior Member" />
+          <MemberImage image={JoeD} name="Joe Dolina" title="Controls" />
           <MemberImage image={XavierR} name="Xavier Rayes" title="Propulsion/Infrastructure" />
           <MemberImage image={StefanA} name="Stefan Arroyo-Cottier" title="Recovery Co-Lead" />
           <MemberImage image={AndreA} name="Andre Arroyo-Cottier" title="Recovery Co-Lead" />
@@ -149,7 +151,7 @@ const Team = () => {
           <MemberImage image={OwenH} name="Owen Henry" title="Payload" />
           <MemberImage image={ThomasF} name="Thomas Fairhead" title="Propulsion" />
           <MemberImage image={OzayrR} name="Ozayr Raazi" title="Software" />
-          <MemberImage image={KeeganT} name="Keegan Tripp" title="Media / Test Flight" />
+          <MemberImage image={KeeganT} name="Keegan Tripp" title="Test Flight Lead" />
           <MemberImage image={LydiaG} name="Lydia Griffith" title="Payload" />
           <MemberImage image={CaseyT} name="Casey Tsujita" title="Finance" />
           <MemberImage image={ThomasM} name="Thomas Martinez" title="Infrastructure/Electrical" />
@@ -172,13 +174,13 @@ const Team = () => {
           <MemberImage image={PatrickG} name="Patrick Gu" title="Controls/Software/Flight Dynamics" />
           <MemberImage image={AlexA} name="Alex Aumais" title="Media Lead" />
           <MemberImage image={PranavM} name="Pranav Mahabal" title="Electrical" />
-          <MemberImage image={BenP} name="Ben Pickens" title="Controls" />
           <MemberImage image={ArmaanS} name="Armaan Sengupta" title="Controls" />
           <MemberImage image={BonitaS} name="Bonita Shao" title="Finance Co-Lead" />
           <MemberImage image={RajetA} name="Rajat Agrawal" title="Airframe/Painting" />
           <MemberImage image={AnaD} name="Ana Dimitrievska" title="Propulsion" />
-          <MemberImage image={OwenS} name="Owen Stephenson" title="Propulsion" />
-          <MemberImage image={JiuchengZ} name="Jiucheng Zang" title="Software Co-Lead" />
+          <MemberImage image={JiuchengZ} name="Jiucheng Zang" title="Software Lead" />
+          <MemberImage image={JasonH} name="Jason Huang" title="Controls" />
+          <MemberImage image={TristanY} name="Tristan Yan-Klassen" title="Controls/Flight Dynamics" />
         </Container>
 
         <Row className="my-4 mx-2 gx-4 justify-content-center">
