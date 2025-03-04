@@ -132,7 +132,7 @@ const Team = () => {
           <MemberImage image={JeremyS} name="Jeremy Schnellhardt" title="Team Co-Lead" />
           <MemberImage image={BenP} name="Ben Pickens" title="Controls/Safety Captain" />
           <MemberImage image={RheaS} name="Rhea Scollie" title="Safety Captain/Payload Co-Lead" />
-          <MemberImage image={AshL} name="Ash Lang" title="Safety Captain/Electrical/Controls" />
+          <MemberImage image={AshL} name="Ash Lang" title="Safety Captain/Electrical Lead" />
           <MemberImage image={ZachariahM} name="Zachariah Mears" title="Senior Member" />
           <MemberImage image={JackC} name="Jack Christensen" title="Senior Member" />
           <MemberImage image={FrancisY} name="Francis Yao" title="Senior Member (Airframe/Launch Tower)" />
