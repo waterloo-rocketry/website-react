@@ -22,7 +22,7 @@ const Rockets = () => {
         <Row xl={3} md={2} sm={1}>
           <Col>
             <RocketCard
-              url="/"
+              url="/rockets/borealis"
               title="BOREALIS"
               date="2024"
               image={rocketBorealis}
