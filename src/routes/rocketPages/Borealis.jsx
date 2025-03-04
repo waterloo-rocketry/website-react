@@ -137,7 +137,7 @@ const Borealis = () => {
               nosecone.
               <Photo link={borealisAero} altText="Airframe detail photo" />
             </Content>
-            <Content title="Airbrakes">
+            <Content title="CONTROLS">
               The goal of the airbrakes subsystem is to hit a target apogee
               through the use of active aerodynamic control surfaces that are
               able to adjust the rocket&apos;s flight trajectory mid-flight more
