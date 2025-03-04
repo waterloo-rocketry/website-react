@@ -130,7 +130,7 @@ const Team = () => {
         <Container className={styles.containerFluid} fluid>
           <MemberImage image={TessaP} name="Tessa Pugh" title="Team Co-Lead" />
           <MemberImage image={JeremyS} name="Jeremy Schnellhardt" title="Team Co-Lead" />
-          <MemberImage image={MatthewG} name="Matthew Gordon" title="Operations Lead" />
+          <MemberImage image={BenP} name="Ben Pickens" title="Controls/Safety Captain" />
           <MemberImage image={RheaS} name="Rhea Scollie" title="Safety Captain/Payload Co-Lead" />
           <MemberImage image={AshL} name="Ash Lang" title="Safety Captain/Electrical/Controls" />
           <MemberImage image={ZachariahM} name="Zachariah Mears" title="Senior Member" />
@@ -140,6 +140,7 @@ const Team = () => {
           <MemberImage image={MichaelZ} name="Michael Zhou" title="Propulsion Fluid Systems" />
           <MemberImage image={RobertC} name="Robert Cai" title="Software/Flight Dynamics/Controls" />
           <MemberImage image={RioL} name="Rio Liu" title="Electrical" />
+          <MemberImage image={MatthewG} name="Matthew Gordon" title="Senior Member" />
           <MemberImage image={JoelG} name="Joel Godard" title="Flight Dynamics Co-Lead/Airframe" />
           <MemberImage image={NahvidZ} name="Nahvid Zolfaghari" title="Senior Member" />
           <MemberImage image={JoeD} name="Joe Dolina" title="Controls" />
@@ -173,7 +174,6 @@ const Team = () => {
           <MemberImage image={PatrickG} name="Patrick Gu" title="Controls/Software/Flight Dynamics" />
           <MemberImage image={AlexA} name="Alex Aumais" title="Media Lead" />
           <MemberImage image={PranavM} name="Pranav Mahabal" title="Electrical" />
-          <MemberImage image={BenP} name="Ben Pickens" title="Controls/Safety Captain" />
           <MemberImage image={ArmaanS} name="Armaan Sengupta" title="Controls" />
           <MemberImage image={BonitaS} name="Bonita Shao" title="Finance Co-Lead" />
           <MemberImage image={RajetA} name="Rajat Agrawal" title="Airframe/Painting" />
