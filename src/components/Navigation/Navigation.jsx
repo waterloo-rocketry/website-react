@@ -34,7 +34,7 @@ const Navigation = () => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Nav className={`${styles.nav} justify-content-end`}>
+          <Nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
             <Nav.Link as={Link} className={styles.navbarLink} to="join">
               JOIN
             </Nav.Link>

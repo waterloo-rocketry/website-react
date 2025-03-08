@@ -8,16 +8,19 @@ import TwoColumns from '../../components/TwoColumns/TwoColumns';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
 import borealisUpright from '../../img/rocketPhotos/borealis_upright.webm';
+import borealisUprightImg from '../../img/rocketPhotos/borealis_upright.webp';
 
 import borealisAero from '../../img/rocket/borealis-aerostructures.webp';
+
+const isMobile = window.innerWidth <= 768;
 
 const Borealis = () => {
   return (
     <>
       <RocketPageOutline
         title="BOREALIS"
-        mediaType="video"
-        img={borealisUpright}
+        mediaType={isMobile ? 'image' : 'video'}
+        img={isMobile ? borealisUprightImg : borealisUpright}
         altText="Borealis"
       >
         <Content title="Overview">
@@ -153,7 +156,7 @@ const Borealis = () => {
               nosecone.
               <Photo link={borealisAero} altText="Airframe detail photo" />
             </Content>
-            <Content title="Airbrakes">
+            <Content title="CONTROLS">
               The goal of the airbrakes subsystem is to hit a target apogee
               through the use of active aerodynamic control surfaces that are
               able to adjust the rocket&apos;s flight trajectory mid-flight more
