@@ -8,16 +8,19 @@ import TwoColumns from '../../components/TwoColumns/TwoColumns';
 import { Gallery, Photo, Video } from '../../components/Gallery/Gallery';
 
 import borealisUpright from '../../img/rocketPhotos/borealis_upright.webm';
+import borealisUprightImg from '../../img/rocketPhotos/borealis_upright.webp';
 
 import borealisAero from '../../img/rocket/borealis-aerostructures.webp';
+
+const isMobile = window.innerWidth <= 768;
 
 const Borealis = () => {
   return (
     <>
       <RocketPageOutline
         title="BOREALIS"
-        mediaType="video"
-        img={borealisUpright}
+        mediaType={isMobile ? 'image' : 'video'}
+        img={isMobile ? borealisUprightImg : borealisUpright}
         altText="Borealis"
       >
         <Content title="Overview">
