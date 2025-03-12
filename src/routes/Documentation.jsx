@@ -163,10 +163,10 @@ const Documentation = () => {
               </li>
               <li>
                 Design of a Remote Arming System for Sounding Rocket Recovery Systems - Zachariah Mears (May 2021) |
-                {/* <a href="https://drive.google.com/file/d/1svfrbJoNVIn8QLqsAxZuygPx-Sminuqw/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="https://drive.google.com/file/d/1mJdbU_DnHBsXbkE7CIYt-ecdo5iTb_A0/preview" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1svfrbJoNVIn8QLqsAxZuygPx-Sminuqw" download>Download</a> */}
+                <a href="https://drive.google.com/uc?export=download&id=1mJdbU_DnHBsXbkE7CIYt" download>Download</a>
               </li>
               <li>
                 The Design of a Reefing Parachute Recovery System for a Student Competition Sounding Rocket - Artem Sotnikov (Sep 2021) |
@@ -177,10 +177,10 @@ const Documentation = () => {
               </li>
               <li>
                 Design and Analysis of a Thrust Structure for a Hybrid Sounding Rocket - Shirley Kong (Sep 2021) |
-                {/* <a href="https://drive.google.com/file/d/1vLr4iOF98OzdV2tspgNxmfHTgOtGnNoY/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="https://drive.google.com/file/d/1sRroc3RC9PoDO2NRHMSUVpDbmefWFZL3/preview" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1vLr4iOF98OzdV2tspgNxmfHTgOtGnNoY" download>Download</a> */}
+                <a href="https://drive.google.com/uc?export=download&id=1sRroc3RC9PoDO2NRHMSUVpDbmefWFZL3" download>Download</a>
               </li>
               <li>
                 Design of Robust 635 LBF NOS-Ethanol Rocket Engine for Ground Testing - Zhen Bo Bian (Sep 2021) |
@@ -191,10 +191,10 @@ const Documentation = () => {
               </li>
               <li>
                 Design of Test Stand for High Risk Rocket Engine Testing - Hamza Abuabah (May 2020) |
-                {/* <a href="https://drive.google.com/file/d/13wcIYlFyis6gbUdSigMnKtdh1-airZBQ/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="https://drive.google.com/file/d/12F9SWNXzpTmkqI2hn29A6uqWMmJUXX0j/preview" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=13wcIYlFyis6gbUdSigMnKtdh1-airZBQ" download>Download</a> */}
+                <a href="https://drive.google.com/uc?export=download&id=12F9SWNXzpTmkqI2hn29A6uqWMmJUXX0j" download>Download</a>
               </li>
               <li>
                 Development of a laminate calculator based on Classical Laminate Plate Theory - Shirley Kong (May 2020) |
