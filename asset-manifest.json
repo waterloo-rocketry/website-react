@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.822ebe0d.css",
-    "main.js": "/static/js/main.ac2e24df.js",
+    "main.js": "/static/js/main.7f48de83.js",
     "static/media/kraken-of-the-sky.webp": "/static/media/kraken-of-the-sky.5cf99b02567371342f57.webp",
     "static/media/borealis.webp": "/static/media/borealis.f8fc29c8777514a4fc4d.webp",
     "static/media/cover_home.webp": "/static/media/cover_home.0d0bee1021838c9acc99.webp",
@@ -71,13 +71,13 @@
     "static/media/CANRGXOutreach19.webp": "/static/media/CANRGXOutreach19.cb101f73b55a45930a71.webp",
     "static/media/msam_logo.webp": "/static/media/msam_logo.0ed4851c261c7a1a9951.webp",
     "static/media/owenH.webp": "/static/media/owenH.f0df7ffafdc2a8f0044e.webp",
-    "static/media/ashL.webp": "/static/media/ashL.2724bd63d704fa257cf8.webp",
     "static/media/wrt1_upright.webp": "/static/media/wrt1_upright.0fed8ca43adc8c3b240b.webp",
     "static/media/Waterloo_ENG_Mechanical_Logo_rgb.webp": "/static/media/Waterloo_ENG_Mechanical_Logo_rgb.b95ed552222876f1f73a.webp",
     "static/media/lucasS.webp": "/static/media/lucasS.e360187571fbb86168b5.webp",
     "static/media/Waterloo_ENG_Faculty_Logo_rgb.webp": "/static/media/Waterloo_ENG_Faculty_Logo_rgb.11ccb9d0be13e66fca6a.webp",
     "static/media/chrisY.webp": "/static/media/chrisY.da5dd9c469629f79591f.webp",
     "static/media/rocketcan.webp": "/static/media/rocketcan.2a76290d8a9de2fbcb2c.webp",
+    "static/media/ashL.webp": "/static/media/ashL.a915e98725242bc70da2.webp",
     "static/media/future-electronics.gif": "/static/media/future-electronics.52185d17015470db147a.gif",
     "static/media/sots_upright.webp": "/static/media/sots_upright.54bd0ae88e6f40402606.webp",
     "static/media/wrt1.webp": "/static/media/wrt1.697323dde84b4cb3a345.webp",
@@ -235,10 +235,10 @@
     "index.html": "/index.html",
     "static/media/icon_fb.webp": "/static/media/icon_fb.b2111be5e9009cd6a77e.webp",
     "main.822ebe0d.css.map": "/static/css/main.822ebe0d.css.map",
-    "main.ac2e24df.js.map": "/static/js/main.ac2e24df.js.map"
+    "main.7f48de83.js.map": "/static/js/main.7f48de83.js.map"
   },
   "entrypoints": [
     "static/css/main.822ebe0d.css",
-    "static/js/main.ac2e24df.js"
+    "static/js/main.7f48de83.js"
   ]
 }
