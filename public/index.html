@@ -1,42 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="The Waterloo Rocketry Website"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script checks to see if a redirect is present in the query string,
-      // converts it back into the correct url and adds it to the
-      // browser's history using window.history.replaceState(...),
-      // which won't cause the browser to attempt to load the new url.
-      // When the single page app is loaded further down in this file,
-      // the correct url will be waiting in the browser's history for
-      // the single page app to route accordingly.
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      }(window.location))
-    </script>
-    <title>Waterloo Rocketry</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="The Waterloo Rocketry Website" />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <script type="text/javascript">
+            // HTTPS redirect with offline support
+            (function () {
+                // Check if we're not already on HTTPS
+                if (window.location.protocol !== "https:") {
+                    // Store the redirect URL in localStorage for offline access
+                    localStorage.setItem(
+                        "httpsRedirectUrl",
+                        window.location.href.replace("http:", "https:")
+                    );
+                    // Redirect to HTTPS
+                    window.location.replace(
+                        window.location.href.replace("http:", "https:")
+                    );
+                }
+                // If we're offline and have a stored HTTPS URL, try to redirect
+                window.addEventListener("online", function () {
+                    const redirectUrl =
+                        localStorage.getItem("httpsRedirectUrl");
+                    if (redirectUrl) {
+                        localStorage.removeItem("httpsRedirectUrl");
+                        window.location.replace(redirectUrl);
+                    }
+                });
+            })();
+        </script>
+        <script type="text/javascript">
+            // Single Page Apps for GitHub Pages
+            // MIT License
+            // https://github.com/rafgraph/spa-github-pages
+            // This script checks to see if a redirect is present in the query string,
+            // converts it back into the correct url and adds it to the
+            // browser's history using window.history.replaceState(...),
+            // which won't cause the browser to attempt to load the new url.
+            // When the single page app is loaded further down in this file,
+            // the correct url will be waiting in the browser's history for
+            // the single page app to route accordingly.
+            (function (l) {
+                if (l.search[1] === "/") {
+                    var decoded = l.search
+                        .slice(1)
+                        .split("&")
+                        .map(function (s) {
+                            return s.replace(/~and~/g, "&");
+                        })
+                        .join("?");
+                    window.history.replaceState(
+                        null,
+                        null,
+                        l.pathname.slice(0, -1) + decoded + l.hash
+                    );
+                }
+            })(window.location);
+        </script>
+        <title>Waterloo Rocketry</title>
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+    </body>
 </html>
