@@ -287,32 +287,45 @@ const Sponsors = () => {
             </Col>
           </Row>
 
-	  <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
+          <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
               <p> </p>
-              <SponsorLinkWithDesc logoTier="platinum" image={kenesto} link="https://www.kenesto.com/">
+              <SponsorLinkWithDesc
+                logoTier="platinum"
+                image={kenesto}
+                link="https://www.kenesto.com/"
+              >
                 <p className="content-text">
-                  Kenesto was founded on the principles of helping customers with document and file management 
-		  problems that could not be solved with traditional methods. These problems can appear to be 
-		  simple but, when left unsolved, contribute to a very expensive and time-consuming waste of resources. 
+                  Kenesto was founded on the principles of helping customers
+                  with document and file management problems that could not be
+                  solved with traditional methods. These problems can appear to
+                  be simple but, when left unsolved, contribute to a very
+                  expensive and time-consuming waste of resources.
                 </p>
-		<p className="content-text">
-		  By utilizing Kenesto’s new Cloud platform, organizations of all sizes can significantly simplify 
-		  their document environment, thus reducing expenses and increasing efficiency. These expense benefits 
-		  could be realized in IT or overall business processes.
-		</p>
-		<p className="content-text">
-		  Kenesto is delivering simple, yet powerful options for engineers and designers for storing, sharing, 
-		  viewing, updating versions, and collaborating with CAD and other documents on the cloud. For the first 
-		  time, engineers have an alternative to consumer-oriented cloud storage solutions giving them the ability 
-		  to access and share CAD documents with anyone, anytime, anywhere. This ability brings confidence to 
-		  engineers and management when working with outside suppliers that their current files will not be 
-		  inadvertently overwritten or overridden.
-		</p>
-		<p className="content-text">
-		  Kenesto is a growing team of passionate people dedicated to giving customers, partners, and vendors the 
-		  very best solution and service possible. 
-		</p>
+                <p className="content-text">
+                  By utilizing Kenesto’s new Cloud platform, organizations of
+                  all sizes can significantly simplify their document
+                  environment, thus reducing expenses and increasing efficiency.
+                  These expense benefits could be realized in IT or overall
+                  business processes.
+                </p>
+                <p className="content-text">
+                  Kenesto is delivering simple, yet powerful options for
+                  engineers and designers for storing, sharing, viewing,
+                  updating versions, and collaborating with CAD and other
+                  documents on the cloud. For the first time, engineers have an
+                  alternative to consumer-oriented cloud storage solutions
+                  giving them the ability to access and share CAD documents with
+                  anyone, anytime, anywhere. This ability brings confidence to
+                  engineers and management when working with outside suppliers
+                  that their current files will not be inadvertently overwritten
+                  or overridden.
+                </p>
+                <p className="content-text">
+                  Kenesto is a growing team of passionate people dedicated to
+                  giving customers, partners, and vendors the very best solution
+                  and service possible.
+                </p>
               </SponsorLinkWithDesc>
             </Col>
           </Row>
