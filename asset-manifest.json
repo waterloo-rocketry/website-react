@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.822ebe0d.css",
-    "main.js": "/static/js/main.7f48de83.js",
+    "main.js": "/static/js/main.e98c1b44.js",
     "static/media/kraken-of-the-sky.webp": "/static/media/kraken-of-the-sky.5cf99b02567371342f57.webp",
     "static/media/borealis.webp": "/static/media/borealis.f8fc29c8777514a4fc4d.webp",
     "static/media/cover_home.webp": "/static/media/cover_home.0d0bee1021838c9acc99.webp",
@@ -186,6 +186,7 @@
     "static/media/bigredbee_logo.webp": "/static/media/bigredbee_logo.0351a6f0247fae5cbaa3.webp",
     "static/media/pololu_logo.webp": "/static/media/pololu_logo.9785a1867482767bf6fc.webp",
     "static/media/alexA.webp": "/static/media/alexA.4c3e3f9ac5e36a0822f3.webp",
+    "static/media/kenesto_logo.webp": "/static/media/kenesto_logo.8064838989bcc3ea67ca.webp",
     "static/media/advanced_2024.webp": "/static/media/advanced_2024.677c3311511372167762.webp",
     "static/media/demtool.webp": "/static/media/demtool.acdf4f0f56b8449153ec.webp",
     "static/media/jerryL.webp": "/static/media/jerryL.00bad373f11770ffd90f.webp",
@@ -235,10 +236,10 @@
     "index.html": "/index.html",
     "static/media/icon_fb.webp": "/static/media/icon_fb.b2111be5e9009cd6a77e.webp",
     "main.822ebe0d.css.map": "/static/css/main.822ebe0d.css.map",
-    "main.7f48de83.js.map": "/static/js/main.7f48de83.js.map"
+    "main.e98c1b44.js.map": "/static/js/main.e98c1b44.js.map"
   },
   "entrypoints": [
     "static/css/main.822ebe0d.css",
-    "static/js/main.7f48de83.js"
+    "static/js/main.e98c1b44.js"
   ]
 }
