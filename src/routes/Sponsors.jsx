@@ -15,53 +15,51 @@ import stein from '../img/sponsorship/1_platinum_sponsors/stein_logo.webp';
 import waterlooEngFaculty from '../img/sponsorship/1_platinum_sponsors/Waterloo_ENG_Faculty_Logo_rgb.webp';
 import WEEF from '../img/sponsorship/1_platinum_sponsors/WEEF_Logo_yellow.webp';
 import demtool from '../img/sponsorship/1_platinum_sponsors/demtool.webp';
-import harwin from '../img/sponsorship/1_platinum_sponsors/harwin_logo.webp';
 import kenesto from '../img/sponsorship/1_platinum_sponsors/kenesto_logo.webp';
+import ansys from '../img/sponsorship/1_platinum_sponsors/ANSYS_Logo.webp';
+import msam from '../img/sponsorship/1_platinum_sponsors/msam_logo.webp';
+import novatel from '../img/sponsorship/1_platinum_sponsors/novatel.webp';
 
 // GOLD
-import ansys from '../img/sponsorship/2_gold_sponsors/ANSYS_Logo.webp';
-import keysight from '../img/sponsorship/2_gold_sponsors/Keysight.webp';
 import liftwerx from '../img/sponsorship/2_gold_sponsors/liftwerx_logo.webp';
-import linde from '../img/sponsorship/2_gold_sponsors/Linde.webp';
-import dxengineering from '../img/sponsorship/2_gold_sponsors/DX_Engineering_logo.webp';
 import vectornav from '../img/sponsorship/2_gold_sponsors/vectornav.webp';
 import Movella from '../img/sponsorship/2_gold_sponsors/movella_logo.webp';
+import harwin from '../img/sponsorship/2_gold_sponsors/harwin_logo.webp';
+import moderncrane from '../img/sponsorship/2_gold_sponsors/modern_crane_logo.webp';
 
 // SILVER
-import customClothes from '../img/sponsorship/3_silver_sponsors/custom_clothes_canada.webp';
-import ieee from '../img/sponsorship/3_silver_sponsors/IEEE-Logo.webp';
-import mef from '../img/sponsorship/3_silver_sponsors/mef_logo.webp';
-import swagelok from '../img/sponsorship/3_silver_sponsors/swagelok_logo.webp';
-import moderncrane from '../img/sponsorship/3_silver_sponsors/modern_crane_logo.webp';
-import pelican from '../img/sponsorship/3_silver_sponsors/pelican_logo.webp';
-import rdx from '../img/sponsorship/3_silver_sponsors/RDX_logo.webp';
-import standfordfleming from '../img/sponsorship/3_silver_sponsors/SFF_Logo.webp';
-import teamgantt from '../img/sponsorship/3_silver_sponsors/team_gantt_logo.webp';
-import jr from '../img/sponsorship/3_silver_sponsors/JR_security_solutions_logo.webp';
 import bomist from '../img/sponsorship/3_silver_sponsors/bomist_logo.webp';
-import inteliheat from '../img/sponsorship/3_silver_sponsors/inteliheat_logo.webp';
+import samcomachinery from '../img/sponsorship/3_silver_sponsors/samcomachinery.webp';
+import swagelok from '../img/sponsorship/3_silver_sponsors/swagelok_logo.webp';
+import ifm from '../img/sponsorship/3_silver_sponsors/ifm.webp';
+import jr from '../img/sponsorship/3_silver_sponsors/JR_security_solutions_logo.webp';
 import mitutoyo from '../img/sponsorship/3_silver_sponsors/Mitutoyo_Logo.webp';
+import mef from '../img/sponsorship/3_silver_sponsors/mef_logo.webp';
+import standfordfleming from '../img/sponsorship/3_silver_sponsors/SFF_Logo.webp';
+import engsoc from '../img/sponsorship/3_silver_sponsors/engsoc_logo.webp';
+import vectorply from '../img/sponsorship/3_silver_sponsors/vectorply.webp';
+import linde from '../img/sponsorship/3_silver_sponsors/Linde.webp';
+import pelican from '../img/sponsorship/3_silver_sponsors/pelican_logo.webp';
 
 // BRONZE
-import acornFireSafety from '../img/sponsorship/4_bronze_sponsors/acorn_fire_and_safety.webp';
-import waterlooElectroplating from '../img/sponsorship/4_bronze_sponsors/Waterloo-Electroplating.webp';
-import kwsewingmachine from '../img/sponsorship/4_bronze_sponsors/KW_sewing_machine_logo.webp';
-import ceno360 from '../img/sponsorship/4_bronze_sponsors/ceno_360_logo.webp';
-import rutland from '../img/sponsorship/4_bronze_sponsors/rutland_logo.webp';
 import jlcpcb from '../img/sponsorship/4_bronze_sponsors/jlcpcb.webp';
-import Pololu from '../img/sponsorship/4_bronze_sponsors/pololu_logo.webp';
 import Studica from '../img/sponsorship/4_bronze_sponsors/studica_logo.webp';
+import customClothes from '../img/sponsorship/4_bronze_sponsors/custom_clothes_canada.webp';
+import designelectronics from '../img/sponsorship/4_bronze_sponsors/design_electronics.webp';
+import Pololu from '../img/sponsorship/4_bronze_sponsors/pololu_logo.webp';
+import tplink from '../img/sponsorship/4_bronze_sponsors/tp_link.webp';
 
 // PREVIOUS
 import ariss from '../img/sponsorship/5_previous_sponsors/ariss.webp';
 import bigredbee from '../img/sponsorship/5_previous_sponsors/bigredbee_logo.webp';
 import broadcom from '../img/sponsorship/5_previous_sponsors/Broadcom_Logo.webp';
+import dxengineering from '../img/sponsorship/5_previous_sponsors/DX_Engineering_logo.webp';
 import eljen from '../img/sponsorship/5_previous_sponsors/eljen_logo.webp';
 import ereztech from '../img/sponsorship/5_previous_sponsors/ereztech-logo.webp';
+import keysight from '../img/sponsorship/5_previous_sponsors/Keysight.webp';
 import robotshop from '../img/sponsorship/5_previous_sponsors/robotshop.webp';
 import triumph from '../img/sponsorship/5_previous_sponsors/triumph-logo.webp';
 import mrc from '../img/sponsorship/5_previous_sponsors/MRC.webp';
-import engsoc from '../img/sponsorship/5_previous_sponsors/engsoc_logo.webp';
 import AandP from '../img/sponsorship/5_previous_sponsors/A&P_Logo.webp';
 import olin from '../img/sponsorship/5_previous_sponsors/olin-corporation.webp';
 import aircraftSpruce from '../img/sponsorship/5_previous_sponsors/Aircraft_Spruce_Logo.webp';
@@ -83,7 +81,6 @@ import hatch from '../img/sponsorship/5_previous_sponsors/Hatch-logo.webp';
 import hickoryHill from '../img/sponsorship/5_previous_sponsors/hickory_hill_logo.webp';
 import kerbalSpaceProgram from '../img/sponsorship/5_previous_sponsors/Kerbal_Space_Program_High_Res_Logo.webp';
 import misumi from '../img/sponsorship/5_previous_sponsors/misumi.webp';
-import msam from '../img/sponsorship/5_previous_sponsors/msam_logo.webp';
 import nationalInstruments from '../img/sponsorship/5_previous_sponsors/ni_logo.webp';
 import prattAndWhitney from '../img/sponsorship/5_previous_sponsors/Pratt-and-Whitney.webp';
 import princessAuto from '../img/sponsorship/5_previous_sponsors/Princess_Auto_Logo.webp';
@@ -96,6 +93,15 @@ import stratasys from '../img/sponsorship/5_previous_sponsors/Stratasys-3.webp';
 import textreme from '../img/sponsorship/5_previous_sponsors/textreme.webp';
 import ublox from '../img/sponsorship/5_previous_sponsors/u-blox_logo_rgb.webp';
 import waterlooEngMechanical from '../img/sponsorship/5_previous_sponsors/Waterloo_ENG_Mechanical_Logo_rgb.webp';
+import inteliheat from '../img/sponsorship/5_previous_sponsors/inteliheat_logo.webp';
+import rdx from '../img/sponsorship/5_previous_sponsors/RDX_logo.webp';
+import ieee from '../img/sponsorship/5_previous_sponsors/IEEE-Logo.webp';
+import rutland from '../img/sponsorship/5_previous_sponsors/rutland_logo.webp';
+import kwsewingmachine from '../img/sponsorship/5_previous_sponsors/KW_sewing_machine_logo.webp';
+import teamgantt from '../img/sponsorship/5_previous_sponsors/team_gantt_logo.webp';
+import acornFireSafety from '../img/sponsorship/5_previous_sponsors/acorn_fire_and_safety.webp';
+import waterlooElectroplating from '../img/sponsorship/5_previous_sponsors/Waterloo-Electroplating.webp';
+import ceno360 from '../img/sponsorship/5_previous_sponsors/ceno_360_logo.webp';
 
 const Sponsors = () => {
   return (
@@ -232,29 +238,8 @@ const Sponsors = () => {
 
           <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
-              <p> </p>
-              <SponsorLinkWithDesc logoTier="platinum" image={harwin} link="https://www.harwin.com/">
-                <p className="content-text">
-                  Since 1952, the de Laszlo family has led Harwin, evolving from a turning facility
-                  to a global leader in interconnects. Through innovation, advanced technologies,
-                  and exemplary service, Harwin addresses the most demanding connectivity
-                  challenges, empowering customers to gain a competitive edge. Our vision is clear:
-                  to be the first-choice supplier of mission-critical and high-performance
-                  connectivity solutions.
-                </p>
-                <p className="content-text">
-                  Integral to our ongoing success is our strategic investment in human capital.
-                  Harwin is deeply committed to cultivating a competent, efficient, and
-                  team-oriented workforce. Our comprehensive apprenticeship program not only equips
-                  students with internationally recognized engineering qualifications but also
-                  provides valuable hands-on experience at our Portsmouth headquarters.
-                  As a responsible employer, we also prioritize the welfare of our employees and
-                  the broader community, actively operating with a strong commitment to social
-                  responsibility and striving to minimize our impact on the planet. Harwin navigates
-                  the future with a focus on quality, innovation, and corporate responsibility,
-                  ensuring a seamless transition toward a brighter and more connected tomorrow.
-                </p>
-              </SponsorLinkWithDesc>
+              <SponsorLinkWithDesc logoTier="platinum" image={msam} link="https://msam-uwaterloo.ca" />
+              <p />
             </Col>
             <Col lg={{ span: 5 }}>
               <SponsorLinkWithDesc logoTier="platinum" image={solidworks} link="https://www.solidworks.com/">
@@ -330,37 +315,49 @@ const Sponsors = () => {
             </Col>
           </Row>
 
-          <Content title="GOLD SPONSORS">
-            <DividerLine />
-          </Content>
           <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={keysight} link="https://www.keysight.com/us/en/home.html">
+              <p> </p>
+              <SponsorLinkWithDesc
+                logoTier="platinum"
+                image={kenesto}
+                link="https://www.kenesto.com/"
+              >
                 <p className="content-text">
-                  At Keysight Technologies, our Mission is simple: You dream and we test.
-                  At Keysight, we are driven to deliver breakthrough solutions and trusted
-                  insight in electronic design, test, manufacture, and optimization to help
-                  customers accelerate the innovations that connect and secure the world.
-                  Our solutions help our customers innovate in 5G, automotive, Internet of Things,
-                  network security, and more.
+                  Kenesto was founded on the principles of helping customers
+                  with document and file management problems that could not be
+                  solved with traditional methods. These problems can appear to
+                  be simple but, when left unsolved, contribute to a very
+                  expensive and time-consuming waste of resources.
+                </p>
+                <p className="content-text">
+                  By utilizing Kenesto’s new Cloud platform, organizations of
+                  all sizes can significantly simplify their document
+                  environment, thus reducing expenses and increasing efficiency.
+                  These expense benefits could be realized in IT or overall
+                  business processes.
+                </p>
+                <p className="content-text">
+                  Kenesto is delivering simple, yet powerful options for
+                  engineers and designers for storing, sharing, viewing,
+                  updating versions, and collaborating with CAD and other
+                  documents on the cloud. For the first time, engineers have an
+                  alternative to consumer-oriented cloud storage solutions
+                  giving them the ability to access and share CAD documents with
+                  anyone, anytime, anywhere. This ability brings confidence to
+                  engineers and management when working with outside suppliers
+                  that their current files will not be inadvertently overwritten
+                  or overridden.
+                </p>
+                <p className="content-text">
+                  Kenesto is a growing team of passionate people dedicated to
+                  giving customers, partners, and vendors the very best solution
+                  and service possible.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={liftwerx} link="https://liftwerx.com/">
-                <p className="content-text">
-                  LiftWerx is a specialized wind energy contractor, solely focused on large
-                  corrective repairs. LiftWerx offers alternative lifting services to exchange
-                  and repair gearboxes, generators, blades, and fully-assembled rotors using a
-                  variety of specialized up-tower lifting devices. We do our work with the right
-                  people, tools, and crane-less technology to deliver the best possible service at
-                  the highest quality, while minimizing cost and disruption which is often
-                  associated with crane work.
-                </p>
-              </SponsorLinkWithDesc>
-            </Col>
-            <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={ansys} link="https://www.ansys.com/">
+              <SponsorLinkWithDesc logoTier="platinum" image={ansys} link="https://www.ansys.com/">
                 <p className="content-text">
                   Founded in 1970, ANSYS specializes in engineering simulation with a team of
                   nearly 4,000 skilled professionals. Our experts, including M.S. and Ph.D.-level
@@ -372,28 +369,30 @@ const Sponsors = () => {
                 </p>
               </SponsorLinkWithDesc>
             </Col>
+          </Row>
+
+          <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={dxengineering} link="https://www.dxengineering.com/">
-                <p className="content-text">
-                  At DX Engineering, Amateur Radio is what we know. We understand your every need
-                  for top-performing and reliable products, and it&apos;s impossible to overstate
-                  the importance of filling those needs. Whether it&apos;s DXing, Contesting or
-                  just plain everyday operating, we strive to develop products that fill a specific
-                  need, products that are reliable, fully tested, and represent the best value for
-                  your money. Anything we design and build offers you proven, measurable benefits.
-                </p>
+              <SponsorLinkWithDesc logoTier="platinum" image={novatel} link="https://www.novatel.com/">
+                <p />
               </SponsorLinkWithDesc>
             </Col>
+          </Row>
+
+          <Content title="GOLD SPONSORS">
+            <DividerLine />
+          </Content>
+          <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={linde} link="https://www.linde.com/">
+              <SponsorLinkWithDesc logoTier="gold" image={liftwerx} link="https://liftwerx.com/">
                 <p className="content-text">
-                  Linde is a leading global industrial gases and engineering company with 2022
-                  sales of $33 billion. We live our mission of making our world more productive
-                  every day by providing high-quality solutions, technologies and services which
-                  are making our customers more successful and helping to sustain, decarbonize and
-                  protect our planet. Our company serves a variety of end markets such as
-                  chemicals & energy, food & beverage, electronics, healthcare, manufacturing,
-                  metals and mining.
+                  LiftWerx is a specialized wind energy contractor, solely focused on large
+                  corrective repairs. LiftWerx offers alternative lifting services to exchange
+                  and repair gearboxes, generators, blades, and fully-assembled rotors using a
+                  variety of specialized up-tower lifting devices. We do our work with the right
+                  people, tools, and crane-less technology to deliver the best possible service at
+                  the highest quality, while minimizing cost and disruption which is often
+                  associated with crane work.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
@@ -422,6 +421,34 @@ const Sponsors = () => {
                 </p>
               </SponsorLinkWithDesc>
             </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc logoTier="gold" image={harwin} link="https://www.harwin.com/">
+                <p className="content-text">
+                  Since 1952, the de Laszlo family has led Harwin, evolving from a turning facility
+                  to a global leader in interconnects. Through innovation, advanced technologies,
+                  and exemplary service, Harwin addresses the most demanding connectivity
+                  challenges, empowering customers to gain a competitive edge. Our vision is clear:
+                  to be the first-choice supplier of mission-critical and high-performance
+                  connectivity solutions.
+                </p>
+                <p className="content-text">
+                  Integral to our ongoing success is our strategic investment in human capital.
+                  Harwin is deeply committed to cultivating a competent, efficient, and
+                  team-oriented workforce. Our comprehensive apprenticeship program not only equips
+                  students with internationally recognized engineering qualifications but also
+                  provides valuable hands-on experience at our Portsmouth headquarters.
+                  As a responsible employer, we also prioritize the welfare of our employees and
+                  the broader community, actively operating with a strong commitment to social
+                  responsibility and striving to minimize our impact on the planet. Harwin navigates
+                  the future with a focus on quality, innovation, and corporate responsibility,
+                  ensuring a seamless transition toward a brighter and more connected tomorrow.
+                </p>
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc logoTier="gold" image={moderncrane} link="https://moderncrane.ca/" />
+              <p />
+            </Col>
           </Row>
 
           {/* Silver Sponsors */}
@@ -435,41 +462,38 @@ const Sponsors = () => {
             <Col md="auto" style={{ float: 'center' }}>
               <SponsorLinkWithDesc logoTier="silver" image={swagelok} link="http://www.swagelok.com/en" />
             </Col>
-            <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={ieee} link="https://www.ieee.org/" />
-            </Col>
-            <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={moderncrane} link="https://moderncrane.ca/" />
-            </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={bomist} link="https://bomist.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={inteliheat} link="https://www.inteliheat.com/" />
+              <SponsorLinkWithDesc logoTier="silver" image={linde} link="https://www.linde.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" image={ifm} link="https://www.ifm.com/ca" />
             </Col>
           </Row>
 
           <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={customClothes} link="https://customclothes.ca/" />
-            </Col>
             <Col md="auto" style={{ float: 'center' }}>
               <SponsorLinkWithDesc logoTier="silver" image={pelican} link="https://www.pelican.com/ca/en/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={rdx} link="https://www.reactiondynamics.space/" />
-            </Col>
-            <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={standfordfleming} link="https://uwaterloo.ca/sandford-fleming-foundation/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={teamgantt} link="https://www.teamgantt.com/" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={jr} link="https://jrsecurity.ca/" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={mitutoyo} link="https://www.mitutoyo.ca/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" image={samcomachinery} link="https://samco-machinery.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" image={engsoc} link="https://www.engsoc.uwaterloo.ca/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" image={vectorply} link="https://vectorply.com/" />
             </Col>
           </Row>
 
@@ -480,21 +504,6 @@ const Sponsors = () => {
           </Content>
           <Row className="my-4 mx-2 gx-4 col-md-12 justify-content-center text-center" style={{ display: 'float' }}>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={ceno360} link="https://www.ceno360.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={kwsewingmachine} link="https://www.kwsewingmachines.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={rutland} link="https://rutland.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={waterlooElectroplating} link="https://www.google.com/maps/place/Waterloo+Electroplating+%26+Metal+Finishing+Inc/@43.5017069,-80.5494139,15z/data=!4m2!3m1!1s0x0:0x91bf0e1ff7c624cf?sa=X&ved=2ahUKEwiv5PTJ5NT5AhUEFFkFHd5bAH4Q_BJ6BAg6EAU" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={acornFireSafety} link="https://www.acornfire.ca/" />
-            </Col>
-            <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={jlcpcb} link="https://jlcpcb.com/" />
             </Col>
             <Col md="auto">
@@ -502,6 +511,15 @@ const Sponsors = () => {
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={Studica} link="https://www.studica.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" image={customClothes} link="https://customclothes.ca/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" image={tplink} link="https://www.tp-link.com/ca/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" image={designelectronics} link="https://www.designelectronics.net/" />
             </Col>
           </Row>
 
@@ -608,9 +626,6 @@ const Sponsors = () => {
             <Col md="auto">
               <SponsorLinkWithDesc image={airtech} link="https://www.airtechintl.com/" />
             </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={msam} link="https://msam-uwaterloo.ca" />
-            </Col>
 
             {/* ROW 4 BEGINS HERE */}
             <Col md="auto">
@@ -638,13 +653,45 @@ const Sponsors = () => {
               <SponsorLinkWithDesc image={mrc} link="https://www.mrcwireless.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={engsoc} link="https://www.engsoc.uwaterloo.ca/" />
-            </Col>
-            <Col md="auto">
               <SponsorLinkWithDesc image={AandP} link="http://www.braider.com/" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc image={olin} link="https://olin.com/" />
+            </Col>
+
+            {/* ROW 5 BEGINS HERE */}
+            <Col md="auto">
+              <SponsorLinkWithDesc image={dxengineering} link="https://www.dxengineering.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={keysight} link="https://www.keysight.com/us/en/home.html" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={inteliheat} link="https://www.inteliheat.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={rdx} link="https://www.reactiondynamics.space/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={ieee} link="https://www.ieee.org/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={rutland} link="https://rutland.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={kwsewingmachine} link="https://www.kwsewingmachines.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={teamgantt} link="https://www.teamgantt.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={acornFireSafety} link="https://www.acornfire.ca/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={waterlooElectroplating} link="https://www.google.com/maps/place/Waterloo+Electroplating+%26+Metal+Finishing+Inc/@43.5017069,-80.5494139,15z/data=!4m2!3m1!1s0x0:0x91bf0e1ff7c624cf?sa=X&ved=2ahUKEwiv5PTJ5NT5AhUEFFkFHd5bAH4Q_BJ6BAg6EAU" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc image={ceno360} link="https://www.ceno360.com/" />
             </Col>
           </Row>
         </Row>
