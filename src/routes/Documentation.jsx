@@ -113,6 +113,20 @@ const Documentation = () => {
             {/* eslint-disable max-len */}
             <ul className="competition-reports-link-list">
               <li>
+                Mechanical Design of Roll Control Canards - Ben Pickens (June 2025) |
+                <a href="https://drive.google.com/file/d/1k6xjEufHSWInonTrrOUHfPoZFRcp5GzU/preview" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="https://drive.google.com/uc?export=download&id=1k6xjEufHSWInonTrrOUHfPoZFRcp5GzU" download>Download</a>
+              </li>
+              <li>
+                Canards Aerodynamic Design for an Active Roll-Control System - Luca Scavone (March 2025) |
+                <a href="https://drive.google.com/file/d/174mq2jf7EHIr_QtrmcfE5dtUbLe7okBr/preview" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="https://drive.google.com/uc?export=download&id=174mq2jf7EHIr_QtrmcfE5dtUbLe7okBr" download>Download</a>
+              </li>
+              <li>
                 Increasing Rocket Apogee by 23% Through Iterative Design - Joel Godard (Jan 2024) |
                 <a href="https://drive.google.com/file/d/1WCfqrq5eObcD8L7Ti5hjObDkq3xk2J32/preview" target="_blank" rel="noreferrer">View</a>
                 {' '}
