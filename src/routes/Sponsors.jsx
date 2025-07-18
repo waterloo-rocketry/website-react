@@ -238,8 +238,19 @@ const Sponsors = () => {
 
           <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="platinum" image={msam} link="https://msam-uwaterloo.ca" />
-              <p />
+              <SponsorLinkWithDesc logoTier="platinum" image={msam} link="https://msam.uwaterloo.ca/" />
+              <p>
+                The Multiscale Additive Manufacturing (MSAM) Lab at the
+                University of Waterloo is one of Canada&apos;s largest research
+                facilities dedicated to metal additive manufacturing. Combining
+                world-class expertise in materials science, mechanical
+                engineering, and computational modeling, MSAM leads cutting-edge
+                research to advance 3D printing technologies for industrial
+                applications. Collaborating with industry leaders across
+                aerospace, automotive, energy, and healthcare sectors, MSAM is
+                driving innovation in design, process optimization, and
+                performance of additively manufactured components.
+              </p>
             </Col>
             <Col lg={{ span: 5 }}>
               <SponsorLinkWithDesc logoTier="platinum" image={solidworks} link="https://www.solidworks.com/">
@@ -330,8 +341,18 @@ const Sponsors = () => {
 
           <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="platinum" image={novatel} link="https://www.novatel.com/">
-                <p />
+              <SponsorLinkWithDesc logoTier="platinum" image={novatel} zoom={1.4} link="https://www.novatel.com/">
+                <p>
+                  NovAtel is a global leader in precise positioning technology,
+                  delivering high-performance GNSS solutions that power everything
+                  from autonomous vehicles to precision agriculture and defense
+                  applications. With a deep focus on innovation, NovAtel designs
+                  and manufactures advanced satellite navigation systems that
+                  ensure accuracy, reliability, and integrity. Backed by a team of
+                  engineers and researchers, NovAtel continues to set the standard
+                  in positioning excellence—enabling smarter, safer, and more
+                  efficient systems worldwide.
+                </p>
               </SponsorLinkWithDesc>
             </Col>
           </Row>
@@ -379,7 +400,7 @@ const Sponsors = () => {
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={harwin} link="https://www.harwin.com/">
+              <SponsorLinkWithDesc logoTier="gold" image={harwin} zoom={0.5} link="https://www.harwin.com/">
                 <p className="content-text">
                   Since 1952, the de Laszlo family has led Harwin, evolving from a turning facility
                   to a global leader in interconnects. Through innovation, advanced technologies,
@@ -404,7 +425,17 @@ const Sponsors = () => {
             </Col>
             <Col lg={{ span: 5 }}>
               <SponsorLinkWithDesc logoTier="gold" image={moderncrane} link="https://moderncrane.ca/" />
-              <p />
+              <p>
+                Modern Crane is a trusted provider of crane rental and heavy
+                lifting services across Ontario, known for its commitment to
+                safety, reliability, and expert service. With a modern fleet and
+                experienced operators, Modern Crane supports a wide range of
+                industries including construction, infrastructure, and energy.
+                Whether it&apos;s mobile crane rentals, hoisting solutions, or
+                project planning support, Modern Crane delivers efficient and
+                dependable lifting services tailored to meet the unique needs of
+                every job.
+              </p>
             </Col>
           </Row>
 
@@ -444,7 +475,7 @@ const Sponsors = () => {
               <SponsorLinkWithDesc logoTier="silver" image={mitutoyo} link="https://www.mitutoyo.ca/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={samcomachinery} link="https://samco-machinery.com/" />
+              <SponsorLinkWithDesc logoTier="silver" image={samcomachinery} zoom={1.5} link="https://samco-machinery.com/" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={engsoc} link="https://www.engsoc.uwaterloo.ca/" />
@@ -473,7 +504,7 @@ const Sponsors = () => {
               <SponsorLinkWithDesc logoTier="bronze" image={customClothes} link="https://customclothes.ca/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={tplink} link="https://www.tp-link.com/ca/" />
+              <SponsorLinkWithDesc logoTier="bronze" image={tplink} zoom={1.4} link="https://www.tp-link.com/ca/" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={designelectronics} link="https://www.designelectronics.net/" />
