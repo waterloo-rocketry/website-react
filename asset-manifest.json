@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.822ebe0d.css",
-    "main.js": "/static/js/main.0de0fbbc.js",
+    "main.js": "/static/js/main.d4a97695.js",
     "static/media/kraken-of-the-sky.webp": "/static/media/kraken-of-the-sky.5cf99b02567371342f57.webp",
     "static/media/borealis.webp": "/static/media/borealis.f8fc29c8777514a4fc4d.webp",
     "static/media/cover_home.webp": "/static/media/cover_home.0d0bee1021838c9acc99.webp",
@@ -100,6 +100,7 @@
     "static/media/seanG.webp": "/static/media/seanG.066c3948376434d088ce.webp",
     "static/media/movella_logo.webp": "/static/media/movella_logo.e69c614d80471b0c5412.webp",
     "static/media/hamzaA.webp": "/static/media/hamzaA.c513467a6c057646db3b.webp",
+    "static/media/novatel.webp": "/static/media/novatel.8107c3f13aed05df061c.webp",
     "static/media/KW_sewing_machine_logo.webp": "/static/media/KW_sewing_machine_logo.32ff0c76ef164f8b0ffc.webp",
     "static/media/connorS.webp": "/static/media/connorS.78bce916123cff159c36.webp",
     "static/media/kyleT.webp": "/static/media/kyleT.34b5a15975fe8f1eb849.webp",
@@ -136,6 +137,7 @@
     "static/media/jiyaM.webp": "/static/media/jiyaM.2d8ea3e86775e6a0aa9c.webp",
     "static/media/daq.webp": "/static/media/daq.2e73bd557e331a864c46.webp",
     "static/media/afd_logo.webp": "/static/media/afd_logo.6a96547adaf000d5292e.webp",
+    "static/media/tp_link.webp": "/static/media/tp_link.0c3466c09a2e92462e42.webp",
     "static/media/mirandaD.webp": "/static/media/mirandaD.29598aa043577f9607a1.webp",
     "static/media/digi_logo.webp": "/static/media/digi_logo.eabb67f905602dbfbef5.webp",
     "static/media/tomC.webp": "/static/media/tomC.13117e1ac719644bd862.webp",
@@ -198,14 +200,17 @@
     "static/media/firecam_logo.webp": "/static/media/firecam_logo.a146cb4af35dc845d66f.webp",
     "static/media/BGF.webp": "/static/media/BGF.f25cb50d1d334b57d783.webp",
     "static/media/inteliheat_logo.webp": "/static/media/inteliheat_logo.247eb31468fd7936c149.webp",
+    "static/media/ifm.webp": "/static/media/ifm.eee2540971972e4895a0.webp",
     "static/media/10k_SRAD18.webp": "/static/media/10k_SRAD18.b89bfa858297501ea0d3.webp",
     "static/media/Stratasys-3.webp": "/static/media/Stratasys-3.b6a78a9fd47cce8e33dd.webp",
     "static/media/qnx-logo-black-medium.webp": "/static/media/qnx-logo-black-medium.311169b5b8aa6a211265.webp",
+    "static/media/vectorply.webp": "/static/media/vectorply.10ae18e33fc901397668.webp",
     "static/media/swagelok_logo.webp": "/static/media/swagelok_logo.71fb0da66c8a852feaed.webp",
     "static/media/ereztech-logo.webp": "/static/media/ereztech-logo.77269d0d6d33f0902be2.webp",
     "static/media/dorisJ.webp": "/static/media/dorisJ.92dc4ea070a80adcd11c.webp",
     "static/media/triumph-logo.webp": "/static/media/triumph-logo.a89c8ffd05443077ee36.webp",
     "static/media/DX_Engineering_logo.webp": "/static/media/DX_Engineering_logo.075275e59ac63b6d4a43.webp",
+    "static/media/samcomachinery.webp": "/static/media/samcomachinery.c6f1eef5b0a0b0484ed6.webp",
     "static/media/engsoc_logo.webp": "/static/media/engsoc_logo.cda8f2c9c9950356d767.webp",
     "static/media/fx_works.webp": "/static/media/fx_works.b7acbd34796745403029.webp",
     "static/media/Cimetrix-Logo.webp": "/static/media/Cimetrix-Logo.251b12d4e0caa0612f18.webp",
@@ -229,6 +234,7 @@
     "static/media/u-blox_logo_rgb.webp": "/static/media/u-blox_logo_rgb.7fdbbf0a76111e478f3e.webp",
     "static/media/missing.webp": "/static/media/missing.7efe9e1a9c04d6933de4.webp",
     "static/media/proto3000.webp": "/static/media/proto3000.678efbe160946490caa5.webp",
+    "static/media/design_electronics.webp": "/static/media/design_electronics.24a9591a41f79d94d776.webp",
     "static/media/vectornav.webp": "/static/media/vectornav.d225ef522b16a2c3891b.webp",
     "static/media/icon_youtube.webp": "/static/media/icon_youtube.39768fbf6c0612a83efd.webp",
     "static/media/icon_mail.webp": "/static/media/icon_mail.1b942f3811ab3f8564ad.webp",
@@ -236,10 +242,10 @@
     "index.html": "/index.html",
     "static/media/icon_fb.webp": "/static/media/icon_fb.b2111be5e9009cd6a77e.webp",
     "main.822ebe0d.css.map": "/static/css/main.822ebe0d.css.map",
-    "main.0de0fbbc.js.map": "/static/js/main.0de0fbbc.js.map"
+    "main.d4a97695.js.map": "/static/js/main.d4a97695.js.map"
   },
   "entrypoints": [
     "static/css/main.822ebe0d.css",
-    "static/js/main.0de0fbbc.js"
+    "static/js/main.d4a97695.js"
   ]
 }
