@@ -20,7 +20,7 @@ import galleryCoverImage from '../img/home/link_to_gallery.webp';
 
 import aboutUsImage1 from '../img/rocket/leviathan-of-the-sky.webp';
 
-import pressReleasePhotoA from '../img/home/borealis.webp';
+import pressReleasePhotoA from '../img/home/aurora-logo.webp';
 
 const Home = () => {
   const aboutUsRef = useRef(null);
@@ -69,7 +69,7 @@ const Home = () => {
         <Row>
           <Col md={8} className={styles.pressReleaseBox}>
             <p>
-              <strong>FOR IMMEDIATE RELEASE: 08/23/24</strong>
+              <strong>FOR IMMEDIATE RELEASE: 08/24/25</strong>
             </p>
             <div className={styles.contactInfo}>
               <p>Waterloo Rocketry</p>
@@ -79,42 +79,37 @@ const Home = () => {
               </p>
             </div>
             <h2>
-              Waterloo Rocketry Soars to New Heights with Canada’s First Liquid Engine Rocket Launch
+              Waterloo Rocketry&apos;s Aurora Rocket Shatters Records at Launch Canada 2025
             </h2>
             <p>
               <strong>Timmins, Ontario:</strong>
               {' '}
               Waterloo Rocketry, a student design team from the University of Waterloo,
-              proudly announces a historic milestone in Canadian
-              aerospace with the successful launch of
-              ‘Borealis,’ the first-ever Canadian liquid bi-propellant rocket.
-              The launch occurred on August 20, 2024,
-              during the third annual Launch Canada event held just outside Timmins, ON.
+              is excited to announce the successful launch of Aurora, the team&apos;s 2025 liquid
+              bi-propellant rocket, at Launch Canada on Thursday, August 21st.
             </p>
             <p>
-              The ‘Borealis’ rocket, powered by a bi-propellant
-              mixture of ethanol and nitrous oxide,
-              reached an altitude of 5,855 metres
-              (19,212 feet) and achieved a top speed of 1646 km/h before
-              falling back to the ground under its own parachute. Designed entirely by students,
-              building on years of team history, this rocket showcases the culmination of the
-              advanced engineering capabilities developed by the team throughout its past 13 years.
+              Aurora soared to an altitude of about 38,000 feet at around Mach 2,
+              more than doubling the team&apos;s standing Canadian altitude record for liquid
+              bi-propellant rockets. Although the recovery system&apos;s parachutes did not
+              survive—meaning the rocket could not be retrieved from the forest and is likely at
+              the bottom of a lake—the team is immensely proud of this year&apos;s achievement.
             </p>
             <p>
-              This accomplishment positions the University of Waterloo
-              as a leading institution in Canadian student rocketry,
-              joining a select group of universities globally that have
-              successfully launched liquid engine rockets.
-              In years to come, the team plans to continue building bigger
-              and better liquid bi-propellant rockets,
-              with sights set for higher altitudes, more complex payloads,
-              and continued learning to further propel
-              Canada into the global aerospace arena.
+              Designed and built entirely by students, Aurora represents a year of dedication,
+              innovation, and teamwork. With this milestone, Waterloo Rocketry secured 2nd place
+              in Launch Canada&apos;s Advanced category.
+            </p>
+            <p>
+              The team extends a huge thank you to its sponsors for their generous support—this
+              launch would not have been possible without them. Gratitude also goes to the
+              University of Waterloo and the Sedra Student Design Centre for enabling the team
+              to pursue ambitious projects like Aurora.
             </p>
           </Col>
           <Col md={4} className={styles.mediaBox}>
-            <Photo link={pressReleasePhotoA} altText="Placeholder 1" />
-            <Video link="https://www.youtube.com/embed/Z126ZESX3uA?si=K_Zxes8V2nKABoGa" title="Rocket Launch" />
+            <Photo link={pressReleasePhotoA} altText="Aurora Logo" />
+            <Video link="https://www.youtube.com/embed/vRShaLdex7Q?si=k5kqdmuP8fEYu2LC" title="Rocket Launch" />
           </Col>
         </Row>
       </Container>
