@@ -18,7 +18,7 @@ import rocketsCoverImage from '../img/home/link_to_rockets.webp';
 import sponsorsCoverImage from '../img/home/link_to_sponsors.webp';
 import galleryCoverImage from '../img/home/link_to_gallery.webp';
 
-import aboutUsImage1 from '../img/rocket/leviathan-of-the-sky.webp';
+import aboutUsImage1 from '../img/rocket/aurora-2025.webp';
 
 import pressReleasePhotoA from '../img/home/aurora-logo.webp';
 
@@ -47,14 +47,21 @@ const Home = () => {
           <Col md={7}>
             <div>
               <HomeContent title="ABOUT US">
-                Waterloo Rocketry is a student design team from the University of Waterloo in
-                Waterloo, Ontario. We currently have around 50 members, primarily
-                undergraduate students in engineering, science, and mathematics. We design,
-                build, and launch rockets each year at Launch Canada, most recently having
-                launched Canada&apos;s first ever liquid engine rocket in 2024! Our team&apos;s
-                primary objective is to provide students with hands-on learning opportunities in
-                research, design, analysis, fabrication, and testing throughout the entire
-                engineering design cycle.
+                <p>
+                  Waterloo Rocketry is a student design team from the University of Waterloo in
+                  Waterloo, Ontario. With a membership of around 50 students—primarily
+                  undergraduates in engineering, science, and mathematics— the team is dedicated to
+                  advancing rocketry in Canada while providing exceptional experiential learning
+                  opportunities.
+                </p>
+                <p>
+                  Each year, the team designs, builds, and launches rockets at Launch Canada,
+                  the nation&apos;s premier rocketry competition.
+                  In 2024, Waterloo Rocketry proudly made history with Borealis, Canada&apos;s
+                  first-ever liquid engine rocket.
+                  In 2025, the team followed up with Aurora, which more than doubled the Canadian
+                  altitude record for liquid bi-propellant rockets.
+                </p>
               </HomeContent>
             </div>
           </Col>

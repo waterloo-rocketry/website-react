@@ -41,6 +41,24 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.mediaBox img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+  transform-origin: center center;
+}
+
+.mediaBox img:hover,
+.mediaBox img:focus {
+  transform: scale(1.03); /* smaller zoom */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .landingContainer {
