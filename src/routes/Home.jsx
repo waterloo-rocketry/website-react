@@ -20,7 +20,7 @@ import galleryCoverImage from '../img/home/link_to_gallery.webp';
 
 import aboutUsImage1 from '../img/rocket/aurora-2025.webp';
 
-import pressReleasePhotoA from '../img/home/aurora-logo.webp';
+import pressReleasePhotoA from '../img/home/aurora_logo.webp';
 
 const Home = () => {
   const aboutUsRef = useRef(null);

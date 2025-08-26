@@ -24,6 +24,7 @@ import Documentation from './routes/Documentation';
 
 import Footer from './components/Footer/Footer';
 
+import Aurora from './routes/rocketPages/Aurora';
 import Borealis from './routes/rocketPages/Borealis';
 import LeviathanOfTheSky from './routes/rocketPages/LeviathanOfTheSky';
 import KrakenOfTheSky from './routes/rocketPages/KrakenOfTheSky';
@@ -75,6 +76,11 @@ ReactDOM.render(
           exact
           path="rockets"
           element={<Page title="Rockets"><Rockets /></Page>}
+        />
+        <Route
+          exact
+          path="rockets/aurora"
+          element={<Page title="Aurora"><Aurora /></Page>}
         />
         <Route
           exact
