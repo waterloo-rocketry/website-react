@@ -29,40 +29,40 @@ const Navigation = () => {
           <Image
             src={bannerLogoImage}
             alt="Waterloo Rocketry Logo"
-            className={styles.bannerLogo}
+            className={`${styles.bannerLogo} ${scrolled ? styles.scrolled : ''}`}
           />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
-            <Nav.Link as={Link} className={styles.navbarLink} to="join">
+            <Nav.Link as={Link} className={`${styles.navbarLink} ${scrolled ? styles.scrolled : ''}`} to="join">
               JOIN
             </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="competition">
+            <Nav.Link as={Link} className={`${styles.navbarLink} ${scrolled ? styles.scrolled : ''}`} to="competition">
               COMPETITION
             </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="sponsors">
+            <Nav.Link as={Link} className={`${styles.navbarLink} ${scrolled ? styles.scrolled : ''}`} to="sponsors">
               SPONSORS
             </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="rockets">
+            <Nav.Link as={Link} className={`${styles.navbarLink} ${scrolled ? styles.scrolled : ''}`} to="rockets">
               ROCKETS
             </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="subsystems">
+            <Nav.Link as={Link} className={`${styles.navbarLink} ${scrolled ? styles.scrolled : ''}`} to="subsystems">
               SUBSYSTEMS
             </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="team">
+            <Nav.Link as={Link} className={`${styles.navbarLink} ${scrolled ? styles.scrolled : ''}`} to="team">
               TEAM
             </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="awards">
+            <Nav.Link as={Link} className={`${styles.navbarLink} ${scrolled ? styles.scrolled : ''}`} to="awards">
               AWARDS
             </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="outreach">
+            <Nav.Link as={Link} className={`${styles.navbarLink} ${scrolled ? styles.scrolled : ''}`} to="outreach">
               OUTREACH
             </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="documentation">
+            <Nav.Link as={Link} className={`${styles.navbarLink} ${scrolled ? styles.scrolled : ''}`} to="documentation">
               DOCUMENTATION
             </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="contact">
+            <Nav.Link as={Link} className={`${styles.navbarLink} ${scrolled ? styles.scrolled : ''}`} to="contact">
               CONTACT
             </Nav.Link>
           </Nav>
