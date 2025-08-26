@@ -7,8 +7,9 @@ export const AURORA_CONTENT = {
   name: 'AURORA',
   yearBadge: '2025',
   tagline: 'Canada’s student-designed liquid bi-propellant rocket platform',
-  summary:
-    'Aurora advances our liquid bi-propellant program with upgraded avionics, refined airframe, robust ground systems, and a deployable payload—building on years of Waterloo Rocketry heritage.',
+  summary: `
+  Aurora is Waterloo Rocketry’s largest and most advanced rocket built to date. Standing over 16 ft tall, the team’s first fully SRAD airframe was propelled by an 11.5 kN SRAD liquid engine to over 38,000 ft in apogee, setting a new team altitude record and doubling last year’s apogee.
+  `,
   hero: {
     mediaType: 'image',
     imageSrc: auroraLogo,
@@ -16,9 +17,9 @@ export const AURORA_CONTENT = {
   },
   specs: [
     { label: 'Diameter', value: '7.5"' },
-    { label: 'Length', value: '160"' },
+    { label: 'Length', value: '16 ft' },
     { label: 'Motor Class', value: 'O' },
-    { label: 'Wet Mass', value: '~125 lb' },
+    { label: 'Wet Mass', value: '~253 lb' },
     { label: 'Fuel', value: 'Ethanol' },
     { label: 'Oxidizer', value: 'Nitrous Oxide' },
     { label: 'Apogee (reported)', value: '~38,000 ft' },
@@ -136,20 +137,20 @@ export const AURORA_CONTENT = {
       },
     },
   ],
-  // photos: [
-  //   {
-  //     src: 'https://live.staticflickr.com/65535/53998023729_45f845ef3f_5k.jpg',
-  //     alt: 'Aurora on display (placeholder)',
-  //   },
-  //   {
-  //     src: 'https://live.staticflickr.com/65535/53997950648_3964dbb7e7_6k.jpg',
-  //     alt: 'Team photo (placeholder)',
-  //   },
-  //   {
-  //     src: 'https://live.staticflickr.com/65535/53997949738_364d5941b1_6k.jpg',
-  //     alt: 'On the launch rail (placeholder)',
-  //   },
-  // ],
+  photos: [
+    {
+      src: 'https://live.staticflickr.com/65535/53998023729_45f845ef3f_5k.jpg',
+      alt: 'Aurora on display (placeholder)',
+    },
+    {
+      src: 'https://live.staticflickr.com/65535/53997950648_3964dbb7e7_6k.jpg',
+      alt: 'Team photo (placeholder)',
+    },
+    {
+      src: 'https://live.staticflickr.com/65535/53997949738_364d5941b1_6k.jpg',
+      alt: 'On the launch rail (placeholder)',
+    },
+  ],
   videos: [
     {
       title: 'Aurora – Launch Reel',

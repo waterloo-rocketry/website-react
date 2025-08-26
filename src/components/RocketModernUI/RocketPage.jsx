@@ -76,7 +76,7 @@ const RocketPage = ({ content }) => {
         </div>
 
         {/* SPECS */}
-        <section className="mt-10 md:mt-14">
+        <section id="specs" className="mt-10 md:mt-14">
           <div className="mb-4 flex items-center gap-2">
             <Gauge className="h-5 w-5" />
             <h2 className="text-2xl md:text-3xl font-bold tracking-tight">At-a-Glance</h2>
@@ -121,7 +121,7 @@ const RocketPage = ({ content }) => {
 
         {/* GALLERIES */}
         {photos && photos.length > 0 && (
-          <section className="mt-12 md:mt-16">
+          <section id="photos" className="mt-12 md:mt-16">
             <div className="mb-4 flex items-center gap-2">
               <Images className="h-5 w-5" />
               <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Photo Gallery</h2>
@@ -131,7 +131,7 @@ const RocketPage = ({ content }) => {
         )}
 
         {videos && videos.length > 0 && (
-          <section className="mt-12 md:mt-16 mb-16">
+          <section id="videos" className="mt-12 md:mt-16 mb-16">
             <div className="mb-4 flex items-center gap-2">
               <Video className="h-5 w-5" />
               <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Video Gallery</h2>

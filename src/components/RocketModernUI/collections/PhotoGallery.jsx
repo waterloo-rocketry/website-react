@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PhotoGallery = ({ photos }) => (
-  <div id="photos" className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
     {photos.map((p) => (
       <div
         key={`photo-${p.src.split('/').pop()}-${p.alt.replace(/\s+/g, '-')}`}

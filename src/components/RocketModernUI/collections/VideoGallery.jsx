@@ -1,7 +1,7 @@
 import React from 'react';
 
 const VideoGallery = ({ videos }) => (
-  <div id="videos" className="grid lg:grid-cols-2 gap-6">
+  <div className="grid lg:grid-cols-2 gap-6">
     {videos.map((v) => (
       <div
         key={`video-${v.url.split('/').pop()}-${v.title.replace(/\s+/g, '-')}`}
