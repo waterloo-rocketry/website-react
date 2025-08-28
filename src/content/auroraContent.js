@@ -16,9 +16,9 @@ export const AURORA_CONTENT = {
     alt: 'Aurora rocket design',
   },
   specs: [
-    { label: 'Diameter', value: '7.5"' },
+    { label: 'Diameter', value: '8"' },
     { label: 'Length', value: '16 ft' },
-    { label: 'Motor Class', value: 'O' },
+    { label: 'Motor Class', value: 'Q' },
     { label: 'Wet Mass', value: '~253 lb' },
     { label: 'Fuel', value: 'Ethanol' },
     { label: 'Oxidizer', value: 'Nitrous Oxide' },
