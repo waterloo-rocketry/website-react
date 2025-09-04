@@ -34,6 +34,13 @@ const Documentation = () => {
             {/* eslint-disable max-len */}
             <ul className="competition-reports-link-list">
               <li>
+                2025 Launch Canada (Aurora) |
+                <a href="https://www.waterloorocketry.com/pdfs/2025_project_report.pdf" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="https://www.waterloorocketry.com/pdfs/2025_project_report.pdf" download>Download</a>
+              </li>
+              <li>
                 2024 Launch Canada (Borealis) |
                 <a href="https://www.waterloorocketry.com/pdfs/2024_project_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
