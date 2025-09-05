@@ -189,7 +189,7 @@ const Team = () => {
         <Container className={styles.containerFluid} fluid>
           <MemberImage status="alum" image={BonitaS} name="Bonita Shao" title="AFM '27" />
           <MemberImage status="alum" image={OzayrR} name="Ozayr Raazi" title="Computer Eng '27" />
-          <MemberImage status="alum" image={MichaelZ} name="Michael Zhou" title="Starbase '27" />
+          <MemberImage status="alum" image={MichaelZ} name="Michael Zhou" title="Mechanical Eng '27" />
           <MemberImage status="alum" image={RobertC} name="Robert Cai" title="Computer Science & Combinatorics and Optimization '25" />
           <MemberImage status="alum" image={KavinS} name="Kavin Satheeskumar" title="Computer Eng '25" />
           <MemberImage status="alum" image={CaseyT} name="Casey Tsujita" title="Psychology Arts '25" />
