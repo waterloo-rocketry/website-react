@@ -50,7 +50,7 @@ const Aurora = () => {
               },
               {
                 Apogee: '~38,000 ft',
-                'Max Velocity': '~2.2 Mach',
+                'Max Velocity': '~Mach 2.2',
               },
             ],
           ]}
