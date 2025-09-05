@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.822ebe0d.css",
-    "main.js": "/static/js/main.8618dc56.js",
+    "main.js": "/static/js/main.2cc72ced.js",
     "static/media/kraken-of-the-sky.webp": "/static/media/kraken-of-the-sky.5cf99b02567371342f57.webp",
     "static/media/borealis.webp": "/static/media/borealis.f8fc29c8777514a4fc4d.webp",
     "static/media/cover_home.webp": "/static/media/cover_home.0d0bee1021838c9acc99.webp",
@@ -62,7 +62,6 @@
     "static/media/mef_logo.webp": "/static/media/mef_logo.76d27192c35b0f845897.webp",
     "static/media/elizabethX.webp": "/static/media/elizabethX.eecda59ae3053b485c87.webp",
     "static/media/richard_dudgeon_logo.webp": "/static/media/richard_dudgeon_logo.5670b868fac2743d68e3.webp",
-    "static/media/rajatA.webp": "/static/media/rajatA.97b98a1b40c63835df29.webp",
     "static/media/Aircraft_Spruce_Logo.webp": "/static/media/Aircraft_Spruce_Logo.a90e206437091f56bbf4.webp",
     "static/media/harwin_logo.webp": "/static/media/harwin_logo.4d05bcdf8a3955f311fd.webp",
     "static/media/silver-brant.webp": "/static/media/silver-brant.c003af9992477183027e.webp",
@@ -77,7 +76,6 @@
     "static/media/Waterloo_ENG_Faculty_Logo_rgb.webp": "/static/media/Waterloo_ENG_Faculty_Logo_rgb.11ccb9d0be13e66fca6a.webp",
     "static/media/chrisY.webp": "/static/media/chrisY.da5dd9c469629f79591f.webp",
     "static/media/rocketcan.webp": "/static/media/rocketcan.2a76290d8a9de2fbcb2c.webp",
-    "static/media/ashL.webp": "/static/media/ashL.a915e98725242bc70da2.webp",
     "static/media/future-electronics.gif": "/static/media/future-electronics.52185d17015470db147a.gif",
     "static/media/sots_upright.webp": "/static/media/sots_upright.54bd0ae88e6f40402606.webp",
     "static/media/wrt1.webp": "/static/media/wrt1.697323dde84b4cb3a345.webp",
@@ -135,6 +133,7 @@
     "static/media/recovery.webp": "/static/media/recovery.67d46873a0b4e075ccb8.webp",
     "static/media/payload.webp": "/static/media/payload.cbb8ecf9a47d8f011d12.webp",
     "static/media/jiyaM.webp": "/static/media/jiyaM.2d8ea3e86775e6a0aa9c.webp",
+    "static/media/rajatA.webp": "/static/media/rajatA.10a650e815d5dcc345d2.webp",
     "static/media/daq.webp": "/static/media/daq.2e73bd557e331a864c46.webp",
     "static/media/afd_logo.webp": "/static/media/afd_logo.6a96547adaf000d5292e.webp",
     "static/media/tp_link.webp": "/static/media/tp_link.0c3466c09a2e92462e42.webp",
@@ -206,6 +205,7 @@
     "static/media/qnx-logo-black-medium.webp": "/static/media/qnx-logo-black-medium.311169b5b8aa6a211265.webp",
     "static/media/vectorply.webp": "/static/media/vectorply.10ae18e33fc901397668.webp",
     "static/media/swagelok_logo.webp": "/static/media/swagelok_logo.71fb0da66c8a852feaed.webp",
+    "static/media/ashL.webp": "/static/media/ashL.b09fe2d7c74b72f0b4d6.webp",
     "static/media/ereztech-logo.webp": "/static/media/ereztech-logo.77269d0d6d33f0902be2.webp",
     "static/media/dorisJ.webp": "/static/media/dorisJ.92dc4ea070a80adcd11c.webp",
     "static/media/triumph-logo.webp": "/static/media/triumph-logo.a89c8ffd05443077ee36.webp",
@@ -242,10 +242,10 @@
     "index.html": "/index.html",
     "static/media/icon_fb.webp": "/static/media/icon_fb.b2111be5e9009cd6a77e.webp",
     "main.822ebe0d.css.map": "/static/css/main.822ebe0d.css.map",
-    "main.8618dc56.js.map": "/static/js/main.8618dc56.js.map"
+    "main.2cc72ced.js.map": "/static/js/main.2cc72ced.js.map"
   },
   "entrypoints": [
     "static/css/main.822ebe0d.css",
-    "static/js/main.8618dc56.js"
+    "static/js/main.2cc72ced.js"
   ]
 }
