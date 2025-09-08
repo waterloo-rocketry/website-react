@@ -16,8 +16,43 @@ const MoreButton = ({ link }) => {
 };
 
 const Photo = ({ link, altText }) => {
+  const handleClick = () => {
+    const modal = document.createElement('div');
+    modal.style.position = 'fixed';
+    modal.style.top = '0';
+    modal.style.left = '0';
+    modal.style.width = '100vw';
+    modal.style.height = '100vh';
+    modal.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+    modal.style.display = 'flex';
+    modal.style.justifyContent = 'center';
+    modal.style.alignItems = 'center';
+    modal.style.zIndex = '1000';
+
+    const img = document.createElement('img');
+    img.src = link;
+    img.alt = altText;
+    img.style.maxWidth = '90%';
+    img.style.maxHeight = '90%';
+    img.style.boxShadow = '0 0 10px rgba(255, 255, 255, 0.5)';
+
+    modal.appendChild(img);
+
+    modal.addEventListener('click', () => {
+      document.body.removeChild(modal);
+    });
+
+    document.body.appendChild(modal);
+  };
+
   return (
-    <div>
+    <div
+      onClick={handleClick}
+      onKeyDown={(e) => e.key === 'Enter' && handleClick()}
+      role="button"
+      tabIndex={0}
+      style={{ cursor: 'pointer' }}
+    >
       <img src={link} alt={altText} className={styles.photo} />
     </div>
   );
