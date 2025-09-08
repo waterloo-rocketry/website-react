@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.822ebe0d.css",
-    "main.js": "/static/js/main.8274d2dc.js",
+    "main.css": "/static/css/main.b40ce7c4.css",
+    "main.js": "/static/js/main.673570eb.js",
+    "static/media/2025_team_photo.webp": "/static/media/2025_team_photo.ea538be7c6dccad02cc5.webp",
     "static/media/kraken-of-the-sky.webp": "/static/media/kraken-of-the-sky.5cf99b02567371342f57.webp",
-    "static/media/borealis.webp": "/static/media/borealis.f8fc29c8777514a4fc4d.webp",
-    "static/media/cover_home.webp": "/static/media/cover_home.0d0bee1021838c9acc99.webp",
     "static/media/contact.webp": "/static/media/contact.f4885c23ff2518e77c2f.webp",
     "static/media/shark-of-the-sky.webp": "/static/media/shark-of-the-sky.2e4ad6dfaaa5321045a7.webp",
     "static/media/unexploded-ordnance-2018.webp": "/static/media/unexploded-ordnance-2018.92369cbf5d94a5e3d11b.webp",
+    "static/media/cover_home.webp": "/static/media/cover_home.59fb2e2068a2d50f9ee1.webp",
     "static/media/anaD.webp": "/static/media/anaD.f1e65308c2812d60dec6.webp",
     "static/media/borealis_upright.webm": "/static/media/borealis_upright.df085794935a43b245a5.webm",
     "static/media/cover_subsystems.webp": "/static/media/cover_subsystems.ae115efea6dc762d3c0f.webp",
     "static/media/leviathan-of-the-sky.webp": "/static/media/leviathan-of-the-sky.246c2aeb8d4a7c5068df.webp",
+    "static/media/rise_tower.webp": "/static/media/rise_tower.ced2a96393ce98465c39.webp",
     "static/media/rocket_drag_race_2019.webp": "/static/media/rocket_drag_race_2019.c61d3d5d5d1430ef3d7c.webp",
     "static/media/cover_join.webp": "/static/media/cover_join.a118b8411dc1b5ec3577.webp",
     "static/media/cover_outreach.webp": "/static/media/cover_outreach.7ff371149ba36e9d58c7.webp",
+    "static/media/aurora_launch.webp": "/static/media/aurora_launch.1481dde64e397c8a6d0b.webp",
     "static/media/benP.webp": "/static/media/benP.b0939ee3fa8e4d62f4a1.webp",
     "static/media/artemS.webp": "/static/media/artemS.106878aeed46cae6e033.webp",
     "static/media/armaanS.webp": "/static/media/armaanS.f20c01b54490656896bc.webp",
@@ -51,6 +53,7 @@
     "static/media/tristanY.webp": "/static/media/tristanY.43a28838c7037f262a81.webp",
     "static/media/ariss.webp": "/static/media/ariss.ff8865d9ad6d9f18082a.webp",
     "static/media/pranavM.webp": "/static/media/pranavM.346db399256aec9ef4d5.webp",
+    "static/media/aurora-2025.webp": "/static/media/aurora-2025.595265f4807108c56da3.webp",
     "static/media/ed_session.webp": "/static/media/ed_session.8b36183e6d5f5bf0c0bb.webp",
     "static/media/jasonH.webp": "/static/media/jasonH.604922bfbb147d54ff61.webp",
     "static/media/hickory_hill_logo.webp": "/static/media/hickory_hill_logo.d9e8dc768420380b7770.webp",
@@ -72,6 +75,7 @@
     "static/media/owenH.webp": "/static/media/owenH.f0df7ffafdc2a8f0044e.webp",
     "static/media/wrt1_upright.webp": "/static/media/wrt1_upright.0fed8ca43adc8c3b240b.webp",
     "static/media/Waterloo_ENG_Mechanical_Logo_rgb.webp": "/static/media/Waterloo_ENG_Mechanical_Logo_rgb.b95ed552222876f1f73a.webp",
+    "static/media/borealis.webp": "/static/media/borealis.5e6e7970eb6f73f53c6e.webp",
     "static/media/lucasS.webp": "/static/media/lucasS.e360187571fbb86168b5.webp",
     "static/media/Waterloo_ENG_Faculty_Logo_rgb.webp": "/static/media/Waterloo_ENG_Faculty_Logo_rgb.11ccb9d0be13e66fca6a.webp",
     "static/media/chrisY.webp": "/static/media/chrisY.da5dd9c469629f79591f.webp",
@@ -99,6 +103,7 @@
     "static/media/movella_logo.webp": "/static/media/movella_logo.e69c614d80471b0c5412.webp",
     "static/media/hamzaA.webp": "/static/media/hamzaA.c513467a6c057646db3b.webp",
     "static/media/novatel.webp": "/static/media/novatel.8107c3f13aed05df061c.webp",
+    "static/media/aurora_upright.webp": "/static/media/aurora_upright.f4e4186f9c9544a2ff90.webp",
     "static/media/KW_sewing_machine_logo.webp": "/static/media/KW_sewing_machine_logo.32ff0c76ef164f8b0ffc.webp",
     "static/media/connorS.webp": "/static/media/connorS.78bce916123cff159c36.webp",
     "static/media/kyleT.webp": "/static/media/kyleT.34b5a15975fe8f1eb849.webp",
@@ -161,6 +166,7 @@
     "static/media/misumi.webp": "/static/media/misumi.7520aacdf936448ec13d.webp",
     "static/media/chamathW.webp": "/static/media/chamathW.941e781598e1510a73d5.webp",
     "static/media/30k_SRAD23.webp": "/static/media/30k_SRAD23.ae691532d62549cd52a6.webp",
+    "static/media/aurora-logo.webp": "/static/media/aurora-logo.8651ed69f3d336c494dd.webp",
     "static/media/thomasf.webp": "/static/media/thomasf.7cf7c7d624d1f8892d80.webp",
     "static/media/IEEE-Logo.webp": "/static/media/IEEE-Logo.a0b4928cd9ba53e61c8d.webp",
     "static/media/10k_SRAD17.webp": "/static/media/10k_SRAD17.e3a50a510841e0383918.webp",
@@ -241,11 +247,11 @@
     "static/media/icon_flickr.webp": "/static/media/icon_flickr.9fa96dd8def0662d57f7.webp",
     "index.html": "/index.html",
     "static/media/icon_fb.webp": "/static/media/icon_fb.b2111be5e9009cd6a77e.webp",
-    "main.822ebe0d.css.map": "/static/css/main.822ebe0d.css.map",
-    "main.8274d2dc.js.map": "/static/js/main.8274d2dc.js.map"
+    "main.b40ce7c4.css.map": "/static/css/main.b40ce7c4.css.map",
+    "main.673570eb.js.map": "/static/js/main.673570eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.822ebe0d.css",
-    "static/js/main.8274d2dc.js"
+    "static/css/main.b40ce7c4.css",
+    "static/js/main.673570eb.js"
   ]
 }
