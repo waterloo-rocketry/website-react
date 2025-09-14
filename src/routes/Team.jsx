@@ -146,7 +146,7 @@ const Team = () => {
           <MemberImage image={OwenH} name="Owen Henry" title="Senior Member" />
           <MemberImage image={ThomasF} name="Thomas Fairhead" title="Propulsion Co-Lead" />
           <MemberImage image={KeeganT} name="Keegan Tripp" title="Senior Member" />
-          <MemberImage image={JasonX} name="Jason Xu" title="Electrical Lead" />
+          <MemberImage image={JasonX} name="Jason Xu" title="Senior Member" />
           <MemberImage image={KasiaA} name="Kasia-Alexei Delpeche" title="Senior Member" />
           <MemberImage image={JiyaM} name="Jiya Makwana" title="Senior Member" />
           <MemberImage image={RichardD} name="Richard Ding" title="Senior Member" />
