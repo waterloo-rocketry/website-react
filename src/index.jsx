@@ -55,7 +55,7 @@ ReactDOM.render(
         <Route
           exact
           path="sponsorship"
-          element={<Redirect url={`${window.location.origin}/pdfs/sponsorship_package.pdf`} />}
+          element={<Redirect url={`${window.location.origin}/pdfs/sponsorship_package2026.pdf`} />}
         />
         <Route
           exact
