@@ -73,7 +73,7 @@ const Documentation = () => {
                 <a href="/pdfs/2019_project_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="/pdfs/20219_project_report.pdf" download>Download</a>
+                <a href="/pdfs/2019_project_report.pdf" download>Download</a>
               </li>
               <li>
                 2018 IREC (Unexploded Ordnance) |
