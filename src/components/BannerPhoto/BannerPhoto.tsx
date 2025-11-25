@@ -2,8 +2,14 @@ import React from 'react';
 
 import styles from './BannerPhoto.module.css';
 
+interface BannerPhotoProps {
+  image: string;
+  style?: React.CSSProperties;
+  children?: React.ReactNode;
+}
+
 // A banner photo spanning the width and height of the page
-const BannerPhoto = ({
+const BannerPhoto: React.FC<BannerPhotoProps> = ({
   image,
   style,
   children,
