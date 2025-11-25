@@ -35,73 +35,73 @@ const Documentation = () => {
             <ul className="competition-reports-link-list">
               <li>
                 2025 Launch Canada Payload Challenge (Aurora) |
-                <a href="https://www.waterloorocketry.com/pdfs/2025_payload_report.pdf" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/2025_payload_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://www.waterloorocketry.com/pdfs/2025_payload_report.pdf" download>Download</a>
+                <a href="/pdfs/2025_payload_report.pdf" download>Download</a>
               </li>
               <li>
                 2025 Launch Canada (Aurora) |
-                <a href="https://www.waterloorocketry.com/pdfs/2025_project_report.pdf" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/2025_project_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://www.waterloorocketry.com/pdfs/2025_project_report.pdf" download>Download</a>
+                <a href="/pdfs/2025_project_report.pdf" download>Download</a>
               </li>
               <li>
                 2024 Launch Canada (Borealis) |
-                <a href="https://www.waterloorocketry.com/pdfs/2024_project_report.pdf" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/2024_project_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://www.waterloorocketry.com/pdfs/2024_project_report.pdf" download>Download</a>
+                <a href="/pdfs/2024_project_report.pdf" download>Download</a>
               </li>
               <li>
                 2023 IREC (Leviathan of the Sky) |
-                <a href="https://www.waterloorocketry.com/pdfs/2023_project_report.pdf" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/2023_project_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://www.waterloorocketry.com/pdfs/2023_project_report.pdf" download>Download</a>
+                <a href="/pdfs/2023_project_report.pdf" download>Download</a>
               </li>
               <li>
                 2022 IREC (Kraken of the Sky) |
-                <a href="https://www.waterloorocketry.com/pdfs/2022_project_report.pdf" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/2022_project_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://www.waterloorocketry.com/pdfs/2022_project_report.pdf" download>Download</a>
+                <a href="/pdfs/2022_project_report.pdf" download>Download</a>
               </li>
               <li>
                 2019 IREC (Shark of the Sky) |
-                <a href="https://www.waterloorocketry.com/pdfs/2019_project_report.pdf" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/2019_project_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://www.waterloorocketry.com/pdfs/20219_project_report.pdf" download>Download</a>
+                <a href="/pdfs/20219_project_report.pdf" download>Download</a>
               </li>
               <li>
                 2018 IREC (Unexploded Ordnance) |
-                <a href="https://www.waterloorocketry.com/pdfs/2018_project_report.pdf" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/2018_project_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://www.waterloorocketry.com/pdfs/2018_project_report.pdf" download>Download</a>
+                <a href="/pdfs/2018_project_report.pdf" download>Download</a>
               </li>
               <li>
                 2017 IREC (Vidar III) |
-                <a href="https://www.waterloorocketry.com/pdfs/2017_project_report.pdf" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/2017_project_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://www.waterloorocketry.com/pdfs/2017_project_report.pdf" download>Download</a>
+                <a href="/pdfs/2017_project_report.pdf" download>Download</a>
               </li>
               <li>
                 2016 IREC (Vidar III) |
-                <a href="https://www.waterloorocketry.com/pdfs/2016_project_report.pdf" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/2016_project_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://www.waterloorocketry.com/pdfs/2016_project_report.pdf" download>Download</a>
+                <a href="/pdfs/2016_project_report.pdf" download>Download</a>
               </li>
               <li>
                 2014 IREC (Vidar) |
-                <a href="https://www.waterloorocketry.com/pdfs/2014_project_report.pdf" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/2014_project_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://www.waterloorocketry.com/pdfs/2014_project_report.pdf" download>Download</a>
+                <a href="/pdfs/2014_project_report.pdf" download>Download</a>
               </li>
             </ul>
           </Content>
