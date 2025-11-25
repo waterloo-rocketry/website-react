@@ -34,7 +34,7 @@
         "react/require-default-props": 0,
         "no-undef": 0,
         "import/extensions": [
-            "error",
+            "warn",
             "ignorePackages",
             {
                 "js": "never",
