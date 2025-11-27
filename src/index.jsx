@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 
 import Navigation from './components/Navigation/Navigation';
-import Page from './components/Page';
+import Page from './components-new/Page';
 import Redirect from './components/Redirect/Redirect';
 
 // pages
@@ -37,6 +37,8 @@ import SilverBrant from './routes/rocketPages/SilverBrant';
 import Eridani from './routes/rocketPages/Eridani';
 import WRT1 from './routes/rocketPages/WRT1';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+
+import HomeNew from './routes-new/HomeNew';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -166,6 +168,11 @@ ReactDOM.render(
           exact
           path="contact"
           element={<Page title="Contact"><Contact /></Page>}
+        />
+        <Route
+          exact
+          path="home-new"
+          element={<Page title="Home NEW"><HomeNew /></Page>}
         />
       </Routes>
       <Footer />
