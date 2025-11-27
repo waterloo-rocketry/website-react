@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 
 import Navigation from './components/Navigation/Navigation';
-import Page from './components/Page';
+import Page from './components-new/Page';
 import Redirect from './components/Redirect/Redirect';
 
 // pages
@@ -38,7 +38,7 @@ import Eridani from './routes/rocketPages/Eridani';
 import WRT1 from './routes/rocketPages/WRT1';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
-import HomeNew from './routes/HomeNew';
+import HomeNew from './routes-new/HomeNew';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
