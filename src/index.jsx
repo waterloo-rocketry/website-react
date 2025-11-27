@@ -38,6 +38,8 @@ import Eridani from './routes/rocketPages/Eridani';
 import WRT1 from './routes/rocketPages/WRT1';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
+import HomeNew from './routes/HomeNew';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
@@ -166,6 +168,11 @@ ReactDOM.render(
           exact
           path="contact"
           element={<Page title="Contact"><Contact /></Page>}
+        />
+        <Route
+          exact
+          path="home-new"
+          element={<Page title="Home NEW"><HomeNew /></Page>}
         />
       </Routes>
       <Footer />
