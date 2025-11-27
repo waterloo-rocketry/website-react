@@ -6,7 +6,7 @@ import {
   Row,
 } from 'react-bootstrap';
 
-import BannerPhoto from '../components/BannerPhoto/BannerPhoto';
+import VideoBackground from '../components/VideoBackground/VideoBackground';
 import HomeContent from '../components/HomeContent/HomeContent';
 import ImageLink from '../components/ImageLink/ImageLink';
 import { Photo, Video } from '../components/Gallery/Gallery';
@@ -31,7 +31,7 @@ const Home = () => {
 
   return (
     <>
-      <BannerPhoto image={coverPhotoImage}>
+      {/* <BannerPhoto image={coverPhotoImage}>
         <div>
           <h1 className={styles.landingContainer}>
             <span style={{ fontWeight: 'bold', textAlign: 'left' }}>Waterloo Rocketry</span>
@@ -41,7 +41,8 @@ const Home = () => {
             </div>
           </h1>
         </div>
-      </BannerPhoto>
+      </BannerPhoto> */}
+      <VideoBackground video="/launch_bg_vid.mp4" />
       <Container ref={aboutUsRef} style={{ paddingTop: '80px' }}>
         <Row>
           <Col md={7}>
