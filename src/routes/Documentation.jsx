@@ -112,7 +112,7 @@ const Documentation = () => {
                 <a href="https://drive.google.com/file/d/119KyO_dsHsNTk1UnAL251T2Rk1VyRscx/preview" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/file/d/119KyO_dsHsNTk1UnAL251T2Rk1VyRscx" download>Download</a>
+                <a href="https://drive.google.com/uc?export=download&id=119KyO_dsHsNTk1UnAL251T2Rk1VyRscx" download>Download</a>
               </li>
               <li>
                 Airbrakes CFD Report - Richard Ding, Joe Dolina (Aug 2024) |
