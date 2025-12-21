@@ -107,12 +107,12 @@ const Documentation = () => {
           </Content>
           <Content title="Technical Reports">
             <ul className="competition-reports-link-list">
-              <li>
-                The Structural Analysis of the Static Fire Test Stand - Jiya Makwana (May 2024) |
-                <a href="https://drive.google.com/file/d/11GC4f6YCBrLKAj2u-H5ouNC7D9_8236c/preview" target="_blank" rel="noreferrer">View</a>
+              <li> 
+                Roll Control and Estimation of a Canard-controlled Sounding Rocket - Finn Breuer (Dec 2025) |
+                <a href="https://drive.google.com/file/d/119KyO_dsHsNTk1UnAL251T2Rk1VyRscx/preview" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=11GC4f6YCBrLKAj2u-H5ouNC7D9_8236c" download>Download</a>
+                <a href="https://drive.google.com/uc?export=download&id=119KyO_dsHsNTk1UnAL251T2Rk1VyRscx" download>Download</a>
               </li>
               <li>
                 Airbrakes CFD Report - Richard Ding, Joe Dolina (Aug 2024) |
@@ -120,6 +120,13 @@ const Documentation = () => {
                 {' '}
                 |
                 <a href="https://drive.google.com/uc?export=download&id=1lD9XAifR0tfiJs-JQUnJ0HrR1B0OIGfy" download>Download</a>
+              </li>
+              <li>
+                The Structural Analysis of the Static Fire Test Stand - Jiya Makwana (May 2024) |
+                <a href="https://drive.google.com/file/d/11GC4f6YCBrLKAj2u-H5ouNC7D9_8236c/preview" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="https://drive.google.com/uc?export=download&id=11GC4f6YCBrLKAj2u-H5ouNC7D9_8236c" download>Download</a>
               </li>
             </ul>
           </Content>
