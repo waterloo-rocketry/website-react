@@ -107,7 +107,7 @@ const Documentation = () => {
           </Content>
           <Content title="Technical Reports">
             <ul className="competition-reports-link-list">
-              <li> 
+              <li>
                 Roll Control and Estimation of a Canard-controlled Sounding Rocket - Finn Breuer (Dec 2025) |
                 <a href="https://drive.google.com/file/d/119KyO_dsHsNTk1UnAL251T2Rk1VyRscx/preview" target="_blank" rel="noreferrer">View</a>
                 {' '}
