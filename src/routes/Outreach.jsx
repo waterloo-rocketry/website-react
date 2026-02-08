@@ -149,11 +149,11 @@ const Outreach = () => {
                 schools to promote rocketry and STEM education.
               </p>
               <p>
-                At these events, our rocketry team has facilitated activites such as:
+                At these events, our rocketry team has facilitated activities such as:
               </p>
               <ul>
                 <li>Lessons teaching students the basics of rocket science</li>
-                <li> Interactive activities such as paper rockety blow darts</li>
+                <li>Interactive activities such as paper rockety blow darts</li>
                 <li>Tours of our design space, allowing students to interact with our hardware and tools</li>
               </ul>
             </Content>
