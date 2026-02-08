@@ -10,7 +10,8 @@ import ImageBox from '../components/ImageBox/ImageBox';
 import DividerLine from '../components/DividerLine/DividerLine';
 
 import outreachCoverPhoto from '../img/outreach/cover_outreach.webp';
-import afdPhoto from '../img/outreach/afd_logo.webp';
+import openHousePhoto from '../img/outreach/open_house.webp';
+import openHouseCloseUpPhoto from '../img/outreach/open_house_close_up.webp';
 import rdrPhoto from '../img/outreach/rocket_drag_race_2019.webp';
 import edPhoto from '../img/outreach/ed_session.webp';
 
@@ -41,12 +42,10 @@ const Outreach = () => {
         <DividerLine />
         <Row className="my-4 mx-2 gx-5 justify-content-left">
           <Col className="" sm={{ span: 8 }}>
-            <Content title="AVIATION FUN DAY">
+            <Content title="OPEN HOUSE">
               <p className="content-text">
-                Aviation Fun Day is an annual event held by the Region of Waterloo
-                International Airport, featuring all things aviation. Proceeds go
-                to support the Cambridge Self Help Food Bank and The Food Bank of
-                Waterloo Region.
+                The University of Waterloo hosts two annual open houses for prospective students,
+                where the team showcases its rocket and the benefits of joining student teams.
               </p>
               <p className="content-text">
                 Waterloo Rocketry has displayed rockets that we&apos;ve flown in the past
@@ -56,29 +55,38 @@ const Outreach = () => {
                 the past include:
               </p>
               <ul>
-                <li>our student designed and manufactured combustion chamber</li>
-                <li>our Remote Launch Control System, which is the wireless system we use to carry out launch procedures from afar</li>
-                <li>samples of the solid fuel we&apos;ve used to power rockets at competition</li>
-                <li>our recovery subsystem, which allows the rocket to land after launching</li>
+                <li>Our student designed and manufactured combustion chamber</li>
+                <li>Our Remote Launch Control System - the wireless system we use to carry out launch procedures from afar</li>
+                <li>Our active controls system, which controls the rocket during flight</li>
+                <li>Our recovery subsystem, which allows the rocket to land after launching</li>
               </ul>
               <p className="content-text">
                 Check out event details
                 {' '}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.waterlooairport.ca/en/about-ykf/aviation-fun-day.aspx">
+                <a target="_blank" rel="noopener noreferrer" href="https://uwaterloo.ca/future-students/march-open-house">
                   here
                 </a>
                 {' '}
                 - or come experience it in person this year,
-                from 10am-4pm on Saturday, June 27th, 2020!
+                on Saturday March 28th, 2026!
               </p>
             </Content>
           </Col>
           <Col sm={{ span: 4 }}>
-            <ImageBox
-              image={afdPhoto}
-              width="85%"
-              height="auto"
-            />
+            <div className="mb-4">
+              <ImageBox
+                image={openHousePhoto}
+                width="85%"
+                height="auto"
+              />
+            </div>
+            <div>
+              <ImageBox
+                image={openHouseCloseUpPhoto}
+                width="85%"
+                height="auto"
+              />
+            </div>
           </Col>
         </Row>
         <DividerLine />
@@ -135,28 +143,19 @@ const Outreach = () => {
         <DividerLine />
         <Row className="my-4 mx-2 gx-5 justify-content-left">
           <Col className="" sm={{ span: 8 }}>
-            <Content title="ROCKETRY EDUCATION SESSION">
+            <Content title="HIGH SCHOOL & ELEMENTARY SCHOOL OUTREACH">
               <p>
-                The ESQ (Engineering Science Quest) day camp for children is
-                run throughout the summer at University of Waterloo. Children
-                participate in a number of science related actives. One of the
-                activities is to visit with student engineering teams. Over the
-                past years, we have run outreach sessions for over 250 children,
-                most recently in 2018. We have taught them some of the basic
-                principles of rocket design and flown small model rockets with them.
+                Team members conduct outreach at local high schools and elementary
+                schools to promote rocketry and STEM education.
               </p>
               <p>
-                We&apos;ve also coordinated outreach events with individual groups in the
-                past, tailoring the depth of content we cover to the level of the
-                students we visit. Specific examples include high school presentations,
-                where we showcased
-                {' '}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.waterloorocketry.com/vidar3">
-                  Vidar III
-                </a>
-                , and intro to rocketry tutorials for
-                local Air Cadet squadrons.
+                At these events, our rocketry team has facilitated activities such as:
               </p>
+              <ul>
+                <li>Lessons teaching students the basics of rocket science</li>
+                <li>Interactive activities such as paper rocket blow darts</li>
+                <li>Tours of our design space, allowing students to interact with our hardware and tools</li>
+              </ul>
             </Content>
           </Col>
           <Col sm={{ span: 4 }}>
