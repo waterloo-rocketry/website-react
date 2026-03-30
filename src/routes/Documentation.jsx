@@ -108,7 +108,7 @@ const Documentation = () => {
           <Content title="Technical Reports">
             <ul className="competition-reports-link-list">
               <li>
-                An Ethanol-Nitrous Oxide Regneratively-Cooled Liquid Rocket Engine (March 2026) |
+                An Ethanol-Nitrous Oxide Regeneratively-Cooled Liquid Rocket Engine (March 2026) |
                 <a href="https://drive.google.com/file/d/1ZTAttlKHAfhWUw4e5msypCfdut0XQkXt/preview" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
