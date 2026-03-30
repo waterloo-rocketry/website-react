@@ -108,6 +108,13 @@ const Documentation = () => {
           <Content title="Technical Reports">
             <ul className="competition-reports-link-list">
               <li>
+                An Ethanol-Nitrous Oxide Regneratively-Cooled Liquid Rocket Engine (March 2026) |
+                <a href="https://drive.google.com/file/d/1ZTAttlKHAfhWUw4e5msypCfdut0XQkXt/preview" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="https://drive.google.com/uc?export=download&id=1ZTAttlKHAfhWUw4e5msypCfdut0XQkXt" download>Download</a>
+              </li>
+              <li>
                 Roll Control and Estimation of a Canard-controlled Sounding Rocket - Finn Breuer (Dec 2025) |
                 <a href="https://drive.google.com/file/d/119KyO_dsHsNTk1UnAL251T2Rk1VyRscx/preview" target="_blank" rel="noreferrer">View</a>
                 {' '}
