@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.779ea3cd.css",
-    "main.js": "/static/js/main.876af373.js",
+    "main.js": "/static/js/main.cb9b3203.js",
     "static/media/2025_team_photo.webp": "/static/media/2025_team_photo.ea538be7c6dccad02cc5.webp",
     "static/media/kraken-of-the-sky.webp": "/static/media/kraken-of-the-sky.5cf99b02567371342f57.webp",
     "static/media/contact.webp": "/static/media/contact.f4885c23ff2518e77c2f.webp",
@@ -249,10 +249,10 @@
     "index.html": "/index.html",
     "static/media/icon_fb.webp": "/static/media/icon_fb.b2111be5e9009cd6a77e.webp",
     "main.779ea3cd.css.map": "/static/css/main.779ea3cd.css.map",
-    "main.876af373.js.map": "/static/js/main.876af373.js.map"
+    "main.cb9b3203.js.map": "/static/js/main.cb9b3203.js.map"
   },
   "entrypoints": [
     "static/css/main.779ea3cd.css",
-    "static/js/main.876af373.js"
+    "static/js/main.cb9b3203.js"
   ]
 }
