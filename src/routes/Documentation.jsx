@@ -115,6 +115,13 @@ const Documentation = () => {
                 <a href="https://drive.google.com/uc?export=download&id=1ZTAttlKHAfhWUw4e5msypCfdut0XQkXt" download>Download</a>
               </li>
               <li>
+                Design of an Ethanol-Liquid Oxygen Rocket Engine with Thrust Vector Control (April 2025) |
+                <a href="https://drive.google.com/file/d/1S-WHy9eZPrzOjpIwyzloyIxBCHes_5Z6/preview" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="https://drive.google.com/uc?export=download&id=1S-WHy9eZPrzOjpIwyzloyIxBCHes_5Z6" download>Download</a>
+              </li>
+              <li>
                 Roll Control and Estimation of a Canard-controlled Sounding Rocket - Finn Breuer (Dec 2025) |
                 <a href="https://drive.google.com/file/d/119KyO_dsHsNTk1UnAL251T2Rk1VyRscx/preview" target="_blank" rel="noreferrer">View</a>
                 {' '}
