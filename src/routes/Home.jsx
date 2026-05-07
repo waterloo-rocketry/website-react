@@ -13,7 +13,6 @@ import { Photo, Video } from '../components/Gallery/Gallery';
 
 import styles from './css/Home.module.css';
 
-import coverPhotoImage from '../img/home/cover_home.webp';
 import rocketsCoverImage from '../img/home/link_to_rockets.webp';
 import sponsorsCoverImage from '../img/home/link_to_sponsors.webp';
 import galleryCoverImage from '../img/home/link_to_gallery.webp';
@@ -31,17 +30,6 @@ const Home = () => {
 
   return (
     <>
-      {/* <BannerPhoto image={coverPhotoImage}>
-        <div>
-          <h1 className={styles.landingContainer}>
-            <span style={{ fontWeight: 'bold', textAlign: 'left' }}>Waterloo Rocketry</span>
-            <div className={styles.landingButtons}>
-              <Button variant="dark" onClick={handleScrollToAboutUs} style={{ position: 'relative', left: '22%', top: '0' }}>Learn More</Button>
-              <Button variant="dark" href="join" style={{ position: 'relative', left: '22%', top: '0' }}>Join Us</Button>
-            </div>
-          </h1>
-        </div>
-      </BannerPhoto> */}
       <VideoBackground video="/launch_bg_vid.mp4" />
       <Container ref={aboutUsRef} style={{ paddingTop: '80px' }}>
         <Row>

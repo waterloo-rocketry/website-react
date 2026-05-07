@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 
 import styles from './VideoBackground.module.css';
 
@@ -16,15 +16,13 @@ const VideoBackground: React.FC<VideoBackgroundProps> = ({
 }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
 
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.playbackRate = 0.25;
-    }
-  }, []);
-
   return (
     <div className={styles.bannerPhoto} style={style}>
       <video
+        ref={videoRef}
+        onLoadedMetadata={(e) => {
+          e.currentTarget.playbackRate = 0.4;
+        }}
         className={styles.backgroundVideo}
         src={video}
         autoPlay

@@ -32,4 +32,9 @@
   font-size: 1.1rem;
   display: inline-block;
   padding-bottom: 0.8rem;
+  color: #EEEEEE !important;
+}
+
+.navbarLink:hover {
+  color:#FFFF !important;
 }
