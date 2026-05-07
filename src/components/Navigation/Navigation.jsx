@@ -38,30 +38,30 @@ const Navigation = () => {
             <Nav.Link as={Link} className={styles.navbarLink} to="join">
               JOIN
             </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="competition">
+            {/* <Nav.Link as={Link} className={styles.navbarLink} to="competition">
               COMPETITION
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link as={Link} className={styles.navbarLink} to="sponsors">
               SPONSORS
             </Nav.Link>
             <Nav.Link as={Link} className={styles.navbarLink} to="rockets">
               ROCKETS
             </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="subsystems">
+            {/* <Nav.Link as={Link} className={styles.navbarLink} to="subsystems">
               SUBSYSTEMS
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link as={Link} className={styles.navbarLink} to="team">
               TEAM
             </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="awards">
+            {/* <Nav.Link as={Link} className={styles.navbarLink} to="awards">
               AWARDS
-            </Nav.Link>
-            <Nav.Link as={Link} className={styles.navbarLink} to="outreach">
+            </Nav.Link> */}
+            {/* <Nav.Link as={Link} className={styles.navbarLink} to="outreach">
               OUTREACH
             </Nav.Link>
             <Nav.Link as={Link} className={styles.navbarLink} to="documentation">
               DOCUMENTATION
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link as={Link} className={styles.navbarLink} to="contact">
               CONTACT
             </Nav.Link>

@@ -10,8 +10,8 @@
     position: relative
   }
 
-.backgroundImage {
-    filter: brightness(40%);
+.backgroundVideo {
+    filter: brightness(80%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
