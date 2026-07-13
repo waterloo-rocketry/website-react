@@ -70,6 +70,9 @@ import QianQ from '../img/teams/qianQ.webp';
 import SkylerM from '../img/teams/skylerM.webp';
 import CraigR from '../img/teams/craigR.webp';
 import IanM from '../img/teams/ianM.webp';
+import KaiG from '../img/teams/kaiG.webp';
+import VictorC from '../img/teams/victorC.webp';
+import SamiG from '../img/teams/samiG.webp';
 
 // Alumni
 import AaronM from '../img/teams/aaronM.webp';
@@ -156,6 +159,7 @@ const Team = () => {
           <MemberImage image={RajatA} name="Rajat Agrawal" title="Integration Lead/Airframe" />
           <MemberImage image={JiuchengZ} name="Jiucheng Zang" title="Software" />
           <MemberImage image={IanM} name="Ian Martin" title="Propulsion" />
+          <MemberImage image={KaiG} name="Kai Goodall" title="Propulsion" />
           <MemberImage image={CraigR} name="Craig Rennie" title="Airframe Lead" />
           <MemberImage image={JasonH} name="Jason Huang" title="Controls" />
           <MemberImage image={TristanY} name="Tristan Yan-Klassen" title="Controls/Flight Dynamics" />
@@ -163,6 +167,8 @@ const Team = () => {
           <MemberImage image={AlexP} name="Alex Pacheco" title="Operations Lead" />
           <MemberImage image={ChrisY} name="Chris Yang" title="Software Lead" />
           <MemberImage image={LamarA} name="Lamar Almoaiqel" title="Propulsion" />
+          <MemberImage image={SamiG} name="Sami Ghozlani" title="Propulsion" />
+          <MemberImage image={VictorC} name="Victor Cora" title="Propulsion" />
           <MemberImage image={DarienN} name="Darien Ng" title="Electrical" />
           <MemberImage image={QianQ} name="Qian Qian" title="Software" />
           <MemberImage image={SkylerM} name="Skyler Ma" title="Electrical" />
