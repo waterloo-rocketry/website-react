@@ -73,6 +73,8 @@ import IanM from '../img/teams/ianM.webp';
 import KaiG from '../img/teams/kaiG.webp';
 import VictorC from '../img/teams/victorC.webp';
 import SamiG from '../img/teams/samiG.webp';
+import OliverL from '../img/teams/oliverL.webp';
+import RomirT from '../img/teams/romirT.webp';
 
 // Alumni
 import AaronM from '../img/teams/aaronM.webp';
@@ -165,10 +167,12 @@ const Team = () => {
           <MemberImage image={TristanY} name="Tristan Yan-Klassen" title="Controls/Flight Dynamics" />
           <MemberImage image={FinnB} name="Finn Breuer" title="Controls" />
           <MemberImage image={AlexP} name="Alex Pacheco" title="Operations Lead" />
+          <MemberImage image={OliverL} name="Oliver Lazarus" title="Safety Captain" />
           <MemberImage image={ChrisY} name="Chris Yang" title="Software Lead" />
           <MemberImage image={LamarA} name="Lamar Almoaiqel" title="Propulsion" />
           <MemberImage image={SamiG} name="Sami Ghozlani" title="Propulsion" />
           <MemberImage image={VictorC} name="Victor Cora" title="Propulsion" />
+          <MemberImage image={RomirT} name="Romir Tandon" title="Propulsion" />
           <MemberImage image={DarienN} name="Darien Ng" title="Electrical" />
           <MemberImage image={QianQ} name="Qian Qian" title="Software" />
           <MemberImage image={SkylerM} name="Skyler Ma" title="Electrical" />
