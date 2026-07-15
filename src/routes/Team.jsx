@@ -75,6 +75,7 @@ import VictorC from '../img/teams/victorC.webp';
 import SamiG from '../img/teams/samiG.webp';
 import OliverL from '../img/teams/oliverL.webp';
 import RomirT from '../img/teams/romirT.webp';
+import RajeevP from '../img/teams/rajeevP.webp';
 
 // Alumni
 import AaronM from '../img/teams/aaronM.webp';
@@ -174,6 +175,7 @@ const Team = () => {
           <MemberImage image={VictorC} name="Victor Cora" title="Propulsion" />
           <MemberImage image={RomirT} name="Romir Tandon" title="Propulsion" />
           <MemberImage image={DarienN} name="Darien Ng" title="Electrical" />
+          <MemberImage image={RajeevP} name="Rajeev Persaud" title="Payload" />
           <MemberImage image={QianQ} name="Qian Qian" title="Software" />
           <MemberImage image={SkylerM} name="Skyler Ma" title="Electrical" />
           <MemberImage image={GordonH} name="Gordon Ho" title="Propulsion" />
