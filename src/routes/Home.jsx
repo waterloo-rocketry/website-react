@@ -9,7 +9,7 @@ import {
 import BannerPhoto from '../components/BannerPhoto/BannerPhoto';
 import HomeContent from '../components/HomeContent/HomeContent';
 import ImageLink from '../components/ImageLink/ImageLink';
-import { Photo, Video } from '../components/Gallery/Gallery';
+import { Photo } from '../components/Gallery/Gallery';
 
 import styles from './css/Home.module.css';
 
@@ -20,7 +20,7 @@ import galleryCoverImage from '../img/home/link_to_gallery.webp';
 
 import aboutUsImage1 from '../img/rocket/aurora-2025.webp';
 
-import pressReleasePhotoA from '../img/home/aurora-logo.webp';
+import pressReleasePhotoA from '../img/home/Polaris Launch 1 - Alex Kari.JPG';
 
 const Home = () => {
   const aboutUsRef = useRef(null);
@@ -76,7 +76,7 @@ const Home = () => {
         <Row>
           <Col md={8} className={styles.pressReleaseBox}>
             <p>
-              <strong>FOR IMMEDIATE RELEASE: 08/24/25</strong>
+              <strong>FOR IMMEDIATE RELEASE: 08/28/26</strong>
             </p>
             <div className={styles.contactInfo}>
               <p>Waterloo Rocketry</p>
@@ -86,37 +86,37 @@ const Home = () => {
               </p>
             </div>
             <h2>
-              Waterloo Rocketry&apos;s Aurora Rocket Shatters Records at Launch Canada 2025
+              Waterloo Rocketry Reaches New Heights With World&apos;s Highest Amateur Liquid Bi-propellant Rocket
             </h2>
             <p>
               <strong>Timmins, Ontario:</strong>
               {' '}
               Waterloo Rocketry, a student design team from the University of Waterloo,
-              is excited to announce the successful launch of Aurora, the team&apos;s 2025 liquid
-              bi-propellant rocket, at Launch Canada on Thursday, August 21st.
+              proudly announces a historic milestone in Canadian aerospace with the successful
+              launch of ‘Polaris’, the highest flying amateur liquid bi-propellant rocket.
+              The launch occurred on August 20, 2026 in Timmins, ON.
             </p>
             <p>
-              Aurora soared to an altitude of about 38,000 feet at around Mach 2,
-              more than doubling the team&apos;s standing Canadian altitude record for liquid
-              bi-propellant rockets. Although the recovery system&apos;s parachutes did not
-              survive—meaning the rocket could not be retrieved from the forest and is likely at
-              the bottom of a lake—the team is immensely proud of this year&apos;s achievement.
+              ‘Polaris’, powered by ethanol and nitrous oxide and standing at over 17 feet,
+              reached an altitude of 19,383 metres (63,497 feet) and achieved a top speed of 3108 km/h (Mach 2.7).
+              The rocket also demonstrated active roll control during its flight before falling back to the ground under its own parachute.
             </p>
             <p>
-              Designed and built entirely by students, Aurora represents a year of dedication,
-              innovation, and teamwork. With this milestone, Waterloo Rocketry secured 2nd place
-              in Launch Canada&apos;s Advanced category.
+              Designed entirely by students, ‘Polaris’ is the result of thousands of hours of engineering work
+              undertaken by dozens of undergrads, outside of their classwork and internships, and is an incredible
+              testament to their dedication, collaboration, and skill.
             </p>
             <p>
-              The team extends a huge thank you to its sponsors for their generous support—this
-              launch would not have been possible without them. Gratitude also goes to the
-              University of Waterloo and the Sedra Student Design Centre for enabling the team
-              to pursue ambitious projects like Aurora.
+              The University of Waterloo has become a leading institution in international collegiate rocketry,
+              with ‘Polaris’ marking the team’s third liquid rocket and one of a handful of amateur liquid rocket flights worldwide.
+            </p>
+            <p>
+              In future years, the team continues to develop higher-performing propulsion systems, more reliable flight electronics,
+              advanced active control systems, and to continue to push the bounds of what student rocketry programs can do.
             </p>
           </Col>
           <Col md={4} className={styles.mediaBox}>
-            <Photo link={pressReleasePhotoA} altText="Aurora Logo" />
-            <Video link="https://www.youtube.com/embed/vRShaLdex7Q?si=k5kqdmuP8fEYu2LC" title="Rocket Launch" />
+            <Photo link={pressReleasePhotoA} altText="Polaris Launch" />
           </Col>
         </Row>
       </Container>
