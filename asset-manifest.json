@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.779ea3cd.css",
-    "main.js": "/static/js/main.1e03f8b6.js",
+    "main.js": "/static/js/main.bbfaa33f.js",
     "static/media/victorC.webp": "/static/media/victorC.d3289641543e455436d0.webp",
     "static/media/2025_team_photo.webp": "/static/media/2025_team_photo.ea538be7c6dccad02cc5.webp",
     "static/media/kraken-of-the-sky.webp": "/static/media/kraken-of-the-sky.5cf99b02567371342f57.webp",
@@ -13,6 +13,7 @@
     "static/media/cover_subsystems.webp": "/static/media/cover_subsystems.ae115efea6dc762d3c0f.webp",
     "static/media/leviathan-of-the-sky.webp": "/static/media/leviathan-of-the-sky.246c2aeb8d4a7c5068df.webp",
     "static/media/benP.webp": "/static/media/benP.fcb07aeda055bbf3f9d9.webp",
+    "static/media/Polaris Launch 1 - Alex Kari.JPG": "/static/media/Polaris Launch 1 - Alex Kari.bfbaae3ef189472aad3f.JPG",
     "static/media/rise_tower.webp": "/static/media/rise_tower.ced2a96393ce98465c39.webp",
     "static/media/alexP.webp": "/static/media/alexP.8a4a599bfea86e8ce0bf.webp",
     "static/media/rocket_drag_race_2019.webp": "/static/media/rocket_drag_race_2019.c61d3d5d5d1430ef3d7c.webp",
@@ -179,7 +180,6 @@
     "static/media/misumi.webp": "/static/media/misumi.7520aacdf936448ec13d.webp",
     "static/media/chamathW.webp": "/static/media/chamathW.941e781598e1510a73d5.webp",
     "static/media/30k_SRAD23.webp": "/static/media/30k_SRAD23.ae691532d62549cd52a6.webp",
-    "static/media/aurora-logo.webp": "/static/media/aurora-logo.8651ed69f3d336c494dd.webp",
     "static/media/IEEE-Logo.webp": "/static/media/IEEE-Logo.a0b4928cd9ba53e61c8d.webp",
     "static/media/10k_SRAD17.webp": "/static/media/10k_SRAD17.e3a50a510841e0383918.webp",
     "static/media/kavinS.webp": "/static/media/kavinS.8bebb74943f37185fea8.webp",
@@ -259,10 +259,10 @@
     "index.html": "/index.html",
     "static/media/icon_fb.webp": "/static/media/icon_fb.b2111be5e9009cd6a77e.webp",
     "main.779ea3cd.css.map": "/static/css/main.779ea3cd.css.map",
-    "main.1e03f8b6.js.map": "/static/js/main.1e03f8b6.js.map"
+    "main.bbfaa33f.js.map": "/static/js/main.bbfaa33f.js.map"
   },
   "entrypoints": [
     "static/css/main.779ea3cd.css",
-    "static/js/main.1e03f8b6.js"
+    "static/js/main.bbfaa33f.js"
   ]
 }
