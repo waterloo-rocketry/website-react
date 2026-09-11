@@ -86,7 +86,8 @@ const Home = () => {
               </p>
             </div>
             <h2>
-              Waterloo Rocketry Reaches New Heights With World&apos;s Highest Amateur Liquid Bi-propellant Rocket
+              Waterloo Rocketry Reaches New Heights
+              With World&apos;s Highest Amateur Liquid Bi-propellant Rocket
             </h2>
             <p>
               <strong>Timmins, Ontario:</strong>
@@ -98,21 +99,25 @@ const Home = () => {
             </p>
             <p>
               ‘Polaris’, powered by ethanol and nitrous oxide and standing at over 17 feet,
-              reached an altitude of 19,383 metres (63,497 feet) and achieved a top speed of 3108 km/h (Mach 2.7).
-              The rocket also demonstrated active roll control during its flight before falling back to the ground under its own parachute.
+              reached an altitude of 19,383 metres (63,497 feet) and achieved a top speed of
+              3108 km/h (Mach 2.7). The rocket also demonstrated active roll control during its
+              flight before falling back to the ground under its own parachute.
             </p>
             <p>
-              Designed entirely by students, ‘Polaris’ is the result of thousands of hours of engineering work
-              undertaken by dozens of undergrads, outside of their classwork and internships, and is an incredible
-              testament to their dedication, collaboration, and skill.
+              Designed entirely by students, ‘Polaris’ is the result of thousands of hours of
+              engineering work undertaken by dozens of undergrads, outside of their classwork
+              and internships, and is an incredible testament to their dedication, collaboration,
+              and skill.
             </p>
             <p>
-              The University of Waterloo has become a leading institution in international collegiate rocketry,
-              with ‘Polaris’ marking the team’s third liquid rocket and one of a handful of amateur liquid rocket flights worldwide.
+              The University of Waterloo has become a leading institution in international
+              collegiate rocketry, with ‘Polaris’ marking the team’s third liquid rocket and
+              one of a handful of amateur liquid rocket flights worldwide.
             </p>
             <p>
-              In future years, the team continues to develop higher-performing propulsion systems, more reliable flight electronics,
-              advanced active control systems, and to continue to push the bounds of what student rocketry programs can do.
+              In future years, the team continues to develop higher-performing propulsion systems,
+              more reliable flight electronics, advanced active control systems, and to continue
+              to push the bounds of what student rocketry programs can do.
             </p>
           </Col>
           <Col md={4} className={styles.mediaBox}>
