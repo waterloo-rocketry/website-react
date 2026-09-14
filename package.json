@@ -23,8 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "check-links": "node scripts/check-document-links.js"
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
