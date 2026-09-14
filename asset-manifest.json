@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.779ea3cd.css",
-    "main.js": "/static/js/main.bbfaa33f.js",
+    "main.css": "/static/css/main.4545a4d8.css",
+    "main.js": "/static/js/main.8ae8ffe2.js",
     "static/media/victorC.webp": "/static/media/victorC.d3289641543e455436d0.webp",
     "static/media/2025_team_photo.webp": "/static/media/2025_team_photo.ea538be7c6dccad02cc5.webp",
     "static/media/kraken-of-the-sky.webp": "/static/media/kraken-of-the-sky.5cf99b02567371342f57.webp",
     "static/media/contact.webp": "/static/media/contact.f4885c23ff2518e77c2f.webp",
     "static/media/shark-of-the-sky.webp": "/static/media/shark-of-the-sky.2e4ad6dfaaa5321045a7.webp",
     "static/media/unexploded-ordnance-2018.webp": "/static/media/unexploded-ordnance-2018.92369cbf5d94a5e3d11b.webp",
-    "static/media/cover_home.webp": "/static/media/cover_home.59fb2e2068a2d50f9ee1.webp",
+    "static/media/cover_home.webp": "/static/media/cover_home.9f0a4b4b38abc8d9b9e8.webp",
     "static/media/borealis_upright.webm": "/static/media/borealis_upright.df085794935a43b245a5.webm",
     "static/media/cover_subsystems.webp": "/static/media/cover_subsystems.ae115efea6dc762d3c0f.webp",
     "static/media/leviathan-of-the-sky.webp": "/static/media/leviathan-of-the-sky.246c2aeb8d4a7c5068df.webp",
@@ -258,11 +258,11 @@
     "static/media/icon_flickr.webp": "/static/media/icon_flickr.9fa96dd8def0662d57f7.webp",
     "index.html": "/index.html",
     "static/media/icon_fb.webp": "/static/media/icon_fb.b2111be5e9009cd6a77e.webp",
-    "main.779ea3cd.css.map": "/static/css/main.779ea3cd.css.map",
-    "main.bbfaa33f.js.map": "/static/js/main.bbfaa33f.js.map"
+    "main.4545a4d8.css.map": "/static/css/main.4545a4d8.css.map",
+    "main.8ae8ffe2.js.map": "/static/js/main.8ae8ffe2.js.map"
   },
   "entrypoints": [
-    "static/css/main.779ea3cd.css",
-    "static/js/main.bbfaa33f.js"
+    "static/css/main.4545a4d8.css",
+    "static/js/main.8ae8ffe2.js"
   ]
 }
