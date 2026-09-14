@@ -116,17 +116,17 @@ const Documentation = () => {
               </li>
               <li>
                 Design of an Ethanol-Liquid Oxygen Rocket Engine with Thrust Vector Control (April 2025) |
-                <a href="https://drive.google.com/file/d/1S-WHy9eZPrzOjpIwyzloyIxBCHes_5Z6/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/tr_2025_ethanol_lox_tvc.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1S-WHy9eZPrzOjpIwyzloyIxBCHes_5Z6" download>Download</a>
+                <a href="/pdfs/tr_2025_ethanol_lox_tvc.pdf" download>Download</a>
               </li>
               <li>
                 Roll Control and Estimation of a Canard-controlled Sounding Rocket - Finn Breuer (Dec 2025) |
-                <a href="https://drive.google.com/file/d/119KyO_dsHsNTk1UnAL251T2Rk1VyRscx/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/tr_2025_roll_control_canards.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=119KyO_dsHsNTk1UnAL251T2Rk1VyRscx" download>Download</a>
+                <a href="/pdfs/tr_2025_roll_control_canards.pdf" download>Download</a>
               </li>
               <li>
                 Airbrakes CFD Report - Richard Ding, Joe Dolina (Aug 2024) |
