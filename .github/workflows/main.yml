@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   build:
@@ -22,8 +25,14 @@ jobs:
       - name: Install npm packages
         run: npm ci
 
+      - name: Check document links
+        run: npm run check-links
+
       - name: Build project
         run: npm run build
+
+      - name: Check document links in built output
+        run: npm run check-links
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4

@@ -109,10 +109,10 @@ const Documentation = () => {
             <ul className="competition-reports-link-list">
               <li>
                 An Ethanol-Nitrous Oxide Regeneratively-Cooled Liquid Rocket Engine (March 2026) |
-                <a href="https://drive.google.com/file/d/1ZTAttlKHAfhWUw4e5msypCfdut0XQkXt/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/tr_2026_regen_liquid_engine.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1ZTAttlKHAfhWUw4e5msypCfdut0XQkXt" download>Download</a>
+                <a href="/pdfs/tr_2026_regen_liquid_engine.pdf" download>Download</a>
               </li>
               <li>
                 Design of an Ethanol-Liquid Oxygen Rocket Engine with Thrust Vector Control (April 2025) |
@@ -130,17 +130,17 @@ const Documentation = () => {
               </li>
               <li>
                 Airbrakes CFD Report - Richard Ding, Joe Dolina (Aug 2024) |
-                <a href="https://drive.google.com/file/d/1lD9XAifR0tfiJs-JQUnJ0HrR1B0OIGfy/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/tr_2024_airbrakes_cfd.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1lD9XAifR0tfiJs-JQUnJ0HrR1B0OIGfy" download>Download</a>
+                <a href="/pdfs/tr_2024_airbrakes_cfd.pdf" download>Download</a>
               </li>
               <li>
                 The Structural Analysis of the Static Fire Test Stand - Jiya Makwana (May 2024) |
-                <a href="https://drive.google.com/file/d/11GC4f6YCBrLKAj2u-H5ouNC7D9_8236c/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/tr_2024_static_fire_test_stand.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=11GC4f6YCBrLKAj2u-H5ouNC7D9_8236c" download>Download</a>
+                <a href="/pdfs/tr_2024_static_fire_test_stand.pdf" download>Download</a>
               </li>
             </ul>
           </Content>
@@ -149,122 +149,122 @@ const Documentation = () => {
             <ul className="competition-reports-link-list">
               <li>
                 Mechanical Design of Roll Control Canards - Ben Pickens (June 2025) |
-                <a href="https://drive.google.com/file/d/1k6xjEufHSWInonTrrOUHfPoZFRcp5GzU/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2025_pickens_roll_control_canards.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1k6xjEufHSWInonTrrOUHfPoZFRcp5GzU" download>Download</a>
+                <a href="/pdfs/wtr_2025_pickens_roll_control_canards.pdf" download>Download</a>
               </li>
               <li>
                 Canards Aerodynamic Design for an Active Roll-Control System - Luca Scavone (March 2025) |
-                <a href="https://drive.google.com/file/d/174mq2jf7EHIr_QtrmcfE5dtUbLe7okBr/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2025_scavone_canards_aerodynamics.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=174mq2jf7EHIr_QtrmcfE5dtUbLe7okBr" download>Download</a>
+                <a href="/pdfs/wtr_2025_scavone_canards_aerodynamics.pdf" download>Download</a>
               </li>
               <li>
                 Increasing Rocket Apogee by 23% Through Iterative Design - Joel Godard (Jan 2024) |
-                <a href="https://drive.google.com/file/d/1WCfqrq5eObcD8L7Ti5hjObDkq3xk2J32/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2024_godard_apogee_iterative_design.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1WCfqrq5eObcD8L7Ti5hjObDkq3xk2J32" download>Download</a>
+                <a href="/pdfs/wtr_2024_godard_apogee_iterative_design.pdf" download>Download</a>
               </li>
               <li>
                 The Design of the Recovery Electronics Module for the 2023 IREC Competition - Stefan Arroyo-Cottier (Jan 2024) |
-                <a href="https://drive.google.com/file/d/1GSmT4Rn4Gx0krKcMmN34iBY3zURa2_Bi/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2024_arroyo_cottier_recovery_electronics.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1GSmT4Rn4Gx0krKcMmN34iBY3zURa2_Bi" download>Download</a>
+                <a href="/pdfs/wtr_2024_arroyo_cottier_recovery_electronics.pdf" download>Download</a>
               </li>
               <li>
                 The Design of a Testable Hybrid Rocket Engine Using Software Analysis - Artem Sotnikov (Jan 2023) |
-                <a href="https://drive.google.com/file/d/1S1HPG4jcGP1DqZBhM8gB1YVeVin-YZPW/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2023_sotnikov_hybrid_engine.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1S1HPG4jcGP1DqZBhM8gB1YVeVin-YZPW" download>Download</a>
+                <a href="/pdfs/wtr_2023_sotnikov_hybrid_engine.pdf" download>Download</a>
               </li>
               <li>
                 A Practical Method For Reducing Skin Friction Drag in Sounding Rockets - Aaron Leszkowiat (Sep 2023) |
-                <a href="https://drive.google.com/file/d/13vonNjU3d0A9C-SAtyrdvax5SVbD-dHY/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2023_leszkowiat_skin_friction_drag.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=13vonNjU3d0A9C-SAtyrdvax5SVbD-dHY" download>Download</a>
+                <a href="/pdfs/wtr_2023_leszkowiat_skin_friction_drag.pdf" download>Download</a>
               </li>
               <li>
                 Design and Testing of a Coaxial Propellant Valve - Michael Zhou (Sep 2023) |
-                <a href="https://drive.google.com/file/d/1WzVx9eEEpdomRLxhcIoJ7r-5EQDsG41A/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2023_zhou_coaxial_propellant_valve.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1WzVx9eEEpdomRLxhcIoJ7r-5EQDsG41A" download>Download</a>
+                <a href="/pdfs/wtr_2023_zhou_coaxial_propellant_valve.pdf" download>Download</a>
               </li>
               <li>
                 Design of a Weatherproof Laptop for Rocketry Operations - Zachariah Mears (Sep 2022) |
-                <a href="https://drive.google.com/file/d/1cQ5RsS397zvtpukP9yabZGdcUj8TN_J7/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2022_mears_weatherproof_laptop.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1cQ5RsS397zvtpukP9yabZGdcUj8TN_J7" download>Download</a>
+                <a href="/pdfs/wtr_2022_mears_weatherproof_laptop.pdf" download>Download</a>
               </li>
               <li>
-                Flightworthiness Verification of a 3U CubeSat for Sounding Rocket Payloads with Ansys FEA - Zhen Bo Bian (Jan 2021)
-                <a href="https://drive.google.com/file/d/1svfrbJoNVIn8QLqsAxZuygPx-Sminuqw/preview" target="_blank" rel="noreferrer">View</a>
+                Flightworthiness Verification of a 3U CubeSat for Sounding Rocket Payloads with Ansys FEA - Zhen Bo Bian (Jan 2021) |
+                <a href="/pdfs/wtr_2021_bian_cubesat_flightworthiness.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1svfrbJoNVIn8QLqsAxZuygPx-Sminuqw" download>Download</a>
+                <a href="/pdfs/wtr_2021_bian_cubesat_flightworthiness.pdf" download>Download</a>
               </li>
               <li>
                 Design of a Remote Arming System for Sounding Rocket Recovery Systems - Zachariah Mears (May 2021) |
-                <a href="https://drive.google.com/file/d/1mJdbU_DnHBsXbkE7CIYt-ecdo5iTb_A0/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2021_mears_remote_arming.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1mJdbU_DnHBsXbkE7CIYt" download>Download</a>
+                <a href="/pdfs/wtr_2021_mears_remote_arming.pdf" download>Download</a>
               </li>
               <li>
                 The Design of a Reefing Parachute Recovery System for a Student Competition Sounding Rocket - Artem Sotnikov (Sep 2021) |
-                <a href="https://drive.google.com/file/d/1vLr4iOF98OzdV2tspgNxmfHTgOtGnNoY/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2021_sotnikov_reefing_parachute.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1vLr4iOF98OzdV2tspgNxmfHTgOtGnNoY" download>Download</a>
+                <a href="/pdfs/wtr_2021_sotnikov_reefing_parachute.pdf" download>Download</a>
               </li>
               <li>
                 Design and Analysis of a Thrust Structure for a Hybrid Sounding Rocket - Shirley Kong (Sep 2021) |
-                <a href="https://drive.google.com/file/d/1sRroc3RC9PoDO2NRHMSUVpDbmefWFZL3/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2021_kong_thrust_structure.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1sRroc3RC9PoDO2NRHMSUVpDbmefWFZL3" download>Download</a>
+                <a href="/pdfs/wtr_2021_kong_thrust_structure.pdf" download>Download</a>
               </li>
               <li>
                 Design of Robust 635 LBF NOS-Ethanol Rocket Engine for Ground Testing - Zhen Bo Bian (Sep 2021) |
-                <a href="https://drive.google.com/file/d/13wcIYlFyis6gbUdSigMnKtdh1-airZBQ/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2021_bian_nos_ethanol_engine.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=13wcIYlFyis6gbUdSigMnKtdh1-airZBQ" download>Download</a>
+                <a href="/pdfs/wtr_2021_bian_nos_ethanol_engine.pdf" download>Download</a>
               </li>
               <li>
                 Design of Test Stand for High Risk Rocket Engine Testing - Hamza Abuabah (May 2020) |
-                <a href="https://drive.google.com/file/d/12F9SWNXzpTmkqI2hn29A6uqWMmJUXX0j/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2020_abuabah_engine_test_stand.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=12F9SWNXzpTmkqI2hn29A6uqWMmJUXX0j" download>Download</a>
+                <a href="/pdfs/wtr_2020_abuabah_engine_test_stand.pdf" download>Download</a>
               </li>
               <li>
                 Development of a laminate calculator based on Classical Laminate Plate Theory - Shirley Kong (May 2020) |
-                <a href="https://drive.google.com/file/d/1OKmbffri3W1MqW8Ls_vqQ2R3psECpFIj/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2020_kong_laminate_calculator.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1OKmbffri3W1MqW8Ls_vqQ2R3psECpFIj" download>Download</a>
+                <a href="/pdfs/wtr_2020_kong_laminate_calculator.pdf" download>Download</a>
               </li>
               <li>
                 Design of a Safety Vent Valve - Matthew Gencher (May 2020) |
-                <a href="https://drive.google.com/file/d/1di-0h_MMZf5IB7Vwp1JeGVw4BenTNKcX/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2020_gencher_safety_vent_valve.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=1di-0h_MMZf5IB7Vwp1JeGVw4BenTNKcX" download>Download</a>
+                <a href="/pdfs/wtr_2020_gencher_safety_vent_valve.pdf" download>Download</a>
               </li>
               <li>
                 Development of a Layout Algorithm for Plumbing System Visualization - Jacob Deery (Sep 2020) |
-                <a href="https://drive.google.com/file/d/15Sd0619EMNpo_Z3IYPA4vw-ykMG10Db6/preview" target="_blank" rel="noreferrer">View</a>
+                <a href="/pdfs/wtr_2020_deery_plumbing_layout.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
                 |
-                <a href="https://drive.google.com/uc?export=download&id=15Sd0619EMNpo_Z3IYPA4vw-ykMG10Db6" download>Download</a>
+                <a href="/pdfs/wtr_2020_deery_plumbing_layout.pdf" download>Download</a>
               </li>
             </ul>
           </Content>

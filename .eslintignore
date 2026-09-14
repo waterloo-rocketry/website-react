@@ -1,0 +1,6 @@
+build/
+node_modules/
+
+# Node build tooling: CommonJS, runs outside the browser bundle, and is not part
+# of the TypeScript project that .eslintrc.json's parserOptions.project points at.
+scripts/
