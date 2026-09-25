@@ -26,6 +26,10 @@ import vectornav from '../img/sponsorship/2_gold_sponsors/vectornav.webp';
 import Movella from '../img/sponsorship/2_gold_sponsors/movella_logo.webp';
 import harwin from '../img/sponsorship/2_gold_sponsors/harwin_logo.webp';
 import moderncrane from '../img/sponsorship/2_gold_sponsors/modern_crane_logo.webp';
+import xsens from '../img/sponsorship/2_gold_sponsors/xsens.png';
+import forge from '../img/sponsorship/2_gold_sponsors/forge.svg';
+import petersCo from '../img/sponsorship/2_gold_sponsors/peters_co.png';
+import zeton from '../img/sponsorship/2_gold_sponsors/zeton.png';
 
 // SILVER
 import bomist from '../img/sponsorship/3_silver_sponsors/bomist_logo.webp';
@@ -40,6 +44,12 @@ import engsoc from '../img/sponsorship/3_silver_sponsors/engsoc_logo.webp';
 import vectorply from '../img/sponsorship/3_silver_sponsors/vectorply.webp';
 import linde from '../img/sponsorship/3_silver_sponsors/Linde.webp';
 import pelican from '../img/sponsorship/3_silver_sponsors/pelican_logo.webp';
+import protocase from '../img/sponsorship/3_silver_sponsors/protocase.png';
+import kulite from '../img/sponsorship/3_silver_sponsors/kulite.svg';
+import hakko from '../img/sponsorship/3_silver_sponsors/hakko.png';
+import labjack from '../img/sponsorship/3_silver_sponsors/labjack.png';
+import argosResearch from '../img/sponsorship/3_silver_sponsors/argos_research.png';
+import tesla from '../img/sponsorship/3_silver_sponsors/tesla.svg';
 
 // BRONZE
 import jlcpcb from '../img/sponsorship/4_bronze_sponsors/jlcpcb.webp';
@@ -49,6 +59,14 @@ import designelectronics from '../img/sponsorship/4_bronze_sponsors/design_elect
 import Pololu from '../img/sponsorship/4_bronze_sponsors/pololu_logo.webp';
 import tplink from '../img/sponsorship/4_bronze_sponsors/tp_link.webp';
 import ceno360 from '../img/sponsorship/4_bronze_sponsors/ceno_360_logo.webp';
+import mda from '../img/sponsorship/4_bronze_sponsors/mda.svg';
+import dreamSourceLab from '../img/sponsorship/4_bronze_sponsors/dreamsourcelab.png';
+import reefsRc from '../img/sponsorship/4_bronze_sponsors/reefs_rc.png';
+import polymeresTechnologies from '../img/sponsorship/4_bronze_sponsors/polymeres_technologies.webp';
+import overleaf from '../img/sponsorship/4_bronze_sponsors/overleaf.png';
+import cubeMars from '../img/sponsorship/4_bronze_sponsors/cubemars.jpg';
+import smartShield from '../img/sponsorship/4_bronze_sponsors/smartshield.svg';
+import sadServers from '../img/sponsorship/4_bronze_sponsors/sadservers.png';
 
 // PREVIOUS
 import ariss from '../img/sponsorship/5_previous_sponsors/ariss.webp';
@@ -361,19 +379,106 @@ const Sponsors = () => {
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={swagelok} link="http://www.swagelok.com/en" />
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                image={swagelok}
+                link="http://www.swagelok.com/en"
+              >
+                Since introducing its leak-tight tube fitting in 1947, Swagelok has grown into a
+                worldwide manufacturer and provider of industrial fluid-system support. Its
+                fittings, valves, regulators, hoses, and engineered subsystems help customers
+                contain, control, and transfer fluids without leaks. Swagelok pairs these products
+                with technical expertise to help industries meet demanding operating requirements
+                safely, efficiently, and reliably.
+              </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={vectorply} link="https://vectorply.com/" />
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                image={vectorply}
+                link="https://vectorply.com/"
+              >
+                Vectorply develops, manufactures, and distributes composite reinforcement fabrics
+                for customer-specific applications. Its materials are engineered to optimize
+                stiffness, strength, weight, and cost, using fibres such as E-glass, carbon, and
+                aramid in a range of stitch-bonded architectures. The company also provides
+                technical assistance to help customers optimize laminates and implement new
+                composite production processes.
+              </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={mef} link="https://uwaterloo.ca/math-endowment-fund/" />
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                image={mef}
+                link="https://uwaterloo.ca/math-endowment-fund/"
+              >
+                The Mathematics Endowment Fund is an income-generating fund that finances projects
+                in the best interests of University of Waterloo undergraduate mathematics students.
+                Run by students for students, MEF supports professional development, student
+                initiatives, and community projects that foster academic growth and collaboration.
+                Its student-led Funding Council evaluates applications and directs funding toward
+                initiatives that make a lasting impact in the Faculty of Mathematics.
+              </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={prattAndWhitney} link="http://www.pwc.ca/" />
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                image={prattAndWhitney}
+                link="http://www.pwc.ca/"
+              >
+                Pratt &amp; Whitney is a global leader in aircraft propulsion systems, designing and
+                servicing advanced engines for aviation. Its engines connect people, grow economies,
+                and support customers around the world. Building on more than a century of aerospace
+                innovation, the company continues to develop technology that supports a smarter,
+                cleaner, and more sustainable future for flight.
+              </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={engsoc} link="https://www.engsoc.uwaterloo.ca/" />
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                image={engsoc}
+                link="https://www.engsoc.uwaterloo.ca/"
+              >
+                The Waterloo Engineering Society is one of Canada&apos;s largest and most active
+                student societies. Founded from Waterloo&apos;s original engineering student
+                organization, EngSoc has grown alongside the Faculty of Engineering since
+                the late 1950s. It supports students through services, events, student spaces,
+                advocacy, outreach, and opportunities to build community throughout Engineering.
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                name="Xsens"
+                image={xsens}
+                link="https://www.xsens.com/"
+              >
+                Xsens develops motion capture systems and inertial sensors used in
+                entertainment, robotics, sports, health, and industrial applications.
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                name="Forge Automation"
+                image={forge}
+                link="https://www.forgejobshop.com/"
+              >
+                Forge Automation manufactures custom CNC parts in Canada through an online
+                quoting and ordering platform.
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc logoTier="gold" name="Peters & Co. Limited" image={petersCo} link="https://www.petersco.com/">
+                Peters &amp; Co. Limited is a Canadian investment dealer specializing
+                in the energy sector.
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc logoTier="gold" name="Zeton" image={zeton} link="https://www.zeton.com/">
+                Zeton designs and builds pilot plants and modular process systems
+                for research, demonstration, and production.
+              </SponsorLinkWithDesc>
             </Col>
           </Row>
 
@@ -384,6 +489,15 @@ const Sponsors = () => {
           <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={ifm} link="https://www.ifm.com/ca" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" name="Protocase" image={protocase} link="https://www.protocase.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" name="Kulite" image={kulite} link="https://kulite.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" name="American Hakko Products, Inc." image={hakko} link="https://hakkousa.com/" />
             </Col>
           </Row>
 
@@ -396,6 +510,15 @@ const Sponsors = () => {
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={airtech} link="https://www.airtechintl.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" name="LabJack" image={labjack} link="https://labjack.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" name="Argos Research" image={argosResearch} link="https://argosresearch.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" name="Tesla" image={tesla} link="https://www.tesla.com/" />
             </Col>
           </Row>
 
@@ -428,6 +551,30 @@ const Sponsors = () => {
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="bronze" image={ceno360} link="https://www.ceno360.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="MDA Space" image={mda} link="https://mda.space/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="DreamSourceLab" image={dreamSourceLab} link="https://www.dreamsourcelab.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="Reefs RC" image={reefsRc} link="https://reefsrc.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="Polymères Technologies" image={polymeresTechnologies} link="https://polymerestechnologies.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="Overleaf" image={overleaf} link="https://www.overleaf.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="CubeMars" image={cubeMars} link="https://www.cubemars.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="SmartShield Packaging" image={smartShield} link="https://www.smartshieldpackaging.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="SadServers" image={sadServers} link="https://sadservers.com/" />
             </Col>
           </Row>
 
@@ -469,7 +616,7 @@ const Sponsors = () => {
               <SponsorLinkWithDesc image={futureElectronics} link="http://www.futureelectronics.com/en/company-information/about-future-electronics/FutureConnectivitySolutions/Pages/FutureConnectivitySolutions.aspx" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={kerbalSpaceProgram} link="https://kerbalspaceprogram.com/en/" />
+              <SponsorLinkWithDesc image={kerbalSpaceProgram} link="https://kerbalspaceprogram.com/" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc image={Aversan} link="http://www.aversan.com/" />
