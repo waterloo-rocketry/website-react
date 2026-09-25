@@ -451,10 +451,15 @@ const Sponsors = () => {
                 logoTier="gold"
                 name="Xsens"
                 image={xsens}
+                zoom={0.7}
                 link="https://www.xsens.com/"
               >
-                Xsens develops motion capture systems and inertial sensors used in
-                entertainment, robotics, sports, health, and industrial applications.
+                Xsens develops sensors, software, and analytics that digitize movement. Its motion
+                capture and inertial-sensing technologies help customers capture and analyze motion
+                data for entertainment, robotics, health, sports, and industrial applications. From
+                lifelike digital characters and live performance to humanoid-robot training and
+                workplace ergonomics, Xsens provides tools that turn movement into practical,
+                actionable insight.
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
@@ -464,20 +469,40 @@ const Sponsors = () => {
                 image={forge}
                 link="https://www.forgejobshop.com/"
               >
-                Forge Automation manufactures custom CNC parts in Canada through an online
-                quoting and ordering platform.
+                Forge Automation manufactures custom CNC parts in Canada through an online quoting
+                and ordering platform. Its fleet of three- and four-axis CNC mills produces
+                made-to-order components for customers who need straightforward access to precision
+                machining. Forge combines online ordering with Canadian manufacturing to help
+                engineering teams move from a part design to finished components efficiently.
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" name="Peters & Co. Limited" image={petersCo} link="https://www.petersco.com/">
-                Peters &amp; Co. Limited is a Canadian investment dealer specializing
-                in the energy sector.
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                name="Peters & Co. Limited"
+                image={petersCo}
+                link="https://www.petersco.com/"
+              >
+                Founded in 1971, Peters &amp; Co. Limited is an independent, fully integrated
+                investment dealer specializing in the Canadian energy sector. The firm provides
+                investment services to institutional investors and private clients, supported by its
+                own trading group and specialized energy research. Peters &amp; Co. also serves as
+                an underwriter and financial advisor to Canadian energy companies.
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" name="Zeton" image={zeton} link="https://www.zeton.com/">
-                Zeton designs and builds pilot plants and modular process systems
-                for research, demonstration, and production.
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                name="Zeton"
+                image={zeton}
+                link="https://www.zeton.com/"
+              >
+                Founded in Canada in 1986, Zeton designs and builds laboratory-scale systems, pilot
+                plants, demonstration plants, and modular production facilities. Its integrated
+                design-build approach helps process-technology developers bridge the gap between
+                laboratory chemistry and commercialization. With teams in Canada and the
+                Netherlands, Zeton delivers scalable systems that help customers bring process
+                innovations to market safely, on schedule, and within budget.
               </SponsorLinkWithDesc>
             </Col>
           </Row>
@@ -497,7 +522,13 @@ const Sponsors = () => {
               <SponsorLinkWithDesc logoTier="silver" name="Kulite" image={kulite} link="https://kulite.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" name="American Hakko Products, Inc." image={hakko} link="https://hakkousa.com/" />
+              <SponsorLinkWithDesc
+                logoTier="silver"
+                name="American Hakko Products, Inc."
+                image={hakko}
+                imageHeight="8rem"
+                link="https://hakkousa.com/"
+              />
             </Col>
           </Row>
 

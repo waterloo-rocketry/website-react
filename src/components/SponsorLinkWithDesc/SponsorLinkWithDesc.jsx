@@ -4,7 +4,7 @@ import { Image } from 'react-bootstrap';
 import styles from './SponsorLinkWithDesc.module.css';
 
 const SponsorLinkWithDesc = ({
-  image, link, children, logoTier, name, zoom = 1,
+  image, link, children, logoTier, name, zoom = 1, imageHeight,
 }) => {
   let [imageStyle, containerStyle] = [styles.imgPrevious, styles.logoContainer];
 
@@ -18,7 +18,10 @@ const SponsorLinkWithDesc = ({
     [imageStyle, containerStyle] = [styles.imgBronze, styles.logoContainer];
   }
 
-  const imageZoomStyle = { transform: `scale(${zoom})` };
+  const imageZoomStyle = {
+    transform: `scale(${zoom})`,
+    ...(imageHeight && { height: imageHeight, maxHeight: imageHeight }),
+  };
 
   return (
     <div className={containerStyle}>
