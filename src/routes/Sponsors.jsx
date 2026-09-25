@@ -26,6 +26,10 @@ import vectornav from '../img/sponsorship/2_gold_sponsors/vectornav.webp';
 import Movella from '../img/sponsorship/2_gold_sponsors/movella_logo.webp';
 import harwin from '../img/sponsorship/2_gold_sponsors/harwin_logo.webp';
 import moderncrane from '../img/sponsorship/2_gold_sponsors/modern_crane_logo.webp';
+import xsens from '../img/sponsorship/2_gold_sponsors/xsens.png';
+import forge from '../img/sponsorship/2_gold_sponsors/forge.svg';
+import petersCo from '../img/sponsorship/2_gold_sponsors/peters_co.png';
+import zeton from '../img/sponsorship/2_gold_sponsors/zeton.png';
 
 // SILVER
 import bomist from '../img/sponsorship/3_silver_sponsors/bomist_logo.webp';
@@ -40,6 +44,12 @@ import engsoc from '../img/sponsorship/3_silver_sponsors/engsoc_logo.webp';
 import vectorply from '../img/sponsorship/3_silver_sponsors/vectorply.webp';
 import linde from '../img/sponsorship/3_silver_sponsors/Linde.webp';
 import pelican from '../img/sponsorship/3_silver_sponsors/pelican_logo.webp';
+import protocase from '../img/sponsorship/3_silver_sponsors/protocase.png';
+import kulite from '../img/sponsorship/3_silver_sponsors/kulite.svg';
+import hakko from '../img/sponsorship/3_silver_sponsors/hakko.png';
+import labjack from '../img/sponsorship/3_silver_sponsors/labjack.png';
+import argosResearch from '../img/sponsorship/3_silver_sponsors/argos_research.png';
+import tesla from '../img/sponsorship/3_silver_sponsors/tesla.svg';
 
 // BRONZE
 import jlcpcb from '../img/sponsorship/4_bronze_sponsors/jlcpcb.webp';
@@ -48,6 +58,15 @@ import customClothes from '../img/sponsorship/4_bronze_sponsors/custom_clothes_c
 import designelectronics from '../img/sponsorship/4_bronze_sponsors/design_electronics.webp';
 import Pololu from '../img/sponsorship/4_bronze_sponsors/pololu_logo.webp';
 import tplink from '../img/sponsorship/4_bronze_sponsors/tp_link.webp';
+import ceno360 from '../img/sponsorship/4_bronze_sponsors/ceno_360_logo.webp';
+import mda from '../img/sponsorship/4_bronze_sponsors/mda.svg';
+import dreamSourceLab from '../img/sponsorship/4_bronze_sponsors/dreamsourcelab.png';
+import reefsRc from '../img/sponsorship/4_bronze_sponsors/reefs_rc.png';
+import polymeresTechnologies from '../img/sponsorship/4_bronze_sponsors/polymeres_technologies.webp';
+import overleaf from '../img/sponsorship/4_bronze_sponsors/overleaf.png';
+import cubeMars from '../img/sponsorship/4_bronze_sponsors/cubemars.jpg';
+import smartShield from '../img/sponsorship/4_bronze_sponsors/smartshield.svg';
+import sadServers from '../img/sponsorship/4_bronze_sponsors/sadservers.png';
 
 // PREVIOUS
 import ariss from '../img/sponsorship/5_previous_sponsors/ariss.webp';
@@ -101,7 +120,6 @@ import kwsewingmachine from '../img/sponsorship/5_previous_sponsors/KW_sewing_ma
 import teamgantt from '../img/sponsorship/5_previous_sponsors/team_gantt_logo.webp';
 import acornFireSafety from '../img/sponsorship/5_previous_sponsors/acorn_fire_and_safety.webp';
 import waterlooElectroplating from '../img/sponsorship/5_previous_sponsors/Waterloo-Electroplating.webp';
-import ceno360 from '../img/sponsorship/5_previous_sponsors/ceno_360_logo.webp';
 
 const Sponsors = () => {
   return (
@@ -157,31 +175,6 @@ const Sponsors = () => {
                 </p>
               </SponsorLinkWithDesc>
             </Col>
-            <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="platinum" image={demtool} link="https://demtool.com/">
-                <p className="content-text">
-                  Established in 2004 by Jim and Derrick Demerling in Petersburg, Ontario, Demtool
-                  is a family-led enterprise. With the addition of their brother Matt, the trio
-                  leads a team of over 50 talented individuals, including professional
-                  administrators, engineers, skilled labourers, and tradesmen. Committed to
-                  continuous improvement, Demtool strives to exceed customer expectations,
-                  providing an exceptional customer experience and delivering top-notch end
-                  products.
-                </p>
-                <p className="content-text">
-                  Operating on the principles of Quality and Integrity, Demtool fosters a culture
-                  of innovation, welcoming new ideas from every team member. The company maintains
-                  a clean and safe working environment, with a team that takes immense pride in
-                  their work. As industry leaders, we invest in cutting-edge technologies,
-                  software, machinery, and training to equip employees with the best tools
-                  available. We also actively support and sponsors numerous programs that promote
-                  Science, Technology, Engineering, and Math (STEM), recognizing the importance of
-                  inspiring the next generation. Demtool is deeply engaged in the local community,
-                  participating in and contributing to fundraisers and charitable events,
-                  reflecting its dedication to making a positive impact on the world around them.
-                </p>
-              </SponsorLinkWithDesc>
-            </Col>
           </Row>
 
           <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
@@ -231,53 +224,6 @@ const Sponsors = () => {
                   institutes, and a unique inventor-owned intellectual property
                   policy. We are proud of our reputation for leadership,
                   innovation, and excellence.
-                </p>
-              </SponsorLinkWithDesc>
-            </Col>
-          </Row>
-
-          <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
-            <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="platinum" image={msam} link="https://msam.uwaterloo.ca/" />
-              <p>
-                The Multiscale Additive Manufacturing (MSAM) Lab at the
-                University of Waterloo is one of Canada&apos;s largest research
-                facilities dedicated to metal additive manufacturing. Combining
-                world-class expertise in materials science, mechanical
-                engineering, and computational modeling, MSAM leads cutting-edge
-                research to advance 3D printing technologies for industrial
-                applications. Collaborating with industry leaders across
-                aerospace, automotive, energy, and healthcare sectors, MSAM is
-                driving innovation in design, process optimization, and
-                performance of additively manufactured components.
-              </p>
-            </Col>
-            <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="platinum" image={solidworks} link="https://www.solidworks.com/">
-                <p className="content-text">
-                  Dassault Systèmes SOLIDWORKS Corp. designs and markets 3D
-                  software tools, including analysis, design, and product
-                  data management software. It is used by over 3.2 million
-                  engineers and designers at more than 240,000 companies worldwide.
-                  The purpose of Dassault Systèmes is to provide business and
-                  people with 3DEXPERIENCE universes to imagine sustainable
-                  innovations capable of harmonizing product, nature and life.
-                </p>
-                <p className="content-text">
-                  Dassault  Systèmes is a science-based, innovation-driven,
-                  business-minded and long-term-oriented company. The
-                  Group&apos;s 17,000  employees and contractors are driven by
-                  this ambition. This also translates into a high level of market
-                  confidence and trust among our 250,000 enterprise customers in
-                  more than 140 countries. We are a European company with a global
-                  presence and market reach.
-                </p>
-                <p className="content-text">
-                  What we sell is Dassault  Systèmes&apos; 3DEXPERIENCE, it is a business
-                  experience platform. It catalyzes and enables innovation by allowing
-                  businesses to connect the dots within and outside a company, from
-                  upstream thinking, to design, engineering, manufacturing, sales and
-                  marketing all the way to ownership.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
@@ -362,43 +308,52 @@ const Sponsors = () => {
           </Content>
           <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={liftwerx} link="https://liftwerx.com/">
+              <SponsorLinkWithDesc logoTier="gold" image={msam} link="https://msam.uwaterloo.ca/">
                 <p className="content-text">
-                  LiftWerx is a specialized wind energy contractor, solely focused on large
-                  corrective repairs. LiftWerx offers alternative lifting services to exchange
-                  and repair gearboxes, generators, blades, and fully-assembled rotors using a
-                  variety of specialized up-tower lifting devices. We do our work with the right
-                  people, tools, and crane-less technology to deliver the best possible service at
-                  the highest quality, while minimizing cost and disruption which is often
-                  associated with crane work.
+                  The Multiscale Additive Manufacturing (MSAM) Lab at the
+                  University of Waterloo is one of Canada&apos;s largest research
+                  facilities dedicated to metal additive manufacturing. Combining
+                  world-class expertise in materials science, mechanical
+                  engineering, and computational modeling, MSAM leads cutting-edge
+                  research to advance 3D printing technologies for industrial
+                  applications. Collaborating with industry leaders across
+                  aerospace, automotive, energy, and healthcare sectors, MSAM is
+                  driving innovation in design, process optimization, and
+                  performance of additively manufactured components.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={vectornav} link="https://www.vectornav.com/">
+              <SponsorLinkWithDesc logoTier="gold" image={solidworks} link="https://www.solidworks.com/">
                 <p className="content-text">
-                  Founded in 2008, we began with the idea that our expertise in aerospace guidance,
-                  navigation, and control could be applied to the latest advancements in inertial
-                  and GNSS technology, resulting in products that achieve unprecedented performance
-                  in the smallest possible footprint.
-                  Headquartered in Dallas, TX, USA, VectorNav maintains an AS9100-certified,
-                  45,000 ft2 (4200 m2) facility, with the capacity to produce and deliver tens
-                  of thousands of units each year to our worldwide customer base. With proven
-                  solutions across a wide range of markets - SATCOM to robotics, missiles to ISR
-                  systems - VectorNav is your trusted partner in inertial navigation.
+                  Dassault Systèmes SOLIDWORKS Corp. designs and markets 3D
+                  software tools, including analysis, design, and product
+                  data management software. It is used by over 3.2 million
+                  engineers and designers at more than 240,000 companies worldwide.
+                  The purpose of Dassault Systèmes is to provide business and
+                  people with 3DEXPERIENCE universes to imagine sustainable
+                  innovations capable of harmonizing product, nature and life.
+                </p>
+                <p className="content-text">
+                  Dassault  Systèmes is a science-based, innovation-driven,
+                  business-minded and long-term-oriented company. The
+                  Group&apos;s 17,000  employees and contractors are driven by
+                  this ambition. This also translates into a high level of market
+                  confidence and trust among our 250,000 enterprise customers in
+                  more than 140 countries. We are a European company with a global
+                  presence and market reach.
+                </p>
+                <p className="content-text">
+                  What we sell is Dassault  Systèmes&apos; 3DEXPERIENCE, it is a business
+                  experience platform. It catalyzes and enables innovation by allowing
+                  businesses to connect the dots within and outside a company, from
+                  upstream thinking, to design, engineering, manufacturing, sales and
+                  marketing all the way to ownership.
                 </p>
               </SponsorLinkWithDesc>
             </Col>
-            <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={Movella} link="https://www.movella.com/">
-                <p className="content-text">
-                  Movella is a leading full-stack provider of sensors,
-                  software, and analytics that enable the digitization of movement.
-                  Movella serves the entertainment, health, safety & sports,
-                  and automation & mobility markets.
-                </p>
-              </SponsorLinkWithDesc>
-            </Col>
+          </Row>
+          <Row className="my-4 mx-2 gx-4 justify-content-center text-center">
             <Col lg={{ span: 5 }}>
               <SponsorLinkWithDesc logoTier="gold" image={harwin} zoom={0.5} link="https://www.harwin.com/">
                 <p className="content-text">
@@ -424,18 +379,131 @@ const Sponsors = () => {
               </SponsorLinkWithDesc>
             </Col>
             <Col lg={{ span: 5 }}>
-              <SponsorLinkWithDesc logoTier="gold" image={moderncrane} link="https://moderncrane.ca/" />
-              <p>
-                Modern Crane is a trusted provider of crane rental and heavy
-                lifting services across Ontario, known for its commitment to
-                safety, reliability, and expert service. With a modern fleet and
-                experienced operators, Modern Crane supports a wide range of
-                industries including construction, infrastructure, and energy.
-                Whether it&apos;s mobile crane rentals, hoisting solutions, or
-                project planning support, Modern Crane delivers efficient and
-                dependable lifting services tailored to meet the unique needs of
-                every job.
-              </p>
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                image={swagelok}
+                link="http://www.swagelok.com/en"
+              >
+                Since introducing its leak-tight tube fitting in 1947, Swagelok has grown into a
+                worldwide manufacturer and provider of industrial fluid-system support. Its
+                fittings, valves, regulators, hoses, and engineered subsystems help customers
+                contain, control, and transfer fluids without leaks. Swagelok pairs these products
+                with technical expertise to help industries meet demanding operating requirements
+                safely, efficiently, and reliably.
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                image={vectorply}
+                link="https://vectorply.com/"
+              >
+                Vectorply develops, manufactures, and distributes composite reinforcement fabrics
+                for customer-specific applications. Its materials are engineered to optimize
+                stiffness, strength, weight, and cost, using fibres such as E-glass, carbon, and
+                aramid in a range of stitch-bonded architectures. The company also provides
+                technical assistance to help customers optimize laminates and implement new
+                composite production processes.
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                image={mef}
+                link="https://uwaterloo.ca/math-endowment-fund/"
+              >
+                The Mathematics Endowment Fund is an income-generating fund that finances projects
+                in the best interests of University of Waterloo undergraduate mathematics students.
+                Run by students for students, MEF supports professional development, student
+                initiatives, and community projects that foster academic growth and collaboration.
+                Its student-led Funding Council evaluates applications and directs funding toward
+                initiatives that make a lasting impact in the Faculty of Mathematics.
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                image={prattAndWhitney}
+                link="http://www.pwc.ca/"
+              >
+                Pratt &amp; Whitney is a global leader in aircraft propulsion systems, designing and
+                servicing advanced engines for aviation. Its engines connect people, grow economies,
+                and support customers around the world. Building on more than a century of aerospace
+                innovation, the company continues to develop technology that supports a smarter,
+                cleaner, and more sustainable future for flight.
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                image={engsoc}
+                link="https://www.engsoc.uwaterloo.ca/"
+              >
+                The Waterloo Engineering Society is one of Canada&apos;s largest and most active
+                student societies. Founded from Waterloo&apos;s original engineering student
+                organization, EngSoc has grown alongside the Faculty of Engineering since
+                the late 1950s. It supports students through services, events, student spaces,
+                advocacy, outreach, and opportunities to build community throughout Engineering.
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                name="Xsens"
+                image={xsens}
+                zoom={0.7}
+                link="https://www.xsens.com/"
+              >
+                Xsens develops sensors, software, and analytics that digitize movement. Its motion
+                capture and inertial-sensing technologies help customers capture and analyze motion
+                data for entertainment, robotics, health, sports, and industrial applications. From
+                lifelike digital characters and live performance to humanoid-robot training and
+                workplace ergonomics, Xsens provides tools that turn movement into practical,
+                actionable insight.
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                name="Forge Automation"
+                image={forge}
+                link="https://www.forgejobshop.com/"
+              >
+                Forge Automation manufactures custom CNC parts in Canada through an online quoting
+                and ordering platform. Its fleet of three- and four-axis CNC mills produces
+                made-to-order components for customers who need straightforward access to precision
+                machining. Forge combines online ordering with Canadian manufacturing to help
+                engineering teams move from a part design to finished components efficiently.
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                name="Peters & Co. Limited"
+                image={petersCo}
+                link="https://www.petersco.com/"
+              >
+                Founded in 1971, Peters &amp; Co. Limited is an independent, fully integrated
+                investment dealer specializing in the Canadian energy sector. The firm provides
+                investment services to institutional investors and private clients, supported by its
+                own trading group and specialized energy research. Peters &amp; Co. also serves as
+                an underwriter and financial advisor to Canadian energy companies.
+              </SponsorLinkWithDesc>
+            </Col>
+            <Col lg={{ span: 5 }}>
+              <SponsorLinkWithDesc
+                logoTier="gold"
+                name="Zeton"
+                image={zeton}
+                link="https://www.zeton.com/"
+              >
+                Founded in Canada in 1986, Zeton designs and builds laboratory-scale systems, pilot
+                plants, demonstration plants, and modular production facilities. Its integrated
+                design-build approach helps process-technology developers bridge the gap between
+                laboratory chemistry and commercialization. With teams in Canada and the
+                Netherlands, Zeton delivers scalable systems that help customers bring process
+                innovations to market safely, on schedule, and within budget.
+              </SponsorLinkWithDesc>
             </Col>
           </Row>
 
@@ -444,44 +512,44 @@ const Sponsors = () => {
             <DividerLine />
           </Content>
           <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
-            <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={mef} link="https://uwaterloo.ca/math-endowment-fund/" />
-            </Col>
-            <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={swagelok} link="http://www.swagelok.com/en" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={bomist} link="https://bomist.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={linde} link="https://www.linde.com/" />
-            </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={ifm} link="https://www.ifm.com/ca" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" name="Protocase" image={protocase} link="https://www.protocase.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" name="Kulite" image={kulite} link="https://kulite.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc
+                logoTier="silver"
+                name="American Hakko Products, Inc."
+                image={hakko}
+                imageHeight="8rem"
+                link="https://hakkousa.com/"
+              />
             </Col>
           </Row>
 
           <Row className="my-2 mx-2 gx-4 justify-content-center text-center" style={{ display: 'float' }}>
-            <Col md="auto" style={{ float: 'center' }}>
-              <SponsorLinkWithDesc logoTier="silver" image={pelican} link="https://www.pelican.com/ca/en/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={standfordfleming} link="https://uwaterloo.ca/sandford-fleming-foundation/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={jr} link="https://jrsecurity.ca/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={mitutoyo} link="https://www.mitutoyo.ca/" />
-            </Col>
             <Col md="auto">
               <SponsorLinkWithDesc logoTier="silver" image={samcomachinery} zoom={1.5} link="https://samco-machinery.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={engsoc} link="https://www.engsoc.uwaterloo.ca/" />
+              <SponsorLinkWithDesc logoTier="silver" image={olin} link="https://olin.com/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="silver" image={vectorply} link="https://vectorply.com/" />
+              <SponsorLinkWithDesc logoTier="silver" image={airtech} link="https://www.airtechintl.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" name="LabJack" image={labjack} link="https://labjack.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" name="Argos Research" image={argosResearch} link="https://argosresearch.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="silver" name="Tesla" image={tesla} link="https://www.tesla.com/" />
             </Col>
           </Row>
 
@@ -507,7 +575,37 @@ const Sponsors = () => {
               <SponsorLinkWithDesc logoTier="bronze" image={tplink} zoom={1.4} link="https://www.tp-link.com/ca/" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc logoTier="bronze" image={designelectronics} link="https://www.designelectronics.net/" />
+              <SponsorLinkWithDesc logoTier="bronze" image={linde} link="https://www.linde.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" image={jr} link="https://jrsecurity.ca/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" image={ceno360} link="https://www.ceno360.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="MDA Space" image={mda} link="https://mda.space/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="DreamSourceLab" image={dreamSourceLab} link="https://www.dreamsourcelab.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="Reefs RC" image={reefsRc} link="https://reefsrc.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="Polymères Technologies" image={polymeresTechnologies} link="https://polymerestechnologies.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="Overleaf" image={overleaf} link="https://www.overleaf.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="CubeMars" image={cubeMars} link="https://www.cubemars.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="SmartShield Packaging" image={smartShield} link="https://www.smartshieldpackaging.com/" />
+            </Col>
+            <Col md="auto">
+              <SponsorLinkWithDesc logoTier="bronze" name="SadServers" image={sadServers} link="https://sadservers.com/" />
             </Col>
           </Row>
 
@@ -516,6 +614,16 @@ const Sponsors = () => {
             <DividerLine />
           </Content>
           <Row className="my-4 mx-2 gx-4 col-md-12 justify-content-center text-center">
+            <Col md="auto"><SponsorLinkWithDesc image={demtool} link="https://demtool.com/" /></Col>
+            <Col md="auto"><SponsorLinkWithDesc image={liftwerx} link="https://liftwerx.com/" /></Col>
+            <Col md="auto"><SponsorLinkWithDesc image={vectornav} link="https://www.vectornav.com/" /></Col>
+            <Col md="auto"><SponsorLinkWithDesc image={Movella} link="https://www.movella.com/" /></Col>
+            <Col md="auto"><SponsorLinkWithDesc image={moderncrane} link="https://moderncrane.ca/" /></Col>
+            <Col md="auto"><SponsorLinkWithDesc image={bomist} link="https://bomist.com/" /></Col>
+            <Col md="auto"><SponsorLinkWithDesc image={pelican} link="https://www.pelican.com/ca/en/" /></Col>
+            <Col md="auto"><SponsorLinkWithDesc image={standfordfleming} link="https://uwaterloo.ca/sandford-fleming-foundation/" /></Col>
+            <Col md="auto"><SponsorLinkWithDesc image={mitutoyo} link="https://www.mitutoyo.ca/" /></Col>
+            <Col md="auto"><SponsorLinkWithDesc image={designelectronics} link="https://www.designelectronics.net/" /></Col>
             {/* ROW 1 BEGINS HERE */}
             <Col md="auto">
               <SponsorLinkWithDesc image={nationalInstruments} link="http://www.ni.com/en-us.html" />
@@ -539,13 +647,10 @@ const Sponsors = () => {
               <SponsorLinkWithDesc image={futureElectronics} link="http://www.futureelectronics.com/en/company-information/about-future-electronics/FutureConnectivitySolutions/Pages/FutureConnectivitySolutions.aspx" />
             </Col>
             <Col md="auto">
-              <SponsorLinkWithDesc image={kerbalSpaceProgram} link="https://kerbalspaceprogram.com/en/" />
+              <SponsorLinkWithDesc image={kerbalSpaceProgram} link="https://kerbalspaceprogram.com/" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc image={Aversan} link="http://www.aversan.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={prattAndWhitney} link="http://www.pwc.ca/" />
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc image={shelterlogic} link="https://shelterlogic.com/" />
@@ -611,9 +716,6 @@ const Sponsors = () => {
             <Col md="auto">
               <SponsorLinkWithDesc image={firecam} link="https://firecam.com/" />
             </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={airtech} link="https://www.airtechintl.com/" />
-            </Col>
 
             {/* ROW 4 BEGINS HERE */}
             <Col md="auto">
@@ -642,9 +744,6 @@ const Sponsors = () => {
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc image={AandP} link="http://www.braider.com/" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={olin} link="https://olin.com/" />
             </Col>
 
             {/* ROW 5 BEGINS HERE */}
@@ -677,9 +776,6 @@ const Sponsors = () => {
             </Col>
             <Col md="auto">
               <SponsorLinkWithDesc image={waterlooElectroplating} link="https://www.google.com/maps/place/Waterloo+Electroplating+%26+Metal+Finishing+Inc/@43.5017069,-80.5494139,15z/data=!4m2!3m1!1s0x0:0x91bf0e1ff7c624cf?sa=X&ved=2ahUKEwiv5PTJ5NT5AhUEFFkFHd5bAH4Q_BJ6BAg6EAU" />
-            </Col>
-            <Col md="auto">
-              <SponsorLinkWithDesc image={ceno360} link="https://www.ceno360.com/" />
             </Col>
           </Row>
         </Row>
