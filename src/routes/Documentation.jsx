@@ -148,6 +148,13 @@ const Documentation = () => {
             {/* eslint-disable max-len */}
             <ul className="competition-reports-link-list">
               <li>
+                Systems Design and Integration of a Liquid Sounding Rocket - Tessa Pugh (Sep 2026) |
+                <a href="/pdfs/wtr_2026_pugh_systems_design_integration.pdf" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="/pdfs/wtr_2026_pugh_systems_design_integration.pdf" download>Download</a>
+              </li>
+              <li>
                 Mechanical Design of Roll Control Canards - Ben Pickens (June 2025) |
                 <a href="/pdfs/wtr_2025_pickens_roll_control_canards.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
