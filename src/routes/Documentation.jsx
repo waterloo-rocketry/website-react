@@ -34,6 +34,20 @@ const Documentation = () => {
             {/* eslint-disable max-len */}
             <ul className="competition-reports-link-list">
               <li>
+                2026 Launch Canada Payload Challenge |
+                <a href="/pdfs/2026_payload_report.pdf" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="/pdfs/2026_payload_report.pdf" download>Download</a>
+              </li>
+              <li>
+                2026 Launch Canada |
+                <a href="/pdfs/2026_project_report.pdf" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="/pdfs/2026_project_report.pdf" download>Download</a>
+              </li>
+              <li>
                 2025 Launch Canada Payload Challenge (Aurora) |
                 <a href="/pdfs/2025_payload_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
