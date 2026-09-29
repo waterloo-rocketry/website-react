@@ -12,9 +12,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          lfs: true
+        uses: actions/checkout@v2
 
       - name: Install node
         uses: actions/setup-node@v1
