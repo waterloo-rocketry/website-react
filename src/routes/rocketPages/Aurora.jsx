@@ -190,7 +190,7 @@ const Aurora = () => {
           </>
         </TwoColumns>
       </RocketPageOutline>
-      <Gallery title="PHOTO GALLERY" morelink="https://flic.kr/s/aHBqjBHHnP">
+      <Gallery title="PHOTO GALLERY" morelink="https://www.flickr.com/photos/uwrocketry/albums/72177720329826989">
         <Photo
           link={launchPhoto}
           altText="Aurora launch"
