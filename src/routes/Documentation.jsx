@@ -34,6 +34,20 @@ const Documentation = () => {
             {/* eslint-disable max-len */}
             <ul className="competition-reports-link-list">
               <li>
+                2026 Launch Canada Payload Challenge (Polaris) |
+                <a href="https://drive.google.com/file/d/1JuavJp3NNN1BBrzO1j_s59Gfrz4jkWON/view?usp=drivesdk" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="https://drive.google.com/uc?export=download&id=1JuavJp3NNN1BBrzO1j_s59Gfrz4jkWON">Download</a>
+              </li>
+              <li>
+                2026 Launch Canada (Polaris) |
+                <a href="https://drive.google.com/file/d/1p8O1kEUKespB7GZpSmPeGWTwD5AiGqkY/view?usp=drivesdk" target="_blank" rel="noreferrer">View</a>
+                {' '}
+                |
+                <a href="https://drive.usercontent.google.com/download?id=1p8O1kEUKespB7GZpSmPeGWTwD5AiGqkY&amp;export=download&amp;confirm=t">Download</a>
+              </li>
+              <li>
                 2025 Launch Canada Payload Challenge (Aurora) |
                 <a href="/pdfs/2025_payload_report.pdf" target="_blank" rel="noreferrer">View</a>
                 {' '}
